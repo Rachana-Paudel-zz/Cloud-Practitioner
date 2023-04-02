@@ -53,3 +53,8 @@ The skills will help you to use AWS Pricing Calculator to estimate costs for you
     a.  On the Select service page, in the Find Service search box, enter `Elastic Load Balancing` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
 
 <img src="Configure_ELB.PNG" alt="Configure ELB" style="height: 100%; width:100%;"/>
+
++   <b><u>Add the EC2 instance to the estimate</u></b>  
+    a.  On the Select service page, in the Find Service search box, enter `EC2` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
+
+<img src="Configure_EC2.PNG" alt="Configure ELB" style="height: 100%; width:100%;"/>
