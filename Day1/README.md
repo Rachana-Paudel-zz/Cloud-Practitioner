@@ -57,4 +57,37 @@ The skills will help you to use AWS Pricing Calculator to estimate costs for you
 +   <b><u>Add the EC2 instance to the estimate</u></b>  
     a.  On the Select service page, in the Find Service search box, enter `EC2` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
 
-<img src="Configure_EC2.PNG" alt="Configure ELB" style="height: 100%; width:100%;"/>
+<img src="Configure_EC2.PNG" alt="Configure EC2" style="height: 100%; width:100%;"/>
+
++   <b><u>Add the RDS instance to the estimate</u></b>  
+    a.  On the Select service page, in the Find Service search box, enter `RDS` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
+
+<img src="Configure_RDS.PNG" alt="Configure RDS" style="height: 50%; width:45%; padding-right:10px"/><img src="Configure_RDS2.PNG" alt="Configure RDS" style="height: 50%; width:45% ;"/>
+
+#### 3. Review and download the estimate
+
++   <b><u>Choose View summary.</u></b>  
+    a.  Review the overall costs that AWS Pricing Calculator generated for the services from the My Estimate page. enter `Review Summary` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
+
+    <img src="View_Summary.PNG" alt="Summary" style="height: 100%; width:100%;"/>
+
+  
+    ##### Note: The prices found in your estimate may vary as prices occasionally change. 
+
+    + Choose Export, and then choose CSV.
+    + In the Export My Estimate to csv dialog box, choose OK.
+    + Use your local file explorer to save the file.  
+
+#### 4. Save and share the estimate
++ Choose Share.
+
++ In the Save estimate dialog box, choose Agree and continue.
+
++ To copy the link for your estimate, choose Copy public link.
+
++ To share the estimate, send the link to others using a communication tool such as email.
+
+Note: When you share an estimate, AWS Pricing Calculator automatically saves it and generates a URL to access it. AWS Pricing Calculator saves your estimate for 3 years.
+
+`Lean more`<i>[click](https://awseducate.instructure.com/courses/889/modules/items/15053)</i>
+
