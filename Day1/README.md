@@ -41,3 +41,15 @@ This hands-on lab guides you through the steps to estimate Amazon Web Services (
 +       An Amazon Relational Database Service (Amazon RDS) instance 
 
 The skills will help you to use AWS Pricing Calculator to estimate costs for your workloads.
+
+## LAB:
+### Getting Started with Cost Estimation
+#### 1. AWS Pricing Calculator
++ Launch [AWS Pricing Calculator](https://calculator.aws/#/) and begin to <strong>Create an estimate.</strong>  
+<img src="aws_calculator.png" alt="AWS Pricing Calculator" style="height: 100%; width:100%;"/>
+
+#### 2. Add and configure services in AWS Pricing Calculator 
++   <b><u>Add the load balancer to the estimate</u></b>  
+    a.  On the Select service page, in the Find Service search box, enter `Elastic Load Balancing` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
+
+<img src="Configure_ELB.PNG" alt="Configure ELB" style="height: 100%; width:100%;"/>
