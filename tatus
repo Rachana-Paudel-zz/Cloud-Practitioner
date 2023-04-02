@@ -1,0 +1,62 @@
+[33mcommit d3038d7a2bc0eae5a1773ae6e9e8be1959fb613c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Rachana Paudel <paudelrachana7@gmail.com>
+Date:   Sun Apr 2 22:23:38 2023 +0545
+
+    Add and configure Elastic Load Balance, EC2, RDS and export and sharing.
+
+[1mdiff --git a/Day1/Configure_RDS.PNG b/Day1/Configure_RDS.PNG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1cc8f6b[m
+Binary files /dev/null and b/Day1/Configure_RDS.PNG differ
+[1mdiff --git a/Day1/Configure_RDS2.PNG b/Day1/Configure_RDS2.PNG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9c819c7[m
+Binary files /dev/null and b/Day1/Configure_RDS2.PNG differ
+[1mdiff --git a/Day1/README.md b/Day1/README.md[m
+[1mindex 8bc5668..b3fdf5d 100644[m
+[1m--- a/Day1/README.md[m
+[1m+++ b/Day1/README.md[m
+[36m@@ -57,4 +57,37 @@[m [mThe skills will help you to use AWS Pricing Calculator to estimate costs for you[m
+ +   <b><u>Add the EC2 instance to the estimate</u></b>  [m
+     a.  On the Select service page, in the Find Service search box, enter `EC2` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.[m
+ [m
+[31m-<img src="Configure_EC2.PNG" alt="Configure ELB" style="height: 100%; width:100%;"/>[m
+\ No newline at end of file[m
+[32m+[m[32m<img src="Configure_EC2.PNG" alt="Configure EC2" style="height: 100%; width:100%;"/>[m
+[32m+[m
+[32m+[m[32m+   <b><u>Add the RDS instance to the estimate</u></b>[m[41m  [m
+[32m+[m[32m    a.  On the Select service page, in the Find Service search box, enter `RDS` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.[m
+[32m+[m
+[32m+[m[32m<img src="Configure_RDS.PNG" alt="Configure RDS" style="height: 50%; width:45%; padding-right:10px"/><img src="Configure_RDS2.PNG" alt="Configure RDS" style="height: 50%; width:45% ;"/>[m
+[32m+[m
+[32m+[m[32m#### 3. Review and download the estimate[m
+[32m+[m
+[32m+[m[32m+   <b><u>Choose View summary.</u></b>[m[41m  [m
+[32m+[m[32m    a.  Review the overall costs that AWS Pricing Calculator generated for the services from the My Estimate page. enter `Review Summary` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.[m
+[32m+[m
+[32m+[m[32m    <img src="View_Summary.PNG" alt="Summary" style="height: 100%; width:100%;"/>[m
+[32m+[m
+[32m+[m[41m  [m
+[32m+[m[32m    ##### Note: The prices found in your estimate may vary as prices occasionally change.[m[41m [m
+[32m+[m
+[32m+[m[32m    + Choose Export, and then choose CSV.[m
+[32m+[m[32m    + In the Export My Estimate to csv dialog box, choose OK.[m
+[32m+[m[32m    + Use your local file explorer to save the file.[m[41m  [m
+[32m+[m
+[32m+[m[32m#### 4. Save and share the estimate[m
+[32m+[m[32m+ Choose Share.[m
+[32m+[m
+[32m+[m[32m+ In the Save estimate dialog box, choose Agree and continue.[m
+[32m+[m
+[32m+[m[32m+ To copy the link for your estimate, choose Copy public link.[m
+[32m+[m
+[32m+[m[32m+ To share the estimate, send the link to others using a communication tool such as email.[m
+[32m+[m
+[32m+[m[32mNote: When you share an estimate, AWS Pricing Calculator automatically saves it and generates a URL to access it. AWS Pricing Calculator saves your estimate for 3 years.[m
+[32m+[m
+[32m+[m[32m`Lean more`<i>[click](https://awseducate.instructure.com/courses/889/modules/items/15053)</i>[m
+[41m+[m
+[1mdiff --git a/Day1/View_Summary.PNG b/Day1/View_Summary.PNG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b231301[m
+Binary files /dev/null and b/Day1/View_Summary.PNG differ

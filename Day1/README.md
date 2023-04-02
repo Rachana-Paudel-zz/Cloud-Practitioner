@@ -89,5 +89,8 @@ The skills will help you to use AWS Pricing Calculator to estimate costs for you
 
 Note: When you share an estimate, AWS Pricing Calculator automatically saves it and generates a URL to access it. AWS Pricing Calculator saves your estimate for 3 years.
 
-`Lean more`<i>[click](https://awseducate.instructure.com/courses/889/modules/items/15053)</i>
+<i>[Learn more ...](https://awseducate.instructure.com/courses/889/modules/items/15053)</i>
+
+###`LAB COMPLETE and Quiz starts`
+##End of Day1
 
