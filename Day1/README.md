@@ -91,6 +91,6 @@ Note: When you share an estimate, AWS Pricing Calculator automatically saves it 
 
 <i>[Learn more ...](https://awseducate.instructure.com/courses/889/modules/items/15053)</i>
 
-###`LAB COMPLETE and Quiz starts`
-##End of Day1
+### `LAB COMPLETE and Quiz starts`
+## End of Day1
 
