@@ -1,5 +1,5 @@
-# Day 1
-### This is the first day of cloud practitioner journey.
+# Getting Started with Cloud Operations
+### This is the begining of cloud practitioner journey.
 We begin our journey from AWS educate course. Click [Getting Started with Cloud Operations](https://awseducate.instructure.com/courses/889) to start learning.
 
 ## Objectives
@@ -91,6 +91,6 @@ Note: When you share an estimate, AWS Pricing Calculator automatically saves it 
 
 <i>[Learn more ...](https://awseducate.instructure.com/courses/889/modules/items/15053)</i>
 
-### `LAB COMPLETE and Quiz starts`
-## End of Day1
+##### `LAB COMPLETE and Quiz starts`
+#### End of Cloud Operations
 
