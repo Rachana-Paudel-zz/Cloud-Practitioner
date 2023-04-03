@@ -29,3 +29,60 @@ Click [Getting Started with Cloud Storage](https://awseducate.instructure.com/co
 
 ## Getting Started learning pathway
 
+### Accessing the AWS Management Console
++    At the top of these instructions, choose `Start Lab` to launch your lab.
+[Getting Started with Cloud storage](https://awseducate.instructure.com/courses/815/modules/items/14096) to start learning.
+
+<img src="start_lab.PNG" alt="start_lab" style="height: 100%; width:45%; padding-right:10px"/>
+
+<img src="start_ready.PNG" alt="start_lab" style="height: 100%; width:45%;"/>
+
++   At the top of these instructions, choose `AWS`
+
++   Arrange the AWS Management Console tab so that it displays along side these instructions. Ideally, you will be able to see both browser tabs at the same time so that you can follow the lab steps.
+
+## 1. Creating a bucket in Amazon S3
+
++   In this task, I create an S3 bucket and configure it for static website hosting.[`click to learn`](https://awseducate.instructure.com/courses/815/modules/items/14096)
+
+<img src="bucket_creation.PNG" alt="start_lab" style="height: 100%; width:45%;padding-right:10px;"/>
+
+<img src="bucket_create.PNG" alt="start_lab" style="height: 100%; width:45%;"/>
+
+<img src="properties.PNG" alt="start_lab" style="height: 100%; width:100%;"/>
+
+## 2.Configuring a static website on Amazon S3
+##### configure the bucket for static website hosting.
+
++   Scroll to the <b>Static website hosting</b> panel.
+
++ Choose `Edit`.
+
++ Configure the following settings:
+
+    +   Static web hosting: Choose Enable.
+    +   Hosting type: Choose Host a static website.
+    +   Index document: Enter index.html
+    +   Error document: Enter error.html
+##### Note: You must enter index.html and error.html even though they are already displayed.
+
++ Choose Save changes
+
++ In the Static website hosting panel under Bucket website endpoint, choose the link.
+
+You receive a 403 Forbidden message because you have not yet configured the bucket permissions. Keep this tab open in your web browser so that you can return to it later.
+
+You have configured your bucket to host a static website.
+
+## 3. Uploading content to your bucket
++   In this task, upload the static files to your bucket.
+[`Learn to upload`](https://awseducate.instructure.com/courses/815/modules/items/14096)
+
+## 4. Turning on public access to the objects
++   Objects that are stored in Amazon S3 are private by default. This setting helps keep your organization's data secure.
+
+In this task, you make the uploaded objects publicly accessible so users can view your website.
+
+First, confirm that the objects are currently private.
+
+[`Learn more`](https://awseducate.instructure.com/courses/815/modules/items/14096)
