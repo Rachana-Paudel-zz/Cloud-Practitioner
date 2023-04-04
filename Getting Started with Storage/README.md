@@ -31,8 +31,7 @@ Click [Getting Started with Cloud Storage](https://awseducate.instructure.com/co
 +    At the top of these instructions, choose `Start Lab` to launch your lab.
 [Getting Started with Cloud storage](https://awseducate.instructure.com/courses/815/modules/items/14096) to start learning.
 
-<img src="start_lab.PNG" alt="start_lab" style="height: 100%; width:45%; padding-right:10px"/>
-<img src="start_ready.PNG" alt="start_lab" style="height: 100%; width:45%;"/>
+<img src="start_lab.PNG" alt="start_lab" style="height: 100%; width:45%; padding-right:10px"/><img src="start_ready.PNG" alt="start_lab" style="height: 100%; width:45%;"/>
 
 +   At the top of these instructions, choose `AWS`
 
@@ -42,8 +41,7 @@ Click [Getting Started with Cloud Storage](https://awseducate.instructure.com/co
 
 +   In this task, I create an S3 bucket and configure it for static website hosting.[`click to learn`](https://awseducate.instructure.com/courses/815/modules/items/14096)
 
-<img src="bucket_creation.PNG" alt="start_lab" style="height: 100%; width:45%;padding-right:10px;"/>
-<img src="bucket_create.PNG" alt="start_lab" style="height: 100%; width:45%;"/>
+<img src="bucket_creation.PNG" alt="start_lab" style="height: 100%; width:45%;padding-right:10px;"/><img src="bucket_create.PNG" alt="start_lab" style="height: 100%; width:45%;"/>
 
 
 
@@ -70,8 +68,7 @@ You receive a 403 Forbidden message because you have not yet configured the buck
 
 You have configured your bucket to host a static website.
 
-<img src="static_web.PNG" alt="static web" style="height: 100%; width:45%; padding-right:10px"/>
-<img src="static_Web_hosting.PNG" alt="static web" style="height: 100%; width:45%;"/>
+<img src="static_web.PNG" alt="static web" style="height: 100%; width:45%; padding-right:10px"/><img src="static_Web_hosting.PNG" alt="static web" style="height: 100%; width:45%;"/>
 
 ## 3. Uploading content to your bucket
 +   In this task, upload the static files to your bucket.
@@ -79,8 +76,7 @@ You have configured your bucket to host a static website.
 
 
 
-<img src="add_file_3.PNG" alt="object" style="height: 100%; width:45%;"/>
-<img src="uploaded.PNG" alt="object" style="height: 100%; width:45%;"/>
+<img src="add_file_3.PNG" alt="object" style="height: 100%; width:45%;"/><img src="uploaded.PNG" alt="object" style="height: 100%; width:45%;"/>
 
 
 
@@ -138,7 +134,7 @@ This confirms that your policy is working and preventing the website's files fro
 
 [`Learn `](https://awseducate.instructure.com/courses/815/modules/items/14096)
 
-<img src="" alt="report" style="height: 100%; width:45%; padding-right:10px"/>
+<img src="website.PNG" alt="report" style="height: 100%; width:45%; padding-right:10px"/>
 
 
 
@@ -148,3 +144,4 @@ This confirms that your policy is working and preventing the website's files fro
 
 <img src="show_version.PNG" alt="report" style="height: 100%; width:100%"/>
 
+### `End of Cloud storage.`
