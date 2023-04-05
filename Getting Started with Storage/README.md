@@ -123,22 +123,16 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
 
 + Choose `Delete objects`
 
-+ Notice that the index.html file is listed in the `Failed to delete` pane. 
-
-This confirms that your policy is working and preventing the website's files from being deleted.
++ Notice that the index.html file is listed in the `Failed to delete` pane. This confirms that your policy is working and preventing the website's files from being deleted.
 
 +   Choose `Close` to return to the `Objects` tab.
 
 
 ##  7. Updating the website
 
-[`Learn `](https://awseducate.instructure.com/courses/815/modules/items/14096)
+[`Learn`](https://awseducate.instructure.com/courses/815/modules/items/14096)
 
 <img src="website.PNG" alt="report" style="height: 100%; width:45%; padding-right:10px"/>
-
-
-
-
 
 ## 8. Exploring file versions
 
@@ -161,7 +155,5 @@ This confirms that your policy is working and preventing the website's files fro
 <img src="Bucket.PNG" alt="Working" style="height: 100%; width:45%; "/><img src="challenges.PNG" alt="Working" style="height: 100%; width:45%; "/>
 +   Assessement
 <img src="assesment.PNG" alt="Assessement" style="height: 100%; width:100%; "/>
-
-
 
 ### `End of Cloud storage.`
