@@ -144,4 +144,24 @@ This confirms that your policy is working and preventing the website's files fro
 
 <img src="show_version.PNG" alt="report" style="height: 100%; width:100%"/>
 
+### AWS Educate's Cloud Challenges!
+   Here is some information about Cloud storage, regions,availability and redundancy.
+
+  + Click to [learn](https://awseducate.instructure.com/courses/543
+)
+<img src="availability_redundancy.PNG" alt="storage" style="height: 100%; width:45%; padding-right:10px;"/><img src="availability.PNG" alt="storage" style="height: 100%; width:45%"/><img src="regions.PNG" alt="storage" style="height: 100%; width:100%"/>
+
++   Types of Data in the Cloud
+
+<img src="data1.PNG" alt="Data" style="height: 100%; width:45%; padding-right:10px"/>
+<img src="data2.PNG" alt="Data" style="height: 100%; width:45%; "/>
+
+
++   Working of Simple Storage Service(S3) with users data and assesment.
+<img src="Bucket.PNG" alt="Working" style="height: 100%; width:45%; "/><img src="challenges.PNG" alt="Working" style="height: 100%; width:45%; "/>
++   Assessement
+<img src="assesment.PNG" alt="Assessement" style="height: 100%; width:100%; "/>
+
+
+
 ### `End of Cloud storage.`
