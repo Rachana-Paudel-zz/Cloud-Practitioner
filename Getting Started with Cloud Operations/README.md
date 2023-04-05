@@ -62,7 +62,9 @@ The skills will help you to use AWS Pricing Calculator to estimate costs for you
 +   <b><u>Add the RDS instance to the estimate</u></b>  
     a.  On the Select service page, in the Find Service search box, enter `RDS` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
 
-<img src="Configure_RDS.PNG" alt="Configure RDS" style="height: 50%; width:45%; padding-right:10px"/><img src="Configure_RDS2.PNG" alt="Configure RDS" style="height: 50%; width:45% ;"/>
+<img src="Configure_RDS.PNG" alt="Configure RDS" style="height: 50%; width:45%; padding-right:10px"/>
+
+<img src="Configure_RDS2.PNG" alt="Configure RDS" style="height: 50%; width:45% ;"/>
 
 #### 3. Review and download the estimate
 
