@@ -141,7 +141,7 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
 ### AWS Educate's Cloud Challenges!
    Here is some information about Cloud storage, regions,availability and redundancy.
 
-  + Click to [learn](https://awseducate.instructure.com/courses/543
++ Click to [learn](https://awseducate.instructure.com/courses/543
 )
 <img src="availability_redundancy.PNG" alt="storage" style="height: 100%; width:45%; padding-right:10px;"/><img src="availability.PNG" alt="storage" style="height: 100%; width:45%"/><img src="regions.PNG" alt="storage" style="height: 100%; width:100%"/>
 
@@ -169,12 +169,12 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
 
 + Storage use cases
   + block storage and object storage
-<img src="block_storage_usecase.PNG" alt="right_storage" style="height: 100%; width:45%;padding-right:10px; "/><img src="object_Storage_usecase.PNG" alt="right_storage" style="height: 100%; width:45%; "/>
+  <img src="block_storage_usecase.PNG" alt="right_storage" style="height: 100%; width:45%;padding-right:10px; "/><img src="object_Storage_usecase.PNG" alt="right_storage" style="height: 100%; width:45%; "/>
 
 + AWS core storage services
   + Amazon Elasic Block Store
   + Amazon Elastic File System
-  + Amazon Simple Storage Service
+  + lsAmazon Simple Storage Service
 
 
 ## Introduction to Amazon S3
@@ -187,12 +187,52 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
 + Active and archive storage
 <img src="active_archieve_storage.PNG" alt="Active and archive storage" style="height: 100%; width:100%; "/>
 + Amazon storage S3 storage class
-<img src="s3_storage classes.PNG" alt="Active and archive storage" style="height: 100%; width:100%; "/>
+<img src="s3_storage classes.PNG" alt="S3 storage" style="height: 100%; width:100%; "/>
 + Amazon S3 storage classes use cases
-<img src="s3usecase.PNG" alt="Active and archive storage" style="height: 100%; width:100%; "/>
+<img src="s3usecase.PNG" alt="use cases" style="height: 100%; width:100%; "/>
 + Amazon S3 costs
 
-<img src="S3costs.PNG" alt="Active and archive storage" style="height: 100%; width:100%; "/>
+<img src="S3costs.PNG" alt="S3 costs" style="height: 100%; width:100%; "/>
+
+
+##   Create a bucket
++ create a bucket
++ configure the bucket
+  + choose a reason
+  + object ownershio and access
+  + bucket versioning
+  + tags
+
++ upload objects
+   + unlimited data
+    + 5 TB object limit
+    + 160 GB upload limit from the console
++  upload objects-multipart upload  
+<img src="multipartupload.PNG" alt="Multipart" style="height: 100%; width:100%; "/>
++ work with objects
+<img src="workwithobjects.PNG" alt="Object work" style="height: 100%; width:100%; "/>
++ delete objects and buckets
+<img src="deletebuckets.PNG" alt="Object delete" style="height: 100%; width:100%; "/>
+
++ Additional features
+  + lifecycle rules
+  <img src="lifecyclerules.PNG" alt="lifecycle rules" style="height: 100%; width:100%; "/>
+  + replication rules 
+  <img src="replicationrules.PNG" alt="replications" style="height: 100%; width:100%; "/>
+
+  <img src="crossregion.PNG" alt="cross_region" style="height: 100%; width:45%;padding-right:10px; "/> <img src="sameregion.PNG" alt="replications" style="height: 100%; width:45%; "/>
+
+  + security
+
+<img src="bucketsecurity.PNG" alt="bucketsecurity" style="height: 100%; width:45%; "/><img src="iampolicies.PNG" alt="iampolicies" style="height: 100%; width:45%; "/>
+<img src="bucketpplicy.PNG" alt="bucketpplicy" style="height: 100%; width:45%; "/><img src="bucketencryption.PNG" alt="replications" style="height: 100%; width:45%; "/>
+
+### Moving large amount of data into Amazon S3
++ S3 Transfer Acceleration
++ AWS Snowcone
++ AWS Snowball
++ AWS Snowmobile
+
 
 
 
