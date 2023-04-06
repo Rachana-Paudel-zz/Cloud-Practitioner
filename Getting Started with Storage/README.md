@@ -156,4 +156,44 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
 +   Assessement
 <img src="assesment.PNG" alt="Assessement" style="height: 100%; width:100%; "/>
 
+##  Intoduction to Storage
+
++ Benefits of Cloud Storage
+<img src="benefits_of_cloud_storage.PNG" alt="Benefits" style="height: 100%; width:100%; "/>
+
++ Types of Cloud storage
+<img src="types_of_Storage.PNG" alt="Benefits" style="height: 100%; width:100%; "/>
+
++ choosing right storage
+<img src="choosing_storage.PNG" alt="right_storage" style="height: 100%; width:100%; "/>
+
++ Storage use cases
+  + block storage and object storage
+<img src="block_storage_usecase.PNG" alt="right_storage" style="height: 100%; width:45%;padding-right:10px; "/><img src="object_Storage_usecase.PNG" alt="right_storage" style="height: 100%; width:45%; "/>
+
++ AWS core storage services
+  + Amazon Elasic Block Store
+  + Amazon Elastic File System
+  + Amazon Simple Storage Service
+
+
+## Introduction to Amazon S3
+
++ Basic S3 workflow
+  + move data into Amazon S3
+  + Store data as objectsin Amazon S3
+  + Use data in applicaions
++ Object level storage
++ Active and archive storage
+<img src="active_archieve_storage.PNG" alt="Active and archive storage" style="height: 100%; width:100%; "/>
++ Amazon storage S3 storage class
+<img src="s3_storage classes.PNG" alt="Active and archive storage" style="height: 100%; width:100%; "/>
++ Amazon S3 storage classes use cases
+<img src="s3usecase.PNG" alt="Active and archive storage" style="height: 100%; width:100%; "/>
++ Amazon S3 costs
+
+<img src="S3costs.PNG" alt="Active and archive storage" style="height: 100%; width:100%; "/>
+
+
+
 ### `End of Cloud storage.`
