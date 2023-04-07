@@ -234,6 +234,29 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
 + AWS Snowmobile
 
 
+##  Additional storage services
 
++ Block storage at AWS
+<img src="blockstorage_aws.PNG" alt="Block storage" style="height: 100%; width:100%; "/>
 
++ EBS key features and benefits
+<img src="EBSkeyfeature.PNG" alt="EBS key feature" style="height: 100%; width:100%; "/>
+
++ Amazon EBS volume types
+<img src="ebsvolumetype.PNG" alt="EBS Volume" style="height: 100%; width:100%; "/>
+
++ Use cases for EBS volume types<img src="ebsvolumetype.PNG" alt="EBS Volume" style="height: 100%; width:100%; "/>
+
++ File storage at AWS
+<img src="filestorage.PNG" alt="File storage" style="height: 100%; width:100%; "/>
+
++ Amazon EFS key features and benefits
+<img src="efskeyfeature.PNG" alt="key features" style="height: 100%; width:100%; "/>
+
++ Amazon EFS use cases
+<img src="efsusecase.PNG" alt="EFS use case" style="height: 100%; width:100%; "/>
++ Summary
+
+##   Continue learning journey
+<img src="gettingstartedjourney.PNG" alt="Getting started journey" style="height: 100%; width:100%; "/>
 ### `End of Cloud storage.`
