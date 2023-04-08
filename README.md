@@ -6,5 +6,5 @@ We begin our journey from AWS educate course. Click [Getting Started with Cloud 
 ## <a href="./Getting Started with Storage/README.md">Getting Started with Storage</a>
 We begin our journey from AWS educate course. Click [Getting Started with Cloud storage](https://awseducate.instructure.com/courses/815) to start learning.
 
-## <a href="./Cloud compute/README.md">Getting Started with Cloud Compute</a>
+## <a href="./Cloud compute/README.md">Getting Started with Cloud Computing</a>
 We begin our journey from AWS educate course. Click [Getting Started with Cloud Compute](https://awseducate.instructure.com/courses/230) to start learning.
