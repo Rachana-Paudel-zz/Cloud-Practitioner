@@ -41,23 +41,28 @@ The software and hardware for cloud computing are developed and maintained by th
 <img src="test2.PNG" alt="TEST" style="height: 100%; width:100%;"/>
 
 ####    Computing methods
-+   Instances
-+   Containers
-+   Serverless
-+   Hybrid
+ +   Instances
+ +   Containers
+ +   Serverless
+ +   Hybrid
 
 ####    AWS computing services
-+   Amazon EC2
+ +   Amazon EC2
 <img src="amazon_EC2.PNG" alt="Amazon EC2" style="height: 100%; width:100%;"/>
-+   AWS Lambda
+
+ +   AWS Lambda
 <img src="aws_lambda.PNG" alt="Amazon lambda" style="height: 100%; width:100%;"/>
-+   Amazon ECS
+
+
+ +   Amazon ECS
 <img src="aws_ECS.PNG" alt="Amazon ECS" style="height: 100%; width:100%;"/>
-+   Amazon EKS
+
+ +   Amazon EKS
 <img src="aws_EKS.PNG" alt="Amazon EKS" style="height: 100%; width:100%;"/>
-+   AWS Fargate
+
+ +   AWS Fargate
 <img src="aws_fargate.PNG" alt="Amazon Fargate" style="height: 100%; width:100%;"/>
-+   AWS Elastic Beanstalk
+ +   AWS Elastic Beanstalk
 <img src="aws_beanstalk.PNG" alt="Amazon Beanstalk" style="height: 100%; width:100%;"/>
 
 #### Introduction to Amazon EC2
@@ -95,12 +100,10 @@ Amazon EC2 are
 +   Elastic computing
 <img src="Elastic_computing.PNG" alt="Elastic_computing" style="height: 100%; width:100%;"/>
 
-+   Complete 
-control
++   Complete control
 <img src="complete_control.PNG" alt="complete_control" style="height: 100%; width:100%;"/>
 
-+   Flexible hosting 
-services
++   Flexible hosting services
 <img src="flexible_hosting.PNG" alt="flexible_hosting" style="height: 100%; width:100%;"/>
 
 +   Integrated
@@ -121,20 +124,25 @@ services
 #### Amazon EC2 architecture
 <img src="achitecture_of_EC2.PNG" alt="achitecture_of_EC2" style="height: 100%; width:100%;"/>
 
+
 +   Components of EC2 architecture
-<img src="region.PNG" alt="region" style="height: 100%; width:45%;padding-right:10px;"/><img src="vpc.PNG" alt="vpc" style="height: 100%; width:45%;"/><img src="subnets.PNG" alt="subnets" style="height: 100%; width:45%;padding-right:10px;"/><img src="security_groups.PNG" alt="security groups" style="height: 100%; width:45%;"/>
+<img src="region.PNG" alt="region" style="height: 100%; width:45%;padding-right:10px;"/><img src="vpc.PNG" alt="vpc" style="height: 100%; width:45%;"/>
+<img src="subnets.PNG" alt="subnets" style="height: 100%; width:45%;padding-right:10px;"/><img src="security_groups.PNG" alt="security groups" style="height: 100%; width:45%;"/>
 
 #### Amazon EC2 usecase
 <img src="EC2_usecase.PNG" alt="EC2_usecase" style="height: 100%; width:100%;"/>
 
 ####  Instance costs
-<img src="instance_cost.PNG" alt="EC2_usecase" style="height: 100%; width:100%;"/>
+ <img src="instance_cost.PNG" alt="instance_cost" style="height: 100%; width:100%;"/>
 
-+   Instance purchasing option
-<img src="instance_purchasing_option.PNG" alt="EC2_usecase" style="height: 100%; width:100%;"/>
+ +   Instance purchasing option
+ <img src="instance_purchasing_option.PNG" alt="instance_purchasing_option" style="height: 100%; width:100%;"/>
 
-+   Tenancy
+ +   Tenancy
 
-<img src="tenancy.PNG" alt="tenancy" style="height: 100%; width:100%;"/>
+ <img src="tenancy.PNG" alt="tenancy" style="height: 100%; width:100%;"/>
+ <img src="comparing_tenancies.PNG" alt="tenancy" style="height: 100%; width:100%;"/>
 
 [`Click to learn`](https://awseducate.instructure.com/courses/817/pages/getting-started-with-compute?module_item_id=14091)
+
+### USing Amazon EC2
