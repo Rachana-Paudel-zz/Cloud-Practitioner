@@ -41,32 +41,33 @@ The software and hardware for cloud computing are developed and maintained by th
 <img src="test2.PNG" alt="TEST" style="height: 100%; width:100%;"/>
 
 ####    Computing methods
- +   Instances
- +   Containers
- +   Serverless
- +   Hybrid
++   Instances
++   Containers
++   Serverless
++   Hybrid
 
 ####    AWS computing services
- +   Amazon EC2
-<img src="amazon_EC2.PNG" alt="Amazon EC2" style="height: 100%; width:100%;"/>
++   Amazon EC2
+ <img src="amazon_EC2.PNG" alt="Amazon EC2" style="height: 100%; width:100%;"/>
 
- +   AWS Lambda
++   AWS Lambda
 <img src="aws_lambda.PNG" alt="Amazon lambda" style="height: 100%; width:100%;"/>
 
 
- +   Amazon ECS
++   Amazon ECS
 <img src="aws_ECS.PNG" alt="Amazon ECS" style="height: 100%; width:100%;"/>
 
- +   Amazon EKS
++   Amazon EKS
 <img src="aws_EKS.PNG" alt="Amazon EKS" style="height: 100%; width:100%;"/>
 
- +   AWS Fargate
++   AWS Fargate
 <img src="aws_fargate.PNG" alt="Amazon Fargate" style="height: 100%; width:100%;"/>
- +   AWS Elastic Beanstalk
+
++   AWS Elastic Beanstalk
 <img src="aws_beanstalk.PNG" alt="Amazon Beanstalk" style="height: 100%; width:100%;"/>
 
 #### Introduction to Amazon EC2
-It provides resizable compute capacity in the cloud.
+ It provides resizable compute capacity in the cloud.
 
 ##### EC2 instance types
 compute instances=virtual servers
@@ -126,7 +127,9 @@ Amazon EC2 are
 
 
 +   Components of EC2 architecture
+
 <img src="region.PNG" alt="region" style="height: 100%; width:45%;padding-right:10px;"/><img src="vpc.PNG" alt="vpc" style="height: 100%; width:45%;"/>
+
 <img src="subnets.PNG" alt="subnets" style="height: 100%; width:45%;padding-right:10px;"/><img src="security_groups.PNG" alt="security groups" style="height: 100%; width:45%;"/>
 
 #### Amazon EC2 usecase
@@ -146,3 +149,80 @@ Amazon EC2 are
 [`Click to learn`](https://awseducate.instructure.com/courses/817/pages/getting-started-with-compute?module_item_id=14091)
 
 ### USing Amazon EC2
+
+#####   Steps
++   ` Instance name and tags`
+
+    +   Tag features
+        1.  Manage tags : 
+        +   add, remove or edit tags.
+        +   The tag limit per Amazon EC2 resources is 50 tags.
+        +    Naming and tagging resources is optional
+
+        
+        2.   search and filter
+        +   search for resources by key or by value.
+        +   Filter and search for resources by a combination of tag key and values.
+
+     ##### Benefits of using tags
+
+     +  Resource organization
+     +  Cost management
+     +  Automation
+     +  Access control   
+
++ ` Amazon Machine Image`
+
+<img src="AMI.PNG" alt="AMI" style="height: 100%; width:100%;"/>
+
+##### Where do we get an AMI?
+ 
+
++   ######  Pre-built:
+ Amazon offers a number of pre-built AMIs to launch your instances. These AMIs include Linux and Windows options, with various suboptions to tailor your setup.
+
++   ######  AWS MArketplace : 
+It offers a digital catalog with thousands of software solutions listed. These AMIs can offer specific use cases to help you get started quickly.
+
++   ######  Create your own : 
+When Amazon EC2 stops the instance, snapshots its root volume, and finally registers the snapshot as an AMI.
+
++   ######  Community AMIs:
+ People all over the globe create community AMIs.
+
+
+###### Benefits of AMI
++   Repeatability
++   Reusability
++   Recoverability
++   Marketplace solutions
++   Backups
+
++   ######  Instance type
+
+Instance type families
+
+ +   T family
+ +  M family
+ +  C family
+ +  P family
+ +  R family 
+
+##### Categories of Instances
++   General Purpose
++   Compute Optimize
++   Memory optimized
++   Accelerated computing
++   Storage optimized
+
+
++   ` Key pair`
+    +   private key that AWS stores
+    +   public key file that you stores
+
++  `  Network settings`
+
++   `Configure storage`
+
++   `Advance details`
+

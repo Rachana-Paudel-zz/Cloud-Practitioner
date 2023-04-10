@@ -138,6 +138,10 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
 
 <img src="show_version.PNG" alt="report" style="height: 100%; width:100%"/>
 
+### End lab
+
+<img src="endlab.PNG" alt="report" style="height: 100%; width:100%"/>
+
 ### AWS Educate's Cloud Challenges!
    Here is some information about Cloud storage, regions,availability and redundancy.
 
