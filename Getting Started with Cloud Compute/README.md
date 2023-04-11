@@ -221,8 +221,89 @@ Instance type families
     +   public key file that you stores
 
 +  `  Network settings`
+<img src="network_setting.PNG" alt="network_setting" style="height: 100%; width:100%;"/>
 
 +   `Configure storage`
+<img src="configure_storage.PNG" alt="configure_storage" style="height: 100%; width:100%;"/>
 
 +   `Advance details`
+<img src="advance_details.PNG" alt="advance_details" style="height: 100%; width:100%;"/>
 
+
+######     Managing roles
+An instance profile is a container for an IAM role. From the instance profile, you can select a role to associate with the instance.
+
++   Include the role when launching the instance
++   Add a role after the instance is launched
++   Remove the role from an instance
++   Update a role's policy to affect permissions immediately
+
+### User data
+
+<img src="userdata.PNG" alt="userdata" style="height: 100%; width:100%;"/>
+
+######  Additional advance settings options
++   Request spot instances
++   Shutdown behaviour
++   Termination
++   Detailed monitoring
++   Tenancy
+
+<img src="configuration_consideration.PNG" alt="configuration_consideration" style="height: 100%; width:100%;"/>
+
+### Managing Amazon EC2
+Options for launching EC2 instances
++   AWS management console
++   AWS command line interface
++   AWS software Development kit
++   Through other AWS services
+<img src="EC2_lifecycle.PNG" alt="EC2_lifecycle" style="height: 100%; width:100%;"/>
+
+####    EC2 instance lifecycle state flows
+
+<img src="EC2_stateflow.PNG" alt="EC2_stateflow" style="height: 100%; width:100%;"/>
+
+####    Horizontal scaling
+
+
+<img src="horizontal scaling.PNG" alt="horizontal scaling" style="height: 100%; width:100%;"/>
+
+###### use case of horizontal scaling
+
+<img src="horizontal scaling_usecase.PNG" alt="horizontal scaling_usecase" style="height: 100%; width:100%;"/>
+
+####    Vertical scaling
+<img src="vertical scaling.PNG" alt="vertical scaling" style="height: 100%; width:100%;"/>
+
+###### use case of vertical scaling
+
+<img src="vertical scaling_usecase.PNG" alt="vertical scaling_usecase" style="height: 100%; width:100%;"/>
+
+####    Auto scaling
+
+<img src="auto scaling.PNG" alt="auto scaling" style="height: 100%; width:100%;"/>
+
+###### otions
++   scheduled scaling
++   dynamic scaling
++   predective scaling
+
+##  Elastic Load Balancing
+
+###### ELB options
++   Application Load Balancer
++   Network Load Balancer
++   Gateaway Load Balancer
+
+######  Additional options
++   EC2 instance connect
++   Session Manager
++   SSH Manager
++   EC2 serial console
+
+
+#### Optimizing instance costs
++   using the right size instance
++   increasing elasticity
++   choosing optimal pricing models
++   optimizing storage choices
