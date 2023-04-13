@@ -549,6 +549,9 @@ The instance state will now successfully be terminated.
 
 +   In the left navigation pane, choose Limits.
 
+####    Some quiz
+ <img src="quiz1.PNG" alt="quiz" style="height: 100%; width:100%;"/>
+ <img src="quiz9.PNG" alt="quiz" style="height: 100%; width:100%;"/>
 
 ######  Lab complete 
  
