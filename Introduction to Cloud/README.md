@@ -21,3 +21,22 @@
 
 #####   Who uses AWS?
 <img src="who_use.PNG" alt="AWS" style="height::100%; width: =100%;">
+
+#####   History
+<img src="history.PNG" alt="history" style="height::100%; width: =100%;">
+
+#####   Client Server model
+Model computing is based on the client-server model
++   A client can be web browser or desktop application that a person interacts with to make requests to computer servers.
++   A server can be services such as Amazon Elastic Compute Cloud(Amazon EC2), a type of virtual server.
+
+##### Six benefis of cloud computing
+
+1. Trade upfront expense for variable expense
+2. Stop spending money to run and maintain data centers
+3. Stop guessing capacity
+4. Benefit from massice economies of scale
+5. Increase speed and agility
+6. Go global in minutes
+<img src="benefit.PNG" alt="benefits" style="height::100%; width: =100%;">
+#####   Deploying to the cloud
