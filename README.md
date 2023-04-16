@@ -12,5 +12,5 @@ We begin our journey from AWS educate course. Click [Getting Started with Cloud 
 ## <a href="./Getting Started with Internet Basics/README.md">Getting Started with Internet Basics</a>
 We begin our journey from AWS educate course. Click [Getting Started with Internet Basics](https://awseducate.instructure.com/courses/546) to start learning.
 
-## <a href="./Getting Started with Introduction to Cloud/README.md">Getting Started with Inttroduction to Cloud</a>
-We begin our journey from AWS educate course. Click [Getting Started with Inttroduction to Cloud](https://awseducate.instructure.com/courses/746/modules) to start learning.
+## <a href="./Getting Started with Introduction to Cloud/README.md">Getting Started with Introduction to Cloud</a>
+We begin our journey from AWS educate course. Click [Getting Started with Introduction to Cloud](https://awseducate.instructure.com/courses/746/modules) to start learning.
