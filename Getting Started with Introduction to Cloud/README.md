@@ -98,7 +98,7 @@ Deplyoment(models) strategies include
 
 1. Performance : Offers high-performing, low-latency cloud infrastructure with virtually unlimited capacity, which provides high availability.
 2.  Availability : Availability zones are designed for physical redundancy and to provide resilience. They provide uninterrupted performance, even in the event of power outages, internet downtime, floods, and other natural disasters.
-3.  Security
+3.  Security : The infrastructure is monitored 24/7 to help ensure the confidentiality, integrity, and available of AWS customers data. Customers can build on the most secure global infrastructure and know that they always own theit data. They can encrypt their data, move it, ad manage retention.
 4.  Relability
 5.  Scalability
 6.  Low Cost
