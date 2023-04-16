@@ -55,5 +55,50 @@ Deplyoment(models) strategies include
 +   <u>Hybrid</u>: In this, cloud-based resources are conneced to on-premises infrastructure. You can integrate cloud-based resources wih legacy IT application. You migh want to use this approach in a number of situations. For example, you have legacy appliacations that are better maintained on premises, or goverment regulations require your bussiness o keep certain records on premises.
 +  <u> On-premises</u>: It is also known as private cloud deployment. In this model, resources are deployed on premises by using virualization and resource management tools, Increase resource utilization by using application management and virtualizatuon technologies.
 
-### End of module2
+#### End of module2
 
+### Module3
+<u>Objectives</u>
+1.  Discuss the history of AWS cloud computing
+2.  Describe the AWS global infrastructure
+3.  Discuss the customer and AWS parts of the shared responsibility model
+4.  Describe the Well-Architected Framework and discuss how to apply the pillars
+5.  Define the total cost of ownership and billing considerations
+
+####    AWS offerings
+
+<img src="aws_offering.PNG" alt="aws_offering" style="height::100%; width: =100%;">
+
+#### AWS benefits
++   On-demand access to over 175 services cloud-based services
++   pay-as-you-go pricing
++   No upfront capital expenses or commitements
+    +   The ability to try a lo of experiments
+    +   Not having to live with the collateral damage of failed experiments.
++   Tool box of high-end services
+
+####    Brief history of AWS
+<img src="awshistory.PNG" alt="aws_history" style="height::100%; width: =100%;">
+
+
+####    AWS is the leader of cloud computing
+<img src="leader_aws.PNG" alt="leader_aws" style="height::100%; width: =100%;">
+
+####    AWS Global Infrastructure
+
+`components`: Regions, Availability zones and Edge Location
+
+####    Planning for failure
++   Storage : When a file is stored in Amazon S3, the file is reduntantly copied into every Availability Zone in that Region. If one Availability Zone goes down, you still have two copies of that available for you to use.
+
++   Compute : It is a best practice to spread out your computing resources across multiple Availability Zones to guarentee high availability. So if one Avaialability Zones goes down, your architecture is still up and running.
++   Databases : You can configure your database for Multi-AZ deplyoment. If your Availability Zone wih your primary database fails, one of he standby databases in a healthy Availability Zpne automatically becomes your new primary database. Therefore, your architecture is still functioning.
+
+####    AWS Global Infrastructure benefits
+
+1. Performance : Offers high-performing, low-latency cloud infrastructure with virtually unlimited capacity, which provides high availability.
+2.  Availability : Availability zones are designed for physical redundancy and to provide resilience. They provide uninterrupted performance, even in the event of power outages, internet downtime, floods, and other natural disasters.
+3.  Security
+4.  Relability
+5.  Scalability
+6.  Low Cost
