@@ -106,3 +106,46 @@ Deplyoment(models) strategies include
 ####    Shared Responsibility
 - protect cloud environment
 <img src="shared_responsibility.PNG" alt="shared_responsibility" style="height::100%; width: =100%;">
+
+####    AWS Well-Architeced tool
+
+<img src="aws_architect.PNG" alt="aws_architect" style="height::100%; width: =100%;">
+
+The Total Cost of Ownership(TCO) is a financial metric that is used to estimate and compare direct and indirect costs of a product or service. It typically includes the actual costs of:
++   Procurement
++   Management
++   Maintenance
++   Decommissioning of hardware resources
+
+####    Total Cost of Ownership
+<img src="owner_cost.PNG" alt="cost" style="height::100%; width: =100%;">
+
+<img src="owner_calc.PNG" alt="calc" style="height::100%; width: =100%;">
+
+<img src="owner_calc2.PNG" alt="calc" style="height::100%; width: =100%;">
+
+####    AWS pricing model
++   Pay-as-you-go 
++   Save when you reserve
++   Pay less by using more
+
+####    AWS Free Tier
+Save money as you learn and experiment with AWS Free Tier
+
++   Always free : donot expire and are available to all AWS customers.
++   12 months free : access to some service for only 12 months.
++   Trials : start from date we activate a particular service and last specific time.
+
+####    AWS Billing Dashboard
+
+<img src="aws_billing.PNG" alt="aws_billing" style="height::100%; width: =100%;">
+
+<img src="aws_billing2.PNG" alt="aws_billing" style="height::100%; width: =100%;">
+
+`Billing example` : 
+Amazon EC2 : <img src="EC2billing.PNG" alt="S3billing" style="height::100%; width: =100%;">
+Amazon S3 :  <img src="S3billing.PNG" alt="S3billing" style="height::100%; width: =100%;">
+AWSLambda :
+ <img src="lambdabilling.PNG" alt="lambdabilling" style="height::100%; width: =100%;">
+
+` End of module3`
