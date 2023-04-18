@@ -175,7 +175,9 @@ In this architecture if a single component is failed, it failed then other appli
 
 #####   To maintain application availability if single component fails, we can use Microservices archiecture
 
-In this, component are lossely couple. If single component fails other doesno stop functioning.
+In this, component are lossely couple. If single component fails other doesnot stop functioning.
 
 #####   Types of services
 1. Managed services: A managed services is a way to describe the services that require you to manage infrastructure managemen tasks like patching, backup, and repair. These services gran you virtual access to the underlying operating sysem and services. With the managed services, you are responsible for scaling and building for high availability.
+
+2. Fully managed services : It is a way to describe the services that automate infrastructure management tasks that AWS handles,like patching, backup, and repair. These services dono grant you any virtual access to he underlying operating system or servers. With a fully managed service, you are still responsible for scaling and building for high availability.
