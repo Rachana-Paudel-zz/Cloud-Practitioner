@@ -149,3 +149,30 @@ AWSLambda :
  <img src="lambdabilling.PNG" alt="lambdabilling" style="height::100%; width: =100%;">
 
 ` End of module3`
+
+### Module4
+#####   AWS Core Services
+
+Lets discuss the objective of module4
++   Define the different types of services
++   Identify the main categories of services as par of an architecture
++   Describe each service, its use, features, and benefits.
+
+#####   Monilithic architecture
+
+Application:
++   Transmit data
++   Fulfill request
++   Application code
+
+Components:
++   Server
++   Databases
++   User interface
++   Bussiness logic
+
+In this architecture if a single component is failed, it failed then other application also fails. It is also possible the whole component to be failed.
+
+#####   To maintain application availability if single component fails, we can use Microservices archiecture
+
+In this, component are lossely couple. If single component fails other doesno stop functioning.
