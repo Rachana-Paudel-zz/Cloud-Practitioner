@@ -183,3 +183,20 @@ In this, component are lossely couple. If single component fails other doesnot s
 2. <i>Fully managed services</i> : It is a way to describe the services that automate infrastructure management tasks that AWS handles,like patching, backup, and repair. These services dono grant you any virtual access to he underlying operating system or servers. With a fully managed service, you are still responsible for scaling and building for high availability.
 
 3.  <i>Serverless services </i>: It is a way to describe the services, practices, and srategies that you can use to build more agile applications. In this way, you can innovate and response to change faster. With serverless services, AWS handles infrastructure management tasks like capacity provisioning and patching so that you can focus on building applications ha serve your customers. Serverless services come with automatic scaling, built in high availability, and pay-for-value biling model.
+
+####    Core service architecture
+
++   Browser
++   Amazon VPC(virtual private cloud): 
+1. What does Amazon VPC do?
+    It is a service tha you use to launch AWS resources in a logically solated virtual nework that you define. As a foundational AWS services, Amazon VPC makes it easy to customize your VPC's network configuration. You can create a public-facing subne for your web servers that have access to the internet. You can also use Amazon VPC to place your backend systems, such as daabases or applicatuon servers, in a private-facing subnet with no internet access. With Amazon VPC, you can use multiple layers of security to help control access to Amazon EC2 instances in each subnet. These layers include security groups and nework access control lists(network ACLs).
+
+    2.  What problem does Amazon VPC solve?
+        It provides features that you can use to increase and monitor the security for your VPC on demand. Therefore, you can create a data center as you need it and terminate it when you no longer need it.
+
+     3.  Benefits of Amazon VPC
+        +   It provides advanced security features that you can use to perform inbound and outbound filtering at the instance and subnets levels.
+
+        +   With simple setup of Amazon VPC, you spend less time setting up, managing, and validating. Therefore, you can concenrate on building applications that run in your VPCs.
+        +   It helps you control your virtual networking environment. By using Amazon VPC, you can choose your own IP Address range, create your own subnets, and configure routr tables to any available gateways.
+
