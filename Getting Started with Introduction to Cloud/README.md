@@ -216,3 +216,9 @@ When you create one from scratch, auomatically it will create a route table, a n
 If you must delete a VPC, be sure to first terminate any EC2 or RDS instances that you have provisioned in the VPC.
 
 ####    How much does Amazon VPC costs?
+ <img src="vpc_cost.PNG" alt="aws_offering" style="height::100%; width: =100%;">
+
+####    Amazon Elastic Compute Cloud EC2 
+
+1.  What does Amazon EC2 do?
+    It is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud compuing easier for developers. You can use the simple web interface of Amzaon EC2 to obtain and configure capacity with minimal fricion. It provides you with complete contol of your computing resources, and you can run it on the proven computing environment of amazon
