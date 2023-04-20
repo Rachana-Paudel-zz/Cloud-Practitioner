@@ -219,7 +219,7 @@ In this, component are lossely couple. If single component fails other doesnot s
     7.    How much does Amazon VPC costs?
  <img src="vpc_cost.PNG" alt="vpc_cost" style="height::100%; width: =100%;">
  
-+   Amazon Elastic Compute Cloud EC2 
++   Amazon Elastic Compute Cloud EC2 :Public subnet
 
     1. What does Amazon EC2 do?
     <p> It is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud compuing easier for developers. You can use the simple web interface of Amzaon EC2 to obtain and configure capacity with minimal fricion. It provides you with complete contol of your computing resources, and you can run it on the proven computing environment of amazon.</p><br>
@@ -241,7 +241,7 @@ In this, component are lossely couple. If single component fails other doesnot s
     <img src="arc_cloud_soln.PNG" alt="arc_cloud_soln" style="height::100%; width: =100%;">
 
 
-5.  How can Iuse Amaazon EC2?
+5.  How can I use Amaazon EC2?
     1.  Host multi-tier applications
     2.  Backup and disaster recovery
     3.  On-demand computing
