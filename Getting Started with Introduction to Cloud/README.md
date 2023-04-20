@@ -188,13 +188,13 @@ In this, component are lossely couple. If single component fails other doesnot s
 
 +   Browser
 +   Amazon VPC(virtual private cloud): 
-1. What does Amazon VPC do?
+    1. What does Amazon VPC do?
     It is a service tha you use to launch AWS resources in a logically solated virtual nework that you define. As a foundational AWS services, Amazon VPC makes it easy to customize your VPC's network configuration. You can create a public-facing subne for your web servers that have access to the internet. You can also use Amazon VPC to place your backend systems, such as daabases or applicatuon servers, in a private-facing subnet with no internet access. With Amazon VPC, you can use multiple layers of security to help control access to Amazon EC2 instances in each subnet. These layers include security groups and nework access control lists(network ACLs).
 
-2.  What problem does Amazon VPC solve?
+    2.  What problem does Amazon VPC solve?
         It provides features that you can use to increase and monitor the security for your VPC on demand. Therefore, you can create a data center as you need it and terminate it when you no longer need it.
 
-3.  Benefits of Amazon VPC
+    3.  Benefits of Amazon VPC
     +   It provides advanced security features that you can use to perform inbound and outbound filtering at the instance and subnets levels.
 
     +   With simple setup of Amazon VPC, you spend less time setting up, managing, and validating. Therefore, you can concenrate on building applications that run in your VPCs.
@@ -203,22 +203,55 @@ In this, component are lossely couple. If single component fails other doesnot s
     4. How can I architect a cloud solution using Amazon VPC?
        <img src="arc_cloud_solution.PNG" alt="aws_offering" style="height::100%; width: =100%;">
 
-####    How can I use Amazon VPC?
-1.  Host a simple website
-2.  Host multi-tier web applications
-3.  Back up and recover
-4.  Extend your corporate network   
+    5.    How can I use Amazon VPC?
 
-####    What else should I keep in mind when using Amazon VPC?
+    +    Host a simple website
+    +  Host multi-tier web applications
+    +    Back up and recover
+    +    Extend your corporate network   
 
-When you creae a new Amazon VPC, you can have the option to create one by using a template or create one from scratch.
-When you create one from scratch, auomatically it will create a route table, a network ACL, and a security group. Then you configure them according to your needs.
-If you must delete a VPC, be sure to first terminate any EC2 or RDS instances that you have provisioned in the VPC.
+    6.   What else should I keep in mind when using Amazon VPC?
 
-####    How much does Amazon VPC costs?
- <img src="vpc_cost.PNG" alt="aws_offering" style="height::100%; width: =100%;">
+    When you creae a new Amazon VPC, you can have the option to create one by using a template or create one from scratch.
+    When you create one from scratch, auomatically it will create a route table, a network ACL, and a security group. Then you configure them according to your needs.
+    If you must delete a VPC, be sure to first terminate any EC2 or RDS instances that you have provisioned in the VPC.
 
-####    Amazon Elastic Compute Cloud EC2 
+    7.    How much does Amazon VPC costs?
+ <img src="vpc_cost.PNG" alt="vpc_cost" style="height::100%; width: =100%;">
+ 
++   Amazon Elastic Compute Cloud EC2 
 
-1.  What does Amazon EC2 do?
-    It is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud compuing easier for developers. You can use the simple web interface of Amzaon EC2 to obtain and configure capacity with minimal fricion. It provides you with complete contol of your computing resources, and you can run it on the proven computing environment of amazon
+    1. What does Amazon EC2 do?
+    <p> It is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud compuing easier for developers. You can use the simple web interface of Amzaon EC2 to obtain and configure capacity with minimal fricion. It provides you with complete contol of your computing resources, and you can run it on the proven computing environment of amazon.</p><br>
+
+    2. What problem does Amazon EC2 solve?
+    It solves the problem of predicting upfront needs. Therefore, you dpnt need to know how much compute capacity or how much hard drive volume you will need when you set up your architecture. You can 
+    scaleup and down as you need to.   
+
+    3.   What are the benefits of Amazon EC2?
+    +   You can provision an EC2 instance in as little as 5 minutes. It gives you the options to select the right CPU,storage, and operating system for your specific needs.
+
+    +   With Amazon EC2, you can cgange the volume size and the instance type without terminating the insance.  
+
+    +   You can use Amazon EC2,you can change the volume size and the instance type without terminating the instance.
+
+    +   You can use Amazon EC2 to scaleup and scaledown to meet seasonal needs. You dont need to have extra servers on hand that are used for only a few months out of the year.
+
+4.  How can I use Amazon EC2?
+    <img src="arc_cloud_soln.PNG" alt="arc_cloud_soln" style="height::100%; width: =100%;">
+
+
+5.  How can Iuse Amaazon EC2?
+    1.  Host multi-tier applications
+    2.  Backup and disaster recovery
+    3.  On-demand computing
+    4.  Host databses
+
+ 6. What else should I keep in mind when using Amazon EC2?
+ 
+   <img src="6.PNG" alt="" style="height::100%; width: =100%;"> 
+
+7.  How much does Amazon EC2 costs?
+    1.  On-demand instances
+    2.  spot instances
+    3.  Reserved Instances
