@@ -265,20 +265,21 @@ In this, component are lossely couple. If single component fails other doesnot s
     2.  ` What problem does Amazon RDS solve?`
     : It solves the problem of purchasing a database with a capacity that is either too large or too small for your use over time. With Amazon RDS, you can scale up and down based on your database capacity needs. As a result, you are never paying for more database capacity than you need.
 
-    <img src="benefit_RDS.PNG" alt="benefit" style="height::100%; width: =100%;">
+    3.  ` Benefits of RDS`
+        <img src="benefit_RDS.PNG" alt="benefit" style="height::100%; width: =100%;">
 
-    3.  `How can I architect a cloud solution using Amazon RDS?`
+    4.  ` How can I architect a cloud solution using Amazon   RDS?`
         : You can architect a solution to built for fault tolerance by configuring Amazon RDS for Multi-AZ deployment. To accomplish this task, you place your master RDS instance in another Availability Zone. If the primary fails, then the standby automatically becomes he new master and your system remains active.
 
-    5.  `How can I use Amazon RDS?` 
+    5.  ` How can I use Amazon RDS?` 
         1.  Web and mobile applications
         2.  Ecommerce applications
         3.  Mobile and online games      
 
-    6.  What else should I keep in mind when using Amazon RDS?
+    6.  ` What else should I keep in mind when using Amazon RDS?`
 
         <img src="RDS_things.PNG" alt="" style="height::100%; width: =100%;"   >
 
-    7. How much does Amazon RDS cost?
-        Its pricing follows the pay-only-for -what-you-use model. It has no minimum fee. You can play for Amazon RDS by using On-Demand or Reserved Insances, similar to what you learned about the Amazon EC2 options.
+    7. ` How much does Amazon RDS cost?`
+        : Its pricing follows the pay-only-for -what-you-use model. It has no minimum fee. You can play for Amazon RDS by using On-Demand or Reserved Insances, similar to what you learned about the Amazon EC2 options.
          It provides a selection of instance types that are optimized to fit different relational database use case.
