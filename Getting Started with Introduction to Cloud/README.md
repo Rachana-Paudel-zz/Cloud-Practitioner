@@ -283,3 +283,14 @@ In this, component are lossely couple. If single component fails other doesnot s
     7. ` How much does Amazon RDS cost?`
         : Its pricing follows the pay-only-for -what-you-use model. It has no minimum fee. You can play for Amazon RDS by using On-Demand or Reserved Insances, similar to what you learned about the Amazon EC2 options.
          It provides a selection of instance types that are optimized to fit different relational database use case.
+
++   #####   Amazon Cloud Watch     
+    1.  What does Amazon CloudWatch do?
+        : It is a monitoring and obsercation servicethat is built for Devols engineers, developers, security engineer, and IT managers. CloudWatch provides you with data and actionable insighrs to monitor your applications, respond to system-wide performance changes, and optimize resources utilization. You get a unified view of operational health.
+
+    2.  AWS CloudWatch
+        <img src="cloud_watch.PNG" alt="" style="height::100%; width: =100%;"   >  
+
+    3.  What are the benefits of Cloudwatch?
+          <img src="benefitcloud_watch.PNG" alt="" style="height::100%; width: =100%;"   >      
+
