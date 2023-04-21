@@ -285,12 +285,26 @@ In this, component are lossely couple. If single component fails other doesnot s
          It provides a selection of instance types that are optimized to fit different relational database use case.
 
 +   #####   Amazon Cloud Watch     
-    1.  What does Amazon CloudWatch do?
+    1.  `What does Amazon CloudWatch do?`
         : It is a monitoring and obsercation servicethat is built for Devols engineers, developers, security engineer, and IT managers. CloudWatch provides you with data and actionable insighrs to monitor your applications, respond to system-wide performance changes, and optimize resources utilization. You get a unified view of operational health.
 
-    2.  AWS CloudWatch
+    2. ` AWS CloudWatch`
         <img src="cloud_watch.PNG" alt="" style="height::100%; width: =100%;"   >  
 
-    3.  What are the benefits of Cloudwatch?
-          <img src="benefitcloud_watch.PNG" alt="" style="height::100%; width: =100%;"   >      
+    3.  `What are the benefits of Cloudwatch?`
+          <img src="benefit_cloudwatch.PNG" alt="" style="height::100%; width: =100%;"   >      
 
+    4.   ` How can I architect a cloud solution using Cloudwatch?`
+        <img src="benefit_cloudwatch.PNG" alt="" style="height::100%; width: =100%;"   >  
+
+    5.   `  How can I use CloudWatch?`
+
+         +   Infrastructure monitoring and troubleshooting
+            +   Proacive resource optiization
+            +   Application monitoring
+
+    6.  `What else should I keep in mind when using CloudWatch?`
+        <img src="keep_cloudwatch.PNG" alt="" style="height::100%; width: =100%;"   >
+
+    7.  `How much does CloudWatch cost?`
+        <img src="cost_cloudwatch.PNG" alt="" style="height::100%; width: =100%;"   >    
