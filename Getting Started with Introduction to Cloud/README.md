@@ -354,3 +354,11 @@ In this, component are lossely couple. If single component fails other doesnot s
       + Muli-factore authentication
       + Analyze access
       + Integrate with your corporate directory
+
+    5.  `What else should I keep in mind when using IAM?`
+        +   Implicity deny
+        +   Explici allow
+        +   Explicit deny 
+
+    7.    `How much does IAM cost?` 
+        : It is a service in your AWS accoun that is offereed at no additional charge. You are charged only when you access other AWS Services by using your IAM users credentials.
