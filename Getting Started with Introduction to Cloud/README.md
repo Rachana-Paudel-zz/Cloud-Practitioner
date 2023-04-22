@@ -345,3 +345,12 @@ In this, component are lossely couple. If single component fails other doesnot s
     3.  `Benefits of IAM?`
      : It has a simple user interface that makes it easy to gran and control user access to AWS services.
      : It has many system-generated policies that you can use, and you create additional custom policies that meet the needs of your specific requirements.
+
+    4.  `How can I architect a cloud soluion using IAM?`
+     :  <img src="IAM_architect.PNG" alt="" style="height::100%; width: =100%;"   >
+
+    4. ` How can I use IAM?` 
+      + Fine-grained access control
+      + Muli-factore authentication
+      + Analyze access
+      + Integrate with your corporate directory
