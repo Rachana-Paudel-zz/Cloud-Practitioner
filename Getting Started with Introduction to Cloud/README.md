@@ -332,3 +332,8 @@ In this, component are lossely couple. If single component fails other doesnot s
 
     7.  `How much does Amazon SNS costs?`
      : It has no upfront fees, no required commitments, and no long-term contracts. You pay only for what you use, based on he type of topic that is used.
+
++   ####    Identity and Access Management(IAM)
+
+    1.  `What does IAM do?`
+     : 
