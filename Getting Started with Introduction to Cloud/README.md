@@ -336,4 +336,12 @@ In this, component are lossely couple. If single component fails other doesnot s
 +   ####    Identity and Access Management(IAM)
 
     1.  `What does IAM do?`
-     : 
+     : It is a centralized security management system that is included in every AWS account to control identity access to AWS services. By attaching IAM permission policies to identities, you can manage which services each identity can access and the kinf of actions the identity can perform.
+        Identities in IAM are (user, group, role)
+
+    2.  `What problem does IAM solve?`
+         <img src="IAM_solve.PNG" alt="" style="height::100%; width: =100%;"   >
+
+    3.  `Benefits of IAM?`
+     : It has a simple user interface that makes it easy to gran and control user access to AWS services.
+     : It has many system-generated policies that you can use, and you create additional custom policies that meet the needs of your specific requirements.
