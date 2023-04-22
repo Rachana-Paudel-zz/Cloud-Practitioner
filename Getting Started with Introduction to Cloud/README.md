@@ -308,3 +308,27 @@ In this, component are lossely couple. If single component fails other doesnot s
 
     7.  `How much does CloudWatch cost?`
         <img src="cost_cloudwatch.PNG" alt="" style="height::100%; width: =100%;"   >    
+
++   ####    Amazon SNS(Simple Notification Server)
+    1.  What does Amazon SNS do?
+    <img src="sns1.PNG" alt="" style="height::100%; width: =100%;"   >
+
+    2.  `What problem does SNS solve?`
+    : It solves the problem of the appropriate subscribers not getting important information that they should be aware of, as events occur in their applicaions or infrastructure.
+
+    3.  `What are the benefits of Amazon SNS?`
+
+    : <img src="sns_benefit.PNG" alt="" style="height::100%; width: =100%;"   >
+    
+    4.  `How can I architect a cloud solution using Amazon SNS?`
+    : <img src="sns_architect.PNG" alt="" style="height::100%; width: =100%;"   >
+
+    5.  `How can I use Amazon SNS?`
+        +   Standard
+        +   FIFO
+
+    6.  `What else should I keep in mind when using Amazon SNS?`
+     : It cannot automate messages by itself. It must work with a service such as Amazon CloudWatch or AWS Lambda that can monitor what is going on in your architecture. he service must also be able to trigger Amazon SNS to send a notification, based on your system's configurations. 
+
+    7.  `How much does Amazon SNS costs?`
+     : It has no upfront fees, no required commitments, and no long-term contracts. You pay only for what you use, based on he type of topic that is used.
