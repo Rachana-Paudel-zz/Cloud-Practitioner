@@ -409,3 +409,6 @@ In this, component are lossely couple. If single component fails other doesnot s
 
     6.    `What else should I keep in mind when using AWS Lambda?`
      : It has a 15 minute limit on its runtime for each invocation. If your computing needs require more than 15 minutes for runtime, when you would need to use an EC2 instance instead of Lambda.
+
+    7.  `How much does AWS Lambda cost?`
+     : <img src="cost_lambda.PNG" alt="" style="height::100%; width: =100%;"   >    
