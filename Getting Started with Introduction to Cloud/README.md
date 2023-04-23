@@ -411,4 +411,30 @@ In this, component are lossely couple. If single component fails other doesnot s
      : It has a 15 minute limit on its runtime for each invocation. If your computing needs require more than 15 minutes for runtime, when you would need to use an EC2 instance instead of Lambda.
 
     7.  `How much does AWS Lambda cost?`
-     : <img src="cost_lambda.PNG" alt="" style="height::100%; width: =100%;"   >    
+     : <img src="cost_lambda.PNG" alt="" style="height::100%; width: =100%;"   > 
+
++   #### Amazon Dynamo DB
+    1.  `What does Amazon DynamoDB do?`
+     :    It is a serverless non-relational database that can store and retrieve any amount of data and serve any level of request traffic. You can scaleyour database tables throughput capacity up or down without downtime. You can use the AWS Management Console to monitor resource utilization and performance metrics.
+
+    2.  `   What problem does DynamoDB solve?`
+     : You can use it to offload the administrative burdens of operating and scaling a distributed database. Therefore, you dont need to worry about hardware provisioning, setup and configuration, replication, software patching, or cluster scaling.
+
+    3.  `What are the benefits of DynamoDB?`
+     :  <img src="dynamo_benefit.PNG" alt="" style="height::100%; width: =100%;"   > 
+
+    4.  `How can I architect a cloud solution using DynamoDB?`
+     : <img src="arc_dynamo.PNG" alt="" style="height::100%; width: =100%;"   > 
+
+    5.  `How can I use DynamoDB?`
+    +   Retail
+    +   Gaming
+    +   Banking
+    +   Ad Tech
+
+    6.  `What else should I keep in mind when using DynamoDB?`
+    +   Relational Database
+    +   Non-relational database
+
+    7.  `How much does DynamoDB cost?`
+     : DynamoDB changes for reading, writing, and storing data in your DynamoDB tables, along with any optional features you choose to enable. DynamoDB has two capacity modes(on-demand and provisioned), both of which come with specific billing options for processing reads and writes on your tables.
