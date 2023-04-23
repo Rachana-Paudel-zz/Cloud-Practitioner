@@ -375,3 +375,15 @@ In this, component are lossely couple. If single component fails other doesnot s
      
     4.  `How can I architect a cloud solution by using Amazon S3?`
         <img src="S3_benefits.PNG" alt="" style="height::100%; width: =100%;"   > 
+
+    5.  `How can I use Amazon S3?`
+        +   Backup and store 
+        +   Disaster recovery
+        +   Archieve
+        +   Data lakes and big data analytics
+
+    6.  `Wha else should I keep in mind when using Amazon S3?`
+     :   <img src="keep_S3.PNG" alt="" style="height::100%; width: =100%;"   >   
+
+    6.  `How much does Amazon S3 costs?`
+     : With Amazon S3, you pay only for what you use. It has no minimum fee. Some prices vary across Amazon S3 Regions. Biling prices are based on the location of your S3 bucket.  
