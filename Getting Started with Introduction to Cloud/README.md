@@ -387,3 +387,7 @@ In this, component are lossely couple. If single component fails other doesnot s
 
     6.  `How much does Amazon S3 costs?`
      : With Amazon S3, you pay only for what you use. It has no minimum fee. Some prices vary across Amazon S3 Regions. Biling prices are based on the location of your S3 bucket.  
+
++   ####    AWS Lambda
+    1.  `What does AWS Lambda do?`
+     : It is a serverless compute service that you can use to run function code withoit provisioning or managing servers. You can use Lambda to run function code for virtually any type of application or backend service. You upload your code, and Lambda takes care of everything that is required to run and scale your code with high availability.
