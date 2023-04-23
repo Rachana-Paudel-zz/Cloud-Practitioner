@@ -373,4 +373,5 @@ In this, component are lossely couple. If single component fails other doesnot s
     3.  `What are the benefits of Amazon S3?`
      :  <img src="S3_benefits.PNG" alt="" style="height::100%; width: =100%;"   > 
      
-    4.  `How can I architect a cloud solution by using Amazon S3?`    <img src="S3_benefits.PNG" alt="" style="height::100%; width: =100%;"   > 
+    4.  `How can I architect a cloud solution by using Amazon S3?`
+        <img src="S3_benefits.PNG" alt="" style="height::100%; width: =100%;"   > 
