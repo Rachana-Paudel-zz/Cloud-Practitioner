@@ -365,4 +365,12 @@ In this, component are lossely couple. If single component fails other doesnot s
 
 +   #### Amazon Simple Storage Service - S3
     1.  `What does Amazon S3 do ?`
-     :         
+     :  It is a object storage that is built to store and retrieve any amount of data from anywhere at any time. It's a simple storage service that offers industry-leading durability, availability, performance, securiy and virtuality unlimited scalability at low costs.
+
+    2.  `What problem does Amazon S3 solve?`
+     :    <img src="S3_1.PNG" alt="" style="height::100%; width: =100%;"   >   
+
+    3.  `What are the benefits of Amazon S3?`
+     :  <img src="S3_benefits.PNG" alt="" style="height::100%; width: =100%;"   > 
+     
+    4.  `How can I architect a cloud solution by using Amazon S3?`    <img src="S3_benefits.PNG" alt="" style="height::100%; width: =100%;"   > 
