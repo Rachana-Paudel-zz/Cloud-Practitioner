@@ -14,4 +14,12 @@ After completing this lab, we will know how to:
 +   At the upper left of the AWS Management Console, on the Services menu, choose S3.
 +   Choose Create bucket
  
++   In the General configuration section, enter the following as the Bucket name: reportbucket(NUMBER)
+    Example bucket name: reportbucket987987
 
++   Leave Region at its default value.    
+
+#####   Task 2: Uploading an object to the bucket
++   Right-click the following link: new-report.png. Choose Save link as, and save the file to your desktop.
++   In the S3 Management Console, find and select the bucket name that starts with reportbucket.
++   Choose Upload
