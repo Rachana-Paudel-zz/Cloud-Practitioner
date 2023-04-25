@@ -97,13 +97,13 @@ The output should be as follows:
 + In the following command, change (NUMBER) at the end of the reportbucket name to the name of the bucket you created. Enter your adjusted command to list all the objects in your reportbucket. 
 `aws s3 ls s3://reportbucket(NUMBER)`
 
-+   The command looks similar to the following: aws s3 ls <b>s3://reportbucket987987<b>
++   The command looks similar to the following: aws s3 ls <b>s3://reportbucket987987</b>
 
 The output should look like the following:
 
 `2020-11-11 15:46:34      86065 new-report.png`
 
-+   Enter the following command to change directories into the reports directory.
++  Enter the following command to change directories into the reports directory.
 
 `cd reports`
 The output returns you to the command prompt.
@@ -119,9 +119,33 @@ The output shows some files created in your reports directory to test the applic
 
 `aws s3 cp report-test1.txt s3://reportbucket(NUMBER)`
 
-The command looks similar to this: <b>aws s3 cp report-test1.txt s3://reportbucket987987<b>
+The command looks similar to this: <b>aws s3 cp report-test1.txt s3://reportbucket987987</b>
 
 The output indicates an upload failed error. This error occurs because you have read-only rights to the bucket and do not have the permissions to perform the PutObject action.
 
 +   Leave this window open. and go back to browser tab with the AWS console.
 In the next task, you create a bucket policy to add the PutObject permission.
+
+#####   Task 5: Creating a bucket policy
+
++   Right-click the following link: sample-file.txt. Choose Save link as, and save the file to your desktop.
++   Return to the AWS Management Console, go to the Services menu, and select S3.
++   In the S3 Management Console tab, select the name of your bucket.
++   To upload the sample-file.txt file, choose Upload and use the same upload process that you used in task 2.
++   On the reportbucket overview page, choose the <b>sample-file.txt</b>file name. The <b>sample-file.txt </b>overview page opens.
++   Under the Object overview section, locate and copy the Object URL link.
+
++   In a new browser tab, paste the link into the address field, and then press Enter.
+
+Once again, your browser displays an Access Denied message. You need to configure a bucket policy to grant access to all objects in the bucket without having to specify permissions on each object individually.
++   Keep this browser tab open, but return to the tab with the S3 Management Console.
++   Select Services and select IAM. In the left navigation, choose Roles.
++   In the Search field, enter      `EC2InstanceProfileRole `
++   This is the role that the EC2 instance uses to connect to Amazon S3.
++   Select EC2InstanceProfileRole. In the Summary section, copy the Role ARN to a text file to use in a later step.
+It should look similar to the following: arn:aws:iam::596123517671:`role/EC2InstanceProfileRole`
++   Choose Services and S3, and return to the S3 Management Console.
++   Choose the reportbucket.
+
++   Choose the Permissions tab.
++   In the Permissions tab, scroll to the Bucket policy section, and choose Edit
