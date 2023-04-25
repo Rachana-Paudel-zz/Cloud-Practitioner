@@ -70,3 +70,58 @@ A message that says Successfully edited Block Public Access settings for this bu
 +   Return to the browser tab that displayed Access Denied for the new-report.png object, and refresh the page.
 
 +   Close the web browser tab that displays your new-report.png image, and return to the tab with the Amazon S3 Management Console.
+
+#####   Task 4: Testing connectivity from the EC2 instance
+
++   On the Services menu, choose EC2.
++   On the EC2 Dashboard, under the Resources section, choose Instances (running).
++   Select the  check box for Bastion Host and choose Connect
++   In the Connect to instance window, select the Session Manager tab for the connection method.
++   Choose Connect
++   In the bastion host session, enter the following command to change to the home directory (/home/ssm-user/):
+`cd ~`
+
+The output returns you to the command prompt.
+
++   Enter the following command to verify that you are in the home directory:
+`pwd`
+The output should be as follows:
+`/home/ssm-user`
+
++   Enter the following command to list all of your S3 buckets. 
+`aws s3 ls`
+  The output should look similar to the following:
+
+  `2020-11-11 22:34:46 reportbucket987987`
+
++ In the following command, change (NUMBER) at the end of the reportbucket name to the name of the bucket you created. Enter your adjusted command to list all the objects in your reportbucket. 
+`aws s3 ls s3://reportbucket(NUMBER)`
+
++   The command looks similar to the following: aws s3 ls <b>s3://reportbucket987987<b>
+
+The output should look like the following:
+
+`2020-11-11 15:46:34      86065 new-report.png`
+
++   Enter the following command to change directories into the reports directory.
+
+`cd reports`
+The output returns you to the command prompt.
+
++   Enter the following command to list the contents of the directory.
+`ls`
+
+The output shows some files created in your reports directory to test the application.
+
+`dolphins.jpg files.zip report-test.txt  report-test1.txt report-test2.txt report-test3.txt  whale.jpg`
+
++   In the following command, change (NUMBER) at the end of the reportbucket name to the name of the bucket you created. Enter your adjusted command to see if you can copy a file to the S3 bucket.
+
+`aws s3 cp report-test1.txt s3://reportbucket(NUMBER)`
+
+The command looks similar to this: <b>aws s3 cp report-test1.txt s3://reportbucket987987<b>
+
+The output indicates an upload failed error. This error occurs because you have read-only rights to the bucket and do not have the permissions to perform the PutObject action.
+
++   Leave this window open. and go back to browser tab with the AWS console.
+In the next task, you create a bucket policy to add the PutObject permission.
