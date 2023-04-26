@@ -145,6 +145,7 @@ Save money as you learn and experiment with AWS Free Tier
 `Billing example` : 
 
 Amazon EC2 :
+
  <img src="EC2billing.PNG" alt="S3billing" style="height::100%; width: =100%;">
 
 Amazon S3 :
