@@ -143,8 +143,13 @@ Save money as you learn and experiment with AWS Free Tier
 <img src="aws_billing2.PNG" alt="aws_billing" style="height::100%; width: =100%;">
 
 `Billing example` : 
-Amazon EC2 : <img src="EC2billing.PNG" alt="S3billing" style="height::100%; width: =100%;">
-Amazon S3 :  <img src="S3billing.PNG" alt="S3billing" style="height::100%; width: =100%;">
+
+Amazon EC2 :
+ <img src="EC2billing.PNG" alt="S3billing" style="height::100%; width: =100%;">
+
+Amazon S3 :
+
+  <img src="S3billing.PNG" alt="S3billing" style="height::100%; width: =100%;">
 
 
 AWSLambda :
