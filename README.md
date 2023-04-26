@@ -12,5 +12,9 @@ We begin our journey from AWS educate course. Click [Getting Started with Cloud 
 ## <a href="./Getting Started with Internet Basics/README.md">Getting Started with Internet Basics</a>
 We begin our journey from AWS educate course. Click [Getting Started with Internet Basics](https://awseducate.instructure.com/courses/546) to start learning.
 
-## <a href="./Getting Started with Introduction to Cloud/README.md">Getting Started with Introduction to Cloud</a>
+## 
+<a href="./Getting Started with Introduction to Cloud/README.md">Getting Started with Introduction to Cloud</a>
 We begin our journey from AWS educate course. Click [Getting Started with Introduction to Cloud](https://awseducate.instructure.com/courses/746/modules) to start learning.
+
++   ##  <a href="./Getting Started with Introduction to Cloud/AWS_core_Service_lab/README.md">AWS_Core_Lab</a>
+Click. [AWS core Service lab](https://awseducate.instructure.com/courses/746/pages/aws-core-services-labs?module_item_id=15101) to start learning.
