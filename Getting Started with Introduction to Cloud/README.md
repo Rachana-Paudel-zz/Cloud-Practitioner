@@ -217,7 +217,7 @@ In this, component are lossely couple. If single component fails other doesnot s
     If you must delete a VPC, be sure to first terminate any EC2 or RDS instances that you have provisioned in the VPC.
 
     7.    `How much does Amazon VPC costs?`
- <img src="vpc_cost.PNG" alt="VPC_cost" style="height::100%; width: =100%;">
+ <img src="VPC_cost.PNG" alt="VPC_cost" style="height::100%; width: =100%;">
  
 +   #####   Amazon Elastic Compute Cloud EC2 : Public subnet
 
