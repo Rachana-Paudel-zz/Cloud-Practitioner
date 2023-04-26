@@ -195,6 +195,8 @@ In this, component are lossely couple. If single component fails other doesnot s
 
 ####    Core service architecture
 
+<img src="core_service_arch.PNG" alt="core_service_arch" style="height::100%; width: =100%;">
+
 
 +   #####   Amazon VPC(virtual private cloud): 
     1.` What does Amazon VPC do?`
@@ -430,10 +432,10 @@ In this, component are lossely couple. If single component fails other doesnot s
      : You can use it to offload the administrative burdens of operating and scaling a distributed database. Therefore, you dont need to worry about hardware provisioning, setup and configuration, replication, software patching, or cluster scaling.
 
     3.  `What are the benefits of DynamoDB?`
-     :  <img src="dynamo_benefit.PNG" alt="" style="height::100%; width: =100%;"   > 
+       <img src="dynamo_benefit.PNG" alt="" style="height::100%; width: =100%;"   > 
 
     4.  `How can I architect a cloud solution using DynamoDB?`
-     : <img src="arc_dynamo.PNG" alt="" style="height::100%; width: =100%;"   > 
+      <img src="arc_dynamo.PNG" alt="" style="height::100%; width: =100%;"   > 
 
     5.  `How can I use DynamoDB?`
     +   Retail
