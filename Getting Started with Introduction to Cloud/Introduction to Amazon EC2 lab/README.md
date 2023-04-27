@@ -56,5 +56,14 @@ The Lab VPC was created using an AWS CloudFormation template during the setup pr
 +   In the Network settings section, for Security group name - required, enter Web Server security group
 +   To delete the existing SSH rule, next to Security group rule 1, choose Remove.
 
+<img src="s4.PNG" alt="" style="height::100%; width: =100%;"   >
+
+#####   Step 6: Add storage
+
+Amazon EC2 stores data on a network-attached virtual disk called Amazon Elastic Block Store (Amazon EBS).
+
+You launch the EC2 instance using a default 8 GiB disk volume. This is your root volume (also known as a boot volume).
++   In the Configure storage pane, keep the default storage configuration.
+
 
 
