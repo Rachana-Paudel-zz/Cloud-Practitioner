@@ -65,5 +65,6 @@ Amazon EC2 stores data on a network-attached virtual disk called Amazon Elastic 
 You launch the EC2 instance using a default 8 GiB disk volume. This is your root volume (also known as a boot volume).
 +   In the Configure storage pane, keep the default storage configuration.
 
+<img src="s5.PNG" alt="" style="height::100%; width: =100%;"   >
 
 
