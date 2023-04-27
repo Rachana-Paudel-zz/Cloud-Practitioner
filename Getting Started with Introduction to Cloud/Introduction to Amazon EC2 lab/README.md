@@ -39,3 +39,22 @@ In this lab, you do not log in to your instance, so you do not require a key pai
 
 <img src="s3.PNG" alt="" style="height::100%; width: =100%;"   >
 
+#####   Step 5: Configure the network settings
+
+You use this pane to configure networking settings.
+
+The virtual private cloud (VPC) indicates which VPC you want to launch the instance into. You can have multiple VPCs, including different ones for development, testing, and production.
+
+ 
+
++   In the Network settings section, choose Edit.
+
++   From the VPC - required dropdown list, choose Lab VPC.
+
+The Lab VPC was created using an AWS CloudFormation template during the setup process of your lab. This VPC includes two public subnets in two different Availability Zones.
+
++   In the Network settings section, for Security group name - required, enter Web Server security group
++   To delete the existing SSH rule, next to Security group rule 1, choose Remove.
+
+
+
