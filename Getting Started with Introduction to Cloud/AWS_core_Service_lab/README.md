@@ -13,11 +13,11 @@ After completing this lab, we will know how to:
 
 +   At the upper left of the AWS Management Console, on the Services menu, choose S3.
 +   Choose Create bucket
- 
 +   In the General configuration section, enter the following as the Bucket name: reportbucket(NUMBER)
     Example bucket name: reportbucket987987
++   Leave Region at its default value.
 
-+   Leave Region at its default value.    
+
 
 #####   Task 2: Uploading an object to the bucket
 +   Right-click the following link: new-report.png. Choose Save link as, and save the file to your desktop.
@@ -28,6 +28,7 @@ After completing this lab, we will know how to:
 +   At the bottom of the page, choose Upload
 +   Oue file is successfully uploaded when the green bar indicating Upload succeeded appears.
 
+<img src="task2report.PNG" alt="" style="height::100%; width: =100%;"   >
 +   In the Upload: status section in the upper right, choose Close
 
 #####   Task 3: Making an object public
@@ -51,6 +52,9 @@ Now that you've confirmed that the default security of Amazon S3 is private, you
 +   We need to allow the use of ACLs first. Under Object Ownership choose Edit.
 +   Choose ACLs enabled.
 +   Choose Bucket owner preferred.
+
+<img src="bucket_owner prefer.PNG" alt="" style="height::100%; width: =100%;"   >
+
 +   Choose the  check box next to I acknowledge that ACLs will be restored.
 +   Choose Save Changes
 +   Under Block public access (bucket settings), choose Edit to change the settings.
@@ -70,12 +74,15 @@ A message that says Successfully edited Block Public Access settings for this bu
 +   Return to the browser tab that displayed Access Denied for the new-report.png object, and refresh the page.
 
 +   Close the web browser tab that displays your new-report.png image, and return to the tab with the Amazon S3 Management Console.
+<img src="make_public.PNG" alt="" style="height::100%; width: =100%;"   >
 
 #####   Task 4: Testing connectivity from the EC2 instance
 
 +   On the Services menu, choose EC2.
 +   On the EC2 Dashboard, under the Resources section, choose Instances (running).
 +   Select the  check box for Bastion Host and choose Connect
+
+<img src="connect_instance.PNG" alt="" style="height::100%; width: =100%;"   >
 +   In the Connect to instance window, select the Session Manager tab for the connection method.
 +   Choose Connect
 +   In the bastion host session, enter the following command to change to the home directory (/home/ssm-user/):
@@ -132,6 +139,8 @@ In the next task, you create a bucket policy to add the PutObject permission.
 +   Return to the AWS Management Console, go to the Services menu, and select S3.
 +   In the S3 Management Console tab, select the name of your bucket.
 +   To upload the sample-file.txt file, choose Upload and use the same upload process that you used in task 2.
+
+<img src="sample.PNG" alt="" style="height::100%; width: =100%;"   >
 +   On the reportbucket overview page, choose the <b>sample-file.txt</b>file name. The <b>sample-file.txt </b>overview page opens.
 +   Under the Object overview section, locate and copy the Object URL link.
 
@@ -258,7 +267,6 @@ You now see the sample-file.txt in your file list. Congratulations! You have suc
 To test if your policy works, go to your browser with the Access Denied error and refresh it. If you can read the text, then congratulations! Your policy was successful. 
 If not, look at the following policy for help. The modified policy should look like the following policy. Notice that there are two statements: one with the EC2InstanceProfileRole and one where the principal is "*" for everyone.
 
-If not, look at the following policy for help. The modified policy should look like the following policy. Notice that there are two statements: one with the EC2InstanceProfileRole and one where the principal is "*" for everyone.
 
 If you had trouble generating the policy on your own, you can copy he policy below and paste it into the BucketPolicy Editor. Remember to replace the existing EC2InstanceProfileRole ARN in the policy below with the EC2InstanceProfileRole ARN you copied in a previous step. Ensure that you replace the reportbucket example ARN with the bucket you created and the /* appears at the end of the Bucket ARN. See the last line of the policy as an example.
 
@@ -290,6 +298,8 @@ If you had trouble generating the policy on your own, you can copy he policy bel
 }`
 Leave the tab open with the sample-file.txt displayed. You return to this tab in the next task.
 In this task, you created a bucket policy to allow specific access rights to your bucket. In the next section, you explore how to keep copies of files to prevent against accidental deletion.
+
+<img src="generate policy.PNG" alt="" style="height::100%; width: =100%;"   >
 
 #####   Task 6: Exploring versioning
 +   We should be on the S3 bucket Permissions tab from the previous task. If you are not, choose the link to the bucket at the upper left of the screen to return to the bucket overview page.
