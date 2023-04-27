@@ -30,3 +30,12 @@ Amazon EC2 provides a wide selection of instance types that are optimized to fit
 
 In this step, you choose a t2.micro instance. This instance type has 1 virtual CPU and 1 GiB of memory.
 +   Keep the default instance type, t2.micro.
+
+#####   Step 4: Configure a key pair
+Amazon EC2 uses public key cryptography to encrypt and decrypt login information. To log in to your instance, you must create a key pair, specify the name of the key pair when you launch the instance, and provide the private key when you connect to the instance.
+
+In this lab, you do not log in to your instance, so you do not require a key pair.
++   In the Key pair (login) section, from the Key pair name - required dropdown list, choose Proceed without a key pair.
+
+<img src="s3.PNG" alt="" style="height::100%; width: =100%;"   >
+
