@@ -67,4 +67,26 @@ You launch the EC2 instance using a default 8 GiB disk volume. This is your root
 
 <img src="s5.PNG" alt="" style="height::100%; width: =100%;"   >
 
+#####   Step 7: Configure advanced details
++   Expand the Advanced details pane.
++   From the Termination protection dropdown list, choose  Enable.
++   Copy the following commands, and paste them into theIn the User data text box.
 
+
+`#!/bin/bash
+yum -y install httpd
+systemctl enable httpd
+systemctl start httpd
+echo '<html><h1>Hello From Your Web
+Server!</h1></html>' > /var/www/html/index.html`
+
+The script does the following:
+
++   Install an Apache web server (httpd)
++   Configure the web server to automatically start on boot
++   Activate the Web server
++   Create a simple web page
+ 
+
+
+<img src="s7.PNG" alt="" style="height::100%; width: =100%;"   >
