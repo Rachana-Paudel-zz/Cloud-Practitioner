@@ -24,3 +24,9 @@ The Quick Start list contains the most commonly used AMIs. You can also create y
 +   In the AMI Machine Image (AMI) box, notice that Amazon Linux 2 AMI is selected by default. Keep this setting.
 
 <img src="s2.PNG" alt="" style="height::100%; width: =100%;"   >
+
+#####   Step 3: Choose an instance type
+Amazon EC2 provides a wide selection of instance types that are optimized to fit different use cases. Instance types comprise varying combinations of CPU, memory, storage, and networking capacity and give you the flexibility to choose the appropriate mix of resources for your applications. Each instance type includes one or more instance sizes so that you can scale your resources to the requirements of your target workload.
+
+In this step, you choose a t2.micro instance. This instance type has 1 virtual CPU and 1 GiB of memory.
++   Keep the default instance type, t2.micro.
