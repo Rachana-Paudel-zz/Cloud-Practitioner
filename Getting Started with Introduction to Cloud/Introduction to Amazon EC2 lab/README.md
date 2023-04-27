@@ -90,3 +90,26 @@ The script does the following:
 
 
 <img src="s7.PNG" alt="" style="height::100%; width: =100%;"   >
+
+#####   Step 8: Launch an EC2 instance
+
++   In the Summary section, choose Launch instance.
+
++   Choose View all instances
+
+The instance appears in a Pending state, which means that it is being launched. It then changes to Running, which indicates that the instance has started booting. There will be a short time before you can access the instance.
+
+The instance receives a public Domain Name System (DNS) name that you can use to contact the instance from the Internet.
+
+Next to your Web-Server, select the  check box. The Details tab displays detailed information about your instance.
+
+ To view more information in the Details tab, drag the window divider upward.
+ Review the information displayed in the Details, Security and Networking tabs.
+
+ 
+
++   Wait for your instance to display the following:
+
+Note: Refresh if needed.
++   Instance State:  Running
++   Status Checks:   2/2 checks passed
