@@ -131,6 +131,9 @@ cloud-init[3280]: apr-util-bdb.x86_64 0:1.6.1-5.amzn2.0.2
 [   26.829760] cloud-init[3280]: httpd-tools.x86_64 0:2.4.52-1.amzn2
 [   26.833753] cloud-init[3280]: mailcap.noarch 0:2.1.41-2.amzn2
 [   26.845761] cloud-init[3280]: mod_http2.x86_64 0:1.15.19-1.amzn2.0.1
-[   26.849762] cloud-init[3280]: Complete!
+[   26.849762] cloud-init[3280]: Complete!`
 +   To return to the Amazon EC2 dashboard, choose Cancel.
 +   With your Web-Server selected, choose the Actions  dropdown menu, and select Monitor and troubleshoot  Get instance screenshot.
+<img src="8.PNG" alt="" style="height::100%; width: =100%;"   >
+
++   At the bottom of the page, choose Cancel.
