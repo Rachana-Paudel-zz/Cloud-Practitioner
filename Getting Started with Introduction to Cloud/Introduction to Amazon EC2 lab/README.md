@@ -118,6 +118,7 @@ Note: Refresh if needed.
 
 +   Choose the Monitoring tab. 
 +   At the top of the page, choose the Actions  dropdown menu. Select Monitor and troubleshoot  Get system log.
+`<img src="8.PNG" alt="" style="height::100%; width: =100%;"   >
 +   Scroll through the output, and note that the HTTP package was installed from the user data that you added when you created the instance. The entries in the system log should be similar to the following example:
 `[   26.760639] cloud-init[3280]: Installed:
 [   26.770051] cloud-init[3280]: httpd.x86_64 0:2.4.52-1.amzn2
@@ -134,6 +135,6 @@ cloud-init[3280]: apr-util-bdb.x86_64 0:1.6.1-5.amzn2.0.2
 [   26.849762] cloud-init[3280]: Complete!`
 +   To return to the Amazon EC2 dashboard, choose Cancel.
 +   With your Web-Server selected, choose the Actions  dropdown menu, and select Monitor and troubleshoot  Get instance screenshot.
-<img src="8.PNG" alt="" style="height::100%; width: =100%;"   >
+<img src="9.PNG" alt="" style="height::100%; width: =100%;"   >
 
 +   At the bottom of the page, choose Cancel.
