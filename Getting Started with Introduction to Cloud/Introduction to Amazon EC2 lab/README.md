@@ -138,3 +138,9 @@ cloud-init[3280]: apr-util-bdb.x86_64 0:1.6.1-5.amzn2.0.2
 <img src="9.PNG" alt="" style="height::100%; width: =100%;"   >
 
 +   At the bottom of the page, choose Cancel.
+
+####    Task 3: Updating your security group and accessing the web server
+
++   Select the check box next to the Amazon EC2 Web-Server that you created, and then choose the Details tab.
+
++   Copy the Public IPv4 address of your instance to your clipboard.
