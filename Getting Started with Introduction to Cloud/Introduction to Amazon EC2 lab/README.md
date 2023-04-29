@@ -144,7 +144,7 @@ cloud-init[3280]: apr-util-bdb.x86_64 0:1.6.1-5.amzn2.0.2
 +   Select the check box next to the Amazon EC2 Web-Server that you created, and then choose the Details tab.
 
 +   Copy the Public IPv4 address of your instance to your clipboard.
-+   n your web browser, open a new tab, paste the IP address that you just copied, and then press Enter.
++   In your web browser, open a new tab, paste the IP address that you just copied, and then press Enter.
 
 Question: Are you able to access your web server? Why not?
 
@@ -159,12 +159,14 @@ To correct this issue, you now update the security group to permit web traffic o
 +   Next to Web Server security group, select the  check box.
 
 +   Choose the Inbound rules tab.
+<img src="inbound_rule.PNG" alt="" style="height::100%; width: =100%;"   >
 
 +   The security group currently has no rules.
 +   Choose Edit inbound rules, and then choose Add rule and configure the following options:
 
 Type: Choose HTTP.
 Source: Choose Anywhere-IPv4.
+<img src="inbound_rule.PNG" alt="" style="height::100%; width: =100%;"   >
 +   Choose Save rules
 
 +   Return to the web server browser tab with the public IPv4 address that you previously opened, and choose  to refresh the page.
