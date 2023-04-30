@@ -192,7 +192,7 @@ In the Stop instance? pop-up window, choose Stop.
 Your instance performs a normal shutdown and then stops running.
 +   Select the check box next to your Web-Server. From the Actions  dropdown menu, select Instance settings  Change instance type, and then configure the following option:
 
-    +   Instance type: Select t2.nano.
++   Instance type: Select t2.nano.
 
 +   Choose Apply.
 
@@ -210,6 +210,7 @@ When the instance is started again, it is a t2.nano instance.
 +   Change the Size (GiB) to 10
 
 +   Choose Modify.
+<img src="modify.PNG" alt="" style="height::100%; width: =100%;"   >
 
 #####   Start the resized instance
 You now start the instance again, which now has less memory but more disk space.
