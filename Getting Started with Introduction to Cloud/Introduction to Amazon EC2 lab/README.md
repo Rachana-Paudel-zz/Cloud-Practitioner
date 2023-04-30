@@ -192,4 +192,21 @@ In the Stop instance? pop-up window, choose Stop.
 Your instance performs a normal shutdown and then stops running.
 +   Select the check box next to your Web-Server. From the Actions  dropdown menu, select Instance settings  Change instance type, and then configure the following option:
 
-Instance type: Select t2.nano.
+    +   Instance type: Select t2.nano.
+
++   Choose Apply.
+
+When the instance is started again, it is a t2.nano instance.    
+
+#####   Resize the EBS volume
++   In the left navigation menu, choose Volumes.
+
++   Select the check box for the one volume that is listed, which is attached to your Web-Server instance.
+
++   In the Actions  dropdown menu, select Modify Volume.
+
++   The disk volume currently has a size of 8 GiB. You now increase the size of this disk.
+
++   Change the Size (GiB) to 10
+
++   Choose Modify.
