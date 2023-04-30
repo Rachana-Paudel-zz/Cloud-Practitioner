@@ -190,3 +190,6 @@ When you stop an instance, it is shut down. There is no charge for a stopped EC2
 In the Stop instance? pop-up window, choose Stop.
 
 Your instance performs a normal shutdown and then stops running.
++   Select the check box next to your Web-Server. From the Actions  dropdown menu, select Instance settings  Change instance type, and then configure the following option:
+
+Instance type: Select t2.nano.
