@@ -210,3 +210,9 @@ When the instance is started again, it is a t2.nano instance.
 +   Change the Size (GiB) to 10
 
 +   Choose Modify.
+
+#####   Start the resized instance
+You now start the instance again, which now has less memory but more disk space.
+
++   In left navigation pane, choose Instances. Next to your Web-Server, select the  check box.
++   From the Instance state  dropdown menu, choose Start instance.
