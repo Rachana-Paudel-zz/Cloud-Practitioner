@@ -172,3 +172,21 @@ Source: Choose Anywhere-IPv4.
 +   Return to the web server browser tab with the public IPv4 address that you previously opened, and choose  to refresh the page.
 
 You should see the message Hello From Your Web Server!
+
+####    Task 4: Resizing your instance - instance type and EBS volume
+As your needs change, you might find that your instance is over utilized (too small) or under utilized (too large). If so, you can change the instance type. For example, if a t2.micro instance is too small for its workload, you can change it to an m5.medium instance. Similarly, you can change the size of a disk.
+#####   Stop your instance
+Before you can resize an instance, you must stop it.
+
+When you stop an instance, it is shut down. There is no charge for a stopped EC2 instance, but the storage charge for attached EBS volumes remains.
++    On the EC2 Management Console, in the left navigation pane, choose Instances.
+
++   The  check box next to Web Server should already be selected.
+
++   At the top of the page, select the Instance state  dropdown menu, and choose Stop instance.
++   Wait for the Instance state to display Stopped.
+#####   Change the instance type
+
+In the Stop instance? pop-up window, choose Stop.
+
+Your instance performs a normal shutdown and then stops running.
