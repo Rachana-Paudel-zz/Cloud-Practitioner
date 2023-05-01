@@ -265,5 +265,5 @@ Tip: If you previously hid the terminal in the browser panel, select the Termina
 Note If the grading is erroring out and not grading properly. Make sure the EC2 instance tags are set as Web-Server or the grading will not work.
 
 Tip: You can submit your work multiple times. After you change your work, choose Submit again. Your last submission is what will be recorded for this lab.
-+   To find detailed feedback on your work, choose Details and then choose  View Submission Report.
++   To find detailed feedback on your work, choose Details and then choose  View Submission Report.<br>
 `Lab complete`
