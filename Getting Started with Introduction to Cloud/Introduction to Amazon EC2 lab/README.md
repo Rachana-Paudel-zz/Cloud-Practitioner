@@ -226,4 +226,24 @@ Note: There is a limit on the number of instances that you can launch in this Re
 
 You can request an increase for many of these limits.
 
- 
+ ####   Task 6: Testing termination protection
+ You can delete your instance when you no longer need it. This is referred to as terminating your instance. You cannot connect to or restart an instance after it has been terminated.
+
+In this task, you learn how to use termination protection.
++   In left navigation pane, choose Instances. Select the  check box for your Web-Server.
+
++   At the top of the page in the Instance state  dropdown menu, choose Terminate instance. From the Terminate instance? pop-up window, choose Terminate. 
+
+Note: At the top of the page, a message says Failed to terminate an instance: The instance 'i-xxxxxxxxxxxx' may not be terminated. Modify its 'disableApiTermination' instance attribute and try again. This message is a safeguard to prevent the accidental termination of an instance. If you really want to terminate the instance, you need to turn off the termination protection.
+
+#####   Submitting mine work steps
++   At the top of these instructions, choose Submit to record your progress and when prompted, choose Yes.
+
+Tip: If you previously hid the terminal in the browser panel, select the Terminal  check box in the upper right to expose the panel again. This option ensures that the lab instructions remain visible after you choose Submit.
++   If the results don't display after a couple of minutes, return to the top of these instructions and choose Grades.
+
+Note If the grading is erroring out and not grading properly. Make sure the EC2 instance tags are set as Web-Server or the grading will not work.
+
+Tip: You can submit your work multiple times. After you change your work, choose Submit again. Your last submission is what will be recorded for this lab.
++   To find detailed feedback on your work, choose Details and then choose  View Submission Report.
+`Lab complete`
