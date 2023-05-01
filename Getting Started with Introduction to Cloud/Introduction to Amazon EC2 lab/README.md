@@ -95,6 +95,8 @@ The script does the following:
 
 +   In the Summary section, choose Launch instance.
 +   Choose View all instances
+<img src="view_instance.PNG" alt="" style="height::100%; width: =100%;"   >
+
 
 The instance appears in a Pending state, which means that it is being launched. It then changes to Running, which indicates that the instance has started booting. There will be a short time before you can access the instance.
 
@@ -112,6 +114,8 @@ Next to your Web-Server, select the  check box. The Details tab displays detaile
 Note: Refresh if needed.
 +   Instance State:  Running
 +   Status Checks:   2/2 checks passed
+
+<img src="detail_instance.PNG" alt="" style="height::100%; width: =100%;"   >
 
 ####    Task 2: Monitoring your instance
 +   Choose the Status checks tab.
@@ -143,6 +147,8 @@ cloud-init[3280]: apr-util-bdb.x86_64 0:1.6.1-5.amzn2.0.2
 
 +   Select the check box next to the Amazon EC2 Web-Server that you created, and then choose the Details tab.
 
+<img src="detail_instance.PNG" alt="" style="height::100%; width: =100%;"   >
+
 +   Copy the Public IPv4 address of your instance to your clipboard.
 +   In your web browser, open a new tab, paste the IP address that you just copied, and then press Enter.
 
@@ -173,6 +179,8 @@ Source: Choose Anywhere-IPv4.
 
 You should see the message Hello From Your Web Server!
 
+<img src="hello.PNG" alt="" style="height::100%; width: =100%;"   >
+
 ####    Task 4: Resizing your instance - instance type and EBS volume
 As your needs change, you might find that your instance is over utilized (too small) or under utilized (too large). If so, you can change the instance type. For example, if a t2.micro instance is too small for its workload, you can change it to an m5.medium instance. Similarly, you can change the size of a disk.
 #####   Stop your instance
@@ -185,6 +193,10 @@ When you stop an instance, it is shut down. There is no charge for a stopped EC2
 
 +   At the top of the page, select the Instance state  dropdown menu, and choose Stop instance.
 +   Wait for the Instance state to display Stopped.
+
+<img src="stop_instance.PNG" alt="" style="height::100%; width: =100%;"   >
+<br>
+<img src="stopped_instance.PNG" alt="" style="height::100%; width: =100%;"   >
 #####   Change the instance type
 
 In the Stop instance? pop-up window, choose Stop.
@@ -196,7 +208,8 @@ Your instance performs a normal shutdown and then stops running.
 
 +   Choose Apply.
 
-When the instance is started again, it is a t2.nano instance.    
+When the instance is started again, it is a t2.nano instance.  
+<img src="t2nano.PNG" alt="" style="height::100%; width: =100%;"   >  
 
 #####   Resize the EBS volume
 +   In the left navigation menu, choose Volumes.
@@ -204,6 +217,8 @@ When the instance is started again, it is a t2.nano instance.
 +   Select the check box for the one volume that is listed, which is attached to your Web-Server instance.
 
 +   In the Actions  dropdown menu, select Modify Volume.
+
+
 
 +   The disk volume currently has a size of 8 GiB. You now increase the size of this disk.
 
@@ -218,9 +233,12 @@ You now start the instance again, which now has less memory but more disk space.
 +   In left navigation pane, choose Instances. Next to your Web-Server, select the  check box.
 +   From the Instance state  dropdown menu, choose Start instance.
 
+
+
 ####    Task 5: Exploring EC2 limits
 Amazon EC2 provides different resources that you can use. These resources include images, instances, volumes, and snapshots. When you create an AWS account, there are default limits on these resources on a per-Region basis.
 +   In the left navigation pane, choose Limits.
+<img src="limit.PNG" alt="" style="height::100%; width: =100%;"   >
 
 Note: There is a limit on the number of instances that you can launch in this Region. When launching an instance, the request must not cause your usage to exceed the current instance limit in that Region.
 
@@ -233,6 +251,8 @@ In this task, you learn how to use termination protection.
 +   In left navigation pane, choose Instances. Select the  check box for your Web-Server.
 
 +   At the top of the page in the Instance state  dropdown menu, choose Terminate instance. From the Terminate instance? pop-up window, choose Terminate. 
+
+<img src="terminate instance.PNG" alt="" style="height::100%; width: =100%;"   >
 
 Note: At the top of the page, a message says Failed to terminate an instance: The instance 'i-xxxxxxxxxxxx' may not be terminated. Modify its 'disableApiTermination' instance attribute and try again. This message is a safeguard to prevent the accidental termination of an instance. If you really want to terminate the instance, you need to turn off the termination protection.
 
