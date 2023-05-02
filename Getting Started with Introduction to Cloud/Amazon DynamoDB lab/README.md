@@ -42,3 +42,34 @@ When you write an item to a DynamoDB table, only the primary key and sort key (i
 +   Click Create item.
 
 +   Add in the following values.
+
+Artist: Pink Floyd
+Song: Money
+
+These are the only required attributes, but you can now add additional attributes.
++   To create an additional attribute, click the Add new attribute button.
+
++   In the dropdown list, choose String.
+
++   A new attribute row is added.
+
++   For the new attribute, replace NewValue withAlbum and in the Value column enter The Dark Side of the Moon.
+
++   Add another new attribute by choosing the Add new attribute button.
++In the dropdown list, choose Number.
+
++For the new attribute, replace NewValue with Year and in the Value column replace 0 with 1973.
++   Choose Create item to store the new item with its four attributes.
+
+
++   The item appears in the Items returned pane in the console.
++   Next, follow the previous steps and use the following attributes to create a second item:
+
+`Attribute Name`	`Attribute Type`	`Attribute Value`
+Artist	              String	          John Lennon
+Song	              String	          Imagine
+Album	              String	          Imagine
+Year	              Number	          1971
+Genre	              String	          Soft rock
+
+Note that this item has an additional attribute called Genre. Adding this attribute is an example of each item being capable of having different attributes without having to pre-define a table schema.
