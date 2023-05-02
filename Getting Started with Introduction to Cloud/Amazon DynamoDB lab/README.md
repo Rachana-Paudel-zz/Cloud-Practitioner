@@ -103,5 +103,25 @@ The item is now updated
 +   Select Music.
 
 +   If Scan/Query items is not already expanded, choose the arrow  to expose the Scan and Query options
++   Choose Query.
+
+Fields for the Artist (which is the same as partition key) and Song (which is the same as sort key) are now displayed.
+
++   Enter the following details:
+
+Artist (Partition key): Psy
+Song (Sort key): Equal to Gangnam Style
++   Choose Run.
++   Choose the Scan option.
+
++   Choose the arrow  to expand Filters.
+
++   Enter values for the scan filter:
+
+For Enter attribute name, enter YearChange String to Number.
+Condition: Select Equal to
+For Enter value, enter 1971
+Choose Run.
+Only the song released in 1971 is displayed.
 
 
