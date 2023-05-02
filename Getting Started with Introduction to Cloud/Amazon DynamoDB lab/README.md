@@ -25,6 +25,7 @@ Provisioned (default, free-tier eligible)
 
 The read/write capacity mode controls how you are charged for read and write throughput and how you manage capacity. You can set the read/write capacity mode when creating a table or you can change it later.
 Your table will use default settings for indexes.
+
 +   Choose Create table.
 
 The table is created in less than 1 minute.
