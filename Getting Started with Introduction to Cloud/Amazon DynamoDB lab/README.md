@@ -73,3 +73,35 @@ Year	              Number	          1971
 Genre	              String	          Soft rock
 
 Note that this item has an additional attribute called Genre. Adding this attribute is an example of each item being capable of having different attributes without having to pre-define a table schema.
+
+Follow the previous steps and use the following attributes to create a third item:
+
+Attribute Name	Attribute Type	Attribute Value
+Artist             String	       Psy
+Song	           String	       Gangnam Style
+Album	           String	       Psy 6 (Six Rules), Part 1
+Year	           Number	        2011
+LengthSeconds	   Number	        219
+
+
+Once again, this item has a new LengthSeconds attribute that identifies the length of the song. The ability to include this attribute demonstrates the flexibility of a NoSQL database.
+There are also faster ways to load data into DynamoDB, such as using AWS Data Pipeline, programmatically loading data, or using one of the free tools available on the internet.
+
+####    Task 3: Modifying an Existing Item
++   From the list of items, select the row where the Artist is Psy.
+
++   Choose the Actions menu, and select Edit item.
+
++   Change the Year Number from 2011 to 2012.
++   Choose Save changes.
+
+The item is now updated
+
+####    Task 4: Querying the Table
++   Choose Explore items in the left navigation pane.
+
++   Select Music.
+
++   If Scan/Query items is not already expanded, choose the arrow  to expose the Scan and Query options
+
+
