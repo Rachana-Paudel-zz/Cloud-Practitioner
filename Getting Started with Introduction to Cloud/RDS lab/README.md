@@ -36,3 +36,27 @@ Virtual private cloud (VPC): Lab VPC
 +   At the bottom of the page, choose Create database
 	You should receive this message: Creating database inventory-db.
 
+####    Task 2: Configuring web application communication with a database instance
++   On the Services  menu, choose EC2.
++   In the left navigation pane, choose Instances.
+In the center pane, there should be a running instance that is named App Server.
++   Select the check box for the App Server instance.
++   In the Details tab, copy the Public IPv4 address to your clipboard.
++   Open a new web browser tab, paste the IP address into the address bar, and then press Enter.
++   Choose  Settings.
++   Return to the AWS Management Console, but do not close the application tab. (You will return to it soon.)
+On the Services  menu, choose RDS.
++   In the left navigation pane, choose Databases.
++   Choose inventory-db.
++   Scroll to the Connectivity & security section, and copy the Endpoint to your clipboard.
+It should look similar to this example: inventory-db.crwxbgqad61a.rds.amazonaws.com
++   Return to the browser tab with the inventory application, and enter the following values:
+
+    +       For Endpoint, paste the endpoint you copied earlier.
+    +   For Database, enter inventory
+    +   For Username, enteradmin
+    +   For Password, enter lab-password
+    +   Choose Save.
+    The application will now connect to the database, load some initial data, and display information.
++   You can use the web application to   Add inventory,  edit, and  delete inventory information.
++   Insert new records into the table. Ensure that the table has 5 or more inventory records before submitting your work.
