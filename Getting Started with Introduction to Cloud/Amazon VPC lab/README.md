@@ -13,3 +13,21 @@ The VPC will have a Classless Inter-Domain Routing (CIDR) range of 10.0.0.0/16, 
 +   Choose Create VPC.
 
 +   Under Resources to create, choose VPC only.
++   Configure the following settings:
+
++   For Name tag enter Lab VPC
+
++   For IPv4 CIDR block, enter 10.0.0.0/16
+
++   For Tenancy, select Default.
+
++  For Tags, ensure that:
+Key: Name
+Value: Lab VPC
++   Choose Create VPC.
++   From the VPC Details page, choose the Tags tab.
+
+Tags are useful for identifying resources. For example, you can use a tag to identify cost centers or different environments (such as development, test, or production).
++   Choose Actions  and select Edit VPC settings.
+
+In the DNS settings section, select  Enable DNS hostnames.
