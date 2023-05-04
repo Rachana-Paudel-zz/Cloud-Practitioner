@@ -202,3 +202,34 @@ The settings for Inbound Rules determine what traffic is permitted to reach the 
     +   Choose Save rules
 
 You use this App-SG in the next task.
+
+####    Task 6: Launching an application server in the public subnet
+
+
+
+To test that your VPC is correctly configured, you now launch an EC2 instance into the public subnet. You also confirm that you can access the EC2 instance from the internet.
+
++   On the Services  menu, choose EC2.
+
++   Choose Launch instance and then select Launch instance from the dropdown list. Configure the following options:
+
+    +   In the Name and tags pane, in the Name text box, enter App Server
+    +   In the Application and OS Images (Amazon Machine Image) section, keep default selection, Amazon Linux 2.
+
+    +   In the Instance type section, keep the default instance type, t2.micro. 
+
+    +   In the Key pair (login) section, from the Key pair name - required dropdown list, choose Proceed without a key pair (not recommended).
+
+    +   In the Network settings section, choose Edit
+
+    +   From the VPC - required dropdown list, choose Lab VPC.
+
+    +   From the Subnet dropdown list, choose Public Subnet.
++   Ensure that Auto-assign public IP is Enable.
++   In the Firewall (security groups)  section, choose Select existing security group
+
+From the Common security group    dropdown list, choose App-SG.
+
+In the Configure storage section, keep the default storage configuration.
+
+Expand the Advanced details section.
