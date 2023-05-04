@@ -31,3 +31,9 @@ Tags are useful for identifying resources. For example, you can use a tag to ide
 +   Choose Actions  and select Edit VPC settings.
 
 In the DNS settings section, select  Enable DNS hostnames.
++   This option assigns a friendly Domain Name System (DNS) name to EC2 instances in the VPC, such as the following:
+
+ec2-52-42-133-255.us-west-2.compute.amazonaws.com
+
++   Choose Save.
+Any EC2 instances that are launched into the VPC now automatically receive a DNS hostname. You can also add a more-meaningful DNS name (such as app.example.com) later by using Amazon Route 53.
