@@ -228,8 +228,44 @@ To test that your VPC is correctly configured, you now launch an EC2 instance in
 +   Ensure that Auto-assign public IP is Enable.
 +   In the Firewall (security groups)  section, choose Select existing security group
 
-From the Common security group    dropdown list, choose App-SG.
+    +   From the Common security group    dropdown list, choose App-SG.
 
-In the Configure storage section, keep the default storage configuration.
++   In the Configure storage section, keep the default storage configuration.
 
-Expand the Advanced details section.
++   Expand the Advanced details section.
+    +   For IAM instance profile, choose the role Inventory-App-Role.
+
+    Scroll down to User data section, copy and paste the below code in the block.
+
+`   #!/bin/bash
+    # Install Apache Web Server and PHP
+    yum install -y httpd mysql
+    amazon-linux-extras install -y php7.2
+    # Download Lab files
+    wget https://aws-tc-largeobjects.s3-us-west-2.amazonaws.com/ILT-TF-200-ACACAD-20-EN/mod6-guided/scripts/inventory-app.zip
+    unzip inventory-app.zip -d /var/www/html/
+    # Download and install the AWS SDK for PHP
+    wget https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+    unzip aws -d /var/www/html
+    # Turn on web server
+    chkconfig httpd on
+    service httpd start `
+
++   From the Summary section, choose Launch instance
+
++   Choose View all instances
+
++   Wait for the application server to fully launch. It should display the following status:
+
+    +   Instance State:  Running
+
+    You can choose refresh   occasionally to update the display.
+
++   Select  App Server.
+
++   From the Details tab, copy the Public IPv4 address address.
+
++   Open a new browser tab, paste the IP address you just copied, and press Enter.
+
+   If you configured the VPC correctly, the Inventory application and this message should appear: Please configure Settings to connect to database. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.
+   If the Inventory application does not appear, wait for 60 seconds and refresh  the page to try again. It can take a couple of minutes for the EC2 instance to boot and run the script that installs the software.

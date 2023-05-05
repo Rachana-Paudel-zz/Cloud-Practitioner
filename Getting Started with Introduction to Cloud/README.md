@@ -236,7 +236,7 @@ In this, component are lossely couple. If single component fails other doesnot s
     <p> It is a web service that provides secure, resizable compute capacity in the cloud. It is designed to make web-scale cloud compuing easier for developers. You can use the simple web interface of Amzaon EC2 to obtain and configure capacity with minimal fricion. It provides you with complete contol of your computing resources, and you can run it on the proven computing environment of amazon.</p><br>
 
     2. `What problem does Amazon EC2 solve?`
-    It solves the problem of predicting upfront needs. Therefore, you dpnt need to know how much compute capacity or how much hard drive volume you will need when you set up your architecture. You can 
+    It solves the problem of predicting upfront needs. Therefore, you dont need to know how much compute capacity or how much hard drive volume you will need when you set up your architecture. You can 
     scaleup and down as you need to.   
 
     3.  ` What are the benefits of Amazon EC2?`
@@ -321,7 +321,7 @@ In this, component are lossely couple. If single component fails other doesnot s
         <img src="cost_cloudwatch.PNG" alt="" style="height::100%; width: =100%;"   >    
 
 +   ####    Amazon SNS(Simple Notification Server)
-    1.  What does Amazon SNS do?
+    1.  `What does Amazon SNS do?`
     <img src="sns1.PNG" alt="" style="height::100%; width: =100%;"   >
 
     2.  `What problem does SNS solve?`
