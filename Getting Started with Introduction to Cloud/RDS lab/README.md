@@ -17,6 +17,8 @@ Master username: `admin`
 Master password: `lab-password`
 Confirm password: `lab-password`
 
+<img src="DB_cluster.PNG" alt="" style="height::100%; width: =100%;"   >
+
 +   In the DB instance class section, configure the following options:
 
 Select  Burstable classes (includes t classes).
@@ -32,14 +34,27 @@ Virtual private cloud (VPC): Lab VPC
 
 +   Scroll to the Monitoring section, and clear (deselect) the Enable Enhanced monitoring option.
 +   Scroll to the Additional configuration section, and choose  to expand it. 
+
+<img src="additional configuration.PNG" alt="" style="height::100%; width: =100%;"   >
+
 +    For Initial database name, enter inventory
 +   At the bottom of the page, choose Create database
 	You should receive this message: Creating database inventory-db.
+
+    <img src="createdb.PNG" alt="" style="height::100%; width: =100%;"   >
+
+
+    If you receive an error message that mentions rds-monitoring-role, 	confirm that you   have cleared the Enable Enhanced monitoring option in the previous step, and then try again.
+
+	Before you continue to the next task, the database instance status must be Available. This process could take several minutes.
 
 ####    Task 2: Configuring web application communication with a database instance
 +   On the Services  menu, choose EC2.
 +   In the left navigation pane, choose Instances.
 In the center pane, there should be a running instance that is named App Server.
+
+<img src="app_server.PNG" alt="" style="height::100%; width: =100%;"   >
+
 +   Select the check box for the App Server instance.
 +   In the Details tab, copy the Public IPv4 address to your clipboard.
 +   Open a new web browser tab, paste the IP address into the address bar, and then press Enter.
@@ -54,8 +69,8 @@ It should look similar to this example: inventory-db.crwxbgqad61a.rds.amazonaws.
 
     +       For Endpoint, paste the endpoint you copied earlier.
     +   For Database, enter inventory
-    +   For Username, enteradmin
-    +   For Password, enter lab-password
+    +   For Username, enter `admin
+    +   For Password, enter `lab-password`
     +   Choose Save.
     The application will now connect to the database, load some initial data, and display information.
 +   You can use the web application to   Add inventory,  edit, and  delete inventory information.
