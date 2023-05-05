@@ -11,9 +11,12 @@ A VPC is a virtual network that is dedicated to your Amazon Web Services (AWS) a
 
 The VPC will have a Classless Inter-Domain Routing (CIDR) range of 10.0.0.0/16, which includes all IP address that start with 10.0.x.x. It contains more than 65,000 addresses. You later divide the addresses into separate subnets.
 +   Choose Create VPC.
+<img src="create vpc.PNG" alt="" style="height::100%; width: =100%;"   >
 
 +   Under Resources to create, choose VPC only.
+
 +   Configure the following settings:
+<img src="vpc setting.PNG" alt="" style="height::100%; width: =100%;"   >
 
 +   For Name tag enter Lab VPC
 
@@ -25,6 +28,8 @@ The VPC will have a Classless Inter-Domain Routing (CIDR) range of 10.0.0.0/16, 
 Key: Name
 Value: Lab VPC
 +   Choose Create VPC.
+<img src="created vpc.PNG" alt="" style="height::100%; width: =100%;"   >
+
 +   From the VPC Details page, choose the Tags tab.
 
 Tags are useful for identifying resources. For example, you can use a tag to identify cost centers or different environments (such as development, test, or production).
@@ -36,6 +41,7 @@ In the DNS settings section, select  Enable DNS hostnames.
 ec2-52-42-133-255.us-west-2.compute.amazonaws.com
 
 +   Choose Save.
+<img src="task1 save.PNG" alt="" style="height::100%; width: =100%;"   >
 Any EC2 instances that are launched into the VPC now automatically receive a DNS hostname. You can also add a more-meaningful DNS name (such as app.example.com) later by using Amazon Route 53.
 
 ####    Task 2: Creating subnets
@@ -45,6 +51,7 @@ In this task, you create a public subnet and a private subnet:
 In the left navigation pane, choose Subnets.
 
 +   Choose Create subnet and configure the following settings:
+<img src="creates vpc.PNG" alt="" style="height::100%; width: =100%;"   >
 
 +   For VPC ID, choose Lab VPC.
 
@@ -96,6 +103,8 @@ An internet gateway serves two purposes:
 +   In the left navigation pane, choose Internet Gateways.
 
 +   Choose Create internet gateway and configure the following settings:
+<img src="internet gateaway.PNG" alt="" style="height::100%; width: =100%;"   >
+
 +   For Name tag, enter Lab IGW
 
     +   Choose Create internet gateway
