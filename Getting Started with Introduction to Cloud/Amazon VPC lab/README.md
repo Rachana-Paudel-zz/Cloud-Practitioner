@@ -87,7 +87,7 @@ You use the private subnet for resources that must remain isolated from the inte
 
 +   For IPv4 CIDR block, enter 10.0.2.0/23
 +   Choose Create subnet
-
+<img src="private subnet.PNG" alt="" style="height::100%; width: =100%;"   >
 The CIDR block of 10.0.2.0/23 includes all IP addresses that start with 10.0.2.x and 10.0.3.x. This is twice as large as the public subnet because most resources should be kept private unless they specifically must be accessible from the internet.
 
 Your VPC now has two subnets. However, the public subnet is totally isolated and cannot communicate with resources outside the VPC. Next, you configure the public subnet to connect to the internet via an internet gateway.
@@ -110,10 +110,14 @@ An internet gateway serves two purposes:
     +   Choose Create internet gateway
     +   You can now attach the internet gateway to your Lab VPC.
 
+<img src="created gateway.PNG" alt="" style="height::100%; width: =100%;"   >
+
 +   Choose Actions  and then Attach to VPC, and configure the following settings:
 
     +   For  Available VPCs, select Lab VPC.
     +   Choose Attach internet gateway
+
+    <img src="attach gateaway.PNG" alt="" style="height::100%; width: =100%;"   >
     This action attaches the internet gateway to your Lab VPC. Although you created an internet gateway and attached it to your VPC, you must also configure the public subnet route table so that it uses the internet gateway.
 
 ####    Task 4: Configuring route tables    
@@ -131,13 +135,15 @@ In this task, you:
 
 +   In the left navigation pane, choose Route Tables.
 
+<img src="route table.PNG" alt="" style="height::100%; width: =100%;"   >
+
 Several route tables are displayed, but there is only one route table associated with Lab VPC. This route table routes traffic locally, so it is a private route table.
 
 +   In the VPC column, find the route table that shows Lab VPC, and select the check box for this route table. (You can expand the column tosee the names.)
 
-In the Name column, choose  and then enter the name  Private Route Table and choose Save
++   In the Name column, choose  and then enter the name  Private Route Table and choose Save
 
-In the lower half of the page, choose the Routes tab.
++   In the lower half of the page, choose the Routes tab.
 
 There is only one route. It shows that all traffic that is destined for 10.0.0.0/16 (which is the range of the Lab VPC) will be routed locally. This route allows all subnets in a VPC to communicate with each other.
 You now create a new public route table to send public traffic to the internet gateway.
@@ -151,6 +157,7 @@ You now create a new public route table to send public traffic to the internet g
 
 +   In the Routes tab, choose Edit routes
 
+<img src="edit route.PNG" alt="" style="height::100%; width: =100%;"   >
 You now add a route to direct internet-bound traffic (0.0.0.0/0) to the internet gateway.
 
 +   Choose Add route and then configure the following settings:
@@ -168,6 +175,8 @@ The last step associates this new route table with the public subnet.
 +   Select the row with Public Subnet.
 
 +   Choose Save associations
+
+<img src="edit subnet association.PNG" alt="" style="height::100%; width: =100%;"   >
 
  The public subnet is now public because it has a route table entry that sends traffic to the internet via the internet gateway.
 To summarize, you can create a public subnet by following these steps:
@@ -194,12 +203,14 @@ In this task, you create a security group that allows users to access your appli
     +   For VPC, choose Lab VPC.
 
 +   Choose Create security group
+<img src="security groups created.PNG" alt="" style="height::100%; width: =100%;"   >
 
 +   Choose the Inbound Rules tab.
 
 The settings for Inbound Rules determine what traffic is permitted to reach the instance. You configure it to permit HTTP (port 80) traffic that comes from anywhere on the internet (0.0.0.0/0).
 
 +   Choose Edit inbound rules
+<img src="edit inbound rule.PNG" alt="" style="height::100%; width: =100%;"   >
 
 +   Choose Add rule and then configure the following settings:
     +   For Type, choose HTTP.
@@ -214,8 +225,6 @@ You use this App-SG in the next task.
 
 ####    Task 6: Launching an application server in the public subnet
 
-
-
 To test that your VPC is correctly configured, you now launch an EC2 instance into the public subnet. You also confirm that you can access the EC2 instance from the internet.
 
 +   On the Services  menu, choose EC2.
@@ -229,9 +238,10 @@ To test that your VPC is correctly configured, you now launch an EC2 instance in
 
     +   In the Key pair (login) section, from the Key pair name - required dropdown list, choose Proceed without a key pair (not recommended).
 
-    +   In the Network settings section, choose Edit
+    +   In the Network settings section, choose `Edit`
+    <img src="network setting.PNG" alt="" style="height::100%; width: =100%;"   >
 
-    +   From the VPC - required dropdown list, choose Lab VPC.
+    +   From the VPC - required dropdown list, choose `Lab VPC`.
 
     +   From the Subnet dropdown list, choose Public Subnet.
 +   Ensure that Auto-assign public IP is Enable.
@@ -261,13 +271,14 @@ To test that your VPC is correctly configured, you now launch an EC2 instance in
     service httpd start `
 
 +   From the Summary section, choose Launch instance
+<img src="launch instance.PNG" alt="" style="height::100%; width: =100%;"   >
 
 +   Choose View all instances
 
 +   Wait for the application server to fully launch. It should display the following status:
 
     +   Instance State:  Running
-
+<img src="runing instance.PNG" alt="" style="height::100%; width: =100%;"   >
     You can choose refresh   occasionally to update the display.
 
 +   Select  App Server.
@@ -278,3 +289,6 @@ To test that your VPC is correctly configured, you now launch an EC2 instance in
 
    If you configured the VPC correctly, the Inventory application and this message should appear: Please configure Settings to connect to database. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.
    If the Inventory application does not appear, wait for 60 seconds and refresh  the page to try again. It can take a couple of minutes for the EC2 instance to boot and run the script that installs the software.
+
+####    `SUBMIT WORK`
+<img src="submit work.PNG" alt="" style="height::100%; width: =100%;"   >   
