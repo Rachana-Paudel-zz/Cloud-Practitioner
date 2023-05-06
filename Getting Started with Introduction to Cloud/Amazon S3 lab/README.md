@@ -9,9 +9,11 @@ An S3 bucket name is globally unique, and all AWS accounts share the namespace. 
 Thus, for this lab, you use a bucket name that includes a random number, such as website-123.
 +   For Bucket name, enter website-<123> and replace <123> with a random number.
 
+
+
 Public access to buckets is blocked by default. Because the files in your static website will need to be accessible through the internet, you must permit public access.
 
-+   First Under ObjectOwnership choose ACL enabled.
++   First Under Object Ownership choose ACL enabled.
 
 +   Choose Bucket owner preferred.
 
@@ -129,5 +131,4 @@ Your name should now be on the page.
 Your static website is now accessible on the internet. Because it is hosted on Amazon S3, the website has high availability and can serve high volumes of traffic without using any servers.
 
 You can also use your own domain name to direct users to a static website that is hosted on Amazon S3. To accomplish this, you could use the Amazon Route 53 Domain Name System (DNS) service in combination with Amazon S3.
-####    `Submitting work`
-<img src="submit.PNG" alt=" " style="height: 100%; width:100%;"/>
+####    `End lab`

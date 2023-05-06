@@ -66,7 +66,6 @@ On the Services  menu, choose RDS.
 +   Scroll to the Connectivity & security section, and copy the Endpoint to your clipboard.
 It should look similar to this example: inventory-db.crwxbgqad61a.rds.amazonaws.com
 +   Return to the browser tab with the inventory application, and enter the following values:
-
     +       For Endpoint, paste the endpoint you copied earlier.
     +   For Database, enter inventory
     +   For Username, enter `admin

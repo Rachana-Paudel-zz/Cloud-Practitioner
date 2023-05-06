@@ -36,3 +36,6 @@ Click [RDS](https://awseducate.instructure.com/courses/746/modules) to start lea
 
 +   ## <a href="./Getting Started with Introduction to Cloud/Amazon DynamoDB lab/README.md">Amazon DynamoDB lab</a>
 Click [Amazon DynamoDB lab](https://awseducate.instructure.com/courses/746/modules) to start learning.
+
++   ## <a href="./Getting Started with Introduction to Cloud/Amazon S3 lab/README.md">Amazon S3 lab</a>
+Click [Amazon S3 lab](https://awseducate.instructure.com/courses/768/assignments/3159?module_item_id=13575)to start learning.
