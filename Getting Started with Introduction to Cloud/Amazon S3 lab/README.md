@@ -53,3 +53,21 @@ You receive a 403 Forbidden message because you have not yet configured the buck
 You have configured your bucket to host a static website.
 
 
+####    Task 2: Uploading content to your bucket
+In this task, you upload the static files to your bucket.
+
++   Right-click each of the following links, and download the files to your computer:
+Ensure that each file keeps the same file name, including the extension.
+
+  +   index.html
+    +   script.js
+    +   style.css
+
+   
+
+Return to the Amazon S3 console, and choose the Objects tab.
+Choose Upload
+Choose Add files
+Choose the three files that you downloaded.
++   Choose Upload
+Your files are uploaded to the bucket.
