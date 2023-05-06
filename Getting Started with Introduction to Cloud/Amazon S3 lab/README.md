@@ -22,3 +22,34 @@ Public access to buckets is blocked by default. Because the files in your static
     +   Key: Department
     +   Value: Marketing
     You can use tags to add additional information to a bucket, such as a project code, cost center, or owner.
+
+    Choose Create bucket
+
+In the Buckets section, choose the name of your new bucket.
+
+Choose the Properties tab.
+
+You will now configure the bucket for static website hosting.
+
++   Scroll to the Static website hosting panel.
+
++   Choose Edit
+
++   Configure the following settings:
+
+    +   Static web hosting: Choose Enable.
+
+    +   Hosting type: Choose Host a static website.
+    +   Index document: Enter index.html
+
+    Note: You must enter this value even though it is already displayed.
+    +   Error document: Enter error.html
++   Choose Save changes
+
++   In the Static website hosting panel under Bucket website endpoint, choose the link.
+
+You receive a 403 Forbidden message because you have not yet configured the bucket permissions. Keep this tab open in your web browser so that you can return to it later.
+
+You have configured your bucket to host a static website.
+
+
