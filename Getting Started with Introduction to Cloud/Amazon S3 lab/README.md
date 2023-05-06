@@ -102,4 +102,21 @@ Your static website is now publicly accessible.
 
 +   Return to the web browser tab that has the 403 Forbidden message.
 +   Refresh  the webpage.
-You should now see the static website that is being
+You should now see the static website that is being hosted by Amazon S3.
+
+####    Task 4: Updating the website
+You can change the website by editing the HTML file and uploading it again to the S3 bucket.
+
+Amazon S3 is an object storage service, so you must upload the whole file. This action replaces the existing object in your bucket. You cannot edit the contents of an object; instead, you must replace the whole object.
+
++   On your computer, load the index.html file into a text editor (for example, Notepad or TextEdit).
++   Find the text Served from Amazon S3, and replace it with Created by <YOUR-NAME>, substituting your name for <YOUR-NAME> (for example, Created by Jane).
++   Save the file.
++   Return to the Amazon S3 console, and upload the index.html file that you just edited.
++   Select  index.html, and in the Actions menu, choose the Make public option again.
++   Return to the web browser tab with the static website, and refresh  the page.
+Your name should now be on the page.
+
+Your static website is now accessible on the internet. Because it is hosted on Amazon S3, the website has high availability and can serve high volumes of traffic without using any servers.
+
+You can also use your own domain name to direct users to a static website that is hosted on Amazon S3. To accomplish this, you could use the Amazon Route 53 Domain Name System (DNS) service in combination with Amazon S3.
