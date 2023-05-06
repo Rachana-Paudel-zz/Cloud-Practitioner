@@ -15,7 +15,7 @@ We begin our journey from AWS educate course. Click [Getting Started with Intern
 ## <a href="./Getting Started with Introduction to Cloud/README.md">Getting Started with Introduction to Cloud</a>
 We begin our journey from AWS educate course. Click[Getting Started with Introduction to Cloud](https://awseducate.instructure.com/courses/746/modules) to start learning.
 
-####    <b>AWS_Core_Lab</b>
+####    <b>AWS_Core_Labs</b>
 
 +   ##  <a href="./Getting Started with Introduction to Cloud/AWS_core_Service_lab(Amazon S3)/README.md">Amazon S3</a>
 
