@@ -480,7 +480,7 @@ In this, component are lossely couple. If single component fails other doesnot s
 #####   4.`Basic qualifications`
 +   Bachelor degree or equivalence
 +   Experience with system administration, network administration, IT security systems architecture or other technical discipline
-+   Scripting in a cloud-based language such as python, java or .NET
++   Scripting in a cloud-based language such as Python, Java or .NET
 +   AWS Certifications
 
 #####   5.`Solutions architect career pathway`
@@ -494,4 +494,6 @@ In this, component are lossely couple. If single component fails other doesnot s
 +   Educators
 +   Startups
 
-
+### Module6
+####    Final Assesment
+The final assesments consists of question answer where numbers of quesions were given and we have to choose right among them.
