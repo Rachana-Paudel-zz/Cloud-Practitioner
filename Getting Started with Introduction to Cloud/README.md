@@ -452,3 +452,46 @@ In this, component are lossely couple. If single component fails other doesnot s
 
 ### Module5
 ####    Cloud careers
+#####   1. `Objectives`
++   Describe the benefits of a cloud career
++   Identify different career pathways into the cloud
++   Discuss flexibility to grow youe career in the cloud
+
+#####   2. `Why choose a career in the cloud?`
++   Hundreds of services : basic compute needs to advance machine learning
++   Global operations: 
++   Millions of customers
++   create job opportunities in the world
+
+#####   3.`Benefis of a career in the world`
++   Variety of roles
+    +   help desk associates
+    +   Solutions architect
+    +   Machine learning specialist
++   High-paying jobs
+    +   Entry level up to $85,000   
+    +   Experienced professional upto $200,000
+    +   Average cloud salary $150,000
++   Work-life balance
+    +   Jobs tha require travel
+    +   Jobs where you can work remotely
+    +   In-office jobs
+
+#####   4.`Basic qualifications`
++   Bachelor degree or equivalence
++   Experience with system administration, network administration, IT security systems architecture or other technical discipline
++   Scripting in a cloud-based language such as python, java or .NET
++   AWS Certifications
+
+#####   5.`Solutions architet career pathway`
+
+<img src="solution architect.PNG" alt="" style="height:100%; width:100%">
+
+#####   6.`Cloud Career variety`
++   IT pro
++   Sales
++   Mangaers
++   Educators
++   Startups
+
+
