@@ -449,3 +449,6 @@ In this, component are lossely couple. If single component fails other doesnot s
 
     7.  `How much does DynamoDB cost?`
      : DynamoDB changes for reading, writing, and storing data in your DynamoDB tables, along with any optional features you choose to enable. DynamoDB has two capacity modes(on-demand and provisioned), both of which come with specific billing options for processing reads and writes on your tables.
+
+### Module5
+####    Cloud careers
