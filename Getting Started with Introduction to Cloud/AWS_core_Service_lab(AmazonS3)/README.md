@@ -174,7 +174,8 @@ arn:aws:s3:::reportbucket987987`
 +   Choose Generate Policy.
 
 A new window displays the generated policy in JSON format. It should look similar to the following:
-`{
+```
+{
     "Version": "2012-10-17",
     "Id": "Policy1604361694227",
     "Statement": [
@@ -192,7 +193,8 @@ A new window displays the generated policy in JSON format. It should look simila
             "Resource": "*"
         }
     ]
-}`
+}
+```
 
 +   Copy the policy that you created to your clipboard.
 +   Close the web browser tab, and return to the S3 Management Console tab with the Bucket policy editor.
@@ -215,9 +217,12 @@ The output should be as follows:
 The command should look similar to the following: aws s3 ls s3://reportbucket987987
 
  The output should look similar to the following:
- sh-4.2$ aws s3 ls s3://reportbucket987987
-`2020-11-02 23:20:27      86065 new-report.png`
+
+```
+sh-4.2$ aws s3 ls s3://reportbucket987987
+2020-11-02 23:20:27      86065 new-report.png
 2020-11-02 23:57:03         90 sample-file.txt
+```
 +   Enter the following command to list the contents of the reports directory.
 `ls`
 
@@ -234,9 +239,11 @@ The output returns the following:
 `aws s3 ls s3://reportbucket(NUMBER)`
 The output should look similar to the following:
 
-`2020-11-11 18:20:23      86065 new-report.png
+```
+2020-11-11 18:20:23      86065 new-report.png
 2020-11-11 18:32:18         31 report-test1.txt
-2020-11-11 18:20:22         90 sample-file.txt`
+2020-11-11 18:20:22         90 sample-file.txt
+```
 You have successfully uploaded (PutObject) a file from the EC2 instance to your S3 bucket.
 
 +   In the command below, replace (NUMBER) with the number you used to create your bucket. Enter your adjusted command to retrieve (GetObject) a file from Amazon S3 to the EC2 instance.
@@ -250,19 +257,24 @@ You have successfully uploaded (PutObject) a file from the EC2 instance to your 
 
 The output should look similar to the following:
 
-`dolphins.jpg  files.zip  report-test1.txt  report-test2.txt  report-test3.txt  sample-file.txt`
+```
+dolphins.jpg  files.zip  report-test1.txt  
+report-test2.txt  report-test3.txt  sample-file.txt
+```
 You now see the sample-file.txt in your file list. Congratulations! You have successfully uploaded and retrieved a file from Amazon EC2 to the S3 bucket.
 
 +   Return to the browser tab that displayed the Access Denied error for the sample-file.txt, and refresh  the page.
 
 +   Go to the AWS Policy Generator, and add another statement to the bucket policy allowing everyone (*) read access (GetObject). Take a moment to  generate this policy. This policy allows the EC2InstanceProfileRole to have access to the bucket while giving everyone access to read the objects via the browser.
-`{
+```
+{
             "Sid": "Stmt1604428842806",
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
             "Resource": "arn:aws:s3:::reportbucket987987/*"
-}`
+}
+```
 
 To test if your policy works, go to your browser with the Access Denied error and refresh it. If you can read the text, then congratulations! Your policy was successful. 
 If not, look at the following policy for help. The modified policy should look like the following policy. Notice that there are two statements: one with the EC2InstanceProfileRole and one where the principal is "*" for everyone.
@@ -270,7 +282,8 @@ If not, look at the following policy for help. The modified policy should look l
 
 If you had trouble generating the policy on your own, you can copy he policy below and paste it into the BucketPolicy Editor. Remember to replace the existing EC2InstanceProfileRole ARN in the policy below with the EC2InstanceProfileRole ARN you copied in a previous step. Ensure that you replace the reportbucket example ARN with the bucket you created and the /* appears at the end of the Bucket ARN. See the last line of the policy as an example.
 
-`{
+```
+{
     "Version": "2012-10-17",
     "Id": "Policy1604428844058",
     "Statement": [
@@ -295,7 +308,8 @@ If you had trouble generating the policy on your own, you can copy he policy bel
             "Resource": "arn:aws:s3:::reportbucket987987/*"
         }
          ]
-}`
+}
+```
 Leave the tab open with the sample-file.txt displayed. You return to this tab in the next task.
 In this task, you created a bucket policy to allow specific access rights to your bucket. In the next section, you explore how to keep copies of files to prevent against accidental deletion.
 
@@ -318,7 +332,8 @@ Under the Objects section, find  Show versions.
 You should now see the original version of the file using the Amazon S3 Management Console.
 
 However, if you try to access the older version of the sample-file.txt file using the object URL link, you will receive an access denied message. This message is expected because the bucket policy you created in the previous task allows permission to access only the latest version of the object. In order to access a previous version of the object, you need to update your bucket policy to include the s3:GetObjectVersion permission. The following bucket policy example includes the additional s3:GetObjectVersion action that allows you to access the older version using the link. You do not need to update your bucket policy with this example to complete this lab. You can try to do this on your own after you complete the task.
-`{
+```
+{
     "Id": "Policy1557511288767",
     "Version": "2012-10-17",
     "Statement": [
@@ -333,7 +348,8 @@ However, if you try to access the older version of the sample-file.txt file usin
         "Principal": "*"
     }
     ]
-}`
+}
+```
 +   Return to the AWS Management Console tab, and choose the link for the bucket name at the upper left to return to the bucket overview tab.
 +   Locate the  Show versions option, and toggle the button to on  to show the versions.
 +   Next to Show versions, toggle the button to off  to return to the default object view.
