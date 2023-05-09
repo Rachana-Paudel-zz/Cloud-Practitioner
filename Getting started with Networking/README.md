@@ -39,6 +39,22 @@ All shortcuts	Shift+?
 
 
 
+####	3.	Introduction to Networking
+Computer network is two or more devices connected together to share resources. 
+Devices on network are called nodes. Nodes on network are divided into two categories are
+i.	Host node
+Centralized node that shares files, applications, and resources with other nodes on the network
+Examples:
++	File Servers
++	Email Servers
++	Web Servers
+
+ii.	Client node
+Nodes that depend on the host node for files, applications, and resources
+Examples
++	Computers
++	Printers
++	Mobile devices
 
 
 
