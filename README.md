@@ -33,7 +33,7 @@ We begin our journey from AWS educate course. Click[Getting Started with Introdu
      Click [Amazon DynamoDB lab](https://awseducate.instructure.com/courses/746/modules) to start learning.
 
 +   ## <a href="./Getting Started with Introduction to Cloud/Amazon S3 lab/README.md">Amazon S3 lab</a>
-     Click [Amazon S3 lab](https://awseducate.instructure.com/courses/768/assignments/3159?module_item_id=13575)to start learning.
+     Click [Amazon S3 lab](https://awseducate.instructure.com/courses/768/assignments/3159?module_item_id=13575) to start learning.
 
 ## <a href="./Getting Started with Cloud Operations/README.md">Getting Started with Cloud Operations</a>
 We begin our journey from AWS educate course. Click [Getting Started with Cloud Operations](https://awseducate.instructure.com/courses/889) to start learning.
