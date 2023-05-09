@@ -24,3 +24,40 @@ iv.	Managing your network
 +	AWS Direct Connect
 +	Other AWS networking services
 
+####	2.	Keyboard Shortcuts
+i.	Windows keys
+Play/Pause	Ctrl+Alt+P
+Previous slide	Ctrl+Alt+,(Comma)
+Next slide	Ctrl+Alt+.(period)
+All shortcuts	Shift+?
+
+ii.	Mac keys
+Play/Pause	Ctrl+Option+P
+Previous slide	Ctrl+Option+,(Comma)
+Next slide	Ctrl+Option+.(period)
+All shortcuts	Shift+?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
