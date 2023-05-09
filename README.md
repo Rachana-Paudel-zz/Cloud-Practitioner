@@ -12,6 +12,8 @@ We begin our journey from AWS educate course. Click [Getting Started with Cloud 
 ## <a href="./Getting Started with Internet Basics/README.md">Getting Started with Internet Basics</a>
 We begin our journey from AWS educate course. Click [Getting Started with Internet Basics](https://awseducate.instructure.com/courses/546) to start learning.
 
+
+
 ## <a href="./Getting Started with Introduction to Cloud/README.md">Getting Started with Introduction to Cloud</a>
 We begin our journey from AWS educate course. Click[Getting Started with Introduction to Cloud](https://awseducate.instructure.com/courses/746/modules) to start learning.
 
@@ -44,5 +46,5 @@ We begin our journey from AWS educate course. Click[Getting Started with Introdu
 +   ## <a href="./Getting Started with Introduction to Cloud/Amazon S3 lab/README.md">Amazon S3 lab</a>
     Click [Amazon S3 lab](https://awseducate.instructure.com/courses/768/assignments/3159?module_item_id=13575)to start learning.
 
-## <a href="./Getting Started with Networking/README.md">Getting Started with Networking/a>
+## <a href="./Getting started with Networking/README.md">Getting Started with Networking/a>
 We begin our journey from AWS educate course. Click[Getting Started with Networking](https://awseducate.instructure.com/courses/866/pages/getting-started-with-networking?module_item_id=14945) to start learning.
