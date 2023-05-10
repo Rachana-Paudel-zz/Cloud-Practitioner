@@ -65,7 +65,7 @@ Examples
     +   Web servers: stores and distributes web pages and other web content by using HTTP
     +   File server:    Stores and distributes files
     +   Database server: Stores databases and manages access to the databases
-    +   Prin server: Controls and manages one or more remote printers on the network
+    +   Print server: Controls and manages one or more remote printers on the network
     +   Mail server: Stores and delivers email, like a digital post office
     +   Proxy server: Improves security by acting as an intermediary ror requests from clients that are seeking resources
 
