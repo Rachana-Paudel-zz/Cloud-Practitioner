@@ -84,7 +84,7 @@ Examples
 
 +   Network nodes
 
-<img src="assets/network_nodes.PNG" alt="network_nodes" style="height:100%; width:100%">
+    <img src="assets/network_nodes.PNG" alt="network_nodes" style="height:100%; width:100%">
 
 
 
