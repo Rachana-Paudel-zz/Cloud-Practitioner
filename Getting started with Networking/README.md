@@ -74,6 +74,8 @@ Examples
     It is an organization that provides internet access to its customers. Without the services that an ISP offers, you would no be able to access other networks on the internet.
 
 +       Cloud
+    It is on-demand delievery of IT resources over the interne. You don't need to buy, own, and maintain physical data centers and servers. Instead, you can access technology services, such as servers, storage, and databases, on an as-needed basis from cloud provider like AWS.
+    
 +   Hubs and Switches
 +   Network nodes
 
