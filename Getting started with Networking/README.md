@@ -56,6 +56,24 @@ Examples
 +	Printers
 +	Mobile devices
 
+####    Network Components
++       Server
+    A sever is a physical computer that runs software services that other computer devices or software can access. Servers are distinguished by the service that they provide. Common use cases for servers include the following:
+    +   Web servers: stores and distributes web pages and other web content by using HTTP
+    +   File server:    Stores and distributes files
+    +   Database server: Stores databases and manages access to the databases
+    +   Prin server: Controls and manages one or more remote printers on the network
+    +   Mail server: Stores and delivers email, like a digital post office
+    +   Proxy server: Improves security by acting as an intermediary ror requests from clients that are seeking resources
+
+    
++   Router
++   Internet services provider
++   Cloud
++   Hubs and Switches
++   Network nodes
+
+
 
 
 
