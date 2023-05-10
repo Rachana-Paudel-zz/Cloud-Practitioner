@@ -67,7 +67,8 @@ Examples
     +   Proxy server: Improves security by acting as an intermediary ror requests from clients that are seeking resources
 
     
-+   Router
++       Router
+    A router is a network device that connects multiple network segments into one network. It is located at any gateway. The router connects multiple switeched and theru respective networks to enable communicatuon between the different networks. It acts as a switch between neworks and can also filter the data tha flows through it. As soon as the router is connected, it can make intelligent decisions about how best to get network data to its destination. It nases tjese decisions on network performance data tha it gathers from the network itself.
 +   Internet services provider
 +   Cloud
 +   Hubs and Switches
