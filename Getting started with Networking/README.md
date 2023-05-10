@@ -58,7 +58,7 @@ Examples
 
 ####    Network Components
 
-<img src="component.PNG" alt="component" style="height:100%; width:100%">
+<img src="assets/component.PNG" alt="component" style="height:100%; width:100%">
 
 +       Server
     A sever is a physical computer that runs software services that other computer devices or software can access. Servers are distinguished by the service that they provide. Common use cases for servers include the following:
@@ -80,11 +80,11 @@ Examples
     It is on-demand delievery of IT resources over the interne. You don't need to buy, own, and maintain physical data centers and servers. Instead, you can access technology services, such as servers, storage, and databases, on an as-needed basis from cloud provider like AWS.
 
 +       Hubs and Switches
-    <img src="hubs_switch.PNG" alt="hubs_switch" style="height:100%; width:100%">
+    <img src="assets/hubs_switch.PNG" alt="hubs_switch" style="height:100%; width:100%">
 
 +   Network nodes
 
-<img src="network_nodes.PNG" alt="network_nodes" style="height:100%; width:100%">
+<img src="assets/network_nodes.PNG" alt="network_nodes" style="height:100%; width:100%">
 
 
 
