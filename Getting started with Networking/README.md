@@ -115,6 +115,7 @@ The layers are:
 
 
 ### Network Models
+
 <img src="network_model.PNG" alt="model" style="height:100%; width:100%">
 
 1.      Peer-peers model: 
