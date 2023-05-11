@@ -90,7 +90,7 @@ Examples
 ### OSI Model
 It is a suite of protocols, or rules, to govern how computers communicate with one another.
 The layers are:
-<img src="osi.PNG" alt="osi" style="height::100%; width::100%">
+<img src="assets/osi.PNG" alt="osi" style="height::100%; width::100%">
 
 1.      Physical layer:
     It defines standards for transmitting raw data(bits) over transmission media to connect network nodes. The physical layer provides an electrical, mechanical, and procedural interface to the transmission medium.
@@ -116,7 +116,7 @@ The layers are:
 
 ### Network Models
 
-<img src="network_model.PNG" alt="model" style="height::100%; width::100%">
+<img src="assets/network_model.PNG" alt="model" style="height:100%; width:100%">
 
 1.      Peer-peers model: 
     It is a computer system connected to each other for the purpose of distributing workloads. They could also be used for sharing resources such as files, printers, and storage.
