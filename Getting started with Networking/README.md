@@ -90,25 +90,26 @@ Examples
 ### OSI Model
 It is a suite of protocols, or rules, to govern how computers communicate with one another.
 The layers are:
-1.  Physical layer:
+1.      Physical layer:
     It defines standards for transmitting raw data(bits) over transmission media to connect network nodes. The physical layer provides an electrical, mechanical, and procedural interface to the transmission medium.
 
-2.  Data link layer:
+2.      Data link layer:
     It defines standards for transferring data between adjacent network nodes in a wide area network(WAN) or between nodes on the same local area network(LAN) segment. This layer can provide the means to detect and possibly correct errors that might occur in the physical layer.
 
-3.  Network layer:
+3.      Network layer:
     It is responsible for communication across different networks. It provides the means of transferring variable-length network packets from a source to a destination host through one or more networks.
 
-4.    Transport layer:
+4.      Transport layer:
     It provides transport transfer of data between users, and it provides reliable data transfer services to the upper layers. The transport layer controls the reliability of a given link through flow control, segmenation and desegmentation, and error control. This layer also provides the acknowledgement of a successful data transmission and sends the next data if no errors occured.
 
 5.      Session layer:
     It provides the mechanism for opening, closing, and managing a session between user application processes. Communication sessions consist of requests and responses that occur between applications.
 
-6.  Presentation layer:
+6.      Presentation layer:
     It is responsible for formatting and delivering information to the application layer for further processing or display. It translates data bases on that the application accepts.
 
-7.  
+7.  Application layer:
+    It is closet to the user, which means that both the OSI application layer and the user interact directly with the software application. The function typically include identifying communication partners, determining resource availability, and synchronizing communication.
 
 
 
