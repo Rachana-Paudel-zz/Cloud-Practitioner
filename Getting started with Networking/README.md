@@ -71,13 +71,13 @@ Examples
 
     
 +       Router
-    A router is a network device that connects multiple network segments into one network. It is located at any gateway. The router connects multiple switeched and theru respective networks to enable communicatuon between the different networks. It acts as a switch between neworks and can also filter the data tha flows through it. As soon as the router is connected, it can make intelligent decisions about how best to get network data to its destination. It nases tjese decisions on network performance data tha it gathers from the network itself.
+    A router is a network device that connects multiple network segments into one network. It is located at any gateway. The router connects multiple switched and their respective networks to enable communication between the different networks. It acts as a switch between neworks and can also filter the data tha flows through it. As soon as the router is connected, it can make intelligent decisions about how best to get network data to its destination. It bases these decisions on network performance data that it gathers from the network itself.
 
 +       Internet services provider
     It is an organization that provides internet access to its customers. Without the services that an ISP offers, you would no be able to access other networks on the internet.
 
 +       Cloud
-    It is on-demand delievery of IT resources over the interne. You don't need to buy, own, and maintain physical data centers and servers. Instead, you can access technology services, such as servers, storage, and databases, on an as-needed basis from cloud provider like AWS.
+    It is on-demand delievery of IT resources over the internet. You don't need to buy, own, and maintain physical data centers and servers. Instead, you can access technology services, such as servers, storage, and databases, on an as-needed basis from cloud provider like AWS.
 
 +       Hubs and Switches
     <img src="assets/hubs_switch.PNG" alt="hubs_switch" style="height:100%; width:100%">
@@ -87,7 +87,11 @@ Examples
     <img src="assets/network_nodes.PNG" alt="network_nodes" style="height:100%; width:100%">
 
 
-
+### OSI Model
+It is a suite of protocols, or rules, to govern how computers communicate with one another.
+The layers are:
+1.  Physical layer:
+    It defines standards for transmitting raw data(bits) over transmission media to connect network nodes. The physical layer provides an electrical, mechanical, and procedural interface to the transmission medium.
 
 
 
