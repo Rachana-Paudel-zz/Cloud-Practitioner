@@ -105,7 +105,8 @@ The layers are:
 5.      Session layer:
     It provides the mechanism for opening, closing, and managing a session between user application processes. Communication sessions consist of requests and responses that occur between applications.
 
-
+6.  Presentation layer:
+    It is responsible for formatting and delivering information to the application layer for further processing or display. It translates data bases on that the application accepts.
 
 
 
