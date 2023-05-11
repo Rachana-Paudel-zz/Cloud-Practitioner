@@ -108,7 +108,7 @@ The layers are:
 6.  Presentation layer:
     It is responsible for formatting and delivering information to the application layer for further processing or display. It translates data bases on that the application accepts.
 
-
+7.  
 
 
 
