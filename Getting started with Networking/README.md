@@ -119,22 +119,22 @@ The layers are:
 
 1.      Peer-peers model: 
 It is a computer system connected to each other for the purpose of distributing workloads. They could also be used for sharing resources such as files, printers, and storage.
-In this network model,each node has is own daa and application and is responsible for its own management and security. Peers are equally privileged participants in the architecture.
+    In this network model,each node has is own daa and application and is responsible for its own management and security. Peers are equally privileged participants in the architecture.
     For example, files can be shared directly between systems on the network without the need for a central server,
 
-Use cases:
+    Use cases:
 +   USers are responsible for backing up each node.
-+   Securiy requirements are not restrictive.
-+   A limited number of peers are used.
+    +   Securiy requirements are not restrictive.
+    +   A limited number of peers are used.
 
 2.      Client-server model: 
-In this model, the data management and application hosting are centralized at the server and distributed to the clients. All clients on the network must use the designated server to access shared files and information that are stored on the serving computer.
-If the server goes down, no client is able to access the network until the server is restored.
-The following are examples:
-+   File server and desktop clients.
-+   Print server and desktop clients.
+    In this model, the data management and application hosting are centralized at the server and distributed to the clients. All clients on the network must use the designated server to access shared files and information that are stored on the serving computer.
+    If the server goes down, no client is able to access the network until the server is restored.
+    The following are examples:
+    +   File server and desktop clients.
+    +   Print server and desktop clients.
 
-Use case: Most business networking architecture.
+    Use case: Most business networking architecture.
 
 
 
