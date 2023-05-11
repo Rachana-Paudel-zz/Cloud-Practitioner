@@ -102,7 +102,7 @@ The layers are:
     It is responsible for communication across different networks. It provides the means of transferring variable-length network packets from a source to a destination host through one or more networks.
 
 4.      Transport layer:
-    It provides transport transfer of data between users, and it provides reliable data transfer services to the upper layers. The transport layer controls the reliability of a given link through flow control, segmenation and desegmentation, and error control. This layer also provides the acknowledgement of a successful data transmission and sends the next data if no errors occured.
+    It provides transport transfer of data between users, and it provides reliable data transfer services to the upper layers. The transport layer controls the reliability of a given link through flow control, segmentation and desegmentation, and error control. This layer also provides the acknowledgement of a successful data transmission and sends the next data if no errors occurred.
 
 5.      Session layer:
     It provides the mechanism for opening, closing, and managing a session between user application processes. Communication sessions consist of requests and responses that occur between applications.
@@ -120,7 +120,7 @@ The layers are:
 
 1.      Peer-peers model: 
     It is a computer system connected to each other for the purpose of distributing workloads. They could also be used for sharing resources such as files, printers, and storage.
-    In this network model,each node has is own daa and application and is responsible for its own management and security. Peers are equally privileged participants in the architecture.
+    In this network model,each node has is own data and application and is responsible for its own management and security. Peers are equally privileged participants in the architecture.
     For example, files can be shared directly between systems on the network without the need for a central server,
     Use cases:
     +   Users are responsible for backing up each node.
