@@ -99,7 +99,11 @@ The layers are:
 3.  Network layer:
     It is responsible for communication across different networks. It provides the means of transferring variable-length network packets from a source to a destination host through one or more networks.
 
-4.    
+4.    Transport layer:
+    It provides transport transfer of data between users, and it provides reliable data transfer services to the upper layers. The transport layer controls the reliability of a given link through flow control, segmenation and desegmentation, and error control. This layer also provides the acknowledgement of a successful data transmission and sends the next data if no errors occured.
+
+5.      Session layer:
+    It provides the mechanism for opening, closing, and managing a session between user application processes. Communication sessions consist of requests and responses that occur between applications.
 
 
 
