@@ -90,6 +90,8 @@ Examples
 ### OSI Model
 It is a suite of protocols, or rules, to govern how computers communicate with one another.
 The layers are:
+<img src="osi.PNG" alt="osi" style="height:100%; width:100%">
+
 1.      Physical layer:
     It defines standards for transmitting raw data(bits) over transmission media to connect network nodes. The physical layer provides an electrical, mechanical, and procedural interface to the transmission medium.
 
@@ -108,7 +110,7 @@ The layers are:
 6.      Presentation layer:
     It is responsible for formatting and delivering information to the application layer for further processing or display. It translates data bases on that the application accepts.
 
-7.  Application layer:
+7.      Application layer:
     It is closet to the user, which means that both the OSI application layer and the user interact directly with the software application. The function typically include identifying communication partners, determining resource availability, and synchronizing communication.
 
 
