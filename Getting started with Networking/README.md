@@ -123,7 +123,7 @@ The layers are:
     For example, files can be shared directly between systems on the network without the need for a central server,
 
 Use cases:
-+   USers are responsible for backing up each node.
++   Users are responsible for backing up each node.
 +   Securiy requirements are not restrictive.
 +   A limited number of peers are used.
 
