@@ -96,6 +96,10 @@ The layers are:
 2.  Data link layer:
     It defines standards for transferring data between adjacent network nodes in a wide area network(WAN) or between nodes on the same local area network(LAN) segment. This layer can provide the means to detect and possibly correct errors that might occur in the physical layer.
 
+3.  Network layer:
+    It is responsible for communication across different networks. It provides the means of transferring variable-length network packets from a source to a destination host through one or more networks.
+
+4.    
 
 
 
