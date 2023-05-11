@@ -114,6 +114,17 @@ The layers are:
     It is closet to the user, which means that both the OSI application layer and the user interact directly with the software application. The function typically include identifying communication partners, determining resource availability, and synchronizing communication.
 
 
+### Network Models
+<img src="network_models.PNG" alt="osi" style="height:100%; width:100%">
+
+1.  Peer-peers model: computer system connected to each other for the purpose of distributing workloads. They could also be used for sharing resources such as files, printers, and storage.
+In this network model,each node has is own daa and application and is responsible for its own management and security. Peers are equally privileged participants in the architecture.
+For example, files can be shared directly between systems on the network without the need for a central server,
+
+Use cases:
++   Users are responsible for backing up each node.
++   Security requirements are not restrictive.
+2.  Client-server model
 
 
 
