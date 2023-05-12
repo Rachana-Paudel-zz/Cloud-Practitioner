@@ -164,6 +164,14 @@ The layers are:
 +   Is more commonly used and established.
 +   Is supported by all VPNs(unlike IPv6, which currently is not)
 
+<u>IPv6 addresses</u>
+
++   Example: 2600:1f18:22ba:8c00:ba86:a05e:a5ba:00ff
++   128 bits in length
++   Provides practically an unlimited number of IP addresses
++   Accomodates moreuser devices
++   Will eventually replace IPv4
+
 
 
 
