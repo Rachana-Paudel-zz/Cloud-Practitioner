@@ -136,7 +136,11 @@ The layers are:
 
     Use case: Most business networking architecture.
 
+### Network types
+1.  LAN
+    A LAN connects devices in a limited geogrpahical area such as a floor, building, or campus. LANs commonly use the Ethernet standarf for connecting devuces and usually have a high data-transfer rate. Wireless technology is also commonly used for a LAN.
 
+    <img src="assets/lan.PNG" alt="lan" style="height:100%; width:100%">
 
 
 
