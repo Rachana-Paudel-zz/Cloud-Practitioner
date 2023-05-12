@@ -142,10 +142,27 @@ The layers are:
 
     <img src="assets/lan.PNG" alt="lan" style="height:100%; width:100%">
 
+2.  WAN
+    A WAN connects devices in a large geographical area, such as in multiple cities or countries. WANs are used to connect LANs and use technologies such as fiber-optic cables and satellites to transmit data. The internet is considered ato be the largest WAN.
+
+     <img src="assets/wan.PNG" alt="wan" style="height:100%; width:100%">
 
 
+### Internet protocol (IP) address
 
+<img src="assets/ip.PNG" alt="ip" style="height:100%; width:100%">
 
+<img src="assets/ip1.PNG" alt="ip1" style="height:100%; width:100%">
+
+####    IPv6 and IPv6 addresses
+
+<u>IPv4 addresses</u>
+
++   Example :19.0.2.0
++   32 bits in length
++   Provides up to 4.3 billion IP addresses
++   Is more commonly used and established.
++   Is supported by all VPNs(unlike IPv6, which currently is not)
 
 
 
