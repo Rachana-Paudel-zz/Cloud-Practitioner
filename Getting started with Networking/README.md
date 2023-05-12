@@ -172,6 +172,9 @@ The layers are:
 +   Accomodates moreuser devices
 +   Will eventually replace IPv4
 
+### Classless Iner-Domain Routing (CIDR)
 
+<img src="assets/cidr.PNG" alt="cidr" style="height:100%; width:100%">
 
-
+### CIDR block example1
+<img src="assets/cidr_eg1.PNG" alt="cidr" style="height:100%; width:100%">
