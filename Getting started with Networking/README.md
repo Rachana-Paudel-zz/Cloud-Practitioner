@@ -138,12 +138,12 @@ The layers are:
 
 ### Network types
 1.   LAN: <br>
-    A LAN connects devices in a limited geogrpahical area such as a floor, building, or campus. LANs commonly use the Ethernet standarf for connecting devuces and usually have a high data-transfer rate. Wireless technology is also commonly used for a LAN.
+    A LAN connects devices in a limited geographical area such as a floor, building, or campus. LANs commonly use the Ethernet standard for connecting devices and usually have a high data-transfer rate. Wireless technology is also commonly used for a LAN.
 
     <img src="assets/lan.PNG" alt="lan" style="height:100%; width:100%">
 
 2.    WAN:<br>
-    A WAN connects devices in a large geographical area, such as in multiple cities or countries. WANs are used to connect LANs and use technologies such as fiber-optic cables and satellites to transmit data. The internet is considered ato be the largest WAN.
+    A WAN connects devices in a large geographical area, such as in multiple cities or countries. WANs are used to connect LANs and use technologies such as fiber-optic cables and satellites to transmit data. The internet is considered to be the largest WAN.
 
      <img src="assets/wan.PNG" alt="wan" style="height:100%; width:100%">
 
@@ -169,7 +169,7 @@ The layers are:
 +   Example: 2600:1f18:22ba:8c00:ba86:a05e:a5ba:00ff
 +   128 bits in length
 +   Provides practically an unlimited number of IP addresses
-+   Accomodates moreuser devices
++   Accommodates more user devices
 +   Will eventually replace IPv4
 
 ### Classless Iner-Domain Routing (CIDR)
