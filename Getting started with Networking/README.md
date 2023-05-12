@@ -176,5 +176,10 @@ The layers are:
 
 <img src="assets/cidr.PNG" alt="cidr" style="height:100%; width:100%">
 
-### CIDR block example1
+### CIDR block example
 <img src="assets/cidr_eg1.PNG" alt="cidr" style="height:100%; width:100%">
+
+<img src="assets/cidr_eg2.PNG" alt="cidr" style="height:100%; width:100%">
+
+### CIDR special case
+<img src="assets/cidr_specialcase.PNG" alt="cidr" style="height:100%; width:100%">
