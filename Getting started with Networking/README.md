@@ -209,3 +209,9 @@ When planning ahead not only computers, servers and printers are not the devices
 ### Subnet types
 1.      Public subnets
     A public subnet allows internet traffic that is routed through an internet gateway to reach the subnet. A public subnet might make a good choice if you have a website that is targetting customers.
+
+2.      Private subnets:   
+    It denies traffic to the subnet that is routed from the public internet. You should use a private subnet your network must connect to services outside your network but must restrict external services from initiating a connection to your network. Access to the public internet from a private subnet requires a NAT devices.
+
+### Your cloud in cloud
+<img src="assets/cloudincloud.PNG" alt="cloud" style="height:100%; width:100%">    
