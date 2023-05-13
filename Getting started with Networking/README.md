@@ -56,7 +56,7 @@ Examples
 +	Printers
 +	Mobile devices
 
-####    Network Components
+#####    Network Components
 
 <img src="assets/component.PNG" alt="component" style="height:100%; width:100%">
 
@@ -87,7 +87,7 @@ Examples
     <img src="assets/network_nodes.PNG" alt="network_nodes" style="height:100%; width:100%">
 
 
-### OSI Model
+##### OSI Model
 It is a suite of protocols, or rules, to govern how computers communicate with one another.
 The layers are:
 <img src="assets/osi.PNG" alt="osi" style="height::100%; width::100%">
@@ -114,7 +114,7 @@ The layers are:
     It is closet to the user, which means that both the OSI application layer and the user interact directly with the software application. The function typically include identifying communication partners, determining resource availability, and synchronizing communication.
 
 
-### Network Models
+#### Network Models
 
 <img src="assets/network_model.PNG" alt="model" style="height:100%; width:100%">
 
@@ -136,7 +136,7 @@ The layers are:
 
     Use case: Most business networking architecture.
 
-### Network types
+#### Network types
 1.   LAN: <br>
     A LAN connects devices in a limited geographical area such as a floor, building, or campus. LANs commonly use the Ethernet standard for connecting devices and usually have a high data-transfer rate. Wireless technology is also commonly used for a LAN.
 
@@ -148,13 +148,13 @@ The layers are:
      <img src="assets/wan.PNG" alt="wan" style="height:100%; width:100%">
 
 
-### Internet protocol (IP) address
+##### Internet protocol (IP) address
 
 <img src="assets/ip.PNG" alt="ip" style="height:100%; width:100%">
 
 <img src="assets/ip1.PNG" alt="ip1" style="height:100%; width:100%">
 
-####    IPv6 and IPv6 addresses
+#####    IPv6 and IPv6 addresses
 
 <u>IPv4 addresses</u>
 
@@ -172,7 +172,7 @@ The layers are:
 +   Accommodates more user devices
 +   Will eventually replace IPv4
 
-### Classless Iner-Domain Routing (CIDR)
+#####   Classless Iner-Domain Routing (CIDR)
 
 <img src="assets/cidr.PNG" alt="cidr" style="height:100%; width:100%">
 
@@ -181,37 +181,70 @@ The layers are:
 
 <img src="assets/cidr_eg2.PNG" alt="cidr" style="height:100%; width:100%">
 
-### CIDR special case
+##### CIDR special case
 <img src="assets/cidr_specialcase.PNG" alt="cidr" style="height:100%; width:100%">
 
-### Subnets
+##### Subnets
 <img src="assets/subnet.PNG" alt="subnet" style="height:100%; width:100%">
 
 <img src="assets/subnet_cidr_block.PNG" alt="subnet" style="height:100%; width:100%">
 
 <img src="assets/subnet_cidr.PNG" alt="subnet" style="height:100%; width:100%">
 
-### Planning ahead
-####    For Network CIDR blok : 10.0.0.0/24 
+##### Planning ahead
+
+<b>For Network CIDR blok</b> : 10.0.0.0/24 
 It has nework of six subnets. It give 256 IP addresses. The subnet are using 26 net mask CIDR block which offer 64 IP addresses for the first 4 subnet before you run out of IP addresses.
-<img src="assets/26subnet.PNG" alt="subnet" style="height:100%; width:100%">
 
-We can also use 27 net mask which offer use 32 IP addresses which might not be enough.<img src="assets/27subnet.PNG" alt="subnet" style="height:100%; width:100%">
+<img src="assets/26netmask.PNG" alt="subnet" style="height:100%; width:100%">
 
-####    For Nework CIDR block : 10.0.0.0/16
+We can also use 27 net mask which offer use 32 IP addresses which might not be enough.
+<img src="assets/27netmask.PNG" alt="subnet" style="height:100%; width:100%">
+
+<b>For Nework CIDR block </b>: 10.0.0.0/16
 It offers 65,532 Ip addresses to use among subnets.
-<img src="assets/22subnet.PNG" alt="subnet" style="height:100%; width:100%">
+
+<img src="assets/22netmask.PNG" alt="subnet" style="height:100%; width:100%">
 
 When planning ahead not only computers, servers and printers are not the devices that need IP addresses but also Load balancer, switches, routers, work stations, fax machines, mobile devices need Ip addresses.
 
 <img src="assets/devices.PNG" alt="subnet" style="height:100%; width:100%">
 
-### Subnet types
+##### Subnet types
 1.      Public subnets
     A public subnet allows internet traffic that is routed through an internet gateway to reach the subnet. A public subnet might make a good choice if you have a website that is targetting customers.
 
 2.      Private subnets:   
     It denies traffic to the subnet that is routed from the public internet. You should use a private subnet your network must connect to services outside your network but must restrict external services from initiating a connection to your network. Access to the public internet from a private subnet requires a NAT devices.
 
-### Your cloud in cloud
+##### Your cloud in cloud
 <img src="assets/cloudincloud.PNG" alt="cloud" style="height:100%; width:100%">    
+
+####    4.  Introduction to Amazon VPC
+
+<b>VPC flow logs can be used for:</b>
+
++   Networking monitoring
++   Security analysis
++   Expenses optimization
+
+<img src="assets/default_vpc.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+<b>Default VPC</b>
+<img src="assets/default_vpc.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+<b>vpc quotas</b>
+<img src="assets/vpc_quotas.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+#####   VPC use case
+
+<img src="assets/vpc_usecase.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+1.      Presentation tier
+    The presentation tier where webserver host a user interact websites or applications, the user access directly over the internet.
+
+2.      Logic tier
+    Logic tier is where he code is stored on an application server and where the computing processes occured as a presentation tier interact with logic tier.
+
+3.      Data tier
+       Data tier is where database is stored. Typically the database only sends and recieves traffic from the logic tier. Presentation tier will not have direct access to Data tier. In most three tier architecture logic and data tier are protected in private  subnets that not directly accessable on the internet.
