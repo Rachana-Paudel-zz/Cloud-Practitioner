@@ -199,8 +199,13 @@ It has nework of six subnets. It give 256 IP addresses. The subnet are using 26 
 We can also use 27 net mask which offer use 32 IP addresses which might not be enough.<img src="assets/27subnet.PNG" alt="subnet" style="height:100%; width:100%">
 
 ####    For Nework CIDR block : 10.0.0.0/16
-It offers 65532 Ip addresses to use among subnets.
+It offers 65,532 Ip addresses to use among subnets.
 <img src="assets/22subnet.PNG" alt="subnet" style="height:100%; width:100%">
 
-When planning ahead not only computers, servers and printers are not the devices that
+When planning ahead not only computers, servers and printers are not the devices that need IP addresses but also Load balancer, switches, routers, work stations, fax machines, mobile devices need Ip addresses.
+
 <img src="assets/devices.PNG" alt="subnet" style="height:100%; width:100%">
+
+### Subnet types
+1.  Public subnets
+    A public subnet allows internet traffic that is routed through an internet gateway to reach the subnet. A public subnet might make a good choice if you have a website that is targetting customers.
