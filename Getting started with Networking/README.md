@@ -183,3 +183,10 @@ The layers are:
 
 ### CIDR special case
 <img src="assets/cidr_specialcase.PNG" alt="cidr" style="height:100%; width:100%">
+
+### Subnets
+<img src="assets/subnet.PNG" alt="subnet" style="height:100%; width:100%">
+
+<img src="assets/subnet_cidr_block.PNG" alt="subnet" style="height:100%; width:100%">
+
+<img src="assets/subnet_cidr.PNG" alt="subnet" style="height:100%; width:100%">
