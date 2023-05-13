@@ -193,26 +193,26 @@ The layers are:
 
 ##### Planning ahead
 
-<b>For Network CIDR blok</b> : 10.0.0.0/24 
-It has nework of six subnets. It give 256 IP addresses. The subnet are using 26 net mask CIDR block which offer 64 IP addresses for the first 4 subnet before you run out of IP addresses.
+<b>For Network CIDR block</b> : 10.0.0.0/24 
+It has network of six subnets. It give 256 IP addresses. The subnet are using 26 net mask CIDR block which offer 64 IP addresses for the first 4 subnet before you run out of IP addresses.
 
 <img src="assets/26netmask.PNG" alt="subnet" style="height:100%; width:100%">
 
 We can also use 27 net mask which offer use 32 IP addresses which might not be enough.
 <img src="assets/27netmask.PNG" alt="subnet" style="height:100%; width:100%">
 
-<b>For Nework CIDR block </b>: 10.0.0.0/16
-It offers 65,532 Ip addresses to use among subnets.
+<b>For Network CIDR block </b>: 10.0.0.0/16
+It offers 65,532 IP addresses to use among subnets.
 
 <img src="assets/22netmask.PNG" alt="subnet" style="height:100%; width:100%">
 
-When planning ahead not only computers, servers and printers are not the devices that need IP addresses but also Load balancer, switches, routers, work stations, fax machines, mobile devices need Ip addresses.
+When planning ahead not only computers, servers and printers are not the devices that need IP addresses but also Load balancer, switches, routers, work stations, fax machines, mobile devices need IP addresses.
 
 <img src="assets/devices.PNG" alt="subnet" style="height:100%; width:100%">
 
 ##### Subnet types
 1.      Public subnets
-    A public subnet allows internet traffic that is routed through an internet gateway to reach the subnet. A public subnet might make a good choice if you have a website that is targetting customers.
+    A public subnet allows internet traffic that is routed through an internet gateway to reach the subnet. A public subnet might make a good choice if you have a website that is targeting customers.
 
 2.      Private subnets:   
     It denies traffic to the subnet that is routed from the public internet. You should use a private subnet your network must connect to services outside your network but must restrict external services from initiating a connection to your network. Access to the public internet from a private subnet requires a NAT devices.
@@ -244,10 +244,10 @@ When planning ahead not only computers, servers and printers are not the devices
     The presentation tier where webserver host a user interact websites or applications, the user access directly over the internet.
 
 2.      Logic tier
-    Logic tier is where he code is stored on an application server and where the computing processes occured as a presentation tier interact with logic tier.
+    Logic tier is where he code is stored on an application server and where the computing processes occurred as a presentation tier interact with logic tier.
 
 3.      Data tier
-       Data tier is where database is stored. Typically the database only sends and recieves traffic from the logic tier. Presentation tier will not have direct access to Data tier. In most three tier architecture logic and data tier are protected in private  subnets that not directly accessable on the internet.
+       Data tier is where database is stored. Typically the database only sends and receives traffic from the logic tier. Presentation tier will not have direct access to Data tier. In most three tier architecture logic and data tier are protected in private  subnets that not directly accessible on the internet.
 
 #####   Amazon VPC multi-tier application example
 
@@ -263,7 +263,7 @@ When planning ahead not only computers, servers and printers are not the devices
 2.     Multi-VPC pattern
     Best suited for:
     +   Single team or single organizations, such as managed service providers.
-    +   Limited teams, which maked it simpler to maintain standards and manage access
+    +   Limited teams, which makes it simpler to maintain standards and manage access
     
     Exception:
     +   Governance and compliance standards might require greater workload isolation regardless of organizational complexity.
@@ -274,7 +274,7 @@ When planning ahead not only computers, servers and printers are not the devices
     +   Medium-sized organization that anticipate rapid growth.    
 
     Why?
-    +   Managingn access and standards can be more challenging in more complex organizations.
+    +   Managing access and standards can be more challenging in more complex organizations.
 
     <img src="assets/vpc_patterns.PNG" alt="vpc" style="height:100%; width:100%"> 
 
