@@ -190,3 +190,17 @@ The layers are:
 <img src="assets/subnet_cidr_block.PNG" alt="subnet" style="height:100%; width:100%">
 
 <img src="assets/subnet_cidr.PNG" alt="subnet" style="height:100%; width:100%">
+
+### Planning ahead
+####    For Network CIDR blok : 10.0.0.0/24 
+It has nework of six subnets. It give 256 IP addresses. The subnet are using 26 net mask CIDR block which offer 64 IP addresses for the first 4 subnet before you run out of IP addresses.
+<img src="assets/26subnet.PNG" alt="subnet" style="height:100%; width:100%">
+
+We can also use 27 net mask which offer use 32 IP addresses which might not be enough.<img src="assets/27subnet.PNG" alt="subnet" style="height:100%; width:100%">
+
+####    For Nework CIDR block : 10.0.0.0/16
+It offers 65532 Ip addresses to use among subnets.
+<img src="assets/22subnet.PNG" alt="subnet" style="height:100%; width:100%">
+
+When planning ahead not only computers, servers and printers are not the devices that
+<img src="assets/devices.PNG" alt="subnet" style="height:100%; width:100%">
