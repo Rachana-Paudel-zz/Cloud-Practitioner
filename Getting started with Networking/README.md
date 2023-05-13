@@ -268,7 +268,7 @@ When planning ahead not only computers, servers and printers are not the devices
     Exception:
     +   Governance and compliance standards might require greater workload isolation regardless of organizational complexity.
 
-3.      Multi-account VPC patterns
+3.     Multi-account VPC patterns
     Best suited for:
     +   Large organizations and organizations with multiple IT Teams
     +   Medium-sized organization that anticipate rapid growth.    
@@ -277,3 +277,6 @@ When planning ahead not only computers, servers and printers are not the devices
     +   Managingn access and standards can be more challenging in more complex organizations.
 
     <img src="assets/vpc_patterns.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+#####   Amazon VPC costs
+<img src="assets/vpc_costs.PNG" alt="vpc" style="height:100%; width:100%"> 
