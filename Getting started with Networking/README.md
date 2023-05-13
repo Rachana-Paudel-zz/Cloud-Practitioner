@@ -248,3 +248,32 @@ When planning ahead not only computers, servers and printers are not the devices
 
 3.      Data tier
        Data tier is where database is stored. Typically the database only sends and recieves traffic from the logic tier. Presentation tier will not have direct access to Data tier. In most three tier architecture logic and data tier are protected in private  subnets that not directly accessable on the internet.
+
+#####   Amazon VPC multi-tier application example
+
+<img src="assets/multitier_vpc.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+#####   VPC architectural patterns
+1.      Single VPC pattern
+    There are limited use cases where one VPC could be appropriate.
+    +   Small, single applications managed by one person or a very small team.
+    +   High-performance computing
+    +   Identity management
+
+2.     Multi-VPC pattern
+    Best suited for:
+    +   Single team or single organizations, such as managed service providers.
+    +   Limited teams, which maked it simpler to maintain standards and manage access
+    
+    Exception:
+    +   Governance and compliance standards might require greater workload isolation regardless of organizational complexity.
+
+3.      Multi-account VPC patterns
+    Best suited for:
+    +   Large organizations and organizations with multiple IT Teams
+    +   Medium-sized organization that anticipate rapid growth.    
+
+    Why?
+    +   Managingn access and standards can be more challenging in more complex organizations.
+
+    <img src="assets/vpc_patterns.PNG" alt="vpc" style="height:100%; width:100%"> 
