@@ -207,5 +207,5 @@ When planning ahead not only computers, servers and printers are not the devices
 <img src="assets/devices.PNG" alt="subnet" style="height:100%; width:100%">
 
 ### Subnet types
-1.  Public subnets
+1.      Public subnets
     A public subnet allows internet traffic that is routed through an internet gateway to reach the subnet. A public subnet might make a good choice if you have a website that is targetting customers.
