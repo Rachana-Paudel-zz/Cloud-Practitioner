@@ -317,3 +317,8 @@ Because the VPC ID can be difficult to remember, you have the option to tag your
 
 #####   Subnet and VPC associations
 <img src="assets/vpc_association.PNG" alt="vpc" style="height:100%; width:100%">
+
+#####   Network Gateways
+<img src="assets/network_gateways1.PNG" alt="vpc" style="height:100%; width:100%">
+
+<img src="assets/network_gateways2.PNG" alt="vpc" style="height:100%; width:100%">
