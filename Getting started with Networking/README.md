@@ -319,6 +319,28 @@ Because the VPC ID can be difficult to remember, you have the option to tag your
 <img src="assets/vpc_association.PNG" alt="vpc" style="height:100%; width:100%">
 
 #####   Network Gateways
-<img src="assets/network_gateways1.PNG" alt="vpc" style="height:100%; width:100%">
+<img src="assets/network_gateways1.PNG" alt="network" style="height:100%; width:100%">
 
-<img src="assets/network_gateways2.PNG" alt="vpc" style="height:100%; width:100%">
+<img src="assets/network_gateways2.PNG" alt="network" style="height:100%; width:100%">
+
+#####   Route_table
+<img src="assets/route_table.PNG" alt="route_table" style="height:100%; width:100%">
+
+#####   Route table associations
+<img src="assets/route_table_associations.PNG" alt="route_table" style="height:100%; width:100%">
+
+#####   Security groups
+At mos basic levels it filter inbound and outbound traffic that is allowed in our instances.
+<img src="assets/security_groups.PNG" alt="security_groups" style="height:100%; width:100%">
+
+#####   Security group rules
+1.      Inbound rules
+    By default, it has no inbound rules. Therefore, no inbound traffic that originates from another host to your instance is allowed until you add inbound rules to he security groups.
+    The source in an inbound rule determines the traffic that can reach your instance.
+    This example shows an inbound rule that is configured to allow Secure Shell(SSH) traffic to a specific IPV4 address. As a result, the user of the specified IP address can update the instance through SSH access.
+
+    <img src="assets/security_inboundrule_example.PNG" alt="security_groups" style="height:100%; width:100%">
+
+2.          Outbound rules
+    By default, a security group includes an outbound rule tha allows all outbound traffic. You can remove the rule and add outbound rules that allow specific outbounf traffic only.
+    <img src="assets/outbound_rule.PNG" alt="security_groups" style="height:100%; width:100%">
