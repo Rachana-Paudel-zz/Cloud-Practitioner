@@ -301,3 +301,19 @@ When you create a VPC, it will be auto-assigned a VPC ID. The VPC ID is a string
 Because the VPC ID can be difficult to remember, you have the option to tag your VPC with a more identifiable name. By tagging your VPC, the tag name appears after the VPC ID in parenthesis when associating components to your VPC. You can access controls lists(network ACLs). It is recommended that you tag these components to be sure that you are connecting the correct components together.
 
 <img src="assets/vpc_tags.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+#####   Subnets in AWS
+<img src="assets/vpc_subnets.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+#####   Subnets placement
+
+<img src="assets/vpc_subnet_placement.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+#####   Subnetting in AWS
+<img src="assets/vpc_subneting.PNG" alt="vpc" style="height:100%; width:100%">
+
+#####   Subnet sizes
+<img src="assets/vpc_subneting.PNG" alt="vpc" style="height:100%; width:100%">
+
+#####   Subnet and VPC associations
+<img src="assets/vpc_association.PNG" alt="vpc" style="height:100%; width:100%">
