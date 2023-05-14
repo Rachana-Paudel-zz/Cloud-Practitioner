@@ -292,3 +292,12 @@ When planning ahead not only computers, servers and printers are not the devices
 <img src="assets/vpc_default_component.PNG" alt="vpc" style="height:100%; width:100%"> 
 
 #####   VPC ID and tags
+<b>VPC ID</b>
+When you create a VPC, it will be auto-assigned a VPC ID. The VPC ID is a string of random numbers and letters that identify your VPC. This ID will be required when you associate additional components to your VPC, such as subnets and route tables. VPC IDs cannot be edited.
+<b>VPC ID example: vpc-0476e890abedg995f</b>
+
+<b>VPC tags</b>
+
+Because the VPC ID can be difficult to remember, you have the option to tag your VPC with a more identifiable name. By tagging your VPC, the tag name appears after the VPC ID in parenthesis when associating components to your VPC. You can access controls lists(network ACLs). It is recommended that you tag these components to be sure that you are connecting the correct components together.
+
+<img src="assets/vpc_tags.PNG" alt="vpc" style="height:100%; width:100%"> 
