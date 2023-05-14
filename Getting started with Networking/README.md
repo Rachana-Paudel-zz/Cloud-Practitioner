@@ -288,7 +288,7 @@ When planning ahead not only computers, servers and printers are not the devices
 #####   Amazon VPC CIDR blocks
 <img src="assets/vpc_cidr.PNG" alt="vpc" style="height:100%; width:100%"> 
 
-#####   Amazon VPC default componens
+#####   Amazon VPC default components
 <img src="assets/vpc_default_component.PNG" alt="vpc" style="height:100%; width:100%"> 
 
 #####   VPC ID and tags
@@ -330,7 +330,7 @@ Because the VPC ID can be difficult to remember, you have the option to tag your
 <img src="assets/route_table_associations.PNG" alt="route_table" style="height:100%; width:100%">
 
 #####   Security groups
-At mos basic levels it filter inbound and outbound traffic that is allowed in our instances.
+At most basic levels it filter inbound and outbound traffic that is allowed in our instances.
 <img src="assets/security_groups.PNG" alt="security_groups" style="height:100%; width:100%">
 
 #####   Security group rules
@@ -342,5 +342,5 @@ At mos basic levels it filter inbound and outbound traffic that is allowed in ou
     <img src="assets/security_inboundrule_example.PNG" alt="security_groups" style="height:100%; width:100%">
 
 2.          Outbound rules
-    By default, a security group includes an outbound rule tha allows all outbound traffic. You can remove the rule and add outbound rules that allow specific outbounf traffic only.
+    By default, a security group includes an outbound rule tha allows all outbound traffic. You can remove the rule and add outbound rules that allow specific outbound traffic only.
     <img src="assets/outbound_rule.PNG" alt="security_groups" style="height:100%; width:100%">
