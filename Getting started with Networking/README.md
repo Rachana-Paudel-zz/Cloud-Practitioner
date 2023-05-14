@@ -280,3 +280,15 @@ When planning ahead not only computers, servers and printers are not the devices
 
 #####   Amazon VPC costs
 <img src="assets/vpc_costs.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+#####    Components
+
+<img src="assets/vpc_components.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+#####   Amazon VPC CIDR blocks
+<img src="assets/vpc_cidr.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+#####   Amazon VPC default componens
+<img src="assets/vpc_default_component.PNG" alt="vpc" style="height:100%; width:100%"> 
+
+#####   VPC ID and tags
