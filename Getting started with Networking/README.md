@@ -409,3 +409,7 @@ Requires a manual deletion first
 +   Network ACLs
 +   DCHP options
 +   Gateway endpoints
+
+#####   Activity: COnfiguring a VPC based on the use case
+1.        Scenario
+
