@@ -344,3 +344,21 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
 2.          Outbound rules
     By default, a security group includes an outbound rule tha allows all outbound traffic. You can remove the rule and add outbound rules that allow specific outbound traffic only.
     <img src="assets/outbound_rule.PNG" alt="security_groups" style="height:100%; width:100%">
+
+
+#####   Security groups stateful characteristic
+ <img src="assets/character_Security.PNG" alt="security_groups" style="height:100%; width:100%">
+
+ #####  Choosing securiy groups
+
+  <img src="assets/choosing_security.PNG" alt="security_groups" style="height:100%; width:100%">
+
+  ##### Network ACLs
+
+   <img src="assets/network ACLs.PNG" alt="ACL" style="height:100%; width:100%">
+
+#####   Network ACL Associations
+ <img src="assets/network ACL association.PNG" alt="ACL" style="height:100%; width:100%">
+
+#####   Network ACL character
+  <img src="assets/network ACL character.PNG" alt="security_groups" style="height:100%; width:100%">
