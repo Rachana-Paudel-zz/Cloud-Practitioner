@@ -432,8 +432,25 @@ Requires a manual deletion first
 
     To accommodate the requirement that the first address of your network be 10.0.0.0, consider using the CIDR block 10.0.0.0/16. This option will give you enough IP addresses for multiple subnets.
 
-3.      Network gateways:
+3.      Network gateways
     Requirements to consider:
     +   Your architecture must be highly available so that customers can access your site.
     
     Because you VPC is hosting a website on a web server that is public facing, an internet gateway must be attached. Any instances in the public subnet that will have access to the internet will also nedd a publuc IP address.
+
+3.      Subnets
+    Requirements to consider:
+    +   Your web server should be in a separate subnet from your application servers and database servers.
+    +   Your architecture must be highly available so that customers can access your site.
+
+    For a highly available architecture that customers will always be able to access, put at least two publuc subnets in two different Availability Zones. Traffic would be controlled by an Elastic Load Balancer(ELB) balancer.
+
+    <img src="assets/subnet_configure.PNG" alt="ACL" style="height:100%; width:100%">
+
+5.       Route tables
+    Requirements to consider:
+    +   You have an application server and customer data stored on a backend database you want to keep private.
+    +   Your customers must always be able to access your web server.
+
+    You should have a route table that is configured so that your public subnets have a route to the internet through the internet gateway. The private subnets route tables should not have any access to the ineternet gateway.
+        
