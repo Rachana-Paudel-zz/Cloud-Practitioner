@@ -422,7 +422,7 @@ Requires a manual deletion first
 +   Security groups and network ACLs should be configured to allow only required traffic.
 +   Five IP addresses that you consider a threat must be considered in security settings.
 
-2.  VPC configurations
+2.      VPC configurations
     Requirements to consider:
     +   The VPC should be in the N. Virginia Region, where you currently have five VPCs.
     +   The first address of your network must be 10.0.0.0.
@@ -431,3 +431,9 @@ Requires a manual deletion first
     The requirements say that this VPC should be in the N. Virginia Region. Therefore, you must submut a ticket to AWS to increase the number of VPCs for the N. Virginia Region.
 
     To accommodate the requirement that the first address of your network be 10.0.0.0, consider using the CIDR block 10.0.0.0/16. This option will give you enough IP addresses for multiple subnets.
+
+3.      Network gateways:
+    Requirements to consider:
+    +   Your architecture must be highly available so that customers can access your site.
+    
+    Because you VPC is hosting a website on a web server that is public facing, an internet gateway must be attached. Any instances in the public subnet that will have access to the internet will also nedd a publuc IP address.
