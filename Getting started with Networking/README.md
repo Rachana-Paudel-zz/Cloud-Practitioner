@@ -362,7 +362,7 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
 #####   Network ACL stateless character
 <img src="assets/network stateless character.PNG" alt="ACL" style="height:100%; width:100%">
 
-#####   NEtwork ACL rules
+#####   Network ACL rules
 <img src="assets/network ACL rules.PNG" alt="ACL" style="height:100%; width:100%">
 
 #####   Network ACLs rule evaluation
