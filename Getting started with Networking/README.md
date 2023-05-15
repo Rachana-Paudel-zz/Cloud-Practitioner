@@ -351,7 +351,7 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
 
 #####  Choosing security groups
 
-<img src="assets/Choose_security.PNG" alt="security_groups" style="height:100%; width:100%">
+<img src="assets/choose_security.PNG" alt="security_groups" style="height:100%; width:100%">
 
 ##### Network ACLs
 <img src="assets/network ACL.PNG" alt="ACL" style="height:100%; width:100%">
@@ -363,7 +363,7 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
 <img src="assets/network stateless character.PNG" alt="ACL" style="height:100%; width:100%">
 
 #####   Network ACL rules
-<img src="assets/network ACL rules.PNG" alt="ACL" style="height:100%; width:100%">
+<img src="assets/ACL rules.PNG" alt="ACL" style="height:100%; width:100%">
 
 #####   Network ACLs rule evaluation
 <img src="assets/ACL rule1.PNG" alt="ACL" style="height:100%; width:100%">
@@ -409,7 +409,7 @@ Requires a manual deletion first
 +   DCHP options
 +   Gateway endpoints
 
-#####   Activity: COnfiguring a VPC based on the use case
+#####   Activity: Configuring a VPC based on the use case
 1.        Scenario
     You must have a bussiness with a website that is hosted on an Amazon Elastic Compute Cloud(Amazon EC2) instance. You have an application server and customer data stored on a backend database that you want to keep private. You want to use Amazon VPC to set up a VPC that meets the following requirements.
 
