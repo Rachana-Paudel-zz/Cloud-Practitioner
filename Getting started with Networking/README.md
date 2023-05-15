@@ -351,7 +351,7 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
 
 #####  Choosing security groups
 
-<img src="assets/choose_security.PNG" alt="security_groups" style="height:100%; width:100%">
+<img src="assets/choose_Security.PNG" alt="security_groups" style="height:100%; width:100%">
 
 ##### Network ACLs
 <img src="assets/network ACL.PNG" alt="ACL" style="height:100%; width:100%">
