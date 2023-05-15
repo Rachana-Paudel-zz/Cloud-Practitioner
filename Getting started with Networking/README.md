@@ -376,4 +376,36 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
 
 
 #####   Comparing Security groups and ACL
-  <img src="assets/comparing ACL and security groups.PNG" alt="ACL" style="height:100%; width:100%">
+<img src="assets/comparing ACL and security groups.PNG" alt="ACL" style="height:100%; width:100%">
+
+#####   VPC and more
+<b>Options to create a VPC from the AWS Management Console:<b>
+
+1.  VPC only
++   You must manually add each component.
++   You must connect and associate each component together.
+
+2.  VPC and more
++   Components are created based on a template that you can adjust
++   You donot need to associate or connect components unless you need to make changes.
+
+
+#####   Deleting a VPC
+Requires a manual deletion first
++   EC2 instances
++   RDS instances
++   Elastic load balancer
++   NAT gateways
++   Transit gateways
++   VPC endpoints
+
+<b>Automation deletion with VPC</b>
+
++   Subnets
++   Internet gateways
++   Egress-only internet gateways
++   Route tables 
++   Security groups
++   Network ACLs
++   DCHP options
++   Gateway endpoints
