@@ -349,7 +349,7 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
 #####   Security groups stateful characteristic
  <img src="assets/character_Security.PNG" alt="security_groups" style="height:100%; width:100%">
 
- #####  Choosing securiy groups
+ #####  Choosing security groups
 
   <img src="assets/choosing_security.PNG" alt="security_groups" style="height:100%; width:100%">
 
@@ -379,7 +379,7 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
 <img src="assets/comparing ACL and security groups.PNG" alt="ACL" style="height:100%; width:100%">
 
 #####   VPC and more
-<b>Options to create a VPC from the AWS Management Console:<b>
+<b>Options to create a VPC from the AWS Management Console:</b>
 
 1.  VPC only
 +   You must manually add each component.
@@ -460,3 +460,10 @@ Requires a manual deletion first
     +   Security groups and netwrok ACLs should be configured to allow only required traffic.
 
     Your security groups for application, database, and web servers should all allow SSH inbound rules. Rules should be configured so that the web server can communicate with the application server, which should be able to communicate with the databse server.    
+
+6.          Network ACLs
+    Requirements to consider:
+    +   Security groups and network ACLs should be configured to allow only required traffic.
+    +   Five IP addresses that you can consider a threat must be considered in security settings.
+
+    Your network ACLs should be configured to complement the security groups. However, remember that security groups only need inbound or outbound allow rules, but network ACLs must be configured to allow inbound and outbounf rules.
