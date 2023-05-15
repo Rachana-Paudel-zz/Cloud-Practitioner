@@ -247,7 +247,7 @@ When planning ahead not only computers, servers and printers are not the devices
     Logic tier is where he code is stored on an application server and where the computing processes occurred as a presentation tier interact with logic tier.
 
 3.      Data tier
-       Data tier is where database is stored. Typically the database only sends and receives traffic from the logic tier. Presentation tier will not have direct access to Data tier. In most three tier architecture logic and data tier are protected in private  subnets that not directly accessible on the internet.
+    Data tier is where database is stored. Typically the database only sends and receives traffic from the logic tier. Presentation tier will not have direct access to Data tier. In most three tier architecture logic and data tier are protected in private  subnets that not directly accessible on the internet.
 
 #####   Amazon VPC multi-tier application example
 
@@ -354,8 +354,7 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
 <img src="assets/Choose_security.PNG" alt="security_groups" style="height:100%; width:100%">
 
 ##### Network ACLs
-
-<img src="assets/network ACLs.PNG" alt="ACL" style="height:100%; width:100%">
+<img src="assets/network ACL.PNG" alt="ACL" style="height:100%; width:100%">
 
 #####   Subnet and Network ACL Associations
 <img src="assets/network ACL association.PNG" alt="ACL" style="height:100%; width:100%">
