@@ -310,10 +310,10 @@ Because the VPC ID can be difficult to remember, you have the option to tag your
 <img src="assets/vpc_subnet_placement.PNG" alt="vpc" style="height:100%; width:100%"> 
 
 #####   Subnetting in AWS
-<img src="assets/vpc_subneting.PNG" alt="vpc" style="height:100%; width:100%">
+<img src="assets/vpc_subnetting.PNG" alt="vpc" style="height:100%; width:100%">
 
 #####   Subnet sizes
-<img src="assets/vpc_subneting.PNG" alt="vpc" style="height:100%; width:100%">
+<img src="assets/vpc_subnetting.PNG" alt="vpc" style="height:100%; width:100%">
 
 #####   Subnet and VPC associations
 <img src="assets/vpc_association.PNG" alt="vpc" style="height:100%; width:100%">
@@ -339,29 +339,29 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
     The source in an inbound rule determines the traffic that can reach your instance.
     This example shows an inbound rule that is configured to allow Secure Shell(SSH) traffic to a specific IPV4 address. As a result, the user of the specified IP address can update the instance through SSH access.
 
-    <img src="assets/security_inboundrule_example.PNG" alt="security_groups" style="height:100%; width:100%">
+<img src="assets/security_inboundrule_example.PNG" alt="security_groups" style="height:100%; width:100%">
 
 2.          Outbound rules
     By default, a security group includes an outbound rule tha allows all outbound traffic. You can remove the rule and add outbound rules that allow specific outbound traffic only.
-    <img src="assets/outbound_rule.PNG" alt="security_groups" style="height:100%; width:100%">
+<img src="assets/outbound_rule.PNG" alt="security_groups" style="height:100%; width:100%">
 
 
 #####   Security groups stateful characteristic
- <img src="assets/character_Security.PNG" alt="security_groups" style="height:100%; width:100%">
+<img src="assets/security_character.PNG" alt="security_groups" style="height:100%; width:100%">
 
- #####  Choosing security groups
+#####  Choosing security groups
 
-  <img src="assets/choosing_security.PNG" alt="security_groups" style="height:100%; width:100%">
+<img src="assets/Choose_security.PNG" alt="security_groups" style="height:100%; width:100%">
 
-  ##### Network ACLs
+##### Network ACLs
 
-   <img src="assets/network ACLs.PNG" alt="ACL" style="height:100%; width:100%">
+<img src="assets/network ACLs.PNG" alt="ACL" style="height:100%; width:100%">
 
 #####   Subnet and Network ACL Associations
- <img src="assets/network ACL association.PNG" alt="ACL" style="height:100%; width:100%">
+<img src="assets/network ACL association.PNG" alt="ACL" style="height:100%; width:100%">
 
 #####   Network ACL stateless character
-  <img src="assets/network stateless character.PNG" alt="ACL" style="height:100%; width:100%">
+<img src="assets/network stateless character.PNG" alt="ACL" style="height:100%; width:100%">
 
 #####   NEtwork ACL rules
 <img src="assets/network ACL rules.PNG" alt="ACL" style="height:100%; width:100%">
