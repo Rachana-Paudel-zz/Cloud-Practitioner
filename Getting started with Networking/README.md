@@ -454,3 +454,9 @@ Requires a manual deletion first
 
     You should have a route table that is configured so that your public subnets have a route to the internet through the internet gateway. The private subnets route tables should not have any access to the ineternet gateway.
         
+6.       Security groups
+    Requirements to consider:    
+    +   your servers must be accessible to a group of administrators through SSH access.
+    +   Security groups and netwrok ACLs should be configured to allow only required traffic.
+
+    Your security groups for application, database, and web servers should all allow SSH inbound rules. Rules should be configured so that the web server can communicate with the application server, which should be able to communicate with the databse server.    
