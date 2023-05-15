@@ -361,4 +361,19 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
  <img src="assets/network ACL association.PNG" alt="ACL" style="height:100%; width:100%">
 
 #####   Network ACL stateless character
-  <img src="assets/network stateless character.PNG" alt="security_groups" style="height:100%; width:100%">
+  <img src="assets/network stateless character.PNG" alt="ACL" style="height:100%; width:100%">
+
+#####   NEtwork ACL rules
+<img src="assets/network ACL rules.PNG" alt="ACL" style="height:100%; width:100%">
+
+#####   Network ACLs rule evaluation
+<img src="assets/ACL rule1.PNG" alt="ACL" style="height:100%; width:100%">
+  
+<img src="assets/ACL rule2.PNG" alt="ACL" style="height:100%; width:100%">
+
+##### Default and custom network ACLs
+<img src="assets/default_custom network.PNG" alt="ACL" style="height:100%; width:100%">
+
+
+#####   Comparing Security groups and ACL
+  <img src="assets/comparing ACL and security groups.PNG" alt="ACL" style="height:100%; width:100%">
