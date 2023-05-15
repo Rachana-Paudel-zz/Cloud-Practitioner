@@ -357,8 +357,8 @@ At most basic levels it filter inbound and outbound traffic that is allowed in o
 
    <img src="assets/network ACLs.PNG" alt="ACL" style="height:100%; width:100%">
 
-#####   Network ACL Associations
+#####   Subnet and Network ACL Associations
  <img src="assets/network ACL association.PNG" alt="ACL" style="height:100%; width:100%">
 
-#####   Network ACL character
-  <img src="assets/network ACL character.PNG" alt="security_groups" style="height:100%; width:100%">
+#####   Network ACL stateless character
+  <img src="assets/network stateless character.PNG" alt="security_groups" style="height:100%; width:100%">
