@@ -485,7 +485,7 @@ Requires a manual deletion first
 <img src="assets/AWS_vpn.PNG" alt="NAT" style="height:100%; width:100%">
 
 5.      AWS Direct Connect
-    Used to establish dedicated private network connection between the network and one of the direct connect locations.
+Used to establish dedicated private network connection between the network and one of the direct connect locations.
 <img src="assets/AWS_direct_connect.PNG" alt="NAT" style="height:100%; width:100%">    
 
 6.      VPC endpoints
@@ -507,7 +507,7 @@ Requires a manual deletion first
 +   Amazon Route S3
 <img src="assets/route_s3.PNG" alt="NAT" style="height:100%; width:100%"> 
 
-+   Amazon Cloudfront
++   Amazon CloudFront
 <img src="assets/cloudfront.PNG" alt="NAT" style="height:100%; width:100%"> 
 
 +   Amazon API Gateway
