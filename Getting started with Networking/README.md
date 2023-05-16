@@ -486,3 +486,14 @@ Requires a manual deletion first
 
 5.      AWS Direct Connect
     Used to establish dedicated private network connection between the network and one of the direct connect locations.
+<img src="assets/AWS_direct_connect.PNG" alt="NAT" style="height:100%; width:100%">    
+
+6.      VPC endpoints
+    +   Interface VPC endpoints:
+        AWS Privatelink is a technology that provides private connectivity between VPCs, AWS services, and your on-premises networks without exposing your traffic to the public internet. You can create interface VPC endpoints(interface endpoints), which you can use to connect to services that are powered by AWS PrivateLink. You are charged for creating and using an interface endpoint to a service.
+
+    <img src="assets/interface_vpc.PNG" alt="NAT" style="height:100%; width:100%"> 
+
+    +   Gateway endpoints
+        
+7.    
