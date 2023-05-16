@@ -495,5 +495,10 @@ Requires a manual deletion first
     <img src="assets/interface_vpc.PNG" alt="NAT" style="height:100%; width:100%"> 
 
     +   Gateway endpoints
-        
-7.    
+        Provide reliable connectivity to Amazon Simple storage service(Amazon S3) and Amazon DynamoDB without requiring an internet gateway or a NAT device for your VPC. Gateway endpoints donot enable AWS PrivateLink. There is no additional charge for using gateway endpoints.
+
+7.      VPC Peering
+<img src="assets/vpc_peering.PNG" alt="NAT" style="height:100%; width:100%">  
+
+8.       VPC Peering restriction
+<img src="assets/vpc_peering_restriction.PNG" alt="NAT" style="height:100%; width:100%">    
