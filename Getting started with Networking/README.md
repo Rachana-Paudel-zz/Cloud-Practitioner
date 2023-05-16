@@ -502,3 +502,13 @@ Requires a manual deletion first
 
 8.       VPC Peering restriction
 <img src="assets/vpc_peering_restriction.PNG" alt="NAT" style="height:100%; width:100%">    
+
+9.      Other AWS networking services
++   Amazon Route S3
+<img src="assets/route_s3.PNG" alt="NAT" style="height:100%; width:100%"> 
+
++   Amazon Cloudfront
+<img src="assets/cloudfront.PNG" alt="NAT" style="height:100%; width:100%"> 
+
++   Amazon API Gateway
+<img src="assets/API_gateway.PNG" alt="NAT" style="height:100%; width:100%"> 
