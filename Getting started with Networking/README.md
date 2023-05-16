@@ -417,7 +417,7 @@ Requires a manual deletion first
 +   The first VPC address of your network must be 10.0.0.0.
 +   You web server should be in a separate subnet from your application and database servers.
 +   Your architecture must be highly available so that customers can access your site,
-+   Your severs must be accessibel to a group of administrators by using SSH access.
++   Your severs must be accessible to a group of administrators by using SSH access.
 +   Security groups and network ACLs should be configured to allow only required traffic.
 +   Five IP addresses that you consider a threat must be considered in security settings.
 
@@ -460,9 +460,29 @@ Requires a manual deletion first
 
     Your security groups for application, database, and web servers should all allow SSH inbound rules. Rules should be configured so that the web server can communicate with the application server, which should be able to communicate with the databse server.    
 
-6.          Network ACLs
+7.          Network ACLs
     Requirements to consider:
     +   Security groups and network ACLs should be configured to allow only required traffic.
     +   Five IP addresses that you can consider a threat must be considered in security settings.
 
     Your network ACLs should be configured to complement the security groups. However, remember that security groups only need inbound or outbound allow rules, but network ACLs must be configured to allow inbound and outbounf rules.
+
+####    Managing Your Network 
+1.      Elastic IP address
+<img src="assets/elastic_ip.PNG" alt="Elastic" style="height:100%; width:100%">
+
+2.      Elastic IP address flexibility and costs
+<img src="assets/elastic_flexibility.PNG" alt="Elastic" style="height:100%; width:100%">
+
+3.      NAT Gateway
+<img src="assets/nat_gateway.PNG" alt="NAT" style="height:100%; width:100%">
+
+4.      AWS VPN
++   create Virtual private gateway
++   create customer gateway
++   create private route table
++   establish site-to-site VPN connection
+<img src="assets/AWS_vpn.PNG" alt="NAT" style="height:100%; width:100%">
+
+5.      AWS Direct Connect
+    Used to establish dedicated private network connection between the network and one of the direct connect locations.
