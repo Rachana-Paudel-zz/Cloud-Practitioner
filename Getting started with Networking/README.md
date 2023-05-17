@@ -563,3 +563,49 @@ This means that the subnet automatically assigns a public IP address for all ins
 Notice that the State of the internet gateway is Attached. The internet gateway is attached to the VPC shown under VPC ID. This is the VPC ID of the default VPC.
 
 ######  Task 4: Explore the route table
++   In the left navigation pane, choose Route Tables.
+
+One route table is displayed, and it is associated with the default VPC. 
+
++   In the lower half of the page, choose the Routes tab.
+
+There are two routes: a local route and a public route.
+
+All traffic that is destined for 172.31.0.0/16 (which is the range of the default VPC) is routed locally. This route allows all subnets in a VPC to communicate with each other.
+
+All public traffic (0.0.0.0/0) is routed to the internet gateway.
+
++   Choose the Subnet associations tab.
+
+In the Subnets without explicit associations section, notice that the subnet with the IPv4 CIDR 172.31.0.0/20 is included in the list. This is the same subnet that you reviewed earlier.
+
+All of the subnets in this list are public subnets because they have a route table entry that sends traffic to the internet through the internet gateway.
+
+###### Task 5: Explore the default security group
++   In the left navigation pane, choose Security Groups.
+
+The default security group should already be selected.
+
++   In the lower half of the page, choose the Outbound rules tab.
+
+You should find one rule. This rule allows All protocols and All port ranges to send traffic to any IP address (0.0.0.0/0).
+
++   Choose the Inbound rules tab.
+
+You should find one rule for incoming traffic. This rule allows incoming traffic to All protocols and All port ranges from resources that use the default security group.
+
+In a later step, you deploy an EC2 instance with a website into the default VPC. For incoming traffic from sources outside your VPC to access this website, you must add a new security group rule. Because you should not make changes to the default security group, you create a new one. Then, you add a rule to your new security group that permits HTTP (port 80) traffic that comes from anywhere on the internet (0.0.0.0/0).
++   Choose Create security group.
+
++   For Security group name, enter Web-Server-SG.
+
++   For Description, enter Allows HTTP access.
+
++   Keep the VPC selection.
+
++   In the Inbound rules section, choose Add rule, and then configure the following settings:
+
+    +   For Type, choose HTTP.
+    +   From the Source type dropdown list, choose Anywhere IPv4.
+    +   For Description, enter Allow web access.
++   Choose Create security group.    
