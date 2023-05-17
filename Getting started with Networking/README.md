@@ -609,3 +609,139 @@ In a later step, you deploy an EC2 instance with a website into the default VPC.
     +   From the Source type dropdown list, choose Anywhere IPv4.
     +   For Description, enter Allow web access.
 +   Choose Create security group.    
+
+######  Task 6: Deploy an EC2 instance
++   On the Services  menu, choose EC2.
+
++   Choose Launch instance, and then choose Launch instance from the dropdown list. Configure the following options:
+
+    +   In the Name and tags pane, in the Name text box, enter Web-Server.
+
+    +   Choose an Amazon Machine Image (AMI).
+
+        +   In the Application and OS Images (Amazon Machine Image) section, choose Amazon Linux.
+    +   Choose an instance type:
+
+        +   Select t2.micro.
+    +   In the Key pair (login) section, from the Key pair name - required dropdown list, choose Proceed without a key pair (Not recommended).
+
+    +   In the Network settings section, choose Edit.
+
+    +   For Firewall (security groups), choose Select an existing security group.
+
+    +   In the Common security groups dropdown list, choose the security group named Web-Server-SG.
+
+    +   In the  Advanced Details section, for IAM instance profile, choose Work-Role.
+    +   In the  Advanced Details section, copy the following commands, and paste them into the User data text box:
+
+
+        ```#!/bin/bash
+        # Install Apache Web Server and PHP
+        yum install -y httpd mysql
+        amazon-linux-extras install -y php7.2
+        # Download Lab files
+        wget https://aws-tc-largeobjects.s3.us-west-2.amazonaws.com/CUR-TF-100-EDNETW-1-60961/1-lab-getting-started-vpc/s3/inventory-app.zip
+        unzip inventory-app.zip -d /var/www/html/
+        # Download and install the AWS SDK for PHP
+        wget https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+        unzip aws -d /var/www/html
+        # Turn on web server chkconfig httpd on
+        service httpd start
+        ```
+
+    +   In the Summary section, choose Launch instance.
+    A message indicates that you successfully initiated the launch of your instance.
+
++   Choose View all instances.
+
++   Wait for the application server to fully launch. It should display the following status:
+
+Instance State: Running
+    You can choose refresh  occasionally to update the display.
+
++   Select  Web-Server.
++   From the Details tab, copy the Public IPv4 address address.
++   Open a new browser tab, paste the IP address that you just copied, and then press Enter.
+   
+#####   Part 2: Creating a VPC
+Being able to use the default VPC when you are first learning about and working with AWS cloud is very convenient. However, in the real world, you often need to create custom VPCs to meet a customer's requirements. For example, a customer might have already used the CIDR range of the default VPC in their on-premises network configuration. A customer might also want to vary how many addresses are included in each subnet. Because it is not possible to change the CIDR ranges assigned to the VPC or its subnets, you need to create a new VPC for your customer. 
+
+In this scenario, you create a new VPC. Your customer provided the following network requirements for the VPC's CIDR ranges:
+
+Top-leve VPC
+
++   VPC IPv4 CIDR - 10.0.0.0/16
+
+Availability Zones:
+
++   They need to deploy their resources to two Availability Zones.
+
+Two public subnets:
+
++   Public Subnet 1 - 10.0.0.0/24
++   Public Subnet 2 - 10.0.1.0/24
+
+Two private subnets:
+
++   Private Subnet 1 - 10.0.2.0/24
++   Private Subnet 2 - 10.0.3.0/24
+
+The default VPC that you explored earlier did not have any private subnets. Remember that the difference between a public subnet and a private subnet is whether they can be reached directly from the internet. The route table associated with a public subnet includes a route to an internet gateway, and the route table for a private subnet does not.
+
+ 
+
+######  Task 7: Create a custom VPC
+You can configure the VPC by defining its IP address range and creating subnets. You can also configure route tables, network gateways, and security settings.
+
+The VPC console provides a wizard that can automatically create several VPC architectures. You use this wizard to create a new VPC.
+
+If the configuration of a setting is not mentioned in these steps, leave the default value.
+
+Return to the browser tab with the AWS console.
+
+In the AWS Management Console on the Services menu, enter VPC. From the search results, choose VPC.
+
+In the left navigation pane, choose Your VPCs.
+
+Choose Create VPC and configure the following settings:
+
+For Resources to create, choose VPC and more
+For Name tag auto-generation, enter Lab.
+For IPv4 CIDR block, ensure that the value is 10.0.0.0/16.
+For Availability Zones (AZs), choose 2.
+For Number of public subnets, choose 2.
+For Number of private subnets, choose 2.
+Expand Customize subnets CIDR blocks.
+Update the subnet CIDR block values using the ranges provided by your customer.
+Take a moment to review the Preview diagram provided in the wizard.  
+
+Choose Create VPC.
+
+The wizard immediately starts creating your VPC. After it finishes, you have a VPC that has all of the components that you explored earlier: subnets, route tables, an internet gateway, and a default security group. The VPC wizard also automatically configures the routes in the route tables for both the public subnets and the private subnets.
+
+Like the default security group you explored earlier, the default security group created by the wizard blocks incoming traffic from the internet. To reach a web server in the new VPC, you need to add a rule to this default security group.
+
+Choose View VPC.
+
+Recall that a VPC's default security group does not allow traffic from outside the VPC. Because you should not change the default security group, you add a new security group to your custom VPC.
+
+In the left navigation pane, choose Security Groups.
+
+Choose Create security group.
+
+For Security group name, enter Web-Server2-SG.
+
+For Description, enter Allows HTTP access.
+
+For VPC, clear the selection and then choose Lab-vpc.
+
+In the Inbound rules section, choose Add rule, and then configure the following settings:
+
+For Type, choose HTTP.
+From the Source type dropdown list, choose Anywhere IPv4.
+For Description, enter Allow web access.
+Choose Create security group.
+
+ 
+
+ 
