@@ -775,43 +775,43 @@ Recall that a VPC's default security group does not allow traffic from outside t
 
     +   In the  Advanced Details section, copy the following commands, and paste them into the User data text box:
 
-    ```#!/bin/bash
-    # Install Apache Web Server and PHP
-    yum install -y httpd mysql
-    amazon-linux-extras install -y php7.2
-    # Download Lab files
-    wget https://aws-tc-largeobjects.s3.us-west-2.amazonaws.com/CUR-TF-100-EDNETW-1-60961/1-lab-getting-started-vpc/s3/inventory-app.zip
-    unzip inventory-app.zip -d /var/www/html/
-    # Download and install the AWS SDK for PHP
-    wget https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
-    unzip aws -d /var/www/html
-    # Turn on web server
-    chkconfig httpd on
-    service httpd start```
+        ```#!/bin/bash
+        # Install Apache Web Server and PHP
+        yum install -y httpd mysql
+        amazon-linux-extras install -y php7.2
+        # Download Lab files
+        wget https://aws-tc-largeobjects.s3.us-west-2.amazonaws.com/CUR-TF-100-EDNETW-1-60961/1-lab-getting-started-vpc/s3/inventory-app.zip
+        unzip inventory-app.zip -d /var/www/html/
+        # Download and install the AWS SDK for PHP
+        wget https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+        unzip aws -d /var/www/html
+        # Turn on web server
+        chkconfig httpd on
+        service httpd start```
  
 
-In the Summary section, choose Launch instance.
+    +   In the Summary section, choose Launch instance.
 
-A message indicates that you successfully initiated the launch of your instance.
+    A message indicates that you successfully initiated the launch of your instance.
 
  
 
-Choose View all instances.
++   Choose View all instances.
 
-Wait for the application server to fully launch. It should display the following status:
++   Wait for the application server to fully launch. It should display the following status:
 
-Instance State: Running
+    +   Instance State: Running
     You can choose refresh  occasionally to update the display.
 
-Select  Web-Server2.
-From the Details tab, copy the Public IPv4 address address.
-Open a new browser tab, paste the IP address that you just copied, and then press Enter.
-   If you configured the VPC correctly, the Inventory application and this message should appear: Please configure Settings to connect to database. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.
++   Select  Web-Server2.
++   From the Details tab, copy the Public IPv4 address address.
++   Open a new browser tab, paste the IP address that you just copied, and then press Enter.
+If you configured the VPC correctly, the Inventory application and this message should appear: Please configure Settings to connect to database. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.
 
-    If the Inventory application does not appear, wait for 60 seconds and refresh  the page to try again. It can take a couple of minutes for the EC2 instance to boot and run the script that installs the software.
+If the Inventory application does not appear, wait for 60 seconds and refresh  the page to try again. It can take a couple of minutes for the EC2 instance to boot and run the script that installs the software.
 
  
-
+`LAB COMPLETE`
 
  
 
