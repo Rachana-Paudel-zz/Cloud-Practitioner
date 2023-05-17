@@ -697,50 +697,121 @@ The VPC console provides a wizard that can automatically create several VPC arch
 
 If the configuration of a setting is not mentioned in these steps, leave the default value.
 
-Return to the browser tab with the AWS console.
++   Return to the browser tab with the AWS console.
 
-In the AWS Management Console on the Services menu, enter VPC. From the search results, choose VPC.
++   In the AWS Management Console on the Services menu, enter VPC. From the search results, choose VPC.
 
-In the left navigation pane, choose Your VPCs.
++   In the left navigation pane, choose Your VPCs.
 
-Choose Create VPC and configure the following settings:
+    
++   Choose Create VPC and configure the following settings:
 
-For Resources to create, choose VPC and more
-For Name tag auto-generation, enter Lab.
-For IPv4 CIDR block, ensure that the value is 10.0.0.0/16.
-For Availability Zones (AZs), choose 2.
-For Number of public subnets, choose 2.
-For Number of private subnets, choose 2.
-Expand Customize subnets CIDR blocks.
-Update the subnet CIDR block values using the ranges provided by your customer.
-Take a moment to review the Preview diagram provided in the wizard.  
+    +   For Resources to create, choose VPC and more
+    +   For Name tag auto-generation, enter Lab.
+    +   For IPv4 CIDR block, ensure that the value is 10.0.0.0/16.
+    +   For Availability Zones (AZs), choose 2.
+    +   For Number of public subnets, choose 2.
+    +   For Number of private subnets, choose 2.
+    +   Expand Customize subnets CIDR blocks.
+    +   Update the subnet CIDR block values using the ranges provided by your customer.
++   Take a moment to review the Preview diagram provided in the wizard.  
 
-Choose Create VPC.
++   Choose Create VPC.
 
 The wizard immediately starts creating your VPC. After it finishes, you have a VPC that has all of the components that you explored earlier: subnets, route tables, an internet gateway, and a default security group. The VPC wizard also automatically configures the routes in the route tables for both the public subnets and the private subnets.
 
 Like the default security group you explored earlier, the default security group created by the wizard blocks incoming traffic from the internet. To reach a web server in the new VPC, you need to add a rule to this default security group.
 
-Choose View VPC.
++   Choose View VPC.
 
 Recall that a VPC's default security group does not allow traffic from outside the VPC. Because you should not change the default security group, you add a new security group to your custom VPC.
 
-In the left navigation pane, choose Security Groups.
++   In the left navigation pane, choose Security Groups.
 
-Choose Create security group.
++   Choose Create security group.
 
-For Security group name, enter Web-Server2-SG.
++   For Security group name, enter Web-Server2-SG.
 
-For Description, enter Allows HTTP access.
++   For Description, enter Allows HTTP access.
 
-For VPC, clear the selection and then choose Lab-vpc.
++   For VPC, clear the selection and then choose Lab-vpc.
 
-In the Inbound rules section, choose Add rule, and then configure the following settings:
++   In the Inbound rules section, choose Add rule, and then configure the following settings:
 
-For Type, choose HTTP.
-From the Source type dropdown list, choose Anywhere IPv4.
-For Description, enter Allow web access.
-Choose Create security group.
+    +   For Type, choose HTTP.
+    +   From the Source type dropdown list, choose Anywhere IPv4.
+    +   For Description, enter Allow web access.
++   Choose Create security group.
+
+######  Task 8: Deploy an EC2 instance into your custom VPC
++   On the Services  menu, choose EC2.
+
++   Choose Launch instance, and then choose Launch instance from the dropdown list. Configure the following options:
+
+    +   In the Name and tags pane, in the Name text box, enter Web-Server2.
+
+    +   Choose an Amazon Machine Image (AMI).
+
+        +   In the Application and OS Images (Amazon Machine Image) section, choose Amazon Linux.
+    +   Choose an Instance Type:
+
+        +   Select t2.micro.
+
+    +   In the Key pair (login) section, from the Key pair name - required dropdown list, choose Proceed without a key pair (not recommended).
+
+    +   In the Network settings section, choose Edit.
+
+    +   For VPC - required, choose Lab-vpc.
+
+    +   For Subnet, choose the subnet with public1 in the name.
+
+    +   For Auto-assign public IP, choose Enable.
+
+    +   For Firewall (security groups), choose Select an existing security group.
+
+    +   From the Common security groups dropdown list, choose the Web-Server2-SG security group.
+
+    +   In the  Advanced Details section, for IAM instance profile, choose Work-Role.
+
+    +   In the  Advanced Details section, copy the following commands, and paste them into the User data text box:
+
+    ```#!/bin/bash
+    # Install Apache Web Server and PHP
+    yum install -y httpd mysql
+    amazon-linux-extras install -y php7.2
+    # Download Lab files
+    wget https://aws-tc-largeobjects.s3.us-west-2.amazonaws.com/CUR-TF-100-EDNETW-1-60961/1-lab-getting-started-vpc/s3/inventory-app.zip
+    unzip inventory-app.zip -d /var/www/html/
+    # Download and install the AWS SDK for PHP
+    wget https://github.com/aws/aws-sdk-php/releases/download/3.62.3/aws.zip
+    unzip aws -d /var/www/html
+    # Turn on web server
+    chkconfig httpd on
+    service httpd start```
+ 
+
+In the Summary section, choose Launch instance.
+
+A message indicates that you successfully initiated the launch of your instance.
+
+ 
+
+Choose View all instances.
+
+Wait for the application server to fully launch. It should display the following status:
+
+Instance State: Running
+    You can choose refresh  occasionally to update the display.
+
+Select  Web-Server2.
+From the Details tab, copy the Public IPv4 address address.
+Open a new browser tab, paste the IP address that you just copied, and then press Enter.
+   If you configured the VPC correctly, the Inventory application and this message should appear: Please configure Settings to connect to database. You have not configured any database settings yet, but the appearance of the Inventory application demonstrates that the public subnet was correctly configured.
+
+    If the Inventory application does not appear, wait for 60 seconds and refresh  the page to try again. It can take a couple of minutes for the EC2 instance to boot and run the script that installs the software.
+
+ 
+
 
  
 
