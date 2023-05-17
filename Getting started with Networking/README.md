@@ -512,3 +512,9 @@ Used to establish dedicated private network connection between the network and o
 
 +   Amazon API Gateway
 <img src="assets/API_gateway.PNG" alt="NAT" style="height:100%; width:100%"> 
+
+
+####    LAB
+    Lab: Creating a Virtual Private Cloud
+
+    
