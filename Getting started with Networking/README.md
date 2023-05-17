@@ -517,10 +517,10 @@ Used to establish dedicated private network connection between the network and o
 ####    LAB
 Lab: Creating a Virtual Private Cloud
 
-Part 1: Exploring the default VPC
+#####   Part 1: Exploring the default VPC
  
 
-Task 1: Explore the default VPC configuration
+######  Task 1: Explore the default VPC configuration
 In this lab, you begin by exploring the default VPC that is automatically included with each AWS account.
 
 A VPC is a virtual network that is dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud. You can launch AWS resources, such as Amazon Elastic Compute Cloud (Amazon EC2) instances, into the VPC. 
@@ -528,19 +528,19 @@ A VPC is a virtual network that is dedicated to your AWS account. It is logicall
 AWS region with a VPC
 In the preceding diagram, an VPC is deployed into an AWS region.
 
-In the AWS Management Console on the Services menu, enter VPC. From the search results, choose VPC.
++   In the AWS Management Console on the Services menu, enter VPC. From the search results, choose VPC.
 
-In the left navigation pane, choose Your VPCs.
++   In the left navigation pane, choose Your VPCs.
 
 There is a default VPC that is provided so that you can launch resources as soon as you start using AWS. 
 
-Notice that the default VPC is configured with the CIDR range of  172.31.0.0/16.
++   Notice that the default VPC is configured with the CIDR range of  172.31.0.0/16.
 
 This CIDR range includes all addresses from 172.31.0.0 through 172.31.255.255, which is a total of 65,536 addresses.
 
  
 
-Task2: Explore a default Subnet
+######  Task2: Explore a default Subnet
 In this task, you explore a public subnet.
 
 A subnet is a subrange of IP addresses in the VPC. AWS resources can be launched into a specified subnet. Use a public subnet for resources that must be connected to the internet, and use a private subnet for resources that must remain isolated from the internet.
@@ -554,3 +554,5 @@ Notice that all of the default subnets are associated with the same VPC, the def
 +   Notice that the value for Auto-assign public IPv4 address is Yes, which means that it is turned on.
 
 This means that the subnet automatically assigns a public IP address for all instances that are launched into it.
+
+######  Task 3: Explore the internet gateway
