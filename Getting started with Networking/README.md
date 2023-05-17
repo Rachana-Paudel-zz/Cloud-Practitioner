@@ -556,3 +556,10 @@ Notice that all of the default subnets are associated with the same VPC, the def
 This means that the subnet automatically assigns a public IP address for all instances that are launched into it.
 
 ######  Task 3: Explore the internet gateway
++   In the left navigation pane, choose Internet Gateways.
+
++   The internet gateway should already be selected. If it isn't, select it.
+
+Notice that the State of the internet gateway is Attached. The internet gateway is attached to the VPC shown under VPC ID. This is the VPC ID of the default VPC.
+
+######  Task 4: Explore the route table
