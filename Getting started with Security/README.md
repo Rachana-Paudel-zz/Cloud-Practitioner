@@ -20,3 +20,12 @@
 
 <img src="assets/privilege3.PNG" alt="security" style="height:100%; width:100%;">
  
+####    Identity and access management
+   working seesions can have thousands of users that will need different level of permissions, therefore this need to be carefully managed.
+
+   To do this organization should use IAM.
+   <img src="assets/IAM.PNG" alt="security" style="height:100%; width:100%;">
+
+####    Authentication and authorization
+1.      Authentication
+    
