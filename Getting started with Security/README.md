@@ -21,7 +21,7 @@
 <img src="assets/privilege3.PNG" alt="privilege" style="height:100%; width:100%;">
  
 ####    Identity and access management
-   working seesions can have thousands of users that will need different level of permissions, therefore this need to be carefully managed.
+   working sessions can have thousands of users that will need different level of permissions, therefore this need to be carefully managed.
 
    To do this organization should use IAM.
    <img src="assets/IAM.PNG" alt="IAM" style="height:100%; width:100%;">
@@ -35,7 +35,7 @@
 
 <b> Authentication and authorization together</b>
 
-    First, user enter username and password. The username and password are verified by database. If the entered password or username doesnot match then user return to login again. If entered information matches authentication is completed. After this the authorization process determine permission the user has to the applicaitions.
+    First, user enter username and password. The username and password are verified by database. If the entered password or username doesnot match then user return to login again. If entered information matches authentication is completed. After this the authorization process determine permission the user has to the applications.
 
 <img src="assets/aa.PNG" alt="security" style="height:100%; width:100%;">
 
