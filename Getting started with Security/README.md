@@ -28,4 +28,5 @@
 
 ####    Authentication and authorization
 1.      Authentication
+    It is a basic computer security concept: a user or system must first prove their identity. Consider how you auhenticate yourself when you go to the airport and you want to get through airport security so that you can catch your flight. In this situation, you mus present some form of identification to the security official to prove who you are before you can enter a restricted area. A similar concept applies for gaining access to IT resources.
     
