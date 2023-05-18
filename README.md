@@ -48,8 +48,9 @@ We begin our journey from AWS educate course. Click [Getting Started with Cloud 
 We begin our journey from AWS educate course. Click [Getting Started with Internet Basics](https://awseducate.instructure.com/courses/546) to start learning.
 
 
-
-
-
 ## <a href="./Getting started with Networking/README.md">Getting Started with Networking</a>
-We begin our journey from AWS educate course. Click[Getting Started with Networking](https://awseducate.instructure.com/courses/866/pages/getting-started-with-networking?module_item_id=14945) to start learning.
+We begin our journey from AWS educate course. Click [Getting Started with Networking](https://awseducate.instructure.com/courses/866/pages/getting-started-with-networking?module_item_id=14945) to start learning.
+
+
+## <a href="./Getting started with Security/README.md">Getting Started with Security</a>
+We begin our journey from AWS educate course. Click[Getting Started with Security](https://awseducate.instructure.com/courses/890/modules/items/15057) to start learning.
