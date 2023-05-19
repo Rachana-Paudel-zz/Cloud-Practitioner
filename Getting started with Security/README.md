@@ -48,9 +48,25 @@ IT security starts with protecting physical data center then actual data files. 
     +   Surveillance:
     Professional security staff use video surveillence, intrusion detection, access log monitoring systems and other electronic means. Entrances are secured with devices that sound alarms if a door is forced or held open.
 
-    +   
+    +   Employee scrutinization:
+    Only AWS employees who routinely need access are given permissions to relevant areas of the facility based on job function. If an employee doesn't have an ongoing bussiness need to be at a data center, they have to go through the visitor process and have an escort assigned throughout the duration of their visit.
 
-+   Environment layer
+    +   Principle of least privilege:
+    AWS limits access to  pre-approved areas and only provides data center access to employees anf contractors who have a legitimate bussiness need for such privileges.
+
+
++       Environment layer
+    +   Mitigate environmental risks:
+    AWS carefully chooses their data center locations to mitigate environmenal risks like flooding, extreme weather, and seismic activity.
+
+    +   High availability and performance:
+    Customers requiring high availability and performance can deploy their applications across multiple Availability Zones in the same region. This provides lower latency, reduced costs and data compliance, while opening up the potential to engineer for fault tolerance.
+
+    +   AWS bussiness continuity testing
+    To mititgate and prepae for the unxpected, AWS tests their bussiness Continuity Plan regularly with drills that simulate different scenarios.
+
+    +   Energy saving:
+    Companies generally use 77% fewer servers, 84% less power, and tap into a 28% cleaner mix of solar and wind power in the AWS Cloud versus their oen traditional data centers.
 +   Infrastructure layer
 +   Data layer
 
