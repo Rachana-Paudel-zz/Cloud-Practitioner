@@ -82,5 +82,9 @@ IT security starts with protecting physical data center then actual data files. 
     Electrical systems are fully redundant and maintainable without impact power for critical and essential loads and generators provide backup power for the entire facility.
 
 +   Data layer
-
+<img src="assets/data layer.PNG" alt="security" style="height:100%; width:100%;">
     
+####    AWS Shared Responsibility
+<img src="assets/shared responsibility1.PNG" alt="security" style="height:100%; width:100%;">
+<img src="assets/shared responsibility2.PNG" alt="security" style="height:100%; width:100%;">
+<img src="assets/shared responsibility3.PNG" alt="security" style="height:100%; width:100%;">
