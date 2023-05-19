@@ -28,20 +28,28 @@
 
 ####    Authentication and authorization
 1.      Authentication
-    It is a basic computer security concept: a user or system must first prove their identity. Consider how you auhenticate yourself when you go to the airport and you want to get through airport security so that you can catch your flight. In this situation, you mus present some form of identification to the security official to prove who you are before you can enter a restricted area. A similar concept applies for gaining access to IT resources.
+    It is a basic computer security concept: a user or system must first prove their identity. Consider how you authenticate yourself when you go to the airport and you want to get through airport security so that you can catch your flight. In this situation, you must present some form of identification to the security official to prove who you are before you can enter a restricted area. A similar concept applies for gaining access to IT resources.
 
 2.      Authorization
     It is the process of determining what permissions a user should be granted. After a user has been authenticated, they must be authorized to access the IT resource or data that they are requesting.    
 
 <b> Authentication and authorization together</b>
 
-    First, user enter username and password. The username and password are verified by database. If the entered password or username doesnot match then user return to login again. If entered information matches authentication is completed. After this the authorization process determine permission the user has to the applications.
+    First, user enter username and password. The username and password are verified by database. If the entered password or username does not match then user return to login again. If entered information matches authentication is completed. After this the authorization process determine permission the user has to the applications.
 
 <img src="assets/aa.PNG" alt="security" style="height:100%; width:100%;">
 
 ### Layers of security
 IT security starts with protecting physical data center then actual data files. The forming layer of IT security are:
 +   Perimeter layer
+    +   Building:  
+    Aws data centers are housed in nondescript, undisclosed facilities. They are protected by a number of security features such as security guards, fencing, security feeds, and other security measures.
+
+    +   Surveillance:
+    Professional security staff use video surveillence, intrusion detection, access log monitoring systems and other electronic means. Entrances are secured with devices that sound alarms if a door is forced or held open.
+
+    +   
+
 +   Environment layer
 +   Infrastructure layer
 +   Data layer
