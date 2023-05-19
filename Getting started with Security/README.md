@@ -67,7 +67,20 @@ IT security starts with protecting physical data center then actual data files. 
 
     +   Energy saving:
     Companies generally use 77% fewer servers, 84% less power, and tap into a 28% cleaner mix of solar and wind power in the AWS Cloud versus their oen traditional data centers.
+
 +   Infrastructure layer
+    +   Fire detection:
+    Automatic fire detection and suppression equipment reduces the risk of fire-related accidents. Smoke detection sensors are in all data center environments, mechanical and electrical spaces, chiller rooms and generator equipment rooms.
+
+    +   Monitoring:
+    AWS monitors electrical, mechanical and life support systems. Preventive maintenance is regularly performed.
+
+    +   Climate control:
+    It is uded to maintain a constant operating temperature for servers and other hardware. This prevents overheating and reduces the possibility of service outages.
+
+    +   Power:
+    Electrical systems are fully redundant and maintainable without impact power for critical and essential loads and generators provide backup power for the entire facility.
+
 +   Data layer
 
     
