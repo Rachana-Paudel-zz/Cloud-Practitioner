@@ -131,3 +131,4 @@ IAM Identity Center:
     AWS IAM provides you with the ability to establish organization-wide and preventative guardrails on AWS. You can do this by using services control policies to establish permissions guardrails for IAM users and roles, and implement a data perimeter around your accounts in AWS Organizations.
 
 4.      Set, verify and right-size permissions.
+    AWS IAM is built to help you set, verify, and right-size user permissions in accordance with the least privilege principle policy. You can streamline permissions management and use cross-accoun findings as you set, verify and refine policies on the journey toward least privilege.
