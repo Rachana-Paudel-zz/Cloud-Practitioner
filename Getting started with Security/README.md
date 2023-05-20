@@ -110,3 +110,10 @@ For AWS Managemen Console user is given username and password and for programmat
 <img src="assets/mfa.PNG" alt="security" style="height:100%; width:100%;">
 
 <img src="assets/mfa2.PNG" alt="security" style="height:100%; width:100%;">
+
+To create, modify or delete an easy to instance we need IAM users credential that has neccesary information to perform those funcions.
+<img src="assets/EC2.PNG" alt="security" style="height:100%; width:100%;">
+
+IAM Identity Center:
++   Securely create or connect your workforce identities
++   Manage their access centrally across AWS accounts and applications.
