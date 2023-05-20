@@ -132,3 +132,6 @@ IAM Identity Center:
 
 4.      Set, verify and right-size permissions.
     AWS IAM is built to help you set, verify, and right-size user permissions in accordance with the least privilege principle policy. You can streamline permissions management and use cross-accoun findings as you set, verify and refine policies on the journey toward least privilege.
+
+#####   IAM costs
+<img src="assets/IAM costs.PNG" alt="security" style="height:100%; width:100%;">
