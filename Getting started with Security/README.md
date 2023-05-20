@@ -104,14 +104,14 @@ For AWS Managemen Console user is given username and password and for programmat
 <img src="assets/aws management console.PNG" alt="security" style="height:100%; width:100%;">
 
 2.      Programmatic access:
-<img src="assets/programmatic console.PNG" alt="security" style="height:100%; width:100%;">
+<img src="assets/programmatic access.PNG" alt="security" style="height:100%; width:100%;">
 
 ####    Multi-factor authentication(MFA)
 <img src="assets/mfa.PNG" alt="security" style="height:100%; width:100%;">
 
 <img src="assets/mfa2.PNG" alt="security" style="height:100%; width:100%;">
 
-To create, modify or delete an easy to instance we need IAM users credential that has neccesary information to perform those funcions.
+To create, modify or delete an easy to instance we need IAM users credential that has necessary information to perform those functions.
 <img src="assets/EC2.PNG" alt="security" style="height:100%; width:100%;">
 
 IAM Identity Center:
@@ -135,3 +135,5 @@ IAM Identity Center:
 
 #####   IAM costs
 <img src="assets/IAM costs.PNG" alt="security" style="height:100%; width:100%;">
+
+#####   Using IAM
