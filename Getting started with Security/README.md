@@ -107,3 +107,6 @@ For AWS Managemen Console user is given username and password and for programmat
 <img src="assets/programmatic console.PNG" alt="security" style="height:100%; width:100%;">
 
 ####    Multi-factor authentication(MFA)
+<img src="assets/mfa.PNG" alt="security" style="height:100%; width:100%;">
+
+<img src="assets/mfa2.PNG" alt="security" style="height:100%; width:100%;">
