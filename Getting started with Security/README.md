@@ -117,3 +117,17 @@ To create, modify or delete an easy to instance we need IAM users credential tha
 IAM Identity Center:
 +   Securely create or connect your workforce identities
 +   Manage their access centrally across AWS accounts and applications.
+
+#####   IAM use cases
+1.      Apply detailed permissions
+    AWS IAM lets you create and apply permissions based on user attributes-such as department, job role, and team name-by using attribute-based access control.
+    +   Application developer
+    +   Application tester
+
+2.      Manage per-account and application access
+    With AWS IAM, you can manage per-account identities. This means that you can provide multi-account access and application assignments across AWS.
+
+3.      Establish organization-wide guardrails on AWS
+    AWS IAM provides you with the ability to establish organization-wide and preventative guardrails on AWS. You can do this by using services control policies to establish permissions guardrails for IAM users and roles, and implement a data perimeter around your accounts in AWS Organizations.
+
+4.      Set, verify and right-size permissions.
