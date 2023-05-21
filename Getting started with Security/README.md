@@ -96,7 +96,7 @@ Examples
 
 #####   Getting started with AWS Identity and Access Management(IAM)
 
-#####   IAM credentials types
+#####       IAM credentials types
 User is given access to <b>AWS Management Console<b> and <b>Programmatic access</b>
 For AWS Managemen Console user is given username and password and for programmatic access user is given access key.
 
@@ -136,4 +136,12 @@ IAM Identity Center:
 #####   IAM costs
 <img src="assets/IAM costs.PNG" alt="security" style="height:100%; width:100%;">
 
-#####   Using IAM
+#####   Option for using IAM
+1.      AWS Management Console:
+    The AWS Management Console is a graphical user interface that you can use to launch, configure, and manage AWS services from.
+
+2.      AWS Command Line Interface(CLI):
+    The AWS Command Line Interface(CLI) is a unified tool to manage your AWS services. With just one tool to downoad and configure, you can provision and control multiple AWS services from the command line and automate them through scripts.
+
+3.      AWS Software Development kit(SDK):
+    SDKs take the complexity out of coding by providing languages-specific APIs for AWS services. With AWS SDKs, you can launch AWS services, like EC2 instances, using a variety of codes, such as JavaScript, Python, Java, .NET, C++ and more.
