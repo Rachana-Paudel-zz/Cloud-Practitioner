@@ -157,3 +157,12 @@ Root user have key access to the following:
 +   Never share your root user password or access keys.
 +   Disable or delete root user access keys.
 +   Create a power IAM user (with full access to your AWS account, except for building) for administrative tasks.
+
+#####       IAM policies
+Policies can be attached to any IAM entity such as user groups or role.
+#####   IAM policies :
+    Affects when a user requests access to resources
+    what ctions allowed
+    which resources to allow the actions on
+
+<img src="assets/IAM policy.PNG" alt="root" style="height:100%; width:100%;">    
