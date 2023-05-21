@@ -145,3 +145,15 @@ IAM Identity Center:
 
 3.      AWS Software Development kit(SDK):
     SDKs take the complexity out of coding by providing languages-specific APIs for AWS services. With AWS SDKs, you can launch AWS services, like EC2 instances, using a variety of codes, such as JavaScript, Python, Java, .NET, C++ and more.
+
+#####   Root user
+Root user have key access to the following:
+<img src="assets/root user.PNG" alt="root" style="height:100%; width:100%;">
+
+<b>To ensure the safety of root user follow these practices:</b>
+
++   Choose a strong password.
++   Enable multi-factor authentication.
++   Never share your root user password or access keys.
++   Disable or delete root user access keys.
++   Create a power IAM user (with full access to your AWS account, except for building) for administrative tasks.
