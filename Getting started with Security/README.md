@@ -165,4 +165,12 @@ Policies can be attached to any IAM entity such as user groups or role.
     what ctions allowed
     which resources to allow the actions on
 
-<img src="assets/IAM policy.PNG" alt="root" style="height:100%; width:100%;">    
+<img src="assets/IAM policy.PNG" alt="root" style="height:100%; width:100%;"> 
+
+<img src="assets/policy1.PNG" alt="root" style="height:100%; width:100%;">
+
+<img src="assets/policy2.PNG" alt="root" style="height:100%; width:100%;">
+
+<img src="assets/policy3.PNG" alt="root" style="height:100%; width:100%;">
+
+<img src="assets/policy4.PNG" alt="root" style="height:100%; width:100%;">
