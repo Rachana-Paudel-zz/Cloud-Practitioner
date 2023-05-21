@@ -167,6 +167,7 @@ Policies can be attached to any IAM entity such as user groups or role.
 
 <img src="assets/IAM policy.PNG" alt="root" style="height:100%; width:100%;"> 
 
+<b>Single statement</b>
 <img src="assets/policy1.PNG" alt="root" style="height:100%; width:100%;">
 
 <img src="assets/policy2.PNG" alt="root" style="height:100%; width:100%;">
@@ -174,3 +175,9 @@ Policies can be attached to any IAM entity such as user groups or role.
 <img src="assets/policy3.PNG" alt="root" style="height:100%; width:100%;">
 
 <img src="assets/policy4.PNG" alt="root" style="height:100%; width:100%;">
+
+<b>Multiple statement</b>
+<img src="assets/multiple policy1.PNG" alt="root" style="height:100%; width:100%;">
+
+<img src="assets/multiple policy2.PNG" alt="root" style="height:100%; width:100%;">
+
