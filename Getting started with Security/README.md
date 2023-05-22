@@ -211,6 +211,8 @@ Policies can be attached to any IAM entity such as user groups or role.
 <img src="assets/IAM trust policy.PNG" alt="root" style="height:100%; width:100%;">
 
 #####   Use case for roles
-
-
+1.      Roles for IAM user
     With roles, you don't have to share long-term security credentials for each user tha requires access to a resource. This eliminates the need to create multiple accounts for individual users. Therefore, roles can make managing permissions easier and more secure.
+
+2.      Roles for AWS services
+    Some AWS services can also assume an IAM role to perform actions in your AWS account on your behalf. When you are configuring such services, you need to define the role for the services to assume. The role needs to include to all the permissions required so that the service assuming the role has the proper permissions. These roles are referred to as services linked roles. You will commonly see them associate with Amazon EC2 and AWS Lambda.
