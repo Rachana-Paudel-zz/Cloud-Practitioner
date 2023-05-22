@@ -188,9 +188,29 @@ Policies can be attached to any IAM entity such as user groups or role.
 2.      Customer-managed policies
     It is managed policies that you create and manage in your AWS account. Customer managed policies provide more precise conrol over your policies than AWS managed policies. You can create and edit an IAM policy in the visual editor or by creating the JSON policy document directly.
 
-3.      Identity based policies
+3.      Inline policies
     It is policies that you create and manage and that are embedded directly into a single user, group or role. Using inline policies to grant permissions to users is high maintenance and not recommended.    
 
 #####   Resource based policies
-
 <img src="assets/resource based policies.PNG" alt="root" style="height:100%; width:100%;">
+
+#####   Resource and Identity compared
+<img src="assets/resource based policies.PNG" alt="root" style="height:100%; width:100%;">  
+
+#####   Conflicting policies
+<img src="assets/conflicting policies.PNG" alt="root" style="height:100%; width:100%;">
+
+######  IAM groups
+<img src="assets/IAM groups.PNG" alt="root" style="height:100%; width:100%;">
+<img src="assets/IAM groups2.PNG" alt="root" style="height:100%; width:100%;">
+
+#####   IAM roles
+<img src="assets/IAM roles.PNG" alt="root" style="height:100%; width:100%;">
+
+#####   IAM roles trust policy
+<img src="assets/IAM trust policy.PNG" alt="root" style="height:100%; width:100%;">
+
+#####   Use case for roles
+
+
+    With roles, you don't have to share long-term security credentials for each user tha requires access to a resource. This eliminates the need to create multiple accounts for individual users. Therefore, roles can make managing permissions easier and more secure.
