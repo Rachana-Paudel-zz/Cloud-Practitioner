@@ -216,3 +216,9 @@ Policies can be attached to any IAM entity such as user groups or role.
 
 2.      Roles for AWS services
     Some AWS services can also assume an IAM role to perform actions in your AWS account on your behalf. When you are configuring such services, you need to define the role for the services to assume. The role needs to include to all the permissions required so that the service assuming the role has the proper permissions. These roles are referred to as services linked roles. You will commonly see them associate with Amazon EC2 and AWS Lambda.
+
+3.      Roles for external users
+    If you already manage user identities outside of AWS, you can use IAM roles to grant users access to AWS. Imagine that you have a bussiness with 5,000 employees that must access an AWS account. You already have an idenetity provider in place that allows your employeed to log in to their work laptops. Instead of creating 5,000 IAM accounts, you can use IAM roles to grant access to AWS through existing identities from your enterprise user directory, known as federated users.
+
+#####   IAM Access Analyzer
+<img src="assets/IAM access.PNG" alt="root" style="height:100%; width:100%;">        
