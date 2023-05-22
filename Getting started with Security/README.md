@@ -222,3 +222,7 @@ Policies can be attached to any IAM entity such as user groups or role.
 
 #####   IAM Access Analyzer
 <img src="assets/IAM access.PNG" alt="root" style="height:100%; width:100%;">        
+
+1.      Set detailed permissions
+    Policy generation with IAM Access Analyzer generates a detailed policy based on the access activity  that is captured in your logs. This means that after you build and run an application, you can generate policies that grant only the requrired permissions to operate the application.
+    Policy validation with IAM Access Analyzer guides you to author and validate secure and functional policies wih more than 100 policy checks. You can use these checks while creating new plocies or to validate existing policies.
