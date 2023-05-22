@@ -141,7 +141,7 @@ IAM Identity Center:
     The AWS Management Console is a graphical user interface that you can use to launch, configure, and manage AWS services from.
 
 2.      AWS Command Line Interface(CLI):
-    The AWS Command Line Interface(CLI) is a unified tool to manage your AWS services. With just one tool to downoad and configure, you can provision and control multiple AWS services from the command line and automate them through scripts.
+    The AWS Command Line Interface(CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can provision and control multiple AWS services from the command line and automate them through scripts.
 
 3.      AWS Software Development kit(SDK):
     SDKs take the complexity out of coding by providing languages-specific APIs for AWS services. With AWS SDKs, you can launch AWS services, like EC2 instances, using a variety of codes, such as JavaScript, Python, Java, .NET, C++ and more.
@@ -162,7 +162,7 @@ Root user have key access to the following:
 Policies can be attached to any IAM entity such as user groups or role.
 #####   IAM policies :
     Affects when a user requests access to resources
-    what ctions allowed
+    what actions allowed
     which resources to allow the actions on
 
 <img src="assets/IAM policy.PNG" alt="root" style="height:100%; width:100%;"> 
@@ -180,4 +180,7 @@ Policies can be attached to any IAM entity such as user groups or role.
 <img src="assets/multiple policy1.PNG" alt="root" style="height:100%; width:100%;">
 
 <img src="assets/multiple policy2.PNG" alt="root" style="height:100%; width:100%;">
+
+#####   Identity based policies
+    AWS managed policies are managed policies that are created and managed by AWs. If you are new to using policies, we recommend that you start by using AWS managed policies. IAM has a library of over 1,000 AWS managed policies.
 
