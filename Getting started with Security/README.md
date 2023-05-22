@@ -182,5 +182,8 @@ Policies can be attached to any IAM entity such as user groups or role.
 <img src="assets/multiple policy2.PNG" alt="root" style="height:100%; width:100%;">
 
 #####   Identity based policies
+1.      AWS-managed policies
     AWS managed policies are managed policies that are created and managed by AWs. If you are new to using policies, we recommend that you start by using AWS managed policies. IAM has a library of over 1,000 AWS managed policies.
 
+2.      Customer-managed policies
+    It is managed policies that you create and manage in your AWS account. Customer managed policies provide more precise conrol over your policies than AWS managed policies. You can create and edit an IAM policy in the visual editor or by creating the JSON policy document directly.
