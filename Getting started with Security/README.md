@@ -190,3 +190,7 @@ Policies can be attached to any IAM entity such as user groups or role.
 
 3.      Identity based policies
     It is policies that you create and manage and that are embedded directly into a single user, group or role. Using inline policies to grant permissions to users is high maintenance and not recommended.    
+
+#####   Resource based policies
+
+<img src="assets/resource based policies.PNG" alt="root" style="height:100%; width:100%;">
