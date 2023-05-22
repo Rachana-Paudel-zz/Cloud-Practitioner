@@ -187,3 +187,6 @@ Policies can be attached to any IAM entity such as user groups or role.
 
 2.      Customer-managed policies
     It is managed policies that you create and manage in your AWS account. Customer managed policies provide more precise conrol over your policies than AWS managed policies. You can create and edit an IAM policy in the visual editor or by creating the JSON policy document directly.
+
+3.      Identity based policies
+    It is policies that you create and manage and that are embedded directly into a single user, group or role. Using inline policies to grant permissions to users is high maintenance and not recommended.    
