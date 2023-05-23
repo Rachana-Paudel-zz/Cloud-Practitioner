@@ -186,7 +186,7 @@ Policies can be attached to any IAM entity such as user groups or role.
     AWS managed policies are managed policies that are created and managed by AWs. If you are new to using policies, we recommend that you start by using AWS managed policies. IAM has a library of over 1,000 AWS managed policies.
 
 2.      Customer-managed policies
-    It is managed policies that you create and manage in your AWS account. Customer managed policies provide more precise conrol over your policies than AWS managed policies. You can create and edit an IAM policy in the visual editor or by creating the JSON policy document directly.
+    It is managed policies that you create and manage in your AWS account. Customer managed policies provide more precise control over your policies than AWS managed policies. You can create and edit an IAM policy in the visual editor or by creating the JSON policy document directly.
 
 3.      Inline policies
     It is policies that you create and manage and that are embedded directly into a single user, group or role. Using inline policies to grant permissions to users is high maintenance and not recommended.    
@@ -212,7 +212,7 @@ Policies can be attached to any IAM entity such as user groups or role.
 
 #####   Use case for roles
 1.      Roles for IAM user
-    With roles, you don't have to share long-term security credentials for each user tha requires access to a resource. This eliminates the need to create multiple accounts for individual users. Therefore, roles can make managing permissions easier and more secure.
+    With roles, you don't have to share long-term security credentials for each user that requires access to a resource. This eliminates the need to create multiple accounts for individual users. Therefore, roles can make managing permissions easier and more secure.
 
 2.      Roles for AWS services
     Some AWS services can also assume an IAM role to perform actions in your AWS account on your behalf. When you are configuring such services, you need to define the role for the services to assume. The role needs to include to all the permissions required so that the service assuming the role has the proper permissions. These roles are referred to as services linked roles. You will commonly see them associate with Amazon EC2 and AWS Lambda.
@@ -224,11 +224,24 @@ Policies can be attached to any IAM entity such as user groups or role.
 <img src="assets/IAM access.PNG" alt="root" style="height:100%; width:100%;">        
 
 1.      Set detailed permissions
-    Policy generation with IAM Access Analyzer generates a detailed policy based on the access activity  that is captured in your logs. This means that after you build and run an application, you can generate policies that grant only the requrired permissions to operate the application.
-    Policy validation with IAM Access Analyzer guides you to author and validate secure and functional policies wih more than 100 policy checks. You can use these checks while creating new plocies or to validate existing policies.
+    Policy generation with IAM Access Analyzer generates a detailed policy based on the access activity  that is captured in your logs. This means that after you build and run an application, you can generate policies that grant only the required permissions to operate the application.
+    Policy validation with IAM Access Analyzer guides you to author and validate secure and functional policies with more than 100 policy checks. You can use these checks while creating new policies or to validate existing policies.
 
 2.      Verify Intended permission
 <img src="assets/verify.PNG" alt="root" style="height:100%; width:100%;">     
 
 3.      Refine permissions by removing unused access
 <img src="assets/refine.PNG" alt="root" style="height:100%; width:100%;"> 
+
+#####   IAM credential reports
+    Lists all users in your account
+
+    Details the status of their various credentials:
++   Passwords
++   Access keys
++   MFA devices
++   And more   
+
+You can use to credentials reports to assist you in auditing and compliance efforts
+You can use report already effects of credential lifecycle requirement.
+provide report to the external auditor
