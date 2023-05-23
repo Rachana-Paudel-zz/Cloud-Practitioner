@@ -308,4 +308,6 @@ provide report to the external auditor.
     +   You need a way to audit so that credential lifecycle requirements are compliant.
     +   You need to apply strong security measure to protect the AWS account.
     <b>Solution</b>
-    Run IAM credential reports as often as needed to verify that credential lifecycle requirements are compliant. Auditing your user credentials is a good way to help protect your AWS Account    
+    Run IAM credential reports as often as needed to verify that credential lifecycle requirements are compliant. Auditing your user credentials is a good way to help protect your AWS Account.    
+    Lists all users in your account.
+    Details the status of their various credentials.
