@@ -283,3 +283,8 @@ provide report to the external auditor.
     +   You need to create 50 users. 40 of them are developers, five are managers and five are administrators. The 40 developers will have the same permissions, the five managers will have the same permissions, the fice administrators will have same permissions.
     <b>Solution:</b>
     Create a policy for each of the groups(developers, managers, and administrators). The policy should follow the principle of least privilege. Attach the policy to the group. This will provide each user in the groups with the appropriate permissions. If any user in a group need special permissions, that the other users in the group don't need, then create an additional IAM policy with the permissions needed and attach it to the specific user and not the group.
+
+6.      Roles
+    <b>Requirements:</b>
+    +   If possible, the developers should have access to Amazon EC2 without security credentials tied to their IAM user.
+    +   Amazon EC2 instances will need access to Amazon S3.    
