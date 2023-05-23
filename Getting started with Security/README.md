@@ -288,3 +288,13 @@ provide report to the external auditor.
     <b>Requirements:</b>
     +   If possible, the developers should have access to Amazon EC2 without security credentials tied to their IAM user.
     +   Amazon EC2 instances will need access to Amazon S3.    
+    <b>Solution:</b>
+    Create a role with permission that lets a user access Amazon EC2. Make the principle of the trust policy to be the users in the developer group.
+    Create another role for the EC2 instances, so that they can access Amazon S3. In the trust policy, make sure tha Amazon EC2 is the trusted principle.
+
+7.      AWS Access Analyzer:
+    <b>Requiremens:</b>
+    +   You need a way to manage IAM user permissions.
+    +   You need to applu strong measure to protect the AWS account.
+    <b>Solution:</b>
+    Turn on IAM Access Analyzer. It continuously monitors for new or updated resource permissions to help you identify permissions that grant public and cross- account access. Update permission to groups and users as needed. Refining your users permissions, based on evolving need is a security best practice.    
