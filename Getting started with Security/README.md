@@ -297,4 +297,15 @@ provide report to the external auditor.
     +   You need a way to manage IAM user permissions.
     +   You need to applu strong measure to protect the AWS account.
     <b>Solution:</b>
-    Turn on IAM Access Analyzer. It continuously monitors for new or updated resource permissions to help you identify permissions that grant public and cross- account access. Update permission to groups and users as needed. Refining your users permissions, based on evolving need is a security best practice.    
+    Turn on IAM Access Analyzer. It continuously monitors for new or updated resource permissions to help you identify permissions that grant public and cross- account access. Update permission to groups and users as needed. Refining your users permissions, based on evolving need is a security best practice.  
+
+    Set, or grant your detailed permissions.
+    Verify who can access what.
+    Refine by removing overly broad access.  
+
+8.      IAM Credential Report
+    <b>Requirements:</b>
+    +   You need a way to audit so that credential lifecycle requirements are compliant.
+    +   You need to apply strong security measure to protect the AWS account.
+    <b>Solution</b>
+    Run IAM credential reports as often as needed to verify that credential lifecycle requirements are compliant. Auditing your user credentials is a good way to help protect your AWS Account    
