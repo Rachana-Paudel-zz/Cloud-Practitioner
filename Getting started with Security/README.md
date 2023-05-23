@@ -256,4 +256,15 @@ provide report to the external auditor.
     +   You nedd a way to manage IAM user permissions.
     +   You need to apply strong security measures to protect the AWS account.
 
-2.          
+2.          IAM setup:
+    <b>Requirements:</b>
+    +   You need to apply strong security measure to protect the AWS account.
+
+    <b>Solution</b>
+    Secure your root user credentials and don't use them for everydat tasks. Configure the root user to require MFA to log in. Only use the root user to complete the tasks hat only the root user can perform. Create a new user that can conduct everyday admin tasks and assign it the appropriate permissions.
+    Create a strong password policy that will be enforced for all IAM users in this account. The policy should require users to create their own password when they first login.
+
+3.      IAM users
+    <b>Requirements:</b>    
+    +   You need to create 50 users. 40 of them are developers, five are managers and five are administrators. The 40 developers will have the same permissios, the five managers will have the same permissions, the five admninistrators will have the same permissions.
+    +   You need to apply strong security measures to protect the AWS account.    
