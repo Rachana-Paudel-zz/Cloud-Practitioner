@@ -274,3 +274,9 @@ provide report to the external auditor.
     +   You need to create 50 users. 40 of them are developers, five are managers and five area administrators. The 40 developers will have the same permissions, the five managers will have the same permissions, the five administrators will have the same permissions.
     <b>Solution:</b>
     Create a group for the developers, agroup for the managers, and a group for the administrators. Place the appropriate users in the group that aligns with their job funcion.    
+    <b>IAM group: Administrators</b>
+    <b>IAM group: Managers</b>
+    <b>IAM group: Developers</b>
+
+#####   IAM policies
+    
