@@ -242,6 +242,16 @@ Policies can be attached to any IAM entity such as user groups or role.
 +   MFA devices
 +   And more   
 
-You can use to credentials reports to assist you in auditing and compliance efforts
+You can use to credentials reports to assist you in auditing and compliance efforts.
 You can use report already effects of credential lifecycle requirement.
-provide report to the external auditor
+provide report to the external auditor.
+
+#####   IAM Scenario
+1.      Scenario:
+    You opened a new AWS account. The account consists of five teams of 10 developers. Your firs tasks are the following:
+    +   You need to create 50 users. $0 of them are developers, five are managers, and five are admninistrators. The 40 developers will have the same permissions, the fice managers will have the same permissions, the five administrators will have the same permissions.
+    +   If possibile, the developers should have access to Amazon EC2 without security credenials ied to their IAM user.
+    +   Amazon EC2 instances will need access to Amazon S3.
+    +   You need a way to audit so that credential lifecycle requirements are compliant.
+    +   You nedd a way to manage IAM user permissions.
+    +   You need to apply strong security measures to protect the AWS account.
