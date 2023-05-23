@@ -255,3 +255,5 @@ provide report to the external auditor.
     +   You need a way to audit so that credential lifecycle requirements are compliant.
     +   You nedd a way to manage IAM user permissions.
     +   You need to apply strong security measures to protect the AWS account.
+
+2.          
