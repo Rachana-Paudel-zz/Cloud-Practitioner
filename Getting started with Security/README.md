@@ -249,11 +249,11 @@ provide report to the external auditor.
 #####   IAM Scenario
 1.      Scenario:
     You opened a new AWS account. The account consists of five teams of 10 developers. Your firs tasks are the following:
-    +   You need to create 50 users. $0 of them are developers, five are managers, and five are admninistrators. The 40 developers will have the same permissions, the fice managers will have the same permissions, the five administrators will have the same permissions.
-    +   If possibile, the developers should have access to Amazon EC2 without security credenials ied to their IAM user.
+    +   You need to create 50 users. 40 of them are developers, five are managers, and five are administrators. The 40 developers will have the same permissions, the fice managers will have the same permissions, the five administrators will have the same permissions.
+    +   If possible, the developers should have access to Amazon EC2 without security credentials tied to their IAM user.
     +   Amazon EC2 instances will need access to Amazon S3.
     +   You need a way to audit so that credential lifecycle requirements are compliant.
-    +   You nedd a way to manage IAM user permissions.
+    +   You need a way to manage IAM user permissions.
     +   You need to apply strong security measures to protect the AWS account.
 
 2.          IAM setup:
@@ -261,26 +261,26 @@ provide report to the external auditor.
     +   You need to apply strong security measure to protect the AWS account.
 
     <b>Solution</b>
-    Secure your root user credentials and don't use them for everydat tasks. Configure the root user to require MFA to log in. Only use the root user to complete the tasks hat only the root user can perform. Create a new user that can conduct everyday admin tasks and assign it the appropriate permissions.
+    Secure your root user credentials and don't use them for everyday tasks. Configure the root user to require MFA to log in. Only use the root user to complete the tasks hat only the root user can perform. Create a new user that can conduct everyday admin tasks and assign it the appropriate permissions.
     Create a strong password policy that will be enforced for all IAM users in this account. The policy should require users to create their own password when they first login.
 
 3.      IAM users
     <b>Requirements:</b>    
-    +   You need to create 50 users. 40 of them are developers, five are managers and five are administrators. The 40 developers will have the same permissios, the five managers will have the same permissions, the five admninistrators will have the same permissions.
+    +   You need to create 50 users. 40 of them are developers, five are managers and five are administrators. The 40 developers will have the same permissios, the five managers will have the same permissions, the five administrators will have the same permissions.
     +   You need to apply strong security measures to protect the AWS account.    
 
 4.      IAM groups
     <b>Requirements:</b>
     +   You need to create 50 users. 40 of them are developers, five are managers and five area administrators. The 40 developers will have the same permissions, the five managers will have the same permissions, the five administrators will have the same permissions.
     <b>Solution:</b>
-    Create a group for the developers, agroup for the managers, and a group for the administrators. Place the appropriate users in the group that aligns with their job funcion.    
+    Create a group for the developers, a group for the managers, and a group for the administrators. Place the appropriate users in the group that aligns with their job function.    
     <b>IAM group: Administrators</b>
     <b>IAM group: Managers</b>
     <b>IAM group: Developers</b>
 
 5.     IAM policies
     <b>Requirements:</b>
-    +   You need to create 50 users. 40 of them are developers, five are managers and five are administrators. The 40 developers will have the same permissions, the five managers will have the same permissions, the fice administrators will have same permissions.
+    +   You need to create 50 users. 40 of them are developers, five are managers and five are administrators. The 40 developers will have the same permissions, the five managers will have the same permissions, the five administrators will have same permissions.
     <b>Solution:</b>
     Create a policy for each of the groups(developers, managers, and administrators). The policy should follow the principle of least privilege. Attach the policy to the group. This will provide each user in the groups with the appropriate permissions. If any user in a group need special permissions, that the other users in the group don't need, then create an additional IAM policy with the permissions needed and attach it to the specific user and not the group.
 
@@ -290,12 +290,12 @@ provide report to the external auditor.
     +   Amazon EC2 instances will need access to Amazon S3.    
     <b>Solution:</b>
     Create a role with permission that lets a user access Amazon EC2. Make the principle of the trust policy to be the users in the developer group.
-    Create another role for the EC2 instances, so that they can access Amazon S3. In the trust policy, make sure tha Amazon EC2 is the trusted principle.
+    Create another role for the EC2 instances, so that they can access Amazon S3. In the trust policy, make sure that Amazon EC2 is the trusted principle.
 
 7.      AWS Access Analyzer:
-    <b>Requiremens:</b>
+    <b>Requirements:</b>
     +   You need a way to manage IAM user permissions.
-    +   You need to applu strong measure to protect the AWS account.
+    +   You need to apply strong measure to protect the AWS account.
     <b>Solution:</b>
     Turn on IAM Access Analyzer. It continuously monitors for new or updated resource permissions to help you identify permissions that grant public and cross- account access. Update permission to groups and users as needed. Refining your users permissions, based on evolving need is a security best practice.  
 
@@ -311,3 +311,7 @@ provide report to the external auditor.
     Run IAM credential reports as often as needed to verify that credential lifecycle requirements are compliant. Auditing your user credentials is a good way to help protect your AWS Account.    
     Lists all users in your account.
     Details the status of their various credentials.
+
+#####   Additional AWS Security Services
+        Amazon Cognito provides Authentication and Authorization for web and mobile apps
+<img src="assets/Amazon cognito.PNG" alt="root" style="height:100%; width:100%;">
