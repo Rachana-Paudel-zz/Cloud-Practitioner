@@ -335,4 +335,5 @@ provide report to the external auditor.
 +       AWS-owned keys
     They are a collection of KMS keys that an AWS service owns and manages for use with multiple AWS accounts. Although AWS-owned keys aren/t in your account, an AWS service can use an AWS-owned key to protect the resources in your account. In general, unless you are required to audit or control the encryption key that protects your resources, an AWS-owned key is a good choice.
 +       AWS-managed keys
+    They are KMS keys in your account that are created, managed, and used on your behalf by an AWS Service integrated with AWS KMS. In general, unless you are required to control the encryption key that protects your resources, an AWS-managed key is a good choice. You don't have to maintain or create the key or its key policy, and there's never a monthly fee for an AWS-managed key.
 +       Customer-managed keys
