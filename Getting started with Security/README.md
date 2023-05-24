@@ -327,3 +327,12 @@ provide report to the external auditor.
 
 #####   Amazon Cognito workflow
 <img src="assets/cognito workflow.PNG" alt="cognito workflow" style="height:100%; width:100%;">
+
+#####   AWS Key Management Service(KMS)
+<img src="assets/kms.PNG" alt="kms" style="height:100%; width:100%;">
+
+#####   AWS KMS key types
++       AWS-owned keys
+    They are a collection of KMS keys that an AWS service owns and manages for use with multiple AWS accounts. Although AWS-owned keys aren/t in your account, an AWS service can use an AWS-owned key to protect the resources in your account. In general, unless you are required to audit or control the encryption key that protects your resources, an AWS-owned key is a good choice.
++       AWS-managed keys
++       Customer-managed keys
