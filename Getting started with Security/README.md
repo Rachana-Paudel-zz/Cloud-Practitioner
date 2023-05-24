@@ -314,4 +314,16 @@ provide report to the external auditor.
 
 #####   Additional AWS Security Services
         Amazon Cognito provides Authentication and Authorization for web and mobile apps
-<img src="assets/Amazon cognito.PNG" alt="root" style="height:100%; width:100%;">
+<img src="assets/Amazon cognito.PNG" alt="cognito" style="height:100%; width:100%;">
+
+#####   Amazon Cognito Components
+
++   User pools
+
+<img src="assets/user pools.PNG" alt="user pools" style="height:100%; width:100%;">
+
++   Identity pools
+<img src="assets/identity pools.PNG" alt="identity pools" style="height:100%; width:100%;">
+
+#####   Amazon Cognito workflow
+<img src="assets/cognito workflow.PNG" alt="cognito workflow" style="height:100%; width:100%;">
