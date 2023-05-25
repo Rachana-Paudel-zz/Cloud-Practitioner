@@ -345,3 +345,14 @@ provide report to the external auditor.
 
 2.      Asymmetric key:
     A public and private key pair used for encrypting and decrypting data.    
+
+#####   Defining AWS KMS permissions
+    Customer managed key also require to define permissions. First you need to configure the main components which are:
++       Key administrator:
+    A   key administrator is one or more IAM users that manage the key.
+
++       Key policy:
+    A key policy is a JSON document that contains the permissions for what the key can be used to do.
+
++       Key user:
+    Users that can use the key to perform the actions that are listed in the key policy.        
