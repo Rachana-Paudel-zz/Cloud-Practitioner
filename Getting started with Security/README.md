@@ -371,3 +371,9 @@ provide report to the external auditor.
 +   Passwords
 +   Third-party API keys
 +   Arbitrary text
+
+#####   AWS Secrets Manager benefits
++   Retrieve the secret programmatically.
++   Rotate secrets automatically.
++   Control access to your secrets.
++   Audit and monitor your secrets usage.
