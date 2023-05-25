@@ -377,3 +377,14 @@ provide report to the external auditor.
 +   Rotate secrets automatically.
 +   Control access to your secrets.
 +   Audit and monitor your secrets usage.
+
+#####   AWS Shield 
++   Always on detection
++   Automatic inline mitigations
++   Minimize application latency.
+
+#####   AWS Shield Advanced
+<img src="assets/aws shield.PNG" alt="shield" style="height:100%; width:100%;"> 
+
+#####   Amazon Inspector
+<img src="assets/amazon inspector.PNG" alt="shield" style="height:100%; width:100%;">
