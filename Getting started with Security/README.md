@@ -356,3 +356,18 @@ provide report to the external auditor.
 
 +       Key user:
     Users that can use the key to perform the actions that are listed in the key policy.        
+
+<img src="assets/KMS permissions.PNG" alt="kms" style="height:100%; width:100%;">    
+
+#####   AWS Secret Manager
+    designed to centrally manage secrets used to access resources on:
++   AWS
++   Third-party
++   On-premises
+
+<b>Secrets can be:</b>
+
++   Database credentials
++   Passwords
++   Third-party API keys
++   Arbitrary text
