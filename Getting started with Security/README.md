@@ -398,3 +398,8 @@ provide report to the external auditor.
 
 +       Meet compliance regulations    
     Amazon Inspector can help you meet compliance requirements. Amazon Inspector support compliance requirements and best practices for NIST CSF,PCI DSS, and other regulations with Amazon Inspector scans.
+
+#####   Amazon GuardDuty
++   Machine learning
++   Anamaly detection
++   Integrated threat intelligence
