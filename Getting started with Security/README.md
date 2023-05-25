@@ -388,3 +388,10 @@ provide report to the external auditor.
 
 #####   Amazon Inspector
 <img src="assets/amazon inspector.PNG" alt="shield" style="height:100%; width:100%;">
+
+#####   Amazon Inspector benefits
++       Quick discovery:
+    With Amazon Inspector, you can quickly discover vulnerabilities in compute workloads. Amazon Inspector can automatically discover and quickly route vulnerability findings in near real time to the appropriate teams, so that they can take immediate action.
+
++       Prioritize remediation
+    Amazon Inspector can help you prioritize patch remediation issues. It uses up-to-date common vulnerabilities and exposures information, combined with factors such as nework accessibility to create contex-based risk scores. This helps you prioritize and address vulnerable resources.
