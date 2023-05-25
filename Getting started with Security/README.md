@@ -338,3 +338,10 @@ provide report to the external auditor.
     They are KMS keys in your account that are created, managed, and used on your behalf by an AWS Service integrated with AWS KMS. In general, unless you are required to control the encryption key that protects your resources, an AWS-managed key is a good choice. You don't have to maintain or create the key or its key policy, and there's never a monthly fee for an AWS-managed key.
 +       Customer-managed keys
 <img src="assets/customer managed key.PNG" alt="kms" style="height:100%; width:100%;">
+
+#####   Customer managed key types
+1.      Symmetric key:
+    A single key used for encrypting and decrypting data.
+
+2.      Asymmetric key:
+    A public and private key pair used for encrypting and decrypting data.    
