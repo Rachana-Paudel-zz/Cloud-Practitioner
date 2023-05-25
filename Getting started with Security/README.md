@@ -395,3 +395,6 @@ provide report to the external auditor.
 
 +       Prioritize remediation
     Amazon Inspector can help you prioritize patch remediation issues. It uses up-to-date common vulnerabilities and exposures information, combined with factors such as nework accessibility to create contex-based risk scores. This helps you prioritize and address vulnerable resources.
+
++       Meet compliance regulations    
+    Amazon Inspector can help you meet compliance requirements. Amazon Inspector support compliance requirements and best practices for NIST CSF,PCI DSS, and other regulations with Amazon Inspector scans.
