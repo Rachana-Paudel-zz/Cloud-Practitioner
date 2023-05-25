@@ -317,7 +317,6 @@ provide report to the external auditor.
 <img src="assets/Amazon cognito.PNG" alt="cognito" style="height:100%; width:100%;">
 
 #####   Amazon Cognito Components
-
 +   User pools
 
 <img src="assets/user pools.PNG" alt="user pools" style="height:100%; width:100%;">
