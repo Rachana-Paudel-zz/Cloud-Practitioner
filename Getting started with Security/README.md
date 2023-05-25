@@ -403,3 +403,10 @@ provide report to the external auditor.
 +   Machine learning
 +   Anamaly detection
 +   Integrated threat intelligence
+
+#####   Amazon GuardDuty benefits
++       Security visibility
+    Amazon GuardDuty helps improve security operations visibility. Wih Guard Duty, you can gain insight of compromised credentials, unusual daa access in Amazon S3, suspicious logins in Amazon Aurora(Preview), and API calls from known malicious IP addresses.
+    
++       Find malware
++       Route security findings
