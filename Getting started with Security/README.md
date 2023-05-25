@@ -394,22 +394,22 @@ provide report to the external auditor.
     With Amazon Inspector, you can quickly discover vulnerabilities in compute workloads. Amazon Inspector can automatically discover and quickly route vulnerability findings in near real time to the appropriate teams, so that they can take immediate action.
 
 +       Prioritize remediation
-    Amazon Inspector can help you prioritize patch remediation issues. It uses up-to-date common vulnerabilities and exposures information, combined with factors such as nework accessibility to create contex-based risk scores. This helps you prioritize and address vulnerable resources.
+    Amazon Inspector can help you prioritize patch remediation issues. It uses up-to-date common vulnerabilities and exposures information, combined with factors such as network accessibility to create context-based risk scores. This helps you prioritize and address vulnerable resources.
 
 +       Meet compliance regulations    
     Amazon Inspector can help you meet compliance requirements. Amazon Inspector support compliance requirements and best practices for NIST CSF,PCI DSS, and other regulations with Amazon Inspector scans.
 
 #####   Amazon GuardDuty
 +   Machine learning
-+   Anamaly detection
++   Anomaly detection
 +   Integrated threat intelligence
 
 #####   Amazon GuardDuty benefits
 +       Security visibility
-    Amazon GuardDuty helps improve security operations visibility. Wih Guard Duty, you can gain insight of compromised credentials, unusual daa access in Amazon S3, suspicious logins in Amazon Aurora(Preview), and API calls from known malicious IP addresses.
+    Amazon GuardDuty helps improve security operations visibility. With Guard Duty, you can gain insight of compromised credentials, unusual data access in Amazon S3, suspicious logins in Amazon Aurora(Preview), and API calls from known malicious IP addresses.
 
 +       Find malware
     GuardDuty can help identify files containing malware. It scans Amazon Elastic Block Store(EBS) for files that might have malware creating suspicious behavior on instance and container workloads running on Amazon EC2.
 
 +       Route security findings
-    GuardDuty can be used to route insightful information on security findings. With Amazon GuardDuty, can route findings to your preferred operational tools using intergrations with AWS Security Hub and Amazon EventBridge.
+    GuardDuty can be used to route insightful information on security findings. With Amazon GuardDuty, can route findings to your preferred operational tools using integrations with AWS Security Hub and Amazon Event Bridge.
