@@ -407,6 +407,9 @@ provide report to the external auditor.
 #####   Amazon GuardDuty benefits
 +       Security visibility
     Amazon GuardDuty helps improve security operations visibility. Wih Guard Duty, you can gain insight of compromised credentials, unusual daa access in Amazon S3, suspicious logins in Amazon Aurora(Preview), and API calls from known malicious IP addresses.
-    
+
 +       Find malware
+    GuardDuty can help identify files containing malware. It scans Amazon Elastic Block Store(EBS) for files that might have malware creating suspicious behavior on instance and container workloads running on Amazon EC2.
+
 +       Route security findings
+    GuardDuty can be used to route insightful information on security findings. With Amazon GuardDuty, can route findings to your preferred operational tools using intergrations with AWS Security Hub and Amazon EventBridge.
