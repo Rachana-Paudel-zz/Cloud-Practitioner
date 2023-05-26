@@ -584,6 +584,7 @@ You will now sign in as user-2, who has been hired as your Amazon EC2 support pe
 
     +   In the upper-right corner of the page, choose user-1.
     +   Choose Sign Out.
+    
 <b>Test user-2 permissions</b>
 
 +   Paste the sign-in link into the private browser again, and press ENTER.
@@ -601,43 +602,44 @@ Password: Lab-Password2
     +   If you cannot see an EC2 instance, then your Region might be incorrect. In the upper-right corner of the page, choose the Region name, and then choose the Region that you were in at the beginning of the lab (for example, N. Virginia).
 Select the EC2 instance.
 
-Choose the Instance state menu, and then choose Stop instance.
++   Choose the Instance state menu, and then choose Stop instance.
 
-To confirm that you want to stop the instance, choose Stop.
++   To confirm that you want to stop the instance, choose Stop.
 
 An error message appears and says that You are not authorized to perform this operation. This demonstrates that the policy only allows you to view information without making changes.
 
 Next, check if user-2 can access Amazon S3.
 
-Choose the Services menu, and choose S3.
++   Choose the Services menu, and choose S3.
 
 An message says No buckets because user-2 does not have permissions to use Amazon S3.
 
 You will now sign-in as user-3, who has been hired as your Amazon EC2 administrator.
 
-First, sign out user-2 from the console:
++   First, sign out user-2 from the console:
 
 In the upper-right corner of the page, choose user-2.
 Choose Sign Out.
 Test user-3 permissions
 Paste the sign-in link into the private browser again, and press ENTER.
 
-Sign in with the following credentials:
++   Sign in with the following credentials:
 
 IAM user name: user-3
 Password: Lab-Password3
-Choose the Services menu, and choose EC2.
++   Choose the Services menu, and choose EC2.
 
-In the navigation pane on the left, choose Instances.
++   In the navigation pane on the left, choose Instances.
 
-An EC2 instance is listed. As an Amazon EC2 Administrator, this user should have permissions to Stop the EC2 instance.
-If you cannot see an EC2 instance, then your Region might be incorrect. In the upper-right corner of the page, choose the Region name, and then choose the Region that you were in at the beginning of the lab (for example, N. Virginia).
-Select the EC2 instance.
+    +   An EC2 instance is listed. As an Amazon EC2 Administrator, this user should have permissions to Stop the EC2 instance.
+    +   If you cannot see an EC2 instance, then your Region might be incorrect. In the upper-right corner of the page, choose the Region name, and then choose the Region that you were in at the beginning of the lab (for example, N. Virginia).
 
-Choose the Instance state menu, and then choose Stop instance.
++   Select the EC2 instance.
 
-To confirm that you want to stop the instance, choose Stop.
++   Choose the Instance state menu, and then choose Stop instance.
+
++   To confirm that you want to stop the instance, choose Stop.
 
 This time, the action is successful because user-3 has permissions to stop EC2 instances. The Instance state changes to Stopping and starts to shut down.
 
-Close your private browser window.
++   Close your private browser window.
