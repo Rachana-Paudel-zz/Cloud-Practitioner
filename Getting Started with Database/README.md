@@ -103,3 +103,13 @@
 
 +       secure and highly available
     AWS database are built for business-critical, enterprise workloads. They offer high availability, reliability, and security with multi-region and end-to-end encryption support.
+
+####    Database deployments and management
++   On-premises database
+<img src="assets/on-premises.PNG" alt="database" style="height:100%; width:100%"> 
+
++   Hosted on Amazon EC2
+<img src="assets/hosted on amazon ec2.PNG" alt="database" style="height:100%; width:100%"> 
+
++   AWS managed    
+<img src="assets/aws managed.PNG" alt="database" style="height:100%; width:100%"> 
