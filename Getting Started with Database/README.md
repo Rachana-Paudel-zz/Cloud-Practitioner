@@ -72,3 +72,21 @@
 +   Data integrity controls and accuracy
 +   Common shared query language
 +   Reducing redundancy and overall data storage.
+
+<img src="assets/database benefits.PNG" alt="database" style="height:100%; width:100%"> 
+
+####    Use case of Relational database
+<img src="assets/use case of database.PNG" alt="database" style="height:100%; width:100%"> 
+
+####    Nonrelational database
+<img src="assets/non relational database.PNG" alt="database" style="height:100%; width:100%"> 
+
+
+####    Non relational database benefits
++   flexibility
++   Scalability
++   High performance
++   Highly funcional APIs
+
+####    Non relational database use case
+<img src="assets/use case of non relational database.PNG" alt="database" style="height:100%; width:100%"> 
