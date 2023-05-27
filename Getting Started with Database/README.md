@@ -5,7 +5,7 @@ A computer need to store the information, before that the information can be ref
 <img src="assets/database.PNG" alt="database" style="height:100%; width:100%">    
 
 ####    Data models and structure   
-Data model is the logical structure of the database and determine the rules for how information can be organized an used. The data model you choose is influenced by the structure of your data. Data strucuture in three different ways:
+Data model is the logical structure of the database and determine the rules for how information can be organized an used. The data model you choose is influenced by the structure of your data. Data structure in three different ways:
 1.      Structured data:
     It is stored as a series of data values in related tables. This data is highly structured. This means it is formatted so that it owner can be made accessible for most effective processing and analysis. The data is also able to be used for highly complex queries.
 
@@ -14,7 +14,7 @@ Data model is the logical structure of the database and determine the rules for 
     +   Lacks predefined structured
     +   Special tools to catalog and query
 
-3.      Semistuctured data
+3.      Semi structured data
     +   Highly flexible
     +   Changed as needed
     +   Analyzed    
@@ -23,7 +23,7 @@ Data model is the logical structure of the database and determine the rules for 
 
 ####    Database terms and concepts
 1.      Schema
-    A databse schema is the blueprint of the database. The schema outlines the relationships within the database and the constraints of the database.
+    A database schema is the blueprint of the database. The schema outlines the relationships within the database and the constraints of the database.
     There are two main types of schemas: schema-less and semi-structured or fixed schema.
     +   A schema-less database maanges information without the need for a blueprint.
     +   Semi-structured data doesnot follow the format of a tabular data model or relational databases because it does not have fixed schema.
@@ -31,7 +31,7 @@ Data model is the logical structure of the database and determine the rules for 
 2.      Read/Write
     Reading and writing to a database is just what it sounds like.
     +   When you complete actions that read from the database you are accessing the data for a particular purpose.
-    +   When complete actions that write to the databse you are putting new data into the database or changing data that is already existing.
+    +   When complete actions that write to the database you are putting new data into the database or changing data that is already existing.
     knowing if you workload will have more read operations or write operations will help you to design a database that is optimized for speed and efficiency.  
 
 3.      Input/output operations per second
@@ -60,7 +60,7 @@ Data model is the logical structure of the database and determine the rules for 
 +   Structured data
 
 2.  Nonrelational database
-+   Unstructured and semistructured data
++   Unstructured and semi structured data
 
 <img src="assets/types of database.PNG" alt="database" style="height:100%; width:100%">  
 
@@ -93,7 +93,7 @@ Data model is the logical structure of the database and determine the rules for 
 
 ####    Why AWS database
 +       purpose built
-    AWS database service are purpose-buil to suppoet what your application is designed to do. Choose databse service that best matches your workload.
+    AWS database service are purpose-built to support what your application is designed to do. Choose databqse service that best matches your workload.
 
 +       performance at scale
     AWS offers databases hat are three to five times faster than popular alternatives, or non-relational databases that give you microsecond to sub-millisecond latency.
@@ -139,5 +139,5 @@ Data model is the logical structure of the database and determine the rules for 
 <img src="assets/graph.PNG" alt="database" style="height:100%; width:100%">
 
 
-+   Keyspaces
++   Key spaces
 <img src="assets/keyspaces.PNG" alt="database" style="height:100%; width:100%">
