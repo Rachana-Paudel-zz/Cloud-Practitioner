@@ -56,4 +56,4 @@ We begin our journey from AWS educate course. Click [Getting Started with Networ
 We begin our journey from AWS educate course. Click [Getting Started with Security](https://awseducate.instructure.com/courses/890/modules/items/15057) to start learning.
 
 ## <a href="./Getting started with Database/README.md">Getting Started with Database</a>
-We begin our journey from AWS educate course. Click [Getting Started with Database](https://awseducate.instructure.com/courses/887/pages/getting-started-with-databases?module_item_id=15023) to start learning.
+We begin our journey from AWS educate course. Click [Getting Started with Database](https://awseducate.instructure.com/courses/887/quizzes/2894?module_item_id=15016) to start learning.
