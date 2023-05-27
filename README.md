@@ -6,33 +6,33 @@ We begin our journey from AWS educate course. Click[Getting Started with Introdu
 
 ####    <b>AWS_Core_Labs(Module4)</b>
 
-+   ###  <a href="./Getting Started with Introduction to Cloud/AWS_core_Service_lab(Amazon S3)/README.md">Amazon S3</a>
++   ####  <a href="./Getting Started with Introduction to Cloud/AWS_core_Service_lab(Amazon S3)/README.md">Amazon S3</a>
 
        
      Click   [AWS core Service lab](https://awseducate.instructure.com/courses/746/pages/aws-core-services-labs?module_item_id=15101) to start learning.
 
-+    ###  <a href="./Getting Started with Introduction to Cloud/Introduction to Amazon EC2 lab/README.md">Amazon EC2</a>
++    ####  <a href="./Getting Started with Introduction to Cloud/Introduction to Amazon EC2 lab/README.md">Amazon EC2</a>
 
     
      Click [Amazon EC2 lab](https://awseducate.instructure.com/courses/746/assignments/3072?module_item_id=15076) to start learning.
 
-+    ###  <a href="./Getting Started with Introduction to Cloud/Amazon VPC lab/README.md">Amazon VPC lab</a>
++    ####  <a href="./Getting Started with Introduction to Cloud/Amazon VPC lab/README.md">Amazon VPC lab</a>
 
     
      Click [Amazon VPC lab](https://awseducate.instructure.com/courses/746/modules) to start learning.
 
-+    ###  <a href="./Getting Started with Introduction to Cloud/Identity and Access Management lab/README.md">Identity and Access Management lab</a>
++    ####  <a href="./Getting Started with Introduction to Cloud/Identity and Access Management lab/README.md">Identity and Access Management lab</a>
     
      Click [IAM lab](https://awseducate.instructure.com/courses/746/modules) to start learning.
 
 
-+   ### <a href="./Getting Started with Introduction to Cloud/Amazon Relational Database Service lab/README.md">Amazon Relational Database Service </a>
++   #### <a href="./Getting Started with Introduction to Cloud/Amazon Relational Database Service lab/README.md">Amazon Relational Database Service </a>
      Click [Amazon Relational Database Service lab](https://awseducate.instructure.com/courses/746/modules) to start learning.
 
-+   ### <a href="./Getting Started with Introduction to Cloud/Amazon DynamoDB lab/README.md">Amazon DynamoDB lab</a>
++   #### <a href="./Getting Started with Introduction to Cloud/Amazon DynamoDB lab/README.md">Amazon DynamoDB lab</a>
      Click [Amazon DynamoDB lab](https://awseducate.instructure.com/courses/746/modules) to start learning.
 
-+   ### <a href="./Getting Started with Introduction to Cloud/Amazon S3 lab/README.md">Amazon S3 lab</a>
++   #### <a href="./Getting Started with Introduction to Cloud/Amazon S3 lab/README.md">Amazon S3 lab</a>
      Click [Amazon S3 lab](https://awseducate.instructure.com/courses/768/assignments/3159?module_item_id=13575) to start learning.
 
 ## <a href="./Getting Started with Cloud Operations/README.md">Getting Started with Cloud Operations</a>
