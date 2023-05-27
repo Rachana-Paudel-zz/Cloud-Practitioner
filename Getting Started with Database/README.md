@@ -54,3 +54,12 @@
 
 7.      SQL query language
 <img src="assets/SQL.PNG" alt="indexes" style="height:100%; width:100%">     
+
+####    Types of database
+1.  Relational database
++   Structured data
+
+2.  Nonrelational database
++   Unstructured and semistructured data
+
+<img src="assets/types of database.PNG" alt="database" style="height:100%; width:100%">  
