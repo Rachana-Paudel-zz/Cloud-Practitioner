@@ -32,4 +32,8 @@
     Reading and writing to a database is just what it sounds like.
     +   When you complete actions that read from the database you are accessing the data for a particular purpose.
     +   When complete actions that write to the databse you are putting new data into the database or changing data that is already existing.
-    knowing if you workload will have more read operations or write operations will help you to design a database that is optimized for speed and efficiency.    
+    knowing if you workload will have more read operations or write operations will help you to design a database that is optimized for speed and efficiency.  
+
+3.      Input/output operations per second
+        IOPS is the measure of performance of reads and writes to a storage location like a database.
+        Databases are IOPS intensive because they are continuously reading from the database and modifyinf the pages. Given this aspect of database, it is important to consider the impact of your performance when selecting IOPS.
