@@ -20,3 +20,10 @@
     +   Analyzed    
 
 <img src="assets/data model and structure.PNG" alt="data model" style="height:100%; width:100%">   
+
+####    Database terms and concepts
+1.      Schema
+    A databse schema is the blueprint of the database. The schema outlines the relationships within the database and the constraints of the database.
+    There are two main types of schemas: schema-less and semi-structured or fixed schema.
+    +   A schema-less database maanges information without the need for a blueprint.
+    +   Semi-structured data doesnot follow the format of a tabular data model or relational databases because it does not have fixed schema.
