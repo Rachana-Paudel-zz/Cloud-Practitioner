@@ -90,3 +90,16 @@
 
 ####    Non relational database use case
 <img src="assets/use case of non relational database.PNG" alt="database" style="height:100%; width:100%"> 
+
+####    Why AWS database
++       purpose built
+    AWS database service are purpose-buil to suppoet what your application is designed to do. Choose databse service that best matches your workload.
+
++       performance at scale
+    AWS offers databases hat are three to five times faster than popular alternatives, or non-relational databases that give you microsecond to sub-millisecond latency.
+
++       fully managed
+    AWS manages database tasks such as server provisioning, patching, configuration, and backups so you can focus on developing your application.
+
++       secure and highly available
+    AWS database are built for business-critical, enterprise workloads. They offer high availability, reliability, and security with multi-region and end-to-end encryption support.
