@@ -668,7 +668,7 @@ Being able to use the default VPC when you are first learning about and working 
 
 In this scenario, you create a new VPC. Your customer provided the following network requirements for the VPC's CIDR ranges:
 
-Top-leve VPC
+Top-level VPC
 
 +   VPC IPv4 CIDR - 10.0.0.0/16
 
