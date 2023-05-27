@@ -63,3 +63,12 @@
 +   Unstructured and semistructured data
 
 <img src="assets/types of database.PNG" alt="database" style="height:100%; width:100%">  
+
+####    Relational database tables
+<img src="assets/database example.PNG" alt="database" style="height:100%; width:100%">  
+
+####    Relational databases benefits
++   Ease of use for structure data
++   Data integrity controls and accuracy
++   Common shared query language
++   Reducing redundancy and overall data storage.
