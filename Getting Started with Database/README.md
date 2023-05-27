@@ -113,3 +113,18 @@
 
 +   AWS managed    
 <img src="assets/aws managed.PNG" alt="database" style="height:100%; width:100%"> 
+
+####    AWS databases
+<img src="assets/aws database.PNG" alt="database" style="height:100%; width:100%"> 
+
++   Relational
+<img src="assets/relational.PNG" alt="database" style="height:100%; width:100%"> 
+
++   key-value
+<img src="assets/key value.PNG" alt="database" style="height:100%; width:100%"> 
+
++   Document
+<img src="assets/document.PNG" alt="database" style="height:100%; width:100%"> 
+
++   Timestream
+<img src="assets/timestream.PNG" alt="database" style="height:100%; width:100%">
