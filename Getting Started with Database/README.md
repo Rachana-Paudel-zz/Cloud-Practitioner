@@ -45,3 +45,12 @@
 <img src="assets/acid.PNG" alt="ACID" style="height:100%; width:100%"> 
 
 <img src="assets/base.PNG" alt="BASE" style="height:100%; width:100%"> 
+
+5.      OLTP/OLAP
+<img src="assets/oltp and olap.PNG" alt="oltp" style="height:100%; width:100%">     
+
+6.      Indexes
+<img src="assets/indexes.PNG" alt="indexes" style="height:100%; width:100%">     
+
+7.      SQL query language
+<img src="assets/SQL.PNG" alt="indexes" style="height:100%; width:100%">     
