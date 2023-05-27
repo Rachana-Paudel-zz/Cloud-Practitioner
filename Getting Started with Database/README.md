@@ -128,3 +128,16 @@
 
 +   Timestream
 <img src="assets/timestream.PNG" alt="database" style="height:100%; width:100%">
+
++   In-memory
+<img src="assets/in-memory.PNG" alt="database" style="height:100%; width:100%">
+
++   Graph
+<img src="assets/graph.PNG" alt="database" style="height:100%; width:100%">
+
++   Ledger
+<img src="assets/graph.PNG" alt="database" style="height:100%; width:100%">
+
+
++   Keyspaces
+<img src="assets/keyspaces.PNG" alt="database" style="height:100%; width:100%">
