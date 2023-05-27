@@ -6,7 +6,7 @@ We begin our journey from AWS educate course. Click[Getting Started with Introdu
 
 ####    <b>AWS_Core_Labs(Module4)</b>
 
-+   ####  <a href="./Getting Started with Introduction to Cloud/AWS_core_Service_lab(Amazon S3)/README.md">Amazon S3</a>
++   ####  <a href="./Getting Started with Introduction to Cloud/AWS_core_Service_lab(AmazonS3)/README.md">Amazon S3</a>
 
        
      Click   [AWS core Service lab](https://awseducate.instructure.com/courses/746/pages/aws-core-services-labs?module_item_id=15101) to start learning.
