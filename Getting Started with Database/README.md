@@ -35,5 +35,13 @@
     knowing if you workload will have more read operations or write operations will help you to design a database that is optimized for speed and efficiency.  
 
 3.      Input/output operations per second
-        IOPS is the measure of performance of reads and writes to a storage location like a database.
-        Databases are IOPS intensive because they are continuously reading from the database and modifyinf the pages. Given this aspect of database, it is important to consider the impact of your performance when selecting IOPS.
+    IOPS is the measure of performance of reads and writes to a storage location like a database.
+    Databases are IOPS intensive because they are continuously reading from the database and modifyinf the pages. Given this aspect of database, it is important to consider the impact of your performance when selecting IOPS.
+    To improve latency and rea/write throughput, provision more IOPS when configuring the databse. Limiting the IOPS may cause the database to hit the threshold and reduce performance. Over provisioning of IOPS will result in higher costs for the instance.
+
+4.      ACID and BASE compliance
+<img src="assets/acid and base.PNG" alt="ACID" style="height:100%; width:100%"> 
+
+<img src="assets/acid.PNG" alt="ACID" style="height:100%; width:100%"> 
+
+<img src="assets/base.PNG" alt="BASE" style="height:100%; width:100%"> 
