@@ -27,3 +27,9 @@
     There are two main types of schemas: schema-less and semi-structured or fixed schema.
     +   A schema-less database maanges information without the need for a blueprint.
     +   Semi-structured data doesnot follow the format of a tabular data model or relational databases because it does not have fixed schema.
+
+2.      Read/Write
+    Reading and writing to a database is just what it sounds like.
+    +   When you complete actions that read from the database you are accessing the data for a particular purpose.
+    +   When complete actions that write to the databse you are putting new data into the database or changing data that is already existing.
+    knowing if you workload will have more read operations or write operations will help you to design a database that is optimized for speed and efficiency.    
