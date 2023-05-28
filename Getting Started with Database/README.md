@@ -237,3 +237,15 @@ There is a limit of five read replicas per primary
 +   USe AWS backup to manage backups of Amazon RDS DB instances
 +   AWS backup service provides a centralized backup console
 +   Backups managed by AWS backup are counted as manual backups.
+
+####    Amazon RDS backup solution
+<img src="assets/Amazon RDS backup solution.PNG" alt="Amazon RDS backup solution" style="height:100%; width:100%">
+
+####    Restoring Amazon RDS databases
+<img src="assets/Restoring Amazon RDS databases.PNG" alt="Restoring Amazon RDS databases" style="height:100%; width:100%">
+
+####    Use case for Amazon RDS
+<img src="assets/use case for amazon RDS.PNG" alt="use case" style="height:100%; width:100%">
+
+####    RDS costs
+<img src="assets/RDS costs.PNG" alt="cost" style="height:100%; width:100%">
