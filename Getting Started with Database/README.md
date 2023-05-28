@@ -159,7 +159,7 @@ Data model is the logical structure of the database and determine the rules for 
 such as:
 
 +   Backups and restores
-+   Softwate installations and patching
++   Software installations and patching
 +   Managing hardware
 
 2.  Pass on the responsibility and engineering efforts.
@@ -180,7 +180,7 @@ such as:
 
 ####    High availability: Multi-AZ deployments benefits
 +       Enhanced durability
-    +   Multi-AZ deployments for the MySQL, MariaDB, Oracle, and PostgreSQL engines utilizr sunchronous physical replication to keep data on the standby up to date with the primary.
+    +   Multi-AZ deployments for the MySQL, MariaDB, Oracle, and PostgreSQL engines utilize synchronous physical replication to keep data on the standby up to date with the primary.
     +   Multi-AZ deployments for the SQL Server engine use synchronous logical replication o achieve the same result, employing SQL Server-native mirroring technology.
     +   If the storage volume on the primary instance falls, Amazon RDS automatically initiates a failover to the standby.
 
@@ -192,24 +192,24 @@ such as:
 
 +       No administrative intervention
     +   DB instance failover is fully automatic and requires no administrative intervention.
-    +   Amazon RDS moniotors the health of your primary and standbys and initiates a failover automatically in response to a variety of failover conditions.
+    +   Amazon RDS monitors the health of your primary and standbys and initiates a failover automatically in response to a variety of failover conditions.
 
 ####    Amazon RDS read replicas
 +   Amazon RDS allows you to create a special type of database instance called a read replica from a source database instance.
-+   Elastically scale out beyounf the capacity constraints of a single database instance for read-heavy database workloads.
++   Elastically scale out beyound the capacity constraints of a single database instance for read-heavy database workloads.
 +   Create one or more replicas of a given source database instance to increase aggregate read throughput. 
 
 <img src="assets/read replicas.PNG" alt="read replicas" style="height:100%; width:100%">
 
 ####    Amazon RDS read replicas benefits
 +       Enhanced performance
-    Amazin RDS uses the MariaDB, Microsoft SQL Server, MySQL, Oracle, and PostgreSQL DB engines built-in replication functionality to create a special type of DB instance called a read replica from as source DB instance. The source DB instance becomes the primary DB instance. Updates made to the primary DB instance are asynchronously copied to the read replica. You can reduce the load on your primary DB instance by routing read queries from your applications to the read replica. Using tead replicas, you can elastically scale out beyond the capacity constraints of a single DB instance for read-heavy database workloads.
+    Amazon RDS uses the MariaDB, Microsoft SQL Server, MySQL, Oracle, and PostgreSQL DB engines built-in replication functionality to create a special type of DB instance called a read replica from as source DB instance. The source DB instance becomes the primary DB instance. Updates made to the primary DB instance are asynchronously copied to the read replica. You can reduce the load on your primary DB instance by routing read queries from your applications to the read replica. Using read replicas, you can elastically scale out beyond the capacity constraints of a single DB instance for read-heavy database workloads.
 
 +       Increased availability
     Enhanced availability by deploying a standby instance in a second AZ, and achieve fault tolerance in the event of an AZ or database instance failure.
 
 +       Designed for security 
-    When you create a read replica for Amazon RDS for MySQL, MariaDB, or PostgresSQL, Amazon RDS sets up a secure communications channel using public key encryption between the source DB instance and the read replica, even when replicating across Regions. Amazon RDS establishes any possible security configurations, such as adding security group entries, needed to enable the secure channel. You can also create read replicas within a Region or between Regions for you Amazon RDS for MYSQL, MariaDB, PostgreSQL, or Oracle database instances encryptes at rest with AWS KMS.
+    When you create a read replica for Amazon RDS for MySQL, MariaDB, or Postgres SQL, Amazon RDS sets up a secure communications channel using public key encryption between the source DB instance and the read replica, even when replicating across Regions. Amazon RDS establishes any possible security configurations, such as adding security group entries, needed to enable the secure channel. You can also create read replicas within a Region or between Regions for you Amazon RDS for MYSQL, MariaDB, PostgreSQL, or Oracle database instances encrypts at rest with AWS KMS.
 
 There is a limit of five read replicas per primary    
 
@@ -234,7 +234,7 @@ There is a limit of five read replicas per primary
 <img src="assets/database backups.PNG" alt="database" style="height:100%; width:100%">
 
 ####    AWS backup
-+   USe AWS backup to manage backups of Amazon RDS DB instances
++   Use AWS backup to manage backups of Amazon RDS DB instances
 +   AWS backup service provides a centralized backup console
 +   Backups managed by AWS backup are counted as manual backups.
 
