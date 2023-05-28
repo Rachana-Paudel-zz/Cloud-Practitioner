@@ -190,3 +190,5 @@ such as:
     +   Once completed, a failover is initiated, and the updates or patches are installed on the remaining instance.
 
 +       No administrative intervention
+    +   DB instance failover is fully automatic and requires no administrative intervention.
+    +   Amazon RDS moniotors the health of your primary and standbys and initiates a failover automatically in response to a variety of failover conditions.
