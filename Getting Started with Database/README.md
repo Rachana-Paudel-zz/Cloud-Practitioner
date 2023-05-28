@@ -154,8 +154,15 @@ Data model is the logical structure of the database and determine the rules for 
     It is fully managed relational database service that supports the major relational database engines.
 
 <b>Why move to a fully managed services?</b>
-Pass on the burden of repetitive tasks.
+
+1.  Pass on the burden of repetitive tasks.
+such as:
 
 +   Backups and restores
 +   Softwate installations and patching
 +   Managing hardware
+
+2.  Pass on the responsibility and engineering efforts.
++   scaling servers
++   highly available environments
++   maintenance free migration
