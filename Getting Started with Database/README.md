@@ -192,3 +192,8 @@ such as:
 +       No administrative intervention
     +   DB instance failover is fully automatic and requires no administrative intervention.
     +   Amazon RDS moniotors the health of your primary and standbys and initiates a failover automatically in response to a variety of failover conditions.
+
+####    Amazon RDS read replicas
++   Amazon RDS allows you to create a special type of database instance called a read replica from a source database instance.
++   Elastically scale out beyounf the capacity constraints of a single database instance for read-heavy database workloads.
++   Create one or more replicas of a given source database instance to increase aggregate read throughput.    
