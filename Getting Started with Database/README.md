@@ -210,3 +210,25 @@ such as:
 
 +       Designed for security 
     When you create a read replica for Amazon RDS for MySQL, MariaDB, or PostgresSQL, Amazon RDS sets up a secure communications channel using public key encryption between the source DB instance and the read replica, even when replicating across Regions. Amazon RDS establishes any possible security configurations, such as adding security group entries, needed to enable the secure channel. You can also create read replicas within a Region or between Regions for you Amazon RDS for MYSQL, MariaDB, PostgreSQL, or Oracle database instances encryptes at rest with AWS KMS.
+
+There is a limit of five read replicas per primary    
+
+####    High availability example
+<img src="assets/high availability example.PNG" alt="high avilability" style="height:100%; width:100%">    
+
+####    Amazon RDS High availability failover
+<img src="assets/high availability failover.PNG" alt="failover" style="height:100%; width:100%"> 
+
+####    Amazon RDS High availability failover sequence4
+<img src="assets/sequence4.PNG" alt="sequence" style="height:100%; width:100%"> 
+
+####    Multi-AZ vs read replicas
+<img src="assets/az vs replicas.PNG" alt="az" style="height:100%; width:100%">
+
+####    Database backups
+<img src="assets/database backups.PNG" alt="database" style="height:100%; width:100%">
+
+####    Database retention and backup storage
+<img src="assets/database backups.PNG" alt="database" style="height:100%; width:100%">
+
+<img src="assets/database backups.PNG" alt="database" style="height:100%; width:100%">
