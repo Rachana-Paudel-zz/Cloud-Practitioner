@@ -146,3 +146,16 @@ Data model is the logical structure of the database and determine the rules for 
 +   Cost-efficient
 +   Automating administration tasks
 +   Resizable capacity
+
+####    Amazon RDS engines
+<img src="assets/RDS engine.PNG" alt="database" style="height:100%; width:100%">
+
+####    Amazon RDS
+    It is fully managed relational database service that supports the major relational database engines.
+
+<b>Why move to a fully managed services?</b>
+Pass on the burden of repetitive tasks.
+
++   Backups and restores
++   Softwate installations and patching
++   Managing hardware
