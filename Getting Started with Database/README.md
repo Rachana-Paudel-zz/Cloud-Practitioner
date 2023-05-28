@@ -166,3 +166,11 @@ such as:
 +   scaling servers
 +   highly available environments
 +   maintenance free migration
+
+####    Amazon RDS benefits
++   Easy to administer
++   Available and durable
++   Highly scalable
++   Fast
++   Secure
++   Inexpensive
