@@ -141,3 +141,8 @@ Data model is the logical structure of the database and determine the rules for 
 
 +   Key spaces
 <img src="assets/keyspaces.PNG" alt="database" style="height:100%; width:100%">
+
+####    Introduction to Amazon Relational Database Service(Amazon RDS)
++   Cost-efficient
++   Automating administration tasks
++   Resizable capacity
