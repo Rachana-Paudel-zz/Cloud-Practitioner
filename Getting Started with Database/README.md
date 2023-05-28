@@ -148,7 +148,7 @@ Data model is the logical structure of the database and determine the rules for 
 +   Resizable capacity
 
 ####    Amazon RDS engines
-<img src="assets/RDS engine.PNG" alt="database" style="height:100%; width:100%">
+<img src="assets/RDS engine.PNG" alt="RDS" style="height:100%; width:100%">
 
 ####    Amazon RDS
     It is fully managed relational database service that supports the major relational database engines.
@@ -174,3 +174,19 @@ such as:
 +   Fast
 +   Secure
 +   Inexpensive
+
+####    High availability: Multi-AZ deployments
+<img src="assets/multi-az.PNG" alt="az" style="height:100%; width:100%">
+
+####    High availability: Multi-AZ deployments benefits
++       Enhanced durability
+    +   Multi-AZ deployments for the MySQL, MariaDB, Oracle, and PostgreSQL engines utilizr sunchronous physical replication to keep data on the standby up to date with the primary.
+    +   Multi-AZ deployments for the SQL Server engine use synchronous logical replication o achieve the same result, employing SQL Server-native mirroring technology.
+    +   If the storage volume on the primary instance falls, Amazon RDS automatically initiates a failover to the standby.
++       Increased availability
+    +   If there is an Availability Zone or primary database failure, your availability impact is limited to the time automatic failover takes to complete-typically under two minutes.
+    +   This availability benefit extends to planned maintenance and backups as well.
+    +   Upgrades and patches are installed on the standby instance first.
+    +   Once completed, a failover is initiated, and the updates or patches are installed on the remaining instance.
+
++       No administrative intervention
