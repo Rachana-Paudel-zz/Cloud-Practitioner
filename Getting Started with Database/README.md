@@ -232,3 +232,8 @@ There is a limit of five read replicas per primary
 <img src="assets/database backups.PNG" alt="database" style="height:100%; width:100%">
 
 <img src="assets/database backups.PNG" alt="database" style="height:100%; width:100%">
+
+####    AWS backup
++   USe AWS backup to manage backups of Amazon RDS DB instances
++   AWS backup service provides a centralized backup console
++   Backups managed by AWS backup are counted as manual backups.
