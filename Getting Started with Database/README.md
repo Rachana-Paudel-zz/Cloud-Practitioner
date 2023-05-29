@@ -282,3 +282,26 @@ There is a limit of five read replicas per primary
 
 ####    Amazon RDS creation
 <img src="assets/RDS creation.PNG" alt="RDS" style="height:100%; width:100%">
+
+<img src="assets/creation1.PNG" alt="RDS" style="height:100%; width:100%">
+
+<img src="assets/creation2.PNG" alt="RDS" style="height:100%; width:100%">
+
+####   Amazon RDS creation Engine type
+<img src="assets/engine type.PNG" alt="engine" style="height:100%; width:100%">
+
+####   Amazon RDS creation templates
+<img src="assets/templates.PNG" alt="templates" style="height:100%; width:100%">
+
+####   Amazon RDS creation -deployment options
+<img src="assets/deployment options.PNG" alt="RDS" style="height:100%; width:100%">
+
+####   Amazon RDS creation - DB cluster identifier
+<img src="assets/db cluster.PNG" alt="RDS" style="height:100%; width:100%">
+
+####    Amazon RDS settings - DB instance class
+<img src="assets/instance1.PNG" alt="instance" style="height:100%; width:100%">
+
+<img src="assets/instance2.PNG" alt="instance" style="height:100%; width:100%">
+
+<img src="assets/instance3.PNG" alt="instance" style="height:100%; width:100%">
