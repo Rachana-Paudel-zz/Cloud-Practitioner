@@ -249,3 +249,14 @@ There is a limit of five read replicas per primary
 
 ####    RDS costs
 <img src="assets/RDS costs.PNG" alt="cost" style="height:100%; width:100%">
+
+####    Setting up Amazon RDS
+<img src="assets/setting up RDS.PNG" alt="cost" style="height:100%; width:100%">
+
+####    Amazon RDS workflow
+<img src="assets/Amazon RDS workflow.PNG" alt="cost" style="height:100%; width:100%">
+
+####    Amazon RDS decision points
++   creating a virtual private cloud(VPC)
++   Amazon Elastic Compute Cloud (Amazon EC2) instance and the Amazon RDS database
++   Understand your workload, what is it that you want to accomplish
