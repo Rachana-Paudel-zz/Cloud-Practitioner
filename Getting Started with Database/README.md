@@ -260,3 +260,11 @@ There is a limit of five read replicas per primary
 +   creating a virtual private cloud(VPC)
 +   Amazon Elastic Compute Cloud (Amazon EC2) instance and the Amazon RDS database
 +   Understand your workload, what is it that you want to accomplish
+
+####    Database engine
++   Database engine you want to run
++   Each database engine has its own unique characteristics and features.
+
+#### Instance storage
++   DB instance class you select determines the computation and memory capacity of the Amazon RDS DB instance.
++   Three DB instance class types that are supported by Amazon RDS are standard, memory optimized, and burstable performance.
