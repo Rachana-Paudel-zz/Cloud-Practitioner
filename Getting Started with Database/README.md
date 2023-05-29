@@ -251,10 +251,10 @@ There is a limit of five read replicas per primary
 <img src="assets/RDS costs.PNG" alt="cost" style="height:100%; width:100%">
 
 ####    Setting up Amazon RDS
-<img src="assets/setting up RDS.PNG" alt="cost" style="height:100%; width:100%">
+<img src="assets/setting up RDS.PNG" alt="RDS" style="height:100%; width:100%">
 
 ####    Amazon RDS workflow
-<img src="assets/Amazon RDS workflow.PNG" alt="cost" style="height:100%; width:100%">
+<img src="assets/Amazon RDS workflow.PNG" alt="RDS workflow" style="height:100%; width:100%">
 
 ####    Amazon RDS decision points
 +   creating a virtual private cloud(VPC)
@@ -276,3 +276,9 @@ There is a limit of five read replicas per primary
 +   Amazon RDS can use three types of security groups: database, VPC and EC2
 +   Amazon RDS uses AWS Identity and Access Management or IAM.
 +   IAM policies assign permissions that determine who can manage Amazon RDS resources.
+
+####    Options for creating a database in the console
+<img src="assets/creating db console.PNG" alt="DB" style="height:100%; width:100%">
+
+####    Amazon RDS creation
+<img src="assets/RDS creation.PNG" alt="RDS" style="height:100%; width:100%">
