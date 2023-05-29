@@ -261,10 +261,18 @@ There is a limit of five read replicas per primary
 +   Amazon Elastic Compute Cloud (Amazon EC2) instance and the Amazon RDS database
 +   Understand your workload, what is it that you want to accomplish
 
-####    Database engine
+<b>    Database engine</b>
 +   Database engine you want to run
 +   Each database engine has its own unique characteristics and features.
 
-#### Instance storage
+<b> Instance storage</b>
+
 +   DB instance class you select determines the computation and memory capacity of the Amazon RDS DB instance.
 +   Three DB instance class types that are supported by Amazon RDS are standard, memory optimized, and burstable performance.
+
+<b>Security groups</b>
+
++   control access to a database instance.
++   Amazon RDS can use three types of security groups: database, VPC and EC2
++   Amazon RDS uses AWS Identity and Access Management or IAM.
++   IAM policies assign permissions that determine who can manage Amazon RDS resources.
