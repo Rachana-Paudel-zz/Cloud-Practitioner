@@ -318,3 +318,21 @@ There is a limit of five read replicas per primary
 
 ####    Connectivity - security groups
 <img src="assets/security groups.PNG" alt="connectivity" style="height:100%; width:100%">
+
+####    Conncetivity - security groups example
+<img src="assets/security example.PNG" alt="connectivity" style="height:100%; width:100%">
+
+
+####   Conncetivity - additional configuraion
+
+<img src="assets/additional configuration.PNG" alt="connectivity" style="height:100%; width:100%">
+
+####    Modify settings
+<img src="assets/connectivity modify.PNG" alt="modify" style="height:100%; width:100%">
+
+####    Modify setting- easy use
+<img src="assets/easy modify.PNG" alt="modify" style="height:100%; width:100%">
+
+####    Use case scenario 
+
+
