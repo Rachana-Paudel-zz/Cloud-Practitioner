@@ -305,3 +305,16 @@ There is a limit of five read replicas per primary
 <img src="assets/instance2.PNG" alt="instance" style="height:100%; width:100%">
 
 <img src="assets/instance3.PNG" alt="instance" style="height:100%; width:100%">
+
+####    Amazon RDS settings storage type
+<img src="assets/storage type.PNG" alt="storage type" style="height:100%; width:100%">
+
+####    Connectivity - compute resource
+<img src="assets/connectivity.PNG" alt="connectivity" style="height:100%; width:100%">
+
+
+####    Connectivity - VPC
+<img src="assets/connectivity vpc.PNG" alt="connectivity" style="height:100%; width:100%">
+
+####    Connectivity - security groups
+<img src="assets/security groups.PNG" alt="connectivity" style="height:100%; width:100%">
