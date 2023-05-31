@@ -339,7 +339,7 @@ There is a limit of five read replicas per primary
 
 ####    Connecting to the database
 +   A database connection allows you to work  with database tables directly.
-+   USe any standard SQL client application to connect to a database on the DB instance.
++   Use any standard SQL client application to connect to a database on the DB instance.
 
 ####    Steps to connecting to database
 <img src="assets/connecting db step.PNG" alt="database" style="height:100%; width:100%">
@@ -358,18 +358,18 @@ There is a limit of five read replicas per primary
 <img src="assets/port.PNG" alt="port" style="height:100%; width:100%">
 
 4.      Availability
-    For a newly created DB instance, the DB instance has a status of creating until the DB instance is ready to use. When the state changes to availble, you can connect to the DB instance. Depending on the size of your DB instance, it can take up to 20 minutes before an instance is available.
+    For a newly created DB instance, the DB instance has a status of creating until the DB instance is ready to use. When the state changes to available, you can connect to the DB instance. Depending on the size of your DB instance, it can take up to 20 minutes before an instance is available.
 
 5.      Internet gateway
-    For DB instance to be publicy accessible, the subnets in
+    For DB instance to be pubilcy accessible, the subnets in
     its DB subnet group must have an internet gateway. 
 
 6.      DNS port
-    The wrong DNS name or enpoint is used to connect to the DB instance.
+    The wrong DNS name or endpoint is used to connect to the DB instance.
 
 7.      User authentication
     User authentication is incorrect because of one of the following reasons:
-    +   You are using an incorrect user name or password at the database level to access the instance from the DB iclient.
+    +   You are using an incorrect user name or password at the database level to access the instance from the DB client.
     +   You don't have the required database permissions to access the instance.
     +   The client is running on a version that's incompatible with the database version.
 
