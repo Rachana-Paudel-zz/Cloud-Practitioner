@@ -319,11 +319,11 @@ There is a limit of five read replicas per primary
 ####    Connectivity - security groups
 <img src="assets/security groups.PNG" alt="connectivity" style="height:100%; width:100%">
 
-####    Conncetivity - security groups example
+####    Connectivity - security groups example
 <img src="assets/security example.PNG" alt="connectivity" style="height:100%; width:100%">
 
 
-####   Conncetivity - additional configuraion
+####   Connectivity - additional configuration
 
 <img src="assets/additional configuration.PNG" alt="connectivity" style="height:100%; width:100%">
 
@@ -333,6 +333,12 @@ There is a limit of five read replicas per primary
 ####    Modify setting- easy use
 <img src="assets/easy modify.PNG" alt="modify" style="height:100%; width:100%">
 
-####    Use case scenario 
+####  Using Amazon RDS
++   Connect to the database engine
++   Working with the data in the database
+
+####    Connecting to the database
++   A database connection allows you to work  with database tables directly.
++   USe any standard SQL client application to connect to a database on the DB instance.
 
 
