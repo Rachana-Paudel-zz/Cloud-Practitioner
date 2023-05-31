@@ -373,5 +373,18 @@ There is a limit of five read replicas per primary
     +   You don't have the required database permissions to access the instance.
     +   The client is running on a version that's incompatible with the database version.
 
+ ####    Role based access
+<img src="assets/role based access.PNG" alt="role based access" style="height:100%; width:100%">    
+
+####    Identifying roles
+1.      Service user
+<img src="assets/service user.PNG" alt="Identifying roles" style="height:100%; width:100%"> 
+
+2.      Service administrator
+<img src="assets/service administrator.PNG" alt="Identifying roles" style="height:100%; width:100%"> 
+
+3.      IAM administrator
+    If you are an IAM administrator, you might want to learn details about how you can write policies to manage access to Amazon RDS.
+
 
 
