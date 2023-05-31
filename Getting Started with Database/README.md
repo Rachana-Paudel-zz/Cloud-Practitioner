@@ -341,4 +341,10 @@ There is a limit of five read replicas per primary
 +   A database connection allows you to work  with database tables directly.
 +   USe any standard SQL client application to connect to a database on the DB instance.
 
+####    Steps to connecting to database
+<img src="assets/connecting db step.PNG" alt="database" style="height:100%; width:100%">
+
+####    MySQL command-line
+<img src="assets/command line.PNG" alt="command line" style="height:100%; width:100%">
+
 
