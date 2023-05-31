@@ -347,4 +347,28 @@ There is a limit of five read replicas per primary
 ####    MySQL command-line
 <img src="assets/command line.PNG" alt="command line" style="height:100%; width:100%">
 
+####    Troubleshooting
+1.      Inbound rules
+<img src="assets/inbound rules.PNG" alt="inbound rules" style="height:100%; width:100%">  
+
+2.      Public accessibility
+<img src="assets/public accesibility.PNG" alt="public accessibility rules" style="height:100%; width:100%">
+
+3.      Port
+<img src="assets/port.PNG" alt="port" style="height:100%; width:100%">
+
+4.      Availability
+    For a newly created DB instance, the DB instance has a status of creating until the DB instance is ready to use. When the state changes to availble, you can connect to the DB instance. Depending on the size of your DB instance, it can take up to 20 minutes before an instance is available.
+
+5.      Internet gateway
+    For DB instance to be publicy accessible, the subnets in
+    its DB subnet group must have an internet gateway. 
+
+6.      DNS port
+    The wrong DNS name or enpoint is used to connect to the DB instance.
+
+7.      User authentication
+    User authentication is incorrect because of one of the following reasons:
+
+
 
