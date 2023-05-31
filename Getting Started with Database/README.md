@@ -369,6 +369,9 @@ There is a limit of five read replicas per primary
 
 7.      User authentication
     User authentication is incorrect because of one of the following reasons:
+    +   You are using an incorrect user name or password at the database level to access the instance from the DB iclient.
+    +   You don't have the required database permissions to access the instance.
+    +   The client is running on a version that's incompatible with the database version.
 
 
 
