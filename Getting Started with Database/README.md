@@ -393,5 +393,17 @@ There is a limit of five read replicas per primary
 +   Create, read, update, delete are the four basic operations for creating and managing persistent data elements.
 +   CRUD refers to the major operations which are implemented by databases. Each letter in the acronym can be mapped to a standard SQL statement.
 
+####    Adding data in the database
+<img src="assets/data in database.PNG" alt="data in database" style="height:100%; width:100%"> 
+
+####    Quering data
+<img src="assets/quering data.PNG" alt="quering data" style="height:100%; width:100%"> 
+
+####    Removing data
+<img src="assets/removing data.PNG" alt="removing data" style="height:100%; width:100%"> 
+
+####    Monitoring Amazon RDS
+<img src="assets/monitoring.PNG" alt="monitor
+" style="height:100%; width:100%">
 
 
