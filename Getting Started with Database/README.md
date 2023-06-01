@@ -386,5 +386,12 @@ There is a limit of five read replicas per primary
 3.      IAM administrator
     If you are an IAM administrator, you might want to learn details about how you can write policies to manage access to Amazon RDS.
 
+####    Basic SQL commands - CRUD
++   Structured Query Language = SQL
++   SQL is a programming language that communicated with databases.
++   Uses sets of keywords to retrive data from databases, these keywords are called statements.
++   Create, read, update, delete are the four basic operations for creating and managing persistent data elements.
++   CRUD refers to the major operations which are implemented by databases. Each letter in the acronym can be mapped to a standard SQL statement.
+
 
 
