@@ -425,8 +425,9 @@ There is a limit of five read replicas per primary
 
 4.      Database connections
     The optimal number of user connections for your database instance will vary based on your instance class and the complexity of the operations being performed. You can determine the number of database connections by associating your database instance with a parameter group where the User Connections parameter is set to a value other than 0 (unlimited). You can either use an exising parameter group or create a new one.
-    
+
 5.      IOPS metrics
+    A baseline helps you to interpret the results of their metric. You should be concerned if values are consistentlu different than your baseline. For best IOPS performance, make sure your typical working set fits into memory to minimize read and write operations.
 6.      Amazon CloudWatch alarms
 7.      Amazon CloudWatch logs
 
