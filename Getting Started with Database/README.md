@@ -389,7 +389,7 @@ There is a limit of five read replicas per primary
 ####    Basic SQL commands - CRUD
 +   Structured Query Language = SQL
 +   SQL is a programming language that communicated with databases.
-+   Uses sets of keywords to retrive data from databases, these keywords are called statements.
++   Uses sets of keywords to retreive data from databases, these keywords are called statements.
 +   Create, read, update, delete are the four basic operations for creating and managing persistent data elements.
 +   CRUD refers to the major operations which are implemented by databases. Each letter in the acronym can be mapped to a standard SQL statement.
 
@@ -406,4 +406,23 @@ There is a limit of five read replicas per primary
 <img src="assets/monitoring.PNG" alt="monitor
 " style="height:100%; width:100%">
 
+####    Monitoring Amazon in console
+<img src="assets/monitoring console.PNG" alt="monitor
+" style="height:100%; width:100%">
+
+####    Monitoring tab metrics
+<img src="assets/monitoring tab metrics.PNG" alt="monitor
+" style="height:100%; width:100%">
+
+####    Types of metics
+1.      High CPU or RAM
+    A baseline helps you to inerpret the results of this metric. There is no clear value at which you need to worry. It all depends on the database design.    
+2.      Disk space
+    You should be connected if this metric returns values at or above 85 percen of the total disk space. Consider deleting data or archiving data to a different system to free up space.
+3.      Network traffic
+    
+4.      Database connections
+5.      IOPS metrics
+6.      Amazon CloudWatch alarms
+7.      Amazon CloudWatch logs
 
