@@ -420,7 +420,7 @@ There is a limit of five read replicas per primary
 2.      Disk space
     You should be connected if this metric returns values at or above 85 percen of the total disk space. Consider deleting data or archiving data to a different system to free up space.
 3.      Network traffic
-    
+    A baseline helps you to interpret the results of his mertric. Work with your network architect to understand what expected throughput is. Investigate network traffic if throughput is consistently lower than expectd.
 4.      Database connections
 5.      IOPS metrics
 6.      Amazon CloudWatch alarms
