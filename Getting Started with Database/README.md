@@ -428,6 +428,10 @@ There is a limit of five read replicas per primary
 
 5.      IOPS metrics
     A baseline helps you to interpret the results of their metric. You should be concerned if values are consistentlu different than your baseline. For best IOPS performance, make sure your typical working set fits into memory to minimize read and write operations.
+
 6.      Amazon CloudWatch alarms
+    You can watch a single metic over a specific period of time and perform one or more actions based on the value of the metric relatice to a threshold you set.
+
 7.      Amazon CloudWatch logs
+    Most database engines enable you to monitor, store, and access your database log files in CloudWatch logs.
 
