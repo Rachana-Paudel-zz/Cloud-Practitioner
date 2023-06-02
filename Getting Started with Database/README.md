@@ -419,9 +419,13 @@ There is a limit of five read replicas per primary
     A baseline helps you to inerpret the results of this metric. There is no clear value at which you need to worry. It all depends on the database design.    
 2.      Disk space
     You should be connected if this metric returns values at or above 85 percen of the total disk space. Consider deleting data or archiving data to a different system to free up space.
+
 3.      Network traffic
-    A baseline helps you to interpret the results of his mertric. Work with your network architect to understand what expected throughput is. Investigate network traffic if throughput is consistently lower than expectd.
+    A baseline helps you to interpret the results of his mertric. Work with your network architect to understand what expected throughput is. Investigate network traffic if throughput is consistently lower than expected.
+
 4.      Database connections
+    The optimal number of user connections for your database instance will vary based on your instance class and the complexity of the operations being performed. You can determine the number of database connections by associating your database instance with a parameter group where the User Connections parameter is set to a value other than 0 (unlimited). You can either use an exising parameter group or create a new one.
+    
 5.      IOPS metrics
 6.      Amazon CloudWatch alarms
 7.      Amazon CloudWatch logs
