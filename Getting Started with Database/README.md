@@ -414,24 +414,105 @@ There is a limit of five read replicas per primary
 <img src="assets/monitoring tab metrics.PNG" alt="monitor
 " style="height:100%; width:100%">
 
-####    Types of metics
+####    Types of metrics
 1.      High CPU or RAM
-    A baseline helps you to inerpret the results of this metric. There is no clear value at which you need to worry. It all depends on the database design.    
+    A baseline helps you to interpret the results of this metric. There is no clear value at which you need to worry. It all depends on the database design.    
 2.      Disk space
-    You should be connected if this metric returns values at or above 85 percen of the total disk space. Consider deleting data or archiving data to a different system to free up space.
+    You should be connected if this metric returns values at or above 85 percent of the total disk space. Consider deleting data or archiving data to a different system to free up space.
 
 3.      Network traffic
-    A baseline helps you to interpret the results of his mertric. Work with your network architect to understand what expected throughput is. Investigate network traffic if throughput is consistently lower than expected.
+    A baseline helps you to interpret the results of his metric. Work with your network architect to understand what expected throughput is. Investigate network traffic if throughput is consistently lower than expected.
 
 4.      Database connections
-    The optimal number of user connections for your database instance will vary based on your instance class and the complexity of the operations being performed. You can determine the number of database connections by associating your database instance with a parameter group where the User Connections parameter is set to a value other than 0 (unlimited). You can either use an exising parameter group or create a new one.
+    The optimal number of user connections for your database instance will vary based on your instance class and the complexity of the operations being performed. You can determine the number of database connections by associating your database instance with a parameter group where the User Connections parameter is set to a value other than 0 (unlimited). You can either use an existing parameter group or create a new one.
 
 5.      IOPS metrics
-    A baseline helps you to interpret the results of their metric. You should be concerned if values are consistentlu different than your baseline. For best IOPS performance, make sure your typical working set fits into memory to minimize read and write operations.
+    A baseline helps you to interpret the results of their metric. You should be concerned if values are consistently different than your baseline. For best IOPS performance, make sure your typical working set fits into memory to minimize read and write operations.
 
 6.      Amazon CloudWatch alarms
-    You can watch a single metic over a specific period of time and perform one or more actions based on the value of the metric relatice to a threshold you set.
+    You can watch a single metric over a specific period of time and perform one or more actions based on the value of the metric relative to a threshold you set.
 
 7.      Amazon CloudWatch logs
     Most database engines enable you to monitor, store, and access your database log files in CloudWatch logs.
+
+
+###     LAB
+#####   Task 1: Creating an Amazon RDS database
+In this task, you create a MySQL database in your virtual private cloud (VPC). MySQL is a popular open-source relational database management system (RDBMS), so there are no software licensing fees.
+
++   On the Services  menu, choose RDS.
+
++   Choose  Create database
+
++   For this lab, you will keep the Choose a database creation method as Standard create to understand the full set of features available. 
+
++   Under Engine options, select  MySQL.
+
++   For Version, keep MySQL 8.0.28. 
+
++   In the options, you might notice Amazon Aurora. Aurora is a global-scale relational database service built for the cloud with full MySQL and PostgreSQL compatibility. If your company uses large-scale MySQL or PostgreSQL databases, Aurora can provide enhanced performance.
+
++   In the Templates section, select  Dev/Test.
+
+You can now select a database configuration, including software version, instance class, storage, and login settings. The Multi-AZ deployment option automatically creates a replica of the database in a second Availability Zone for high availability.
+
++   In the Availability and durability section, choose Single DB instance
+
++   In the Settings section next, configure the following options :
+
+    +   DB instance identifier: inventory-db
+    +   Master username: admin
+
+    +   Master password: lab-password
+    +   Confirm password: lab-password
+
+Note: Please use these values verbatim, do not make any changes.
+
++   In the Instance configuration section, configure the following options for DB instance class:
+
+    +   Choose  Burstable classes (includes t classes).
+    +   Choose db.t3.micro.
++   In the Storage section next,
+
+    +   For Storage type choose General Purpose SSD (gp2) from the Dropdown menu.
+    +   For Allocated storage keep 20.
+    +   Clear or Deselect Enable storage autoscaling.
+ 
+
++   In the Connectivity section, configure the following options: 
+
+    +   For Compute resource
+
+        +   keep default  Don’t connect to an EC2 compute resource, as you will establish this manually at a later stage.
+    +   For Virtual private cloud (VPC) Choose Lab VPC from the Dropdown menu.
+
+    +   For DB Subnet group, keep default value rds-lab-db-subnet-group
+
+    +   For Public access Keep default value (No)   
+
+    +   For VPC security group (firewall) 
+
+        +   Choose the X on default to remove this security group. 
+        +   Choose DB-SG from the dropdown list to add it.
+        +   For Availability Zone, Keep default No preference  
+    +   For Database authentication keep default value    Password authentication
+
++   In the Monitoring section
+
+    +   Clear/DeSelect the  Enable Enhanced monitoring option.
++   Expand the following Additional configuration section by choosing 
+
+    +   Under Database options, for Initial database name, enter inventory
+This is the logical name of the database that the application will use.
+
+ You can review the few other options displayed on the page, but leave them set to their default values. Options include automatic backups, Log exports , Encryption and automatic version upgrades. The ability to activate these features with check boxes demonstrates the power of using a fully managed database solution instead of installing, backing up, and maintaining the database yourself.
+
++   At the bottom of the page, choose Create database
+
+You should receive this message: Creating database inventory-db.
+
+ If you receive an error message that mentions rds-monitoring-role, confirm that you have cleared the Enable Enhanced monitoring option in the previous step, and then try again.
+
+Before you continue to the next task, the database instance status must be Available. This process could take several minutes.
+
 
