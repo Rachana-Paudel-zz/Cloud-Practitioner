@@ -571,55 +571,45 @@ The inventory information is stored in the Amazon RDS MySQL database that you cr
 Optional: To access the saved parameters, go to the AWS Management console. On the Services  menu, choose Secrets Manager , choose Secrets. 
 
 
-Task 3: Monitoring the Database Instance
+#####   Task 3: Monitoring the Database Instance
 Monitoring is an important part of maintaining the reliability, availability, and performance of any database. Amazon RDS service provides many useful metrics to monitor the health of your database instance. In this task you will explore few useful metrics for the database instance you created.
 
-Return to the AWS Management Console.
++   Return to the AWS Management Console.
 
-On the Services  menu , choose RDS.
++   On the Services  menu , choose RDS.
 
-Choose Databases.
++   Choose Databases.
 
-Choose 'inventory-db'.
++   Choose 'inventory-db'.
 
-In the pane below, choose Monitoring tab.
++   In the pane below, choose Monitoring tab.
 
-Observe the CloudWatch metrics indicating respective database Instance parameters as shown in example below.
++   Observe the CloudWatch metrics indicating respective database Instance parameters as shown in example below.
 
- CloudWatch Metrics
 
-Perform various operations on the web application like add, update or remove records from inventory database and observe the changes in the values mentioned above.
++   Perform various operations on the web application like add, update or remove records from inventory database and observe the changes in the values mentioned above.
 
-Scroll down further to observe other  available metrics.
++   Scroll down further to observe other  available metrics.
 
-Task 4: Performing operations on Database.
+#####   Task 4: Performing operations on Database.
 In this task, you learn about a few administrative tasks that can be performed on the database in Amazon RDS.
 
-Return to the RDS Management Console (if you have navigated out)
++   Return to the RDS Management Console (if you have navigated out)
 
-Choose Databases.
++   Choose Databases.
 
-Choose 'inventory-db'.
++   Choose 'inventory-db'.
 
-Under Actions menu, there are various operations to perform e.g. Stop temporarily, Reboot, etc.
++   Under Actions menu, there are various operations to perform e.g. Stop temporarily, Reboot, etc.
 
-Choose Stop temporarily, to stop the instance temporarily. (Database automatically restarts after 7 days)
++   Choose Stop temporarily, to stop the instance temporarily. (Database automatically restarts after 7 days)
 
-Select checkbox under 'Acknolwedgement'
-Choose  Stop temporarily
-	Note: Stopping the instance also stops the billing charges associated with the running instance. Database(s) continues to occupy storage space and incur billing charges).
+    +   Select checkbox under 'Acknolwedgement'
+    +   Choose  Stop temporarily
+	Note: Stopping the instance also stops the billing charges associated with the running instance. Database(s) continues to occupy storage space and incur billing charges.
 
-Refresh the browser after few minutes to verify that the instance is stopped. (Status = Stopped) 
++   Refresh the browser after few minutes to verify that the instance is stopped. (Status = Stopped) 
 
 Optional - You can Start the instance, re-connect it to the  web application and continue to use.
 
 In this lab you launched MYSQL RDS database instance, configured an existing web application to interact with the database instance. Then you performed basic tasks such as querying, updating records and monitored the various metrics to gain insights  into the health of the database and finally performed basic database administrative operations.
-
-Lab complete 
- Congratulations! You have completed the lab. Choose End Lab at the top of this page, and then choose Yes to confirm that you want to end the lab.
-
-Your feedback is welcome and appreciated.
-
-If you would like to share any suggestions or corrections, please provide the details in the AWS Training and Certification Contact Form.
-
-©2021 Amazon Web Services, Inc. and its affiliates. All rights reserved. This work may not be reproduced or redistributed, in whole or in part, without prior written permission from Amazon Web Services, Inc. Commercial copying, lending, or selling is prohibited.
