@@ -23,3 +23,16 @@
 
 4.      Benefits
     PaaS integrates many of a game's web services and databases, which are storing all of those gaming mods, so you can download and browse thousands of gaming mods fairly quickly on your phone. PaaS allows for many users to access the platform at the same time.         
+
+### SaaS
+1.      Meaning:
+    SaaS stands for software as a service.
+
+2.      Definition
+   It provides applications via the Internet that are managed by a third party.
+
+3.      Uses in Gaming
+    It is a great model for collaborative faming projects and applications. For example, it allows for guilds to communicate and share info about gaming stategies.    
+
+4.      Benefits
+    It allows you to automatically install gaming applications, add-ons, and patches. Game developers who use it can save money because a third party is managing their gaming applications, installations, and downloads.
