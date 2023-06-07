@@ -29,3 +29,17 @@
 
 +       Route 53 Hosted Zone example.com
     Use a domain name service (such as AWS Route 53) to register domains and to define where Internet traffic should be routed for the domain. This graphic explains how the domain name service creates alias records that route traffic for the domain (Example.com) and subdomain. (www.example.com) to a bucket that contains an HTML file. Aman's domain is going to be Sportdude.    
+
+####    There are four basic steps to follow when building a static website. Click the cards to read about each step.
+
+<b>   Step1</b>
+Register a domain: get your URL working, which allows the web service you use to be accessible by the Internet.
+
+<b>Step2</b>
+Create and configure buckets and upload data: make your pages accessible
+
+<b>Step3</b>
+Add alias records: use different names for your web page addresses. such as Sportsdude or Sportdudes.
+
+<b>Step4</b>
+Test: test everything out to make sure it works.
