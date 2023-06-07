@@ -26,3 +26,6 @@
 ###         <img src="assets/highlite.PNG" alt="highlite" style="height:100% ; width:100%">
 +       AWS
     Use a web service to create buckets, upload a sample website page, and configure permissions so that everyone can see the content, then configure the buckets for website hosting. This is where Aman is going to load his web page.
+
++       Route 53 Hosted Zone example.com
+    Use a domain name service (such as AWS Route 53) to register domains and to define where Internet traffic should be routed for the domain. This graphic explains how the domain name service creates alias records that route traffic for the domain (Example.com) and subdomain. (www.example.com) to a bucket that contains an HTML file. Aman's domain is going to be Sportdude.    
