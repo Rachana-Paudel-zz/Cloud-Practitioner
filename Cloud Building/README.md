@@ -7,4 +7,6 @@
 
 +   Flexible Coding
     Systems like AWS speak multiple coding languages. allowing AWS to work with any other Internet system from around the world.
+
 +   Pay as You Go
+    Cloud computing services like AWS donot force users into long-term contracts. Pay for as much storage and speed as you need, when you need it, and up-or downgrade with a simple click of a button-anytime,anywhere.
