@@ -20,4 +20,8 @@
     If the dashboard reveals a problem within an app, notify the developer. If the server is down, notify the provider.
     If your dashboard is green, the issue is on the user's end, and you will have to start troubleshooting their system.       
 
-+   Step Three: Troubleshoot the User's Syste,    
++   Step Three: Troubleshoot the User's System
+    Once at a time, guide the user through these steps:
+    +   Restart the app or browser
+    +   Restart the Wi-Fi the device is using
+    +   Restart the device.
