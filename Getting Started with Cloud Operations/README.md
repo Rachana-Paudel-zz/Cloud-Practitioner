@@ -29,7 +29,7 @@ Although you can take any of the courses at any time, we suggest that you take t
 4. Getting Started with Databases 
 5. Getting Started with Cloud Operations 
 6. Getting Started with Security 
-7. Getting Started with Serverless (Coming soon!)  
+7. Getting Started with Serverless   
 
 ## Learning
 <img src="Learning_Module1.png" alt="Guide Video" style="height: 100%; width:100%;"/>
@@ -41,6 +41,33 @@ This hands-on lab guides you through the steps to estimate Amazon Web Services (
 +       An Amazon Relational Database Service (Amazon RDS) instance 
 
 The skills will help you to use AWS Pricing Calculator to estimate costs for your workloads.
+
+###     Introduction to the Well-Architected Framework
+<b>Cloud Environment</b>
+
++   Security
++   Operation
++   Performance
++   Scalability
++   Cost
+
+
+### What is cloud operations?
++   Innovation
++   Cost
++   Compliance
++   Security
+
+
+
+
+
+
+
+
+
+
+
 
 ## LAB:
 ### Getting Started with Cost Estimation
