@@ -31,3 +31,6 @@
 
 ### TroubleShooting Process
 <img src="assets/troubleshoot problem.PNG" alt="Troubleshoot" style="height:100%; width:100%">       
+
+### TroubleShooting Setup
+<img src="assets/setup.PNG" alt="Troubleshoot" style="height:100%; width:100%">
