@@ -67,7 +67,7 @@ The skills will help you to use AWS Pricing Calculator to estimate costs for you
     AWS management and governance services are built to manage highly dynamic cloud resources at massive scale.
 
 +       Simplicity
-    AWS reduces complexity, offering a single control plane for customers to manage and govern their resources on AWS and on-premises.s
+    AWS reduces complexity, offering a single control plane for customers to manage and govern their resources on AWS and on-premises.
 
 +       Cost savings
     Customers can use AWS management and governance services to assess their resource utilization and identify ways to reduce costs.
@@ -76,6 +76,8 @@ The skills will help you to use AWS Pricing Calculator to estimate costs for you
 Foundation should be strong    
 <img src="assets/WA intro.PNG" alt="WA" style="height:100%; width:100%">
 
+### WA Framework pillars
+<img src="assets/pillar.PNG" alt="pillar" style="height:100%; width:100%">
 
 
 
