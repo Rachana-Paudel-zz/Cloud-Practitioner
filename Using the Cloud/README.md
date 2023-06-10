@@ -57,6 +57,5 @@
 
 
 ####    Cloud service providers
-
-<img src="assets/cloud service provider.PNG" alt="CSP" style="height:100%; width:100%">
+<img src="assets/cloud service provider.PNG" alt="CSP" style="heigh:100%; width:100%">
 
