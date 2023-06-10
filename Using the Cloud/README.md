@@ -43,8 +43,8 @@
     It allows you to automatically install gaming applications, add-ons, and patches. Game developers who use it can save money because a third party is managing their gaming applications, installations, and downloads.
 
 2.  ### Benefits of a Cloud Service Providers
-+      Customizaion
-    If we need additional space for this service, or if we get a bumo in gamers due to adding this services, the cloud service provider will allow us to customize a package that works for us.
++      Customization
+    If we need additional space for this service, or if we get a bump in gamers due to adding this services, the cloud service provider will allow us to customize a package that works for us.
 
 +      Affordability
     The cloud is much more affordable than traditional storage options. We would have to purchase our own servers and software if we managed and hosted the site ourselves. Plus, we'd have to find space! I'm not sure my bedroom has room for an entire server setup!
@@ -53,8 +53,8 @@
     The cloud provider can accommodate our site if we decide to add additional options, such as live-streaming people using our game mods and skins.
 
 +      Flexibility
-    A cloud service providers managing and hosting and acitivites running the site. And if we're at school and the site has problems or need updates, the cloud service provider can take care of them and ensure that gamers who use the site can still access it while maintenance is ongoing.
+    A cloud service providers managing and hosting and activities running the site. And if we're at school and the site has problems or need updates, the cloud service provider can take care of them and ensure that gamers who use the site can still access it while maintenance is ongoing.
 
 ####    Cloud service providers
-<img src="assets/cloud service providers.PNG" alt="CSP" style="height:100%; width:100px">
+<img src="assets/cloud service provider.PNG" alt="CSP" style="height:100%; width:100%">
 
