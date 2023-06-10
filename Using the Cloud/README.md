@@ -55,6 +55,7 @@
 +      Flexibility
     A cloud service providers managing and hosting and activities running the site. And if we're at school and the site has problems or need updates, the cloud service provider can take care of them and ensure that gamers who use the site can still access it while maintenance is ongoing.
 
+
 ####    Cloud service providers
 <img src="assets/cloud service provider.PNG" alt="CSP" style="height:100%; width:100%">
 
