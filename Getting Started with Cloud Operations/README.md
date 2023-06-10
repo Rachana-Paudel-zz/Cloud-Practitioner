@@ -32,7 +32,7 @@ Although you can take any of the courses at any time, we suggest that you take t
 7. Getting Started with Serverless   
 
 ## Learning
-<img src="Learning_Module1.png" alt="Guide Video" style="height: 100%; width:100%;"/>
+<img src="assets/Learning_Module1.png" alt="Guide Video" style="height: 100%; width:100%;"/>
 
 ## Getting Started with Cloud Operations Lab  
 This hands-on lab guides you through the steps to estimate Amazon Web Services (AWS) costs for a sample workload. The workload that you evaluate is for a three-tier web application that consists of :  
@@ -59,6 +59,26 @@ The skills will help you to use AWS Pricing Calculator to estimate costs for you
 +   Security
 
 
+### Benefits of Cloud Operations
++       Innovation
+    AWS helps you use the cloud to turn ideas into opportunities, creating new ways to grow, increase efficiency, and serve customers better. AWS has industry leading cloud services to help customers solve problems and explore possibilities.
+
++       Scale
+    AWS management and governance services are built to manage highly dynamic cloud resources at massive scale.
+
++       Simplicity
+    AWS reduces complexity, offering a single control plane for customers to manage and govern their resources on AWS and on-premises.s
+
++       Cost savings
+    Customers can use AWS management and governance services to assess their resource utilization and identify ways to reduce costs.
+
+### AWS WA Framework Introduction
+Foundation should be strong    
+<img src="assets/WA intro.PNG" alt="WA" style="height:100%; width:100%">
+
+
+
+
 
 
 
@@ -73,32 +93,32 @@ The skills will help you to use AWS Pricing Calculator to estimate costs for you
 ### Getting Started with Cost Estimation
 #### 1. AWS Pricing Calculator
 + Launch [AWS Pricing Calculator](https://calculator.aws/#/) and begin to <strong>Create an estimate.</strong>  
-<img src="aws_calculator.png" alt="AWS Pricing Calculator" style="height: 100%; width:100%;"/>
+<img src="assets/aws_calculator.png" alt="AWS Pricing Calculator" style="height: 100%; width:100%;"/>
 
 #### 2. Add and configure services in AWS Pricing Calculator 
 +   <b><u>Add the load balancer to the estimate</u></b>  
     a.  On the Select service page, in the Find Service search box, enter `Elastic Load Balancing` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
 
-<img src="Configure_ELB.PNG" alt="Configure ELB" style="height: 100%; width:100%;"/>
+<img src="assets/Configure_ELB.PNG" alt="Configure ELB" style="height: 100%; width:100%;"/>
 
 +   <b><u>Add the EC2 instance to the estimate</u></b>  
     a.  On the Select service page, in the Find Service search box, enter `EC2` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
 
-<img src="Configure_EC2.PNG" alt="Configure EC2" style="height: 100%; width:100%;"/>
+<img src="assets/Configure_EC2.PNG" alt="Configure EC2" style="height: 100%; width:100%;"/>
 
 +   <b><u>Add the RDS instance to the estimate</u></b>  
     a.  On the Select service page, in the Find Service search box, enter `RDS` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
 
-<img src="Configure_RDS.PNG" alt="Configure RDS" style="height: 50%; width:45%; padding-right:10px"/>
+<img src="assets/Configure_RDS.PNG" alt="Configure RDS" style="height: 50%; width:45%; padding-right:10px"/>
 
-<img src="Configure_RDS2.PNG" alt="Configure RDS" style="height: 50%; width:45% ;"/>
+<img src="assets/Configure_RDS2.PNG" alt="Configure RDS" style="height: 50%; width:45% ;"/>
 
 #### 3. Review and download the estimate
 
 +   <b><u>Choose View summary.</u></b>  
     a.  Review the overall costs that AWS Pricing Calculator generated for the services from the My Estimate page. enter `Review Summary` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
 
-    <img src="View_Summary.PNG" alt="Summary" style="height: 100%; width:100%;"/>
+    <img src="assets/View_Summary.PNG" alt="Summary" style="height: 100%; width:100%;"/>
 
   
     ##### Note: The prices found in your estimate may vary as prices occasionally change. 
