@@ -59,7 +59,7 @@ We begin our journey from AWS educate course. Click [Getting Started with Securi
 We begin our journey from AWS educate course. Click [Getting Started with Database](https://awseducate.instructure.com/courses/887/quizzes/2894?module_item_id=15016) to start learning.
 
 ## <a href="./Using the cloud/README.md">Using the Cloud</a>
-We begin our journey from AWS educate course. Click [Using the cloud](https://awseducate.instructure.com/courses/542/pages/student-challenge?module_item_id=13213) to start learning.
+We begin our journey from AWS educate course. Click [Using the cloud](https://awseducate.instructure.com/courses/542) to start learning.
 
 ## <a href="./Website in the cloud/README.md">Website in the Cloud</a>
 We begin our journey from AWS educate course. Click [Website in the cloud](https://awseducate.instructure.com/courses/544) to start learning.
@@ -67,5 +67,3 @@ We begin our journey from AWS educate course. Click [Website in the cloud](https
 ## <a href="./Cloud Building/README.md">Cloud Building</a>
 We begin our journey from AWS educate course. Click [Cloud Building](https://awseducate.instructure.com/courses/232) to start learning.
 
-## <a href="./Using the Cloud/README.md">Using the Cloud</a>
-We begin our journey from AWS educate course. Click [Using the Cloud](https://awseducate.instructure.com/courses/542) to start learning.
