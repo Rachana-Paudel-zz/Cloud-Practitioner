@@ -125,6 +125,12 @@ Foundation should be strong
 
 <img src="assets/free tier.PNG" alt="AWS" style="height:100%; width:100%">
 
+### Total costs of ownership(TCO)
+<img src="assets/tco.PNG" alt="AWS" style="height:100%; width:100%"> <br>
+<img src="assets/tco tools.PNG" alt="AWS" style="height:100%; width:100%">
+
+TCO tools help to manage TCO, AWS offers pricing tools like the AWS Pricing Calculator and the AWS Migration Evaluator
+
 
 
 ## LAB:
