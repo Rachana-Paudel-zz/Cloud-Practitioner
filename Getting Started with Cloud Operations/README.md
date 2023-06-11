@@ -85,7 +85,9 @@ Foundation should be strong
     
 +       Security
     The security pillar focuses on protecting information and systems. Key topics include confidentiality and integrity of data, managing user permissions, and establishing controls to detect security events.
+
 +       Reliability
+    The relaibility pillar focuses on workloads performing their intended function and how to recover quickly from failure to meet demands. Key topics include distributed system design, recovery planning, and adapting to changing requirements.
 +       Performance efficiency
 +       Cost optimization
 +       Sustainability
