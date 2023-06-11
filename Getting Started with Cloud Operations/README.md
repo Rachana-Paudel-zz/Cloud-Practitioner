@@ -119,7 +119,11 @@ Foundation should be strong
     With AWS, you can get volume-based discounts and realize important savings as your usage increases. As your AWS usage needs increase you benefit from the economies of scale that allow you to increase adoption and keep costs under control.
     To optimize your savings, choose the right combinations of storage solutions that help you reduce costs while preserving performance and security.
 
+### AWS Free Tier
+    It iffers a free usage tier for up to 1 year
+    SAve money as you learn and experiment with AWS Free Tier.    
 
+<img src="assets/free tier.PNG" alt="AWS" style="height:100%; width:100%">
 
 
 
