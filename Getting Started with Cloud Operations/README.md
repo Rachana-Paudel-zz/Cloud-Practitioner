@@ -79,6 +79,15 @@ Foundation should be strong
 ### WA Framework pillars
 <img src="assets/pillar.PNG" alt="pillar" style="height:100%; width:100%">
 
+### AWS WA Framework: six pillars
++   Operational excellence
+    The operational excellence pillar focuses on running and monitoring systems and continually improving processes and procedures. Key topics include automating changes, responding to events, and defining standards to manage daily operations.
+    
++   Security
++   Reliability
++   Performance efficiency
++   Cost optimization
++   Sustainability
 
 
 
