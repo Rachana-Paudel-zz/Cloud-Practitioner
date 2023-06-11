@@ -99,11 +99,25 @@ Foundation should be strong
     It focuses on minimizing the environmental impacts of running cloud workloads. key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts.
 
 
+### AWS WA Tool
+<img src="assets/wa tool.PNG" alt="tool" style="height:100%; width:100%">
 
 
+### Introduction to AWS Cost Management
 
+(Access, Organize, Understand, Control, Optimize) the costs
 
+### AWS payment models
++       pay-as-you-go
+    It allows you to easily adapt to changing bussiness needs without overcommitting budgets and improves your responsiverness to changes.
 
++        save when you commit
+    It is a flexible pricing model that provides significant savings on your AWS usage.
+    You can sign up for Savings Plans for a 1 or 3 year team and easily manage your plans by taking advantages of recommendations, performance reporting, and budget alert in AWS Cost Explorer.
+
++       pay less by using more
+    With AWS, you can get volume-based discounts and realize important savings as your usage increases. As your AWS usage needs increase you benefit from the economies of scale that allow you to increase adoption and keep costs under control.
+    To optimize your savings, choose the right combinations of storage solutions that help you reduce costs while preserving performance and security.
 
 
 
