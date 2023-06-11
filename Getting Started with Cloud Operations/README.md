@@ -94,7 +94,9 @@ Foundation should be strong
 
 +       Cost optimization
     The cost optimization pillar focuses on avoiding unnecessary costs. Key topics include understanding spending over time and controlling fund allocation, selecting resources of the right type and quantity, and scaling to meet business needs without overspending.
+
 +       Sustainability
+    It focuses on minimizing the environmental impacts of running cloud workloads. key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts.
 
 
 
