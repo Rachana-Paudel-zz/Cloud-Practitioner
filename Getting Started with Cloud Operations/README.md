@@ -144,8 +144,26 @@ TCO tools help to manage TCO, AWS offers pricing tools like the AWS Pricing Calc
 +       AWS Cost Management console
     Features for budgeting and forecasting costs and methods for you to optimize your pricing to reduce your AWS bill.
 
+<img src="assets/cost explorer.PNG" alt="AWS" style="height:100%; width:100%">
 
+### AWS Cost Explorer benefits
++       View cost charts
+    You can view charts to see how your costs are being accumulated.
 
++       13 month review of costs
+    You can review costs from the past 13 months to evaluate trends.
+
++       Forecast costs
+    You can forecast what your costs will be over the next 3 months based on current configurations and estimatied usage data.
+
++       Discover patterns
+    You can use AWS Cost Explorer to discover how much you're spending on AWS resources over time and identity cost problem areas.
+
++       Favorite services
+    With AWS Cost Explorer, you can identity the services tha you use the most and their associated costs.
+
++       View metrics
+    AWS Cost Explorer gives you access to metrics like which Availability Zones have the most traffic or which linked AWS account is used the most.
 
 
 
