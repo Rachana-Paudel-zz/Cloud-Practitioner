@@ -134,6 +134,23 @@ TCO tools help to manage TCO, AWS offers pricing tools like the AWS Pricing Calc
 ### AWS Pricing Calculator
 <img src="assets/awspricing calculator.PNG" alt="AWS" style="height:100%; width:100%">
 
+### AWS Migration Evaluator
+<img src="assets/migration evaluator.PNG" alt="AWS" style="height:100%; width:100%">
+
+### AWS Cost Management tools
++       AWS Billing console
+    Resources to manage your ongoing payments and payment methods registered to your AWS account.
+
++       AWS Cost Management console
+    Features for budgeting and forecasting costs and methods for you to optimize your pricing to reduce your AWS bill.
+
+
+
+
+
+
+
+
 
 
 
