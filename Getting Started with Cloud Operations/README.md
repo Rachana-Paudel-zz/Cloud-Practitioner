@@ -87,7 +87,7 @@ Foundation should be strong
     The security pillar focuses on protecting information and systems. Key topics include confidentiality and integrity of data, managing user permissions, and establishing controls to detect security events.
 
 +       Reliability
-    The relaibility pillar focuses on workloads performing their intended function and how to recover quickly from failure to meet demands. Key topics include distributed system design, recovery planning, and adapting to changing requirements.
+    The reliability pillar focuses on workloads performing their intended function and how to recover quickly from failure to meet demands. Key topics include distributed system design, recovery planning, and adapting to changing requirements.
 
 +       Performance efficiency
     This pillar focuses on structured and streamlined allocation of IT and computing resources. Key topics include selecting resource types and sizes optimized for workload requirements, monitoring performance, and maintaining efficiency as business need evolve.
@@ -109,7 +109,7 @@ Foundation should be strong
 
 ### AWS payment models
 +       pay-as-you-go
-    It allows you to easily adapt to changing bussiness needs without overcommitting budgets and improves your responsiverness to changes.
+    It allows you to easily adapt to changing business needs without overcommitting budgets and improves your responsiveness to changes.
 
 +        save when you commit
     It is a flexible pricing model that provides significant savings on your AWS usage.
@@ -120,8 +120,8 @@ Foundation should be strong
     To optimize your savings, choose the right combinations of storage solutions that help you reduce costs while preserving performance and security.
 
 ### AWS Free Tier
-    It iffers a free usage tier for up to 1 year
-    SAve money as you learn and experiment with AWS Free Tier.    
+    It offers a free usage tier for up to 1 year
+    Save money as you learn and experiment with AWS Free Tier.    
 
 <img src="assets/free tier.PNG" alt="AWS" style="height:100%; width:100%">
 
@@ -130,6 +130,11 @@ Foundation should be strong
 <img src="assets/tco tools.PNG" alt="AWS" style="height:100%; width:100%">
 
 TCO tools help to manage TCO, AWS offers pricing tools like the AWS Pricing Calculator and the AWS Migration Evaluator
+
+### AWS Pricing Calculator
+<img src="assets/awspricing calculator.PNG" alt="AWS" style="height:100%; width:100%">
+
+
 
 
 
