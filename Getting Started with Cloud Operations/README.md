@@ -189,8 +189,22 @@ Improve planning and cost control with flexible budgeting and forecasting.
 <img src="assets/s3.2.PNG" alt="AWS" style="height:100%; width:100%">
 
 +   AWS Lambda
-<img src="assets/lambda.1.PNG" alt="AWS" style="height:100%; width:100%">
-<img src="assets/lambda.2.PNG" alt="AWS" style="height:100%; width:100%">
+<img src="assets/lambda1.PNG" alt="AWS" style="height:100%; width:100%">
+<img src="assets/lambda2.PNG" alt="AWS" style="height:100%; width:100%">
+
+### Introduction to Managing Your AWS Account
++   Performance
++   Manage Risk
++   Cost
+
+### AWS Support Plans
+<img src="assets/support1.PNG" alt="AWS" style="height:100%; width:100%">
+<img src="assets/support2.PNG" alt="AWS" style="height:100%; width:100%">
+
+
+
+
+
 
 
 
