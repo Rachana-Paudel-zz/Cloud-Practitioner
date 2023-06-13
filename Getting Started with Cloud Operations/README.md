@@ -172,6 +172,12 @@ Improve planning and cost control with flexible budgeting and forecasting.
 +   Respond with actions.
 
 ### AWS Billing Dashboard
++   View the status of your month-to-date AWS expenditure.
++   Identify the services that account for the majority of your overall expenditure. 
++   Understand at a high level how costs are trending.
+
+<b>Spend Summary Example</b>
+<img src="assets/spend summary.PNG" alt="AWS" style="height:100%; width:100%">
 
 
 
