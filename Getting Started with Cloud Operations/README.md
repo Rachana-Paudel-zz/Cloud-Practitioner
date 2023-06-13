@@ -201,7 +201,25 @@ Improve planning and cost control with flexible budgeting and forecasting.
 <img src="assets/support1.PNG" alt="AWS" style="height:100%; width:100%">
 <img src="assets/support2.PNG" alt="AWS" style="height:100%; width:100%">
 
+### AWS Support Benefits
+Designed to proactively help you optimize performance, lower costs, and innovate faster.
++       Move faster with AWS
+    Use AWS experts to quickly build up knowledge and expertise. It helps you stay agile with architectural guidance as you build applications and solutions.
 
++       Automate management of your environment
+    Proactively monitor your environment and automate remedition. AWS Support provides tools such as AWS Personal Health Dashboard and AWS Trusted Advisor to help you keep your environment running optimally.
+
++       Focus on what matters
+You can put your energy where it belonh: with your customers and your bussiness. We will take care of the infrastrucure for you and help you to keep it running efficiently, securely and in a manner your business demands.
+
++       Manage and mititgate risks
+    It can help you maintain strict security standards and proactively alert you to issues. We can help you plan to meet the demands of your customers with architectural anf operational guidance to optimize performance.
+
++       Highly-trained engineers, large network of subject-matter experts
+    AWS has cloud support Engineers well versed in DevOps Technologies, sutomation, infrastructure, configuration management and continuous integration, and subject-matter experts ranging from Solutions Architects to product managers.
+
++       Engineer empowered to help you achieve your goals
+    AWS engineers stay with AWS support cases from the start to resoltution. This eliminates the need for customers to interact with multiple support engineers, which can slow down the time to resoltution, and helps you continue your cloud journey.
 
 
 
