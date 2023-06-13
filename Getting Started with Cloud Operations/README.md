@@ -179,6 +179,18 @@ Improve planning and cost control with flexible budgeting and forecasting.
 <b>Spend Summary Example</b>
 <img src="assets/spend summary.PNG" alt="AWS" style="height:100%; width:100%">
 
+### AWS Billing Dashboard examples
++   Amazon EC2
+<img src="assets/ec2.1.PNG" alt="AWS" style="height:100%; width:100%">
+<img src="assets/ec2.2.PNG" alt="AWS" style="height:100%; width:100%">
+
++   Amazon S3
+<img src="assets/s3.1.PNG" alt="AWS" style="height:100%; width:100%">
+<img src="assets/s3.2.PNG" alt="AWS" style="height:100%; width:100%">
+
++   AWS Lambda
+<img src="assets/lambda.1.PNG" alt="AWS" style="height:100%; width:100%">
+<img src="assets/lambda.2.PNG" alt="AWS" style="height:100%; width:100%">
 
 
 
