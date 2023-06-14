@@ -248,10 +248,19 @@ You can put your energy where it belong: with your customers and your business. 
 
 ### Benefits of AWS Trusted Advisor
 +   Cost optimization
+<img src="assets/cost optimization.PNG" alt="AWS" style="height:100%; width:100%">
+
 +   Performance
+<img src="assets/performance.PNG" alt="AWS" style="height:100%; width:100%">
+
 +   Security
+<img src="assets/security.PNG" alt="AWS" style="height:100%; width:100%">
+
 +   Fault Tolerance
+<img src="assets/fault tolerance.PNG" alt="AWS" style="height:100%; width:100%">
+
 +   Service quotas
+<img src="assets/service quotas.PNG" alt="AWS" style="height:100%; width:100%">
 
 
 
