@@ -267,12 +267,13 @@ You can put your energy where it belong: with your customers and your business. 
 <img src="assets/five checks.PNG" alt="AWS" style="height:100%; width:100%">
 
 ### AWS Health Dashboard
-+   Personalize view
-+   Proactive notifications
-+   Troubleshooting
-+   Integration and automation
-+   Access control
-+   Aggregate health events
++       Personalize view
+    When you sign into the Health Dashboard, you have a personalized view of the AWS service status that powers your application. Use the Health Dashboard to learn about specific operational issues that affect your account.
++       Proactive notifications
++       Troubleshooting
++       Integration and automation
++       Access control
++       Aggregate health events
 
 
 
