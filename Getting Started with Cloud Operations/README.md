@@ -227,6 +227,22 @@ You can put your energy where it belong: with your customers and your business. 
 ### Tagging
 <img src="assets/tagging.PNG" alt="AWS" style="height:100%; width:100%">
 
+### Common Tagging Strategies
+
+<img src="assets/tagging strategies.PNG" alt="AWS" style="height:100%; width:100%">
+
++   Resource organization
+<img src="assets/resource.PNG" alt="AWS" style="height:100%; width:100%">
+
++   Cost allocation
+<img src="assets/cost.PNG" alt="AWS" style="height:100%; width:100%">
+
++   Automation
+<img src="assets/auomation.PNG" alt="AWS" style="height:100%; width:100%">
+
++   Access Control
+<img src="assets/access control.PNG" alt="AWS" style="height:100%; width:100%">
+
 
 
 
