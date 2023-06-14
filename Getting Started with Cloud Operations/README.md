@@ -269,9 +269,12 @@ You can put your energy where it belong: with your customers and your business. 
 ### AWS Health Dashboard
 +       Personalize view
     When you sign into the Health Dashboard, you have a personalized view of the AWS service status that powers your application. Use the Health Dashboard to learn about specific operational issues that affect your account.
-    
+
 +       Proactive notifications
+    In addition to enabling emails to receive important Health events, you can configure AWS Health Aware to receive information in your slack channel or other operational tooling.
+
 +       Troubleshooting
+    When you get a Health event, it includes remediation details and specific guidance so that you can take action for events that affect your resources. For example, if a hardware issue affects one of your Amazon EBS volumes, the alert includes a list of affected resourves, recommendations, and help links o restore your volume from a snapshot. This helps you reduce the amount of time it takes to resolve issues.
 +       Integration and automation
 +       Access control
 +       Aggregate health events
