@@ -275,9 +275,15 @@ You can put your energy where it belong: with your customers and your business. 
 
 +       Troubleshooting
     When you get a Health event, it includes remediation details and specific guidance so that you can take action for events that affect your resources. For example, if a hardware issue affects one of your Amazon EBS volumes, the alert includes a list of affected resourves, recommendations, and help links o restore your volume from a snapshot. This helps you reduce the amount of time it takes to resolve issues.
+
 +       Integration and automation
+<img src="assets/integration.PNG" alt="AWS" style="height:100%; width:100%">
+    
 +       Access control
+<img src="assets/access control2.PNG" alt="AWS" style="height:100%; width:100%">
+
 +       Aggregate health events
+ <img src="assets/aggregate.PNG" alt="AWS" style="height:100%; width:100%">
 
 
 
