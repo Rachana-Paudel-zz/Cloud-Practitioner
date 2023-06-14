@@ -238,10 +238,23 @@ You can put your energy where it belong: with your customers and your business. 
 <img src="assets/cost.PNG" alt="AWS" style="height:100%; width:100%">
 
 +   Automation
-<img src="assets/auomation.PNG" alt="AWS" style="height:100%; width:100%">
+<img src="assets/automation.PNG" alt="AWS" style="height:100%; width:100%">
 
 +   Access Control
 <img src="assets/access control.PNG" alt="AWS" style="height:100%; width:100%">
+
+### AWS Trust Advisor
+<img src="assets/advisor.PNG" alt="AWS" style="height:100%; width:100%">
+
+### Benefits of AWS Trusted Advisor
++   Cost optimization
++   Performance
++   Security
++   Fault Tolerance
++   Service quotas
+
+
+
 
 
 
