@@ -262,6 +262,9 @@ You can put your energy where it belong: with your customers and your business. 
 +   Service quotas
 <img src="assets/service quotas.PNG" alt="AWS" style="height:100%; width:100%">
 
+### Trusted Advisor'sfive checks
+
+<img src="assets/five checks.PNG" alt="AWS" style="height:100%; width:100%">
 
 
 
