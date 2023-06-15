@@ -303,7 +303,23 @@ You can put your energy where it belong: with your customers and your business. 
 
 +       Optimize resources proactively
     Automate resource planning and lower costs by setting actions to occur when thresholds are met based on your specifications or machine learning models.
+
 +       Test website impacts
+    Find out exactly when your website is impacted and for how ling by viewing sceenshots, logs, and web requests at any point in time.
+
+### How CLoudWatch works with other AWS services
+<img src="assets/cloudwatch service.PNG" alt="AWS" style="height:100%; width:100%">
+
++   Amazon Simple Notification Service(Amazon SNS) 
+<img src="assets/amazon sns.PNG" alt="AWS" style="height:100%; width:100%">
++   Amazon EC2 Auto Scaling
+<img src="assets/cloudwatch ec2.PNG" alt="AWS" style="height:100%; width:100%">
+
++   AWS CloudTrail
+<img src="assets/cloud trail.PNG" alt="AWS" style="height:100%; width:100%">
+
++   AWS Identity and Access Management (IAM)    
+<img src="assets/IAM.PNG" alt="AWS" style="height:100%; width:100%">
 
 
 
