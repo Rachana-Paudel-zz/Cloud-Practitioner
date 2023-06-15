@@ -321,6 +321,11 @@ You can put your energy where it belong: with your customers and your business. 
 +   AWS Identity and Access Management (IAM)    
 <img src="assets/IAM.PNG" alt="AWS" style="height:100%; width:100%">
 
+### AWS CloudTrail
+<img src="assets/aws cloud trail.PNG" alt="AWS" style="height:100%; width:100%">
+
+
+
 
 
 
