@@ -262,7 +262,7 @@ You can put your energy where it belong: with your customers and your business. 
 +   Service quotas
 <img src="assets/service quotas.PNG" alt="AWS" style="height:100%; width:100%">
 
-### Trusted Advisor'sfive checks
+### Trusted Advisor's five checks
 
 <img src="assets/five checks.PNG" alt="AWS" style="height:100%; width:100%">
 
@@ -274,7 +274,7 @@ You can put your energy where it belong: with your customers and your business. 
     In addition to enabling emails to receive important Health events, you can configure AWS Health Aware to receive information in your slack channel or other operational tooling.
 
 +       Troubleshooting
-    When you get a Health event, it includes remediation details and specific guidance so that you can take action for events that affect your resources. For example, if a hardware issue affects one of your Amazon EBS volumes, the alert includes a list of affected resourves, recommendations, and help links o restore your volume from a snapshot. This helps you reduce the amount of time it takes to resolve issues.
+    When you get a Health event, it includes remediation details and specific guidance so that you can take action for events that affect your resources. For example, if a hardware issue affects one of your Amazon EBS volumes, the alert includes a list of affected resources, recommendations, and help links o restore your volume from a snapshot. This helps you reduce the amount of time it takes to resolve issues.
 
 +       Integration and automation
 <img src="assets/integration.PNG" alt="AWS" style="height:100%; width:100%">
@@ -283,9 +283,27 @@ You can put your energy where it belong: with your customers and your business. 
 <img src="assets/access control2.PNG" alt="AWS" style="height:100%; width:100%">
 
 +       Aggregate health events
- <img src="assets/aggregate.PNG" alt="AWS" style="height:100%; width:100%">
+<img src="assets/aggregate.PNG" alt="AWS" style="height:100%; width:100%">
 
+### Additional Cloud peration Services
++   Change management
++   Application management
++   Storage, analysis, and remediation
++   Event-driven application
 
+### Amazon CloudWatch
+<img src="assets/amazon cloudwatch.PNG" alt="AWS" style="height:100%; width:100%">
+
+### CloudWatch use cases
++       Monitor application performace
+    Visualize performance data, create alarms, and correlate data to understand and resolve the root cause of performance issues in your AWS resources
+
++       Perform root cause analysis
+    Analyze metrics, logs, logs analytics, and user requests to speed up debugging and reduce overall mean time to resolution.
+
++       Optimize resources proactively
+    Automate resource planning and lower costs by setting actions to occur when thresholds are met based on your specifications or machine learning models.
++       Test website impacts
 
 
 
