@@ -333,7 +333,9 @@ You can put your energy where it belong: with your customers and your business. 
 
 +   Immutable and encrypted activity logs
     You can validate the integrity of CloudTrail log files stored in your S3 bucket and detect whether the log files were unchanged, modified, or deleted since CloudTail delivered them to your S3 bucket. You can use log file integrity validation in your IT security and autiting processes. CloudTrail Lake encrypts all logs autoamtically.
+
 +   Insights and analytics
+    With CloudTrail Lake, you can run SQL-based queries on activity logs for auditing within the lake. You can also enable CLoudTrail insights in your rail to identify unusual activity in your AWS. Example of this are burst AWS identity and IAM or gaps in periodic maintainance activity. You can enable CLoudTrails insights events in your trail.
 +   Multi-region
 +   Multi-account
 
