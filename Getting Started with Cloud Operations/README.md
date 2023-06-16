@@ -336,8 +336,12 @@ You can put your energy where it belong: with your customers and your business. 
 
 +   Insights and analytics
     With CloudTrail Lake, you can run SQL-based queries on activity logs for auditing within the lake. You can also enable CLoudTrail insights in your rail to identify unusual activity in your AWS. Example of this are burst AWS identity and IAM or gaps in periodic maintainance activity. You can enable CLoudTrails insights events in your trail.
+
 +   Multi-region
+    You can configure CLoudTrail to capture and store events from multiple AWS Regions in a single location. This configuration certifies that all settings apply consistently across existing and newly launched Regions.
+
 +   Multi-account
+    You can configure it to capture and store events from multople AWS accounts in a single location. This configuration verifies that all settings apply consistently across all existing and newly created accounts.
 
 
 
