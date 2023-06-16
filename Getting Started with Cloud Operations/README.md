@@ -285,7 +285,7 @@ You can put your energy where it belong: with your customers and your business. 
 +       Aggregate health events
 <img src="assets/aggregate.PNG" alt="AWS" style="height:100%; width:100%">
 
-### Additional Cloud peration Services
+### Additional Cloud operation Services
 +   Change management
 +   Application management
 +   Storage, analysis, and remediation
@@ -295,7 +295,7 @@ You can put your energy where it belong: with your customers and your business. 
 <img src="assets/amazon cloudwatch.PNG" alt="AWS" style="height:100%; width:100%">
 
 ### CloudWatch use cases
-+       Monitor application performace
++       Monitor application performance
     Visualize performance data, create alarms, and correlate data to understand and resolve the root cause of performance issues in your AWS resources
 
 +       Perform root cause analysis
@@ -305,7 +305,7 @@ You can put your energy where it belong: with your customers and your business. 
     Automate resource planning and lower costs by setting actions to occur when thresholds are met based on your specifications or machine learning models.
 
 +       Test website impacts
-    Find out exactly when your website is impacted and for how ling by viewing sceenshots, logs, and web requests at any point in time.
+    Find out exactly when your website is impacted and for how ling by viewing screenshots, logs, and web requests at any point in time.
 
 ### How CLoudWatch works with other AWS services
 <img src="assets/cloudwatch service.PNG" alt="AWS" style="height:100%; width:100%">
@@ -323,6 +323,17 @@ You can put your energy where it belong: with your customers and your business. 
 
 ### AWS CloudTrail
 <img src="assets/aws cloud trail.PNG" alt="AWS" style="height:100%; width:100%">
+
+### AWS CloudTrail Benefits
++   Always on
+    CLoudTrail is enabled on all AWS accounts and records management events across AWS services without the need for any manual setip. With AWS Free Tier, you can view, search, and download the most recent 90-day history of your account's management events at no charge using the CloudTrail console or by using the CloudTrail lookup-events API.
+
++   Storage and monitoring
+    
++   Immutable and encrypted activity logs
++   Insights and analytics
++   Multi-region
++   Multi-account
 
 
 
