@@ -343,6 +343,17 @@ You can put your energy where it belong: with your customers and your business. 
 +   Multi-account
     You can configure it to capture and store events from multople AWS accounts in a single location. This configuration verifies that all settings apply consistently across all existing and newly created accounts.
 
+### AWS CloudTrail use cases
+<img src="assets/cloud trail usecase.PNG" alt="AWS" style="height:100%; width:100%">
+
++   Audit activity
+    Monitor, store, and validate activity events for authenticity. Easily generate audit reports required by internal policies and external regulations.
+
++   Identify security incidents
+    Detect unauthorized access using the Who, What and When information in CloudTrail Events. Respond with rules-based EventBridge alerts and automated workflows.
+
++   Troubleshoot operational issues
+    Continuously monitor API usage hostory using machine learninf (ML) models to spot unusaul activity in your AWS accounts and determine root cause.
 
 
 
