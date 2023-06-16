@@ -329,8 +329,10 @@ You can put your energy where it belong: with your customers and your business. 
     CLoudTrail is enabled on all AWS accounts and records management events across AWS services without the need for any manual setip. With AWS Free Tier, you can view, search, and download the most recent 90-day history of your account's management events at no charge using the CloudTrail console or by using the CloudTrail lookup-events API.
 
 +   Storage and monitoring
-    
+    Deliver you ongoing management and data events to S3 and optionally to CloudWatch Logs by creating trails and then you can export and store events. Because CloudTrail Lake is a manage audit, and security lake, your events are stored automatically within the lake. You must fire enable AWS config recording to ingest Configuration items in CloudTrail lake.
+
 +   Immutable and encrypted activity logs
+    You can validate the integrity of CloudTrail log files stored in your S3 bucket and detect whether the log files were unchanged, modified, or deleted since CloudTail delivered them to your S3 bucket. You can use log file integrity validation in your IT security and autiting processes. CloudTrail Lake encrypts all logs autoamtically.
 +   Insights and analytics
 +   Multi-region
 +   Multi-account
