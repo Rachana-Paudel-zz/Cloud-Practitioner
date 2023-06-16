@@ -326,22 +326,22 @@ You can put your energy where it belong: with your customers and your business. 
 
 ### AWS CloudTrail Benefits
 +   Always on
-    CLoudTrail is enabled on all AWS accounts and records management events across AWS services without the need for any manual setip. With AWS Free Tier, you can view, search, and download the most recent 90-day history of your account's management events at no charge using the CloudTrail console or by using the CloudTrail lookup-events API.
+    CLoudTrail is enabled on all AWS accounts and records management events across AWS services without the need for any manual setup. With AWS Free Tier, you can view, search, and download the most recent 90-day history of your account's management events at no charge using the CloudTrail console or by using the CloudTrail lookup-events API.
 
 +   Storage and monitoring
     Deliver you ongoing management and data events to S3 and optionally to CloudWatch Logs by creating trails and then you can export and store events. Because CloudTrail Lake is a manage audit, and security lake, your events are stored automatically within the lake. You must fire enable AWS config recording to ingest Configuration items in CloudTrail lake.
 
 +   Immutable and encrypted activity logs
-    You can validate the integrity of CloudTrail log files stored in your S3 bucket and detect whether the log files were unchanged, modified, or deleted since CloudTail delivered them to your S3 bucket. You can use log file integrity validation in your IT security and autiting processes. CloudTrail Lake encrypts all logs autoamtically.
+    You can validate the integrity of CloudTrail log files stored in your S3 bucket and detect whether the log files were unchanged, modified, or deleted since CloudTrail delivered them to your S3 bucket. You can use log file integrity validation in your IT security and auditing processes. CloudTrail Lake encrypts all logs automatically.
 
 +   Insights and analytics
-    With CloudTrail Lake, you can run SQL-based queries on activity logs for auditing within the lake. You can also enable CLoudTrail insights in your rail to identify unusual activity in your AWS. Example of this are burst AWS identity and IAM or gaps in periodic maintainance activity. You can enable CLoudTrails insights events in your trail.
+    With CloudTrail Lake, you can run SQL-based queries on activity logs for auditing within the lake. You can also enable CLoudTrail insights in your rail to identify unusual activity in your AWS. Example of this are burst AWS identity and IAM or gaps in periodic maintenance activity. You can enable CLoudTrails insights events in your trail.
 
 +   Multi-region
     You can configure CLoudTrail to capture and store events from multiple AWS Regions in a single location. This configuration certifies that all settings apply consistently across existing and newly launched Regions.
 
 +   Multi-account
-    You can configure it to capture and store events from multople AWS accounts in a single location. This configuration verifies that all settings apply consistently across all existing and newly created accounts.
+    You can configure it to capture and store events from multiple AWS accounts in a single location. This configuration verifies that all settings apply consistently across all existing and newly created accounts.
 
 ### AWS CloudTrail use cases
 <img src="assets/cloud trail usecase.PNG" alt="AWS" style="height:100%; width:100%">
@@ -353,7 +353,7 @@ You can put your energy where it belong: with your customers and your business. 
     Detect unauthorized access using the Who, What and When information in CloudTrail Events. Respond with rules-based EventBridge alerts and automated workflows.
 
 +   Troubleshoot operational issues
-    Continuously monitor API usage hostory using machine learninf (ML) models to spot unusaul activity in your AWS accounts and determine root cause.
+    Continuously monitor API usage history using machine learning (ML) models to spot unusual activity in your AWS accounts and determine root cause.
 
 
 
