@@ -355,6 +355,9 @@ You can put your energy where it belong: with your customers and your business. 
 +   Troubleshoot operational issues
     Continuously monitor API usage history using machine learning (ML) models to spot unusual activity in your AWS accounts and determine root cause.
 
+### AWS System Manager
+<img src="assets/cloud trail usecase.PNG" alt="AWS" style="height:100%; width:100%">    
+
 
 
 
