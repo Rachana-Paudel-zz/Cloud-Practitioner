@@ -358,6 +358,13 @@ You can put your energy where it belong: with your customers and your business. 
 ### AWS System Manager
 <img src="assets/cloud trail usecase.PNG" alt="AWS" style="height:100%; width:100%">    
 
+### AWS System Manager use case
++   Centralize operational data
++   Automatically resolve application issues
++   Implement best practices
++   Remediate security events
+
+
 
 
 
