@@ -371,6 +371,19 @@ You can put your energy where it belong: with your customers and your business. 
 +       Remediate security events
     Find out exactly when your website is impacted and for how long by viewing screenshots, logs, and web requests at any point in time.
 
+### AWS config
+<img src="assets/aws config.PNG" alt="AWS" style="height:100%; width:100%"> 
+
+### AWS Config use cases
++   Streamline operational troubleshooting and change management
+    Discover resources that exist in your account, record their congigurations, and capture any changes, This allows you to quickly troubleshoot operational issues.
+
++   Deploy a compliance-as-code framework
+    Codify your compliance requirements as AWS Config rules and author remediation actions, automating the assessment of your resource configuration across your organization.
+
++   Continually audit security monitoring and analysis
+    Evaluate resource configurations for potential vulnerabilities, and review your configuration history after potential incidents to examine your security posture.
+
 
 
 
