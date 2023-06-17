@@ -359,11 +359,17 @@ You can put your energy where it belong: with your customers and your business. 
 <img src="assets/cloud trail usecase.PNG" alt="AWS" style="height:100%; width:100%">    
 
 ### AWS System Manager use case
-+   Centralize operational data
-+   Automatically resolve application issues
-+   Implement best practices
-+   Remediate security events
++       Centralize operational data
+    Visualize performance data, create alarms, and correlate data to understand and resolve the root cause of performance issues in your AWS resources.
 
++       Automatically resolve application issues
+    Analyze metric, logs, logs analytics, and user requests to speed up debugging and reduce overall mean time to resolution.
+
++       Implement best practices
+    Automate resource planning and lower costs by setting actions to occur when thresholds are met based on your specifications or machine learning models.
+
++       Remediate security events
+    Find out exactly when your website is impacted and for how long by viewing screenshots, logs, and web requests at any point in time.
 
 
 
