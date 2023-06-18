@@ -376,7 +376,7 @@ You can put your energy where it belong: with your customers and your business. 
 
 ### AWS Config use cases
 +   Streamline operational troubleshooting and change management
-    Discover resources that exist in your account, record their congigurations, and capture any changes, This allows you to quickly troubleshoot operational issues.
+    Discover resources that exist in your account, record their configurations, and capture any changes, This allows you to quickly troubleshoot operational issues.
 
 +   Deploy a compliance-as-code framework
     Codify your compliance requirements as AWS Config rules and author remediation actions, automating the assessment of your resource configuration across your organization.
@@ -384,8 +384,19 @@ You can put your energy where it belong: with your customers and your business. 
 +   Continually audit security monitoring and analysis
     Evaluate resource configurations for potential vulnerabilities, and review your configuration history after potential incidents to examine your security posture.
 
+### AWS EventBridge
 
+<img src="assets/event bridge.PNG" alt="AWS" style="height:100%; width:100%"> 
 
+### AWS Organization
+<img src="assets/organization.PNG" alt="AWS" style="height:100%; width:100%">
+
+### AWS Organizations benefits
+<b>Centrally manage and govern your cloud environment.
++   Manage and organize your accounts under a single bill.
++   Set central policies and configuration requirements.
++   Create custom permissions or capabilities.
++   Delegate responsibilities to other accounts.
 
 
 
