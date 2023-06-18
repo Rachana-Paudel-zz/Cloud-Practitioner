@@ -398,6 +398,15 @@ You can put your energy where it belong: with your customers and your business. 
 +   Create custom permissions or capabilities.
 +   Delegate responsibilities to other accounts.
 
+### AWS Organizations use cases
++       Automate AWS account creation
+    Create AWS accounts and add them to user-defined groups for instant security policy application, touchless infrastructure deployments, and auditing.
+
++       Enable proactive protection with a dedicated security group
+    
++       Ensure user access to designated resources
++       Share common resources across accounts
+
 
 
 
