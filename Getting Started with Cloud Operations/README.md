@@ -392,7 +392,7 @@ You can put your energy where it belong: with your customers and your business. 
 <img src="assets/organization.PNG" alt="AWS" style="height:100%; width:100%">
 
 ### AWS Organizations benefits
-<b>Centrally manage and govern your cloud environment.
+<b>Centrally manage and govern your cloud environment.</b>
 +   Manage and organize your accounts under a single bill.
 +   Set central policies and configuration requirements.
 +   Create custom permissions or capabilities.
@@ -410,10 +410,6 @@ You can put your energy where it belong: with your customers and your business. 
 
 +       Share common resources across accounts
     More easily share central resources, software applications, directories, and services within your organizations.
-
-
-
-
 
 
 
