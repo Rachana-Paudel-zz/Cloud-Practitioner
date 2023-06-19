@@ -21,3 +21,13 @@ Computer Hardware uncludes many types of peripherals. They can be internal or ex
 
     +       Input
         Input devices are hardware that allow you to input information into a computer. For eg, a keyboard and mouse are input devices.
+
+### Different parts of system software
++       System Software
+    Example include a computer's operating system, firmware, and drivers.
+
++       Programming Software
+    Example include editors, linkers, debuggers, and compilers/interpreters.
+
++       Application Software
+    Example of application software include word processing programs, spreadsheet software, presentation software, multimedia design programs, and image editors.
