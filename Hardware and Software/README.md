@@ -41,3 +41,5 @@ The internet is a global syste, of computer networks that uses TCP?IP to link de
 
 ### Virtual Machine
 It is software that emulated a computer system. It allows you to run other, virtual operaing ystems within your current operaing system. Sometimes this is needed if you want to run an application that is not supported by the native OS on the computer or sserver that you are currently using.
+
+A cloud provider may not dedicate an entire sercer to one use. Instead, a server may be divided into several virtual machines. Cloud computing takes advantage of the virtual machine's ability to act as an interface between different hardware and software systems that are accessed over the Internet.
