@@ -35,3 +35,9 @@ Computer Hardware uncludes many types of peripherals. They can be internal or ex
 ### Network
 It link computer together so they can share access to data communicate with one another.
 The internet is a global syste, of computer networks that uses TCP?IP to link devices worldwide.
+
+### Benefits of Cloud Computing
+<img src="assets/benefits of cloud computing.PNG" alt="benefits" style="height:100%; wwidth:100%">
+
+### Virtual Machine
+It is software that emulated a computer system. It allows you to run other, virtual operaing ystems within your current operaing system. Sometimes this is needed if you want to run an application that is not supported by the native OS on the computer or sserver that you are currently using.
