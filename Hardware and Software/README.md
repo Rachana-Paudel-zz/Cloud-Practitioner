@@ -31,3 +31,7 @@ Computer Hardware uncludes many types of peripherals. They can be internal or ex
 
 +       Application Software
     Example of application software include word processing programs, spreadsheet software, presentation software, multimedia design programs, and image editors.
+
+### Network
+It link computer together so they can share access to data communicate with one another.
+The internet is a global syste, of computer networks that uses TCP?IP to link devices worldwide.
