@@ -22,11 +22,22 @@
 
 #####   Benefits of microservices
 +   use public APIs
+<img src="assets/public api.PNG" alt="api" style="height:100%; width:100%">
+
 +   use the right tool for the job
+<img src="assets/right tool.PNG" alt="right tool" style="height:100%; width:100%">
+
 +   secure your services
+<img src="assets/secure services.PNG" alt="services" style="height:100%; width:100%">
+
 +   be a good citizen
+<img src="assets/good citizen.PNG" alt="good citizen" style="height:100%; width:100%">
+
 +   company transformation
+<img src="assets/company transformation.PNG" alt="transformation" style="height:100%; width:100%">
+
 +   automate everything
+<img src="assets/automate everything.PNG" alt="automate" style="height:100%; width:100%">
 
 +       Serverless  
 
