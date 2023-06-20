@@ -37,7 +37,7 @@
 <img src="assets/company transformation.PNG" alt="transformation" style="height:100%; width:100%">
 
 +   automate everything
-<img src="assets/automate everything.PNG" alt="automate" style="height:100%; width:100%">
+<img src="assets/automate.PNG" alt="automate" style="height:100%; width:100%">
 
 +       Serverless  
 
