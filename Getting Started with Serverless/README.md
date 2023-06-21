@@ -51,5 +51,24 @@ Build and run applications and services without thinking about servers.
 We can build them for nearly any type of application or backend service, and everything required to run and scale your application with high availability is handled for you.
 Developers can focus on their core product. 
 Not worrying about managing and operating servers or runtimes.
+<img src="assets/micro and serverless.PNG" alt="microservice" style="height:100%; width:100%">
+
+#####   Benefits
++   No server management
+AWS founded the concept of serverless on the following principles:
+When adapting a serverless service for building a serverless architecture, these ideals are fundamental to serverless strategy.
+
++   Pay-for-value services
+<img src="assets/pay.PNG" alt="pay-for-value" style="height:100%; width:100%">
+
++   Contiuous scaling
+<img src="assets/continuous scaling.PNG" alt="pay-for-value" style="height:100%; width:100%">
+
++   High availability
+
 +       Event driven architectures
+<img src="assets/event.PNG" alt="event-driven" style="height:100%; width:100%">
+
+
+
 +       Hybrid methods
