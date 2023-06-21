@@ -39,6 +39,11 @@
 +   automate everything
 <img src="assets/automate.PNG" alt="automate" style="height:100%; width:100%">
 
+#####   Downside of monoliths
+All processes are tightly coupled and run as a single service.
+Adding or improving a monilithic application's features becomes more complex as the code base grows.
+Dependent and tightly coupled processes increase the impact of a single process failure.
+
 +       Serverless  
 
 +       Event driven architectures
