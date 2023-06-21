@@ -45,6 +45,10 @@ Adding or improving a monilithic application's features becomes more complex as 
 Dependent and tightly coupled processes increase the impact of a single process failure.
 
 +       Serverless  
+Build and run applications and services without thinking about servers.
+<img src="assets/serverless.PNG" alt="serverless" style="height:100%; width:100%">
+
+We can build them for nearly any type of application or backend service, and everything required to run and scale your application with high availability is handled for you.
 
 +       Event driven architectures
 +       Hybrid methods
