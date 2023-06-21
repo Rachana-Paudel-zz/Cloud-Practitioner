@@ -62,10 +62,10 @@ When adapting a serverless service for building a serverless architecture, these
 <img src="assets/pay.PNG" alt="pay-for-value" style="height:100%; width:100%">
 
 +   Contiuous scaling
-<img src="assets/continuous scaling.PNG" alt="pay-for-value" style="height:100%; width:100%">
+<img src="assets/scaling.PNG" alt="scaling" style="height:100%; width:100%">
 
 +   High availability
-
+<img src="assets/availability.PNG" alt="scaling" style="height:100%; width:100%">
 +       Event driven architectures
 <img src="assets/event.PNG" alt="event-driven" style="height:100%; width:100%">
 
