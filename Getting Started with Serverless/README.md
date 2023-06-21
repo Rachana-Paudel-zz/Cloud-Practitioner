@@ -49,6 +49,7 @@ Build and run applications and services without thinking about servers.
 <img src="assets/serverless.PNG" alt="serverless" style="height:100%; width:100%">
 
 We can build them for nearly any type of application or backend service, and everything required to run and scale your application with high availability is handled for you.
-
+Developers can focus on their core product. 
+Not worrying about managing and operating servers or runtimes.
 +       Event driven architectures
 +       Hybrid methods
