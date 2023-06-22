@@ -76,6 +76,7 @@ When adapting a serverless service for building a serverless architecture, these
 +       Scale and fail independently
     By decoupling your services, they are only aware of the event router, not each other. This means that your services are interoperable, but if one service has a failure, the rest will keep running. The event router acts as an elastic buffer that accommodates surges in workloads.
 +       Audit with ease
+    An event router acts as a centralized location to audit your application and define policies. These policies can restrict who can publish and subscribe to a router and control which users and resources have permission to access your data. You can also encrypt your events.
 +       Develop withi agility
 +       Cut costs
 
