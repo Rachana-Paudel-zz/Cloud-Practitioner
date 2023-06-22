@@ -61,14 +61,23 @@ When adapting a serverless service for building a serverless architecture, these
 +   Pay-for-value services
 <img src="assets/pay.PNG" alt="pay-for-value" style="height:100%; width:100%">
 
-+   Contiuous scaling
++   Continuous scaling
 <img src="assets/scaling.PNG" alt="scaling" style="height:100%; width:100%">
 
 +   High availability
 <img src="assets/availability.PNG" alt="scaling" style="height:100%; width:100%">
-+       Event driven architectures
-<img src="assets/event.PNG" alt="event-driven" style="height:100%; width:100%">
 
++       Event driven architectures
+
+<img src="assets/event.PNG" alt="event-driven" style="height:100%; width:100%">
+<img src="assets/event-driven.PNG" alt="event-driven" style="height:100%; width:100%">
+
+### BEnefits
++       Scale and fail independently
+    By decoupling your services, they are only aware of the event router, not each other. This means that your services are interoperable, but if one service has a failure, the rest will keep running. The event router acts as an elastic buffer that accommodates surges in workloads.
++       Audit with ease
++       Develop withi agility
++       Cut costs
 
 
 +       Hybrid methods
