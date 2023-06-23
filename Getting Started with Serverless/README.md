@@ -172,3 +172,6 @@ When adapting a serverless service for building a serverless architecture, these
 +   Amazon alexa: includes powering voice-activated application, alexa skills kit
 
 +   IT automation: Poicy engines, extending AWS services, Infrastructure management
+
+#####   Pricing
+<img src="assets/pricing.PNG" alt="lambda" style="height:100%; width:100%">
