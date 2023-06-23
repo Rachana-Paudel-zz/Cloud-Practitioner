@@ -142,3 +142,12 @@ When adapting a serverless service for building a serverless architecture, these
 
 #####   AWS lambda permission
 <img src="assets/aws lambda permission.PNG" alt="lambda" style="height:100%; width:100%">
+
+### Identyfying limits
+<img src="assets/identifying limits.PNG" alt="lambda" style="height:100%; width:100%">
+
+<img src="assets/limit1.PNG" alt="lambda" style="height:100%; width:100%">
+
+<img src="assets/limit2.PNG" alt="lambda" style="height:100%; width:100%">
+
+<img src="assets/limit3.PNG" alt="lambda" style="height:100%; width:100%">
