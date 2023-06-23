@@ -111,3 +111,13 @@ When adapting a serverless service for building a serverless architecture, these
 
 #####   Lambda function invoking
 <img src="assets/lambda function invoking.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Types of invocation
++   Synchronous
+<img src="assets/synchronous invoking.PNG" alt="lambda" style="height:100%; width:100%">
+
++   Asynchronous
+<img src="assets/asynchronous invoking.PNG.PNG" alt="lambda" style="height:100%; width:100%">
+
++   Polling
+<img src="assets/polling.PNG.PNG" alt="lambda" style="height:100%; width:100%">
