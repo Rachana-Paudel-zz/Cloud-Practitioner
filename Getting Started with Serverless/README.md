@@ -108,3 +108,6 @@ When adapting a serverless service for building a serverless architecture, these
 
 #####   AWS lambda core components
 <img src="assets/lambda core components.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Lambda function invoking
+<img src="assets/lambda function invoking.PNG" alt="lambda" style="height:100%; width:100%">
