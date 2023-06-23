@@ -54,23 +54,23 @@ Not worrying about managing and operating servers or runtimes.
 <img src="assets/micro and serverless.PNG" alt="microservice" style="height:100%; width:100%">
 
 #####   Benefits
-+   No server management
+1.   No server management
 AWS founded the concept of serverless on the following principles:
 When adapting a serverless service for building a serverless architecture, these ideals are fundamental to serverless strategy.
 
-+   Pay-for-value services
+2.   Pay-for-value services
 <img src="assets/pay.PNG" alt="pay-for-value" style="height:100%; width:100%">
 
-+   Continuous scaling
+3.   Continuous scaling
 <img src="assets/scaling.PNG" alt="scaling" style="height:100%; width:100%">
 
-+   High availability
+4.   High availability
 <img src="assets/availability.PNG" alt="scaling" style="height:100%; width:100%">
 
-+       Event driven architectures
+5.       Event driven architectures
 
 <img src="assets/event.PNG" alt="event-driven" style="height:100%; width:100%">
-<img src="assets/event-driven.PNG" alt="event-driven" style="height:100%; width:100%">
+<img src="assets/event driven.PNG" alt="event-driven" style="height:100%; width:100%">
 
 ##### Benefits
 +       Scale and fail independently
@@ -86,4 +86,22 @@ When adapting a serverless service for building a serverless architecture, these
 ##### Serverless and non-serverless services work together
 <img src="assets/serverless and nonserverless.PNG" alt="cut cost" style="height:100%; width:100%"> 
 
-+       Hybrid methods
+6.       Hybrid methods
+
+### Intoduction to Lambda
+<img src="assets/intro to lambda.PNG" alt="lambda" style="height:100%; width:100%"> 
+
+#####   Funcion configuration elements
++   Name
++   Description
++   Memory
++   Ephemeral Storage
+
+#####   Some Lambda function triggers
++   S3 events
++   Amazon EventBridge
++   Amazon CloudWatch alarms
++   Other lambda functions
+
+#####   AWS lambda function
+<img src="assets/aws lambda function.PNG" alt="lambda" style="height:100%; width:100%"> 
