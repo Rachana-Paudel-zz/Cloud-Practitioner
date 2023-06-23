@@ -104,4 +104,7 @@ When adapting a serverless service for building a serverless architecture, these
 +   Other lambda functions
 
 #####   AWS lambda function
-<img src="assets/aws lambda function.PNG" alt="lambda" style="height:100%; width:100%"> 
+<img src="assets/aws lambda function.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   AWS lambda core components
+<img src="assets/lambda core components.PNG" alt="lambda" style="height:100%; width:100%">
