@@ -88,10 +88,10 @@ When adapting a serverless service for building a serverless architecture, these
 
 6.       Hybrid methods
 
-### Intoduction to Lambda
+### Introduction to Lambda
 <img src="assets/intro to lambda.PNG" alt="lambda" style="height:100%; width:100%"> 
 
-#####   Funcion configuration elements
+#####   Function configuration elements
 +   Name
 +   Description
 +   Memory
@@ -143,7 +143,7 @@ When adapting a serverless service for building a serverless architecture, these
 #####   AWS lambda permission
 <img src="assets/aws lambda permission.PNG" alt="lambda" style="height:100%; width:100%">
 
-### Identyfying limits
+### Identifying limits
 <img src="assets/identify limits.PNG" alt="lambda" style="height:100%; width:100%">
 
 +   memory
@@ -152,14 +152,14 @@ When adapting a serverless service for building a serverless architecture, these
 +   timeout
 <img src="assets/limit2.PNG" alt="lambda" style="height:100%; width:100%">
 
-+   Cocurrency
++   Concurrency
 <img src="assets/limit3.PNG" alt="lambda" style="height:100%; width:100%">
 
 #####   AWS lambda use cases
 +   Web applications
     It includes
-    +   stactic websites
-    +   Comples web applications
+    +   static websites
+    +   Complex web applications
     +   packages for flask and express
     +   built-in-https endpoints for single-function microservices
 
@@ -169,9 +169,9 @@ When adapting a serverless service for building a serverless architecture, these
 
 +   Chatbots: An example of chatbot use case would be powering chatbot logic.
 
-+   Amazon alexa: includes powering voice-activated application, alexa skills kit
++   Amazon Alexa: includes powering voice-activated application, alexa skills kit
 
-+   IT automation: Poicy engines, extending AWS services, Infrastructure management
++   IT automation: Policy engines, extending AWS services, Infrastructure management
 
 #####   Pricing
 <img src="assets/pricing.PNG" alt="lambda" style="height:100%; width:100%">
