@@ -138,3 +138,4 @@ When adapting a serverless service for building a serverless architecture, these
 
 <img src="assets/event source.PNG" alt="lambda" style="height:100%; width:100%">
 <img src="assets/event source2.PNG" alt="lambda" style="height:100%; width:100%">
+<img src="assets/event source eg.PNG" alt="lambda" style="height:100%; width:100%">
