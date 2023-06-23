@@ -162,8 +162,13 @@ When adapting a serverless service for building a serverless architecture, these
     +   Comples web applications
     +   packages for flask and express
     +   built-in-https endpoints for single-function microservices
+
 +   Backends: includes applications and services, mobile, IOT
-+   Data processing
-+   Chatbots
-+   Amazon alexa
-+   IT automation
+
++   Data processing: includes real-time processing, MapReduce
+
++   Chatbots: An example of chatbot use case would be powering chatbot logic.
+
++   Amazon alexa: includes powering voice-activated application, alexa skills kit
+
++   IT automation: Poicy engines, extending AWS services, Infrastructure management
