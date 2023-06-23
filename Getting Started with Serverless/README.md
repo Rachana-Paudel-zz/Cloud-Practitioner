@@ -121,3 +121,13 @@ When adapting a serverless service for building a serverless architecture, these
 
 +   Polling
 <img src="assets/polling.PNG.PNG" alt="lambda" style="height:100%; width:100%">
+
+### Execution environment lifecycle
+<img src="assets/execution lifecycle.PNG.PNG" alt="lambda" style="height:100%; width:100%">
+
+<img src="assets/execution1.PNG" alt="lambda" style="height:100%; width:100%">
+
+<img src="assets/execution2.PNG.PNG" alt="lambda" style="height:100%; width:100%">
+
+<img src="assets/execution3.PNG.PNG" alt="lambda" style="height:100%; width:100%">
+
