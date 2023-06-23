@@ -144,10 +144,26 @@ When adapting a serverless service for building a serverless architecture, these
 <img src="assets/aws lambda permission.PNG" alt="lambda" style="height:100%; width:100%">
 
 ### Identyfying limits
-<img src="assets/identifying limits.PNG" alt="lambda" style="height:100%; width:100%">
+<img src="assets/identify limits.PNG" alt="lambda" style="height:100%; width:100%">
 
++   memory
 <img src="assets/limit1.PNG" alt="lambda" style="height:100%; width:100%">
 
++   timeout
 <img src="assets/limit2.PNG" alt="lambda" style="height:100%; width:100%">
 
++   Cocurrency
 <img src="assets/limit3.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   AWS lambda use cases
++   Web applications
+    It includes
+    +   stactic websites
+    +   Comples web applications
+    +   packages for flask and express
+    +   built-in-https endpoints for single-function microservices
++   Backends: includes applications and services, mobile, IOT
++   Data processing
++   Chatbots
++   Amazon alexa
++   IT automation
