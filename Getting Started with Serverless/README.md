@@ -214,3 +214,12 @@ Follow same principles you would apply to developing microservies.
 
 +   Only include wha you 
 <img src="assets/include needed.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Best practices of writing code
++   Include logging statements
++   Use return coding
++   Provide environment variables
++   Add secrets and reference data
++   Avoid reccursive code
++   Gather metrics with Amazon CloudWatch
++   Reuse execution context
