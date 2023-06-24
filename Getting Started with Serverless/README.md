@@ -175,3 +175,13 @@ When adapting a serverless service for building a serverless architecture, these
 
 #####   Pricing
 <img src="assets/pricing.PNG" alt="lambda" style="height:100%; width:100%">
+
+
+### Preparing to work with Lambda
+Coding experience and expertise in the following domains.
++   Linux OS and commands
++   Security services and concepts
++   Cloud concepts and IP networking
++   Distributed computing concepts.
+
+<img src="assets/preparing to work with lambda.PNG" alt="lambda" style="height:100%; width:100%">
