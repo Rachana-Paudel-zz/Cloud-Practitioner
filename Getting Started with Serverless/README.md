@@ -198,11 +198,12 @@ Coding experience and expertise in the following domains.
 1.      Event handler
 <img src="assets/event handler.PNG" alt="lambda" style="height:100%; width:100%">
 
+2. Context object
 <img src="assets/context object.PNG" alt="lambda" style="height:100%; width:100%">
 
 #####   Design best practices
-+   Separate bussiness logic
-Separate your core bussiness logic from the handler event.
++   Separate business logic
+Separate your core business logic from the handler event.
 This makes your code more portable, and you can target unit tests on your code without worrying about the configuration of the function.
 
 +   Modular functions
@@ -212,7 +213,7 @@ Follow same principles you would apply to developing microservies.
 +   Treat function as stateless
 <img src="assets/treat function.PNG" alt="lambda" style="height:100%; width:100%">
 
-+   Only include wha you 
++   Only include what you 
 <img src="assets/include needed.PNG" alt="lambda" style="height:100%; width:100%">
 
 #####   Best practices of writing code
@@ -228,7 +229,7 @@ Follow same principles you would apply to developing microservies.
 +   Add secrets and reference data
 <img src="assets/add secrets.PNG" alt="lambda" style="height:100%; width:100%">
 
-+   Avoid reccursive code
++   Avoid recursive code
 <img src="assets/avoid recursive.PNG" alt="lambda" style="height:100%; width:100%">
 
 +   Gather metrics with Amazon CloudWatch
@@ -244,10 +245,10 @@ Follow same principles you would apply to developing microservies.
 <img src="assets/configuring timeout.PNG" alt="lambda" style="height:100%; width:100%">
 
 #####   Configuring concurrency and scaling
-<img src="assets/configurie concurrency.PNG" alt="lambda" style="height:100%; width:100%">
+<img src="assets/configure concurrency.PNG" alt="lambda" style="height:100%; width:100%">
 
 1.  Reserved concurrency
-It guarentees the maximum number of concurrent instances for the function. When a function has reserved concurrency, no other function can use that concurrency. There is no charge for configuring reserved concurrency for a function.
+It guarantees the maximum number of concurrent instances for the function. When a function has reserved concurrency, no other function can use that concurrency. There is no charge for configuring reserved concurrency for a function.
 
 2.  Provisioned
 It initializes a requested number of execution environments so that they are prepared to respond immediately to your function's invocations. Note that configuring provisioned concurrency incurs charges to your AWS account.
