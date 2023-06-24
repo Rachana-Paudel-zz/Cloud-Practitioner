@@ -236,3 +236,6 @@ Follow same principles you would apply to developing microservies.
 
 +   Reuse execution context
 <img src="assets/reuse execution.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Configuration memory and timeout
+<img src="assets/configuration memory.PNG" alt="lambda" style="height:100%; width:100%">
