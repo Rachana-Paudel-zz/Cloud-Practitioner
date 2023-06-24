@@ -239,3 +239,6 @@ Follow same principles you would apply to developing microservies.
 
 #####   Configuration memory and timeout
 <img src="assets/configuration memory.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Configuring timeout
+<img src="assets/configuring timeout.PNG" alt="lambda" style="height:100%; width:100%">
