@@ -242,3 +242,12 @@ Follow same principles you would apply to developing microservies.
 
 #####   Configuring timeout
 <img src="assets/configuring timeout.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Configuring concurrency and scaling
+<img src="assets/configurie concurrency.PNG" alt="lambda" style="height:100%; width:100%">
+
+1.  Reserved concurrency
+It guarentees the maximum number of concurrent instances for the function. When a function has reserved concurrency, no other function can use that concurrency. There is no charge for configuring reserved concurrency for a function.
+
+2.  Provisioned
+It initializes a requested number of execution environments so that they are prepared to respond immediately to your function's invocations. Note that configuring provisioned concurrency incurs charges to your AWS account.
