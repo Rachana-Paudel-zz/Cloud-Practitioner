@@ -206,5 +206,7 @@ Separate your core bussiness logic from the handler event.
 This makes your code more portable, and you can target unit tests on your code without worrying about the configuration of the function.
 
 +   Modular functions
+It will reduce the amount of time that it takes for your deployment package to download and unpack before invocation. Instead of having one function tha does compression, thumbnailing, and indexing, consider having three different functions that each serve a single purpose. 
+Follow same principles you would apply to developing microservies.
 +   Treat function as stateless
 +   Only include wha you need
