@@ -232,4 +232,6 @@ Follow same principles you would apply to developing microservies.
 <img src="assets/avoid recursive.PNG" alt="lambda" style="height:100%; width:100%">
 
 +   Gather metrics with Amazon CloudWatch
+<img src="assets/gather metrics.PNG" alt="lambda" style="height:100%; width:100%">
+
 +   Reuse execution context
