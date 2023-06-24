@@ -188,3 +188,6 @@ Coding experience and expertise in the following domains.
 
 #####   Three ways to build an AWS Lambda function
 <img src="assets/way to build lambda function.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Function basic information
+<img src="assets/function basic information.PNG" alt="lambda" style="height:100%; width:100%">
