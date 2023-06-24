@@ -217,7 +217,11 @@ Follow same principles you would apply to developing microservies.
 
 #####   Best practices of writing code
 +   Include logging statements
+<img src="assets/log statement.PNG" alt="lambda" style="height:100%; width:100%">
+
 +   Use return coding
+<img src="assets/return coding.PNG" alt="lambda" style="height:100%; width:100%">
+
 +   Provide environment variables
 +   Add secrets and reference data
 +   Avoid reccursive code
