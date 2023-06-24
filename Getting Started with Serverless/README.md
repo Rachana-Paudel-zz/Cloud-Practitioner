@@ -191,3 +191,11 @@ Coding experience and expertise in the following domains.
 
 #####   Function basic information
 <img src="assets/function basic information.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Handler method
+<img src="assets/handler method.PNG" alt="lambda" style="height:100%; width:100%">
+
+1.      Event handler
+<img src="assets/event handler.PNG" alt="lambda" style="height:100%; width:100%">
+
+<img src="assets/context object.PNG" alt="lambda" style="height:100%; width:100%">
