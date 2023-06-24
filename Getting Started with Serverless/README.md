@@ -190,7 +190,7 @@ Coding experience and expertise in the following domains.
 <img src="assets/way to build lambda function.PNG" alt="lambda" style="height:100%; width:100%">
 
 #####   Function basic information
-<img src="assets/function basic information.PNG" alt="lambda" style="height:100%; width:100%">
+<img src="assets/function basic.PNG" alt="lambda" style="height:100%; width:100%">
 
 #####   Handler method
 <img src="assets/handler method.PNG" alt="lambda" style="height:100%; width:100%">
@@ -199,3 +199,12 @@ Coding experience and expertise in the following domains.
 <img src="assets/event handler.PNG" alt="lambda" style="height:100%; width:100%">
 
 <img src="assets/context object.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Design best practices
++   Separate bussiness logic
+Separate your core bussiness logic from the handler event.
+This makes your code more portable, and you can target unit tests on your code without worrying about the configuration of the function.
+
++   Modular functions
++   Treat function as stateless
++   Only include wha you need
