@@ -185,3 +185,6 @@ Coding experience and expertise in the following domains.
 +   Distributed computing concepts.
 
 <img src="assets/preparing to work with lambda.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Three ways to build an AWS Lambda function
+<img src="assets/way to build lambda function.PNG" alt="lambda" style="height:100%; width:100%">
