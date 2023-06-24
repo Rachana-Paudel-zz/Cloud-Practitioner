@@ -223,6 +223,7 @@ Follow same principles you would apply to developing microservies.
 <img src="assets/return coding.PNG" alt="lambda" style="height:100%; width:100%">
 
 +   Provide environment variables
+<img src="assets/provide variable.PNG" alt="lambda" style="height:100%; width:100%">
 +   Add secrets and reference data
 +   Avoid reccursive code
 +   Gather metrics with Amazon CloudWatch
