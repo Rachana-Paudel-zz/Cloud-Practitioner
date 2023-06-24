@@ -210,4 +210,7 @@ It will reduce the amount of time that it takes for your deployment package to d
 Follow same principles you would apply to developing microservies.
 
 +   Treat function as stateless
-+   Only include wha you need
+<img src="assets/treat function.PNG" alt="lambda" style="height:100%; width:100%">
+
++   Only include wha you 
+<img src="assets/include needed.PNG" alt="lambda" style="height:100%; width:100%">
