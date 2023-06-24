@@ -235,3 +235,4 @@ Follow same principles you would apply to developing microservies.
 <img src="assets/gather metrics.PNG" alt="lambda" style="height:100%; width:100%">
 
 +   Reuse execution context
+<img src="assets/reuse execution.PNG" alt="lambda" style="height:100%; width:100%">
