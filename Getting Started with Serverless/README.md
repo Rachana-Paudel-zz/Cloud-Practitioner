@@ -256,7 +256,7 @@ It initializes a requested number of execution environments so that they are pre
 #####   Destination and types
 +   A destination can send records of asynchronous invocations to other services.
 +   Configure separate destinations for events that fail processing and for events that process successfully.
-+   Configure destinations on a fuction, a version, or an alias.
++   Configure destinations on a function, a version, or an alias.
 +   Address errors and successes without needing to write more code.
 
 <img src="assets/destination and types.PNG" alt="lambda" style="height:100%; width:100%">
@@ -272,7 +272,7 @@ It initializes a requested number of execution environments so that they are pre
 This graph includes the number of times that your function code is run, including successful runs and runs that result in a function error. If the invocation request is throttled or otherwise resulted in an invocation error, invocations aren't recorded.
 
 2.  Duration
-This shows the amount of time that your function code spends processing an event. The billed duration for an invocation is the valur of duration rounded up to the nearest milisecond.
+This shows the amount of time that your function code spends processing an event. The billed duration for an invocation is the value of duration rounded up to the nearest millisecond.
 
 3.  Errors
 This includes number of invocations that result in a function error. Function errors include exceptions thrown by your code and exceptions thrown by the Lambda runtime. The runtime returns errors for issues such as timeouts and configuration errors.
@@ -284,16 +284,16 @@ This shows number of times that a process failed because of concurrency limits. 
 This pertains to event source mappings that read from streams. This shows the age of the last record in the event. The age is the amount of time between when the stream receives the record and when the event source mapping sends the events to the function.
 
 6.  DeadLetterErrors
-FOr asynchronous invocation, this is the number of times Lambda attempts to send an event to a dead-letter queue but fails.
+For asynchronous invocation, this is the number of times Lambda attempts to send an event to a dead-letter queue but fails.
 
 7.  Concurrent Executions
 <img src="assets/concurrent execution.PNG" alt="lambda" style="height:100%; width:100%">
 
 ### Amazon CloudWatch Lambda Insights
-<img src="assets/lambda insights.PNG" alt="lambda" style="height:100%; width:100%">
+<img src="assets/lambda insight.PNG" alt="lambda" style="height:100%; width:100%">
 
-### Lambda Insighs Dashboard
-<img src="assets/insights dashboard.PNG" alt="lambda" style="height:100%; width:100%">
+### Lambda Insights Dashboard
+<img src="assets/insight dashboard.PNG" alt="lambda" style="height:100%; width:100%">
 
 ### Monitoring using AWS X-Ray
 <img src="assets/AWS X-ray.PNG" alt="lambda" style="height:100%; width:100%">
