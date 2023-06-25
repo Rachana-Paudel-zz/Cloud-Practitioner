@@ -270,7 +270,9 @@ It initializes a requested number of execution environments so that they are pre
 ### Types of monitoring graphs
 1.  Invocations
 This graph includes the number of times that your function code is run, including successful runs and runs that result in a function error. If the invocation request is throttled or otherwise resulted in an invocation error, invocations aren't recorded.
+
 2.  Duration
+This shows the amount of time that your function code spends processing an event. The billed duration for an invocation is the valur of duration rounded up to the nearest milisecond.
 3.  Errors
 4.  Throttles
 5.  IteratorAge
