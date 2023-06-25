@@ -285,4 +285,6 @@ This pertains to event source mappings that read from streams. This shows the ag
 
 6.  DeadLetterErrors
 FOr asynchronous invocation, this is the number of times Lambda attempts to send an event to a dead-letter queue but fails.
+
 7.  Concurrent Executions
+<img src="assets/concurrent execution.PNG" alt="lambda" style="height:100%; width:100%">
