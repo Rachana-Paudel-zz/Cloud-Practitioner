@@ -252,3 +252,9 @@ It guarantees the maximum number of concurrent instances for the function. When 
 
 2.  Provisioned
 It initializes a requested number of execution environments so that they are prepared to respond immediately to your function's invocations. Note that configuring provisioned concurrency incurs charges to your AWS account.
+
+#####   Destination and types
++   A destination can send records of asynchronous invocations to other services.
++   Configure separate destinations for events that fail processing and for events that process successfully.
++   Configure destinations on a fuction, a version, or an alias.
++   Address errors and successes without needing to write more code.
