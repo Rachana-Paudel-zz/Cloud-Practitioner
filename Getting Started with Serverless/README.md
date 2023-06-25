@@ -258,3 +258,12 @@ It initializes a requested number of execution environments so that they are pre
 +   Configure separate destinations for events that fail processing and for events that process successfully.
 +   Configure destinations on a fuction, a version, or an alias.
 +   Address errors and successes without needing to write more code.
+
+<img src="assets/destination and types.PNG" alt="lambda" style="height:100%; width:100%">
+
+1.  Success
+<img src="assets/success.PNG" alt="lambda" style="height:100%; width:100%">
+
+2.  Failure
+<img src="assets/failure.PNG" alt="lambda" style="height:100%; width:100%">
+
