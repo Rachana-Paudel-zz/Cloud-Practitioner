@@ -294,3 +294,6 @@ FOr asynchronous invocation, this is the number of times Lambda attempts to send
 
 ### Lambda Insighs Dashboard
 <img src="assets/insights dashboard.PNG" alt="lambda" style="height:100%; width:100%">
+
+### Monitoring using AWS X-Ray
+<img src="assets/AWS X-ray.PNG" alt="lambda" style="height:100%; width:100%">
