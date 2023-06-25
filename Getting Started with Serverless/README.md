@@ -273,7 +273,9 @@ This graph includes the number of times that your function code is run, includin
 
 2.  Duration
 This shows the amount of time that your function code spends processing an event. The billed duration for an invocation is the valur of duration rounded up to the nearest milisecond.
+
 3.  Errors
+This includes number of invocations that result in a function error. Function errors include exceptions thrown by your code and exceptions thrown by the Lambda runtime. The runtime returns errors for issues such as timeouts and configuration errors.
 4.  Throttles
 5.  IteratorAge
 6.  DeadLetterErrors
