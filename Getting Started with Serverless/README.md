@@ -282,5 +282,7 @@ This shows number of times that a process failed because of concurrency limits. 
 
 5.  IteratorAge
 This pertains to event source mappings that read from streams. This shows the age of the last record in the event. The age is the amount of time between when the stream receives the record and when the event source mapping sends the events to the function.
+
 6.  DeadLetterErrors
+FOr asynchronous invocation, this is the number of times Lambda attempts to send an event to a dead-letter queue but fails.
 7.  Concurrent Executions
