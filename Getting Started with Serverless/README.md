@@ -288,3 +288,6 @@ FOr asynchronous invocation, this is the number of times Lambda attempts to send
 
 7.  Concurrent Executions
 <img src="assets/concurrent execution.PNG" alt="lambda" style="height:100%; width:100%">
+
+### Amazon CloudWatch Lambda Insights
+<img src="assets/lambda insights.PNG" alt="lambda" style="height:100%; width:100%">
