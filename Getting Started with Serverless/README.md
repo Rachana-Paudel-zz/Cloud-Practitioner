@@ -276,7 +276,9 @@ This shows the amount of time that your function code spends processing an event
 
 3.  Errors
 This includes number of invocations that result in a function error. Function errors include exceptions thrown by your code and exceptions thrown by the Lambda runtime. The runtime returns errors for issues such as timeouts and configuration errors.
+
 4.  Throttles
+This shows number of times that a process failed because of concurrency limits. When all function instances are processing requests and no concurrency is available to scale up, Lambda rejects additional requests.
 5.  IteratorAge
 6.  DeadLetterErrors
 7.  Concurrent Executions
