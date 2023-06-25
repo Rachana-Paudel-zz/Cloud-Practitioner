@@ -279,6 +279,8 @@ This includes number of invocations that result in a function error. Function er
 
 4.  Throttles
 This shows number of times that a process failed because of concurrency limits. When all function instances are processing requests and no concurrency is available to scale up, Lambda rejects additional requests.
+
 5.  IteratorAge
+This pertains to event source mappings that read from streams. This shows the age of the last record in the event. The age is the amount of time between when the stream receives the record and when the event source mapping sends the events to the function.
 6.  DeadLetterErrors
 7.  Concurrent Executions
