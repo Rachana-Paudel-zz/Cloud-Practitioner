@@ -311,3 +311,10 @@ For asynchronous invocation, this is the number of times Lambda attempts to send
 +   Use asynchronous processing to get your responses from each step quickly.
 +   Handle performance and service requirements by increasing the number of job instance.
 +   Exception or transaction failure, the order processing can be retried.
+
+#####   Amazon SQS queue types
++   Standard
+<img src="assets/standard queue.PNG" alt="lambda" style="height:100%; width:100%">
+
++   FIFO
+<img src="assets/fifo queue.PNG" alt="lambda" style="height:100%; width:100%">
