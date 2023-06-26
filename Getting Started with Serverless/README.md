@@ -332,6 +332,12 @@ Email-JSON sends notifications as a JSON objects, while email sends text-based e
 
 2.  Mobile text messaging(SMS)
 Messages are sent to registered phone number as SMS text messages.
+
 3.  HTTP/HTTPS
+Subscribers specify a URL as part of the subscription registration. Noifications will be delievered through an HTTPS POST to the specified URL.
+
 4.  Amazon SQS
+Users can specify an SQS standard queue as the endpoint. Amazon SNS will enqueue a notification message to the specified queue.
+Note that FIFO wueues are not currently supported.
+
 5.  AWS Lambda
