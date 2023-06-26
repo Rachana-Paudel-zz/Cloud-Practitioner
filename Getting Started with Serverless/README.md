@@ -348,6 +348,10 @@ Messages can also be delievered to AWS Lambda functions for handling message cus
 
 +   Single published message
 All notification message contain a single published message. Amazon SNS attempts to deliver messages from the publisher in the order they were published into the topic. However, network issues could potentially result in out-of-order messages at the subscriber end.
+
 +   No recall options
+When a message is delivered succesfully, there is no way to recall it.
+
 +   HTTP or HTTPS retry
+<img src="assets/http retry.PNG" alt="lambda" style="height:100%; width:100%">
 +   Order and delivery not guarenteed
