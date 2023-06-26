@@ -329,7 +329,9 @@ For asynchronous invocation, this is the number of times Lambda attempts to send
 1.  Email
 Messages are sent to registered addresses as email.
 Email-JSON sends notifications as a JSON objects, while email sends text-based email.
+
 2.  Mobile text messaging(SMS)
+Messages are sent to registered phone number as SMS text messages.
 3.  HTTP/HTTPS
 4.  Amazon SQS
 5.  AWS Lambda
