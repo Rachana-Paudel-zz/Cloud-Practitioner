@@ -302,5 +302,12 @@ For asynchronous invocation, this is the number of times Lambda attempts to send
 <img src="assets/SQS.PNG" alt="lambda" style="height:100%; width:100%">
 
 #####   Amazon SQS benefits
-+   fully managed messaging queue
++   Fully managed messaging queue
 +   Loosely coupled
++   High volume capabilities
++   Fault tolerance
+
+#####   Achieving loose coupling with Amazon SQS
++   Use asynchronous processing to get your responses from each step quickly.
++   Handle performance and service requirements by increasing the number of job instance.
++   Exception or transaction failure, the order processing can be retried.
