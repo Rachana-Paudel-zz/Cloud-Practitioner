@@ -357,3 +357,6 @@ When a message is delivered succesfully, there is no way to recall it.
 
 +   Order and delivery not guarenteed
 <img src="assets/order.PNG" alt="lambda" style="height:100%; width:100%">
+
+### Amazon SNS use cases
+<img src="assets/sns usecase.PNG" alt="lambda" style="height:100%; width:100%">
