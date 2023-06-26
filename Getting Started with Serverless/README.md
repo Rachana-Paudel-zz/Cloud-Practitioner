@@ -342,3 +342,11 @@ Note that FIFO wueues are not currently supported.
 
 5.  AWS Lambda
 Messages can also be delievered to AWS Lambda functions for handling message customizations, enabling message persistence or communicationg with other AWS service.
+
+### Amazon SNS characteristics
+<img src="assets/sns character.PNG" alt="lambda" style="height:100%; width:100%">
+
++   Single published message
++   No recall options
++   HTTP or HTTPS retry
++   Order and delivery not guarenteed
