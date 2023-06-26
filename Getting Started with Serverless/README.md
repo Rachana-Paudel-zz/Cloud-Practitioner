@@ -321,3 +321,6 @@ For asynchronous invocation, this is the number of times Lambda attempts to send
 
 #####   Amazon SQS use cases
 <img src="assets/sqs usecase.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Amazon Simple Notification Service (Amazon SNS)
+<img src="assets/sns.PNG" alt="lambda" style="height:100%; width:100%">
