@@ -297,3 +297,6 @@ For asynchronous invocation, this is the number of times Lambda attempts to send
 
 ### Monitoring using AWS X-Ray
 <img src="assets/AWS X-ray.PNG" alt="lambda" style="height:100%; width:100%">
+
+### AWS Serverless Service
+<img src="assets/SQS.PNG" alt="lambda" style="height:100%; width:100%">
