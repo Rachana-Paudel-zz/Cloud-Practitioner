@@ -300,3 +300,7 @@ For asynchronous invocation, this is the number of times Lambda attempts to send
 
 ### AWS Serverless Service
 <img src="assets/SQS.PNG" alt="lambda" style="height:100%; width:100%">
+
+#####   Amazon SQS benefits
++   fully managed messaging queue
++   Loosely coupled
