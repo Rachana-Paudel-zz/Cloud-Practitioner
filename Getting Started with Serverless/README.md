@@ -354,4 +354,6 @@ When a message is delivered succesfully, there is no way to recall it.
 
 +   HTTP or HTTPS retry
 <img src="assets/http retry.PNG" alt="lambda" style="height:100%; width:100%">
+
 +   Order and delivery not guarenteed
+<img src="assets/order.PNG" alt="lambda" style="height:100%; width:100%">
