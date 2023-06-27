@@ -334,14 +334,14 @@ Email-JSON sends notifications as a JSON objects, while email sends text-based e
 Messages are sent to registered phone number as SMS text messages.
 
 3.  HTTP/HTTPS
-Subscribers specify a URL as part of the subscription registration. Noifications will be delievered through an HTTPS POST to the specified URL.
+Subscribers specify a URL as part of the subscription registration. Notifications will be delivered through an HTTPS POST to the specified URL.
 
 4.  Amazon SQS
 Users can specify an SQS standard queue as the endpoint. Amazon SNS will enqueue a notification message to the specified queue.
-Note that FIFO wueues are not currently supported.
+Note that FIFO queues are not currently supported.
 
 5.  AWS Lambda
-Messages can also be delievered to AWS Lambda functions for handling message customizations, enabling message persistence or communicationg with other AWS service.
+Messages can also be delivered to AWS Lambda functions for handling message customizations, enabling message persistence or communicating with other AWS service.
 
 ### Amazon SNS characteristics
 <img src="assets/sns character.PNG" alt="lambda" style="height:100%; width:100%">
@@ -350,13 +350,16 @@ Messages can also be delievered to AWS Lambda functions for handling message cus
 All notification message contain a single published message. Amazon SNS attempts to deliver messages from the publisher in the order they were published into the topic. However, network issues could potentially result in out-of-order messages at the subscriber end.
 
 +   No recall options
-When a message is delivered succesfully, there is no way to recall it.
+When a message is delivered successfully, there is no way to recall it.
 
 +   HTTP or HTTPS retry
 <img src="assets/http retry.PNG" alt="lambda" style="height:100%; width:100%">
 
-+   Order and delivery not guarenteed
++   Order and delivery not guaranteed
 <img src="assets/order.PNG" alt="lambda" style="height:100%; width:100%">
 
 ### Amazon SNS use cases
 <img src="assets/sns usecase.PNG" alt="lambda" style="height:100%; width:100%">
+
+### Amazon SNS and Amazon SQS differences
+<img src="assets/sns and sqs.PNG" alt="lambda" style="height:100%; width:100%">
