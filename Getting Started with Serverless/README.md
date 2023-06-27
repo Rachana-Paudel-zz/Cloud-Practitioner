@@ -369,6 +369,13 @@ When a message is delivered successfully, there is no way to recall it.
 <img src="assets/pay for value.PNG" alt="lambda" style="height:100%; width:100%">
 
 2.  Elastic storage
+<img src="assets/elastic scaling.PNG" alt="lambda" style="height:100%; width:100%">
+
 3.  Continuous scaling
+<img src="assets/continuous scaling.PNG" alt="lambda" style="height:100%; width:100%">
+
 4.  Fault tolerance
+<img src="assets/fault tolerance.PNG" alt="lambda" style="height:100%; width:100%">
+
 5.  No server management
+<img src="assets/pay for value.PNG" alt="lambda" style="height:100%; width:100%">
