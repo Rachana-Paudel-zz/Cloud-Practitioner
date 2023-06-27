@@ -382,3 +382,6 @@ When a message is delivered successfully, there is no way to recall it.
 
 ### Lambda@Edge
 <img src="assets/lambda@edge.PNG" alt="lambda" style="height:100%; width:100%">
+
+### Amazon API Gateway
+<img src="assets/api.PNG" alt="lambda" style="height:100%; width:100%">
