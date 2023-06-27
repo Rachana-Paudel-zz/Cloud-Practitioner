@@ -391,3 +391,6 @@ When a message is delivered successfully, there is no way to recall it.
 
 ### AWS Fargate
 <img src="assets/fargate.PNG" alt="lambda" style="height:100%; width:100%">
+
+### Container
+<img src="assets/container.PNG" alt="lambda" style="height:100%; width:100%">
