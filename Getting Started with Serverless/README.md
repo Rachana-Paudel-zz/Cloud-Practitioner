@@ -385,3 +385,6 @@ When a message is delivered successfully, there is no way to recall it.
 
 ### Amazon API Gateway
 <img src="assets/api.PNG" alt="lambda" style="height:100%; width:100%">
+
+### API Gateway use case
+<img src="assets/api usecase.PNG" alt="lambda" style="height:100%; width:100%">
