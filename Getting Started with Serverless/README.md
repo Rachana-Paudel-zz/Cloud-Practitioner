@@ -379,3 +379,6 @@ When a message is delivered successfully, there is no way to recall it.
 
 5.  No server management
 <img src="assets/never management.PNG" alt="lambda" style="height:100%; width:100%">
+
+### Lambda@Edge
+<img src="assets/lambda@edge.PNG" alt="lambda" style="height:100%; width:100%">
