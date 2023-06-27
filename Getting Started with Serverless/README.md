@@ -403,5 +403,7 @@ Build and deploy your applicaitons, APIs, and microservices architecutures with 
 Use AWS Fargate with Amazon ECS or Amazon EKS to easily run and scale your containerized data processing workloads. Fargate also enables you to migrate and run your Amazon ECS Windows containers wihout re-factoring or re-archiecting your legacy applications.
 
 3.  Support AI and ML training applications
-Create an artificial intelligence and machine learning development environment that's flexible and portable. With Fargate, achieve the scalability that you need to boost server capacity without over-provisioning to train, test, and deploy your ML models
+Create an artificial intelligence and machine learning development environment that's flexible and portable. With Fargate, achieve the scalability that you need to boost server capacity without over-provisioning to train, test, and deploy your ML models.
+
 4.  Optimization Costs
+With AWS Fargate, there are no expenses, you pay for only the resources that you used. Further optimize costs with Compute Savings Plans and Fargate Spot, then use Graviton2 powered Fargate for up to 40 percent price performance improvements.
