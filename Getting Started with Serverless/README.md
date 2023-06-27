@@ -397,6 +397,8 @@ When a message is delivered successfully, there is no way to recall it.
 
 ### AWS Fargate use cases
 1.  Web apps, APIs, and microservices
+Build and deploy your applicaitons, APIs, and microservices architecutures with the speed and immutability of containers. With Fargate, you don't need to own, run, and manage the lifecycle of a compute infrastructure so that you can focus on what matters most, your applications.
+
 2.  Run and scale container workloads
 3.  Support AI and ML training applications
 4.  Optimization Costs
