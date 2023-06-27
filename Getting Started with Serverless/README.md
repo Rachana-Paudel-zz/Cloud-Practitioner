@@ -366,6 +366,8 @@ When a message is delivered successfully, there is no way to recall it.
 
 ### Serverless characteristics of S3
 1.  Pay for value
+<img src="assets/pay for value.PNG" alt="lambda" style="height:100%; width:100%">
+
 2.  Elastic storage
 3.  Continuous scaling
 4.  Fault tolerance
