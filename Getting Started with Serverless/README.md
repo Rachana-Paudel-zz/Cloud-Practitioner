@@ -363,3 +363,10 @@ When a message is delivered successfully, there is no way to recall it.
 
 ### Amazon SNS and Amazon SQS differences
 <img src="assets/sns and sqs.PNG" alt="lambda" style="height:100%; width:100%">
+
+### Serverless characteristics of S3
+1.  Pay for value
+2.  Elastic storage
+3.  Continuous scaling
+4.  Fault tolerance
+5.  No server management
