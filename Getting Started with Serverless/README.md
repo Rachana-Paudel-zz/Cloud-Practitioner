@@ -388,3 +388,6 @@ When a message is delivered successfully, there is no way to recall it.
 
 ### API Gateway use case
 <img src="assets/api usecase.PNG" alt="lambda" style="height:100%; width:100%">
+
+### AWS Fargate
+<img src="assets/fargate.PNG" alt="lambda" style="height:100%; width:100%">
