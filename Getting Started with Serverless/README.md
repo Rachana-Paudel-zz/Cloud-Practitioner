@@ -400,5 +400,6 @@ When a message is delivered successfully, there is no way to recall it.
 Build and deploy your applicaitons, APIs, and microservices architecutures with the speed and immutability of containers. With Fargate, you don't need to own, run, and manage the lifecycle of a compute infrastructure so that you can focus on what matters most, your applications.
 
 2.  Run and scale container workloads
+Use AWS Fargate with Amazon ECS or Amazon EKS to easily run and scale your containerized data processing workloads. Fargate also enables you to migrate and run your Amazon ECS Windows containers wihout re-factoring or re-archiecting your legacy applications.
 3.  Support AI and ML training applications
 4.  Optimization Costs
