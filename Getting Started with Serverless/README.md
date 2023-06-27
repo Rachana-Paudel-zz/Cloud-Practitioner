@@ -378,4 +378,4 @@ When a message is delivered successfully, there is no way to recall it.
 <img src="assets/fault tolerance.PNG" alt="lambda" style="height:100%; width:100%">
 
 5.  No server management
-<img src="assets/pay for value.PNG" alt="lambda" style="height:100%; width:100%">
+<img src="assets/never management.PNG" alt="lambda" style="height:100%; width:100%">
