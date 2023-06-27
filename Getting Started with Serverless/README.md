@@ -394,3 +394,9 @@ When a message is delivered successfully, there is no way to recall it.
 
 ### Container
 <img src="assets/container.PNG" alt="lambda" style="height:100%; width:100%">
+
+### AWS Fargate use cases
+1.  Web apps, APIs, and microservices
+2.  Run and scale container workloads
+3.  Support AI and ML training applications
+4.  Optimization Costs
