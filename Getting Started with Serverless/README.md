@@ -458,9 +458,21 @@ Step Functions is a Health Insurance Portability and Accountability ACT(HIPAA) e
 ### Step Functions States
 1.  Task state
 Do some work in machine state.
+
 2.  Choice state
+Make a choice between branches to run.
+
 3.  Fail or succeed state
+Stop execution with a failure or success.
+
 4.  Pass state
+Pass its unput to its output or inject some fixed data.
+
 5.  Wait state
+Provide a delay for a certain amount of time or until a specified time or date.
+
 6.  Parallel state
+Begine parallel branches of execution.
+
 7.  Map state
+Dynamically iterate steps.
