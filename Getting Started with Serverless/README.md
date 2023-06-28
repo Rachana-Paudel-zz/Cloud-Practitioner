@@ -435,7 +435,9 @@ Step Function can coordinate any application that can make an HTTPS connection, 
 
 3.  Workflow abstraction
 Step Functions keeps the logic of your application strictly separated from the implementation of your application. You can add, move, swap, and reorder steps without having to make changes to your business logic. Through this separation of concerns, you workflows gain madularity, simplified maintenance, scalability, and code reuse.
+
 4.  Built-in error handling
+It can handle errors and exceptions with built-in try or catch and retry whether the task seconds or months to complete You can automatically retry failed or time-out tasks and respond differently to different types or errors. You can also recover gracefully by reverting to designated cleanup and recovery code. Learn more about Step Functions error handling and how you can handle error conditions by using a state machine.
 5.  History of each job
 6.  Visual monitoring
 7.  Compliance
