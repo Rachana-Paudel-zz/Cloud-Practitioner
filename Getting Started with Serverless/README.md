@@ -425,3 +425,12 @@ It helps you build workflows that are fault tolerant and stateful. It manages st
 
 4.  Designed for reliability and scale
 It can help you build workflows that are fault tolerant and stateful. IT manages state, checkpoints, and restarts for you to make sure that your workflows run in order and as expected. Built-in try or catch, retry, and rollback capabilities deal wih errors and expectations automatically based your defined business logic.
+
+### Steps Functions features and functionality
+1.  AWS service intergration
+2.  Coordination of components
+3.  Workflow abstraction
+4.  Built-in error handling
+5.  History of each job
+6.  Visual monitoring
+7.  Compliance
