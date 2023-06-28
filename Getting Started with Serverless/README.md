@@ -438,6 +438,9 @@ Step Functions keeps the logic of your application strictly separated from the i
 
 4.  Built-in error handling
 It can handle errors and exceptions with built-in try or catch and retry whether the task seconds or months to complete You can automatically retry failed or time-out tasks and respond differently to different types or errors. You can also recover gracefully by reverting to designated cleanup and recovery code. Learn more about Step Functions error handling and how you can handle error conditions by using a state machine.
+
 5.  History of each job
+Step functions delivers real time diagnostics and dashboards. It integrates with Amazon CloudWatch and AWS CloudTrail and can log every job run including overall state, failes steps, input, and outputs. If things go wrong, you can quickly identify not only where there's an error, but also why, and you can quickly troubleshoot and resolve failures. 
+Lambda also has its own logs, which can be set up to have more debugging details.
 6.  Visual monitoring
 7.  Compliance
