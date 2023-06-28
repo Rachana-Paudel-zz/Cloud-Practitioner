@@ -415,6 +415,7 @@ With AWS Fargate, there are no expenses, you pay for only the resources that you
 <img src="assets/step function benefits.PNG" alt="lambda" style="height:100%; width:100%">
 
 1.  Build and deploy rapidly
+AWS Step Functions helps you to quickly build and deploy your workflows. You can get started quickly with Workflow Studio, a drag-and-drop interface. With Step Functions, you can express complex bussiness logic as low-code, event-driven workflows that connect services, systems, or people within minutes.
 2.  Write less integration code
 3.  Build fault-tolerant and stateful workflows
 4.  Designed for reliability and scale
