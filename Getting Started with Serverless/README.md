@@ -421,5 +421,7 @@ AWS Step Functions helps you to quickly build and deploy your workflows. You can
 Because AWS Step Functions can integrate with many other AWS services, you don't have to write as much code. Therefore, you can compose AWS resoirces from over 200 services into resilient business workflows, data pipelines, or applications. For example, these services can include AWS Lambda, Amazon ECS, AWS Fargate, AWS Batch, Amazon DynamoDB, Amazon SNS, Amazon SQS, Amazon SageMaker, Amazon EventBridge, and Amazon EMR.
 
 3.  Build fault-tolerant and stateful workflows
+It helps you build workflows that are fault tolerant and stateful. It manages state, checkpoints, and restarts for you to make sure that your workflows run in order and as expected. Built-in try or catch, retry, and rollback capabilities deal with errors and expectations automatically based on your defines business logic.
 
 4.  Designed for reliability and scale
+It can help you build workflows that are fault tolerant and stateful. IT manages state, checkpoints, and restarts for you to make sure that your workflows run in order and as expected. Built-in try or catch, retry, and rollback capabilities deal wih errors and expectations automatically based your defined business logic.
