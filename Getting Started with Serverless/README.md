@@ -410,3 +410,6 @@ With AWS Fargate, there are no expenses, you pay for only the resources that you
 
 ### AWS Step Functions
 <img src="assets/step function.PNG" alt="lambda" style="height:100%; width:100%">
+
+### AWS Steps Functions benefits
+<img src="assets/step function benefits.PNG" alt="lambda" style="height:100%; width:100%">
