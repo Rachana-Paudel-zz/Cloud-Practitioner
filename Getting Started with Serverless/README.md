@@ -397,13 +397,16 @@ When a message is delivered successfully, there is no way to recall it.
 
 ### AWS Fargate use cases
 1.  Web apps, APIs, and microservices
-Build and deploy your applicaitons, APIs, and microservices architecutures with the speed and immutability of containers. With Fargate, you don't need to own, run, and manage the lifecycle of a compute infrastructure so that you can focus on what matters most, your applications.
+Build and deploy your applications, APIs, and microservices architectures with the speed and immutability of containers. With Fargate, you don't need to own, run, and manage the lifecycle of a compute infrastructure so that you can focus on what matters most, your applications.
 
 2.  Run and scale container workloads
-Use AWS Fargate with Amazon ECS or Amazon EKS to easily run and scale your containerized data processing workloads. Fargate also enables you to migrate and run your Amazon ECS Windows containers wihout re-factoring or re-archiecting your legacy applications.
+Use AWS Fargate with Amazon ECS or Amazon EKS to easily run and scale your containerized data processing workloads. Fargate also enables you to migrate and run your Amazon ECS Windows containers without re-factoring or re-archtiecting your legacy applications.
 
 3.  Support AI and ML training applications
 Create an artificial intelligence and machine learning development environment that's flexible and portable. With Fargate, achieve the scalability that you need to boost server capacity without over-provisioning to train, test, and deploy your ML models.
 
 4.  Optimization Costs
 With AWS Fargate, there are no expenses, you pay for only the resources that you used. Further optimize costs with Compute Savings Plans and Fargate Spot, then use Graviton2 powered Fargate for up to 40 percent price performance improvements.
+
+### AWS Step Functions
+<img src="assets/step function.PNG" alt="lambda" style="height:100%; width:100%">
