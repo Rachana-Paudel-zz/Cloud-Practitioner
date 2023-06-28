@@ -442,5 +442,7 @@ It can handle errors and exceptions with built-in try or catch and retry whether
 5.  History of each job
 Step functions delivers real time diagnostics and dashboards. It integrates with Amazon CloudWatch and AWS CloudTrail and can log every job run including overall state, failes steps, input, and outputs. If things go wrong, you can quickly identify not only where there's an error, but also why, and you can quickly troubleshoot and resolve failures. 
 Lambda also has its own logs, which can be set up to have more debugging details.
+
 6.  Visual monitoring
+Launching an application can be as easy as pressing a button and then watching the steps run visually. In this way, you can quickly verify that everything is operating in order and as expected. The console clearly highlights errors so that you can quickly pinpoint their root cause and troubleshoot issues.
 7.  Compliance
