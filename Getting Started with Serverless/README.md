@@ -451,3 +451,16 @@ Step Functions is a Health Insurance Portability and Accountability ACT(HIPAA) e
 
 ### State machine
 <img src="assets/state machine.PNG" alt="state machine" style="height:100%; width:100%">
+
+<b>Example</b>
+<img src="assets/state machine example.PNG" alt="state machine" style="height:100%; width:100%">
+
+### Step Functions States
+1.  Task state
+Do some work in machine state.
+2.  Choice state
+3.  Fail or succeed state
+4.  Pass state
+5.  Wait state
+6.  Parallel state
+7.  Map state
