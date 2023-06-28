@@ -447,7 +447,7 @@ When a message is delivered successfully, there is no way to recall it.
     Launching an application can be as easy as pressing a button and then watching the steps run visually. In this way, you can quickly verify that everything is operating in order and as expected. The console clearly highlights errors so that you can quickly pinpoint their root cause and troubleshoot issues.
 
 7.      Compliance
-    Step Functions is a Health Insurance Portability and Accountability ACT(HIPAA) eligible service. You can use it with applications that contain healthcare-related information, such as personal health information (PHI). Step Fucntions is also compliant with System and Organization Control (SOC) measures. The results of these third-party audits are available on the AWS SOC Compliance site. Step Functions can also help you conform to other common compliance standards.
+    Step Functions is a Health Insurance Portability and Accountability ACT(HIPAA) eligible service. You can use it with applications that contain healthcare-related information, such as personal health information (PHI). Step Functions is also compliant with System and Organization Control (SOC) measures. The results of these third-party audits are available on the AWS SOC Compliance site. Step Functions can also help you conform to other common compliance standards.
 
 ### State machine
 <img src="assets/state machine.PNG" alt="state machine" style="height:100%; width:100%">
@@ -466,7 +466,7 @@ When a message is delivered successfully, there is no way to recall it.
     Stop execution with a failure or success.
 
 4.      Pass state
-    Pass its unput to its output or inject some fixed data.
+    Pass its input to its output or inject some fixed data.
 
 5.      Wait state
     Provide a delay for a certain amount of time or until a specified time or date.
