@@ -413,3 +413,8 @@ With AWS Fargate, there are no expenses, you pay for only the resources that you
 
 ### AWS Steps Functions benefits
 <img src="assets/step function benefits.PNG" alt="lambda" style="height:100%; width:100%">
+
+1.  Build and deploy rapidly
+2.  Write less integration code
+3.  Build fault-tolerant and stateful workflows
+4.  Designed for reliability and scale
