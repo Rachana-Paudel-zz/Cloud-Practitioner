@@ -416,6 +416,8 @@ With AWS Fargate, there are no expenses, you pay for only the resources that you
 
 1.  Build and deploy rapidly
 AWS Step Functions helps you to quickly build and deploy your workflows. You can get started quickly with Workflow Studio, a drag-and-drop interface. With Step Functions, you can express complex bussiness logic as low-code, event-driven workflows that connect services, systems, or people within minutes.
+
 2.  Write less integration code
+Because AWS Step Functions can integrate with many other AWS services, you don't have to write as much code. Therefore, you can compose AWS resoirces from over 200 services into resilient business workflows, data pipelines, or applications. For example, these services can include AWS Lambda, Amazon ECS, AWS Fargate, AWS Batch, Amazon DynamoDB, Amazon SNS, Amazon SQS, Amazon SageMaker,
 3.  Build fault-tolerant and stateful workflows
 4.  Designed for reliability and scale
