@@ -428,6 +428,7 @@ It can help you build workflows that are fault tolerant and stateful. IT manages
 
 ### Steps Functions features and functionality
 1.  AWS service intergration
+<img src="assets/service integration.PNG" alt="steps" style="height:100%; width:100%">
 2.  Coordination of components
 3.  Workflow abstraction
 4.  Built-in error handling
