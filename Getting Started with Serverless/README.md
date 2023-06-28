@@ -434,6 +434,7 @@ It can help you build workflows that are fault tolerant and stateful. IT manages
 Step Function can coordinate any application that can make an HTTPS connection, regardless of where it's hosted. For example, it can be hosted on Amazon EC2 instances, mobile devices, or on-premies servers. By using step functions, you can quickly create distributed applications that use AWS services along with your own mircroservices.
 
 3.  Workflow abstraction
+Step Functions keeps the logic of your application strictly separated from the implementation of your application. You can add, move, swap, and reorder steps without having to make changes to your business logic. Through this separation of concerns, you workflows gain madularity, simplified maintenance, scalability, and code reuse.
 4.  Built-in error handling
 5.  History of each job
 6.  Visual monitoring
