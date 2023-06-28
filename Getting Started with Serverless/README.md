@@ -476,3 +476,6 @@ Begine parallel branches of execution.
 
 7.  Map state
 Dynamically iterate steps.
+
+### Keyboard shortcuts
+<img src="assets/Keyboard shortcuts.PNG" alt="state machine" style="height:100%; width:100%">
