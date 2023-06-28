@@ -415,39 +415,39 @@ When a message is delivered successfully, there is no way to recall it.
 <img src="assets/step function benefits.PNG" alt="lambda" style="height:100%; width:100%">
 
 1.      Build and deploy rapidly
-    AWS Step Functions helps you to quickly build and deploy your workflows. You can get started quickly with Workflow Studio, a drag-and-drop interface. With Step Functions, you can express complex bussiness logic as low-code, event-driven workflows that connect services, systems, or people within minutes.
+    AWS Step Functions helps you to quickly build and deploy your workflows. You can get started quickly with Workflow Studio, a drag-and-drop interface. With Step Functions, you can express complex business logic as low-code, event-driven workflows that connect services, systems, or people within minutes.
 
 2.      Write less integration code
-    Because AWS Step Functions can integrate with many other AWS services, you don't have to write as much code. Therefore, you can compose AWS resoirces from over 200 services into resilient business workflows, data pipelines, or applications. For example, these services can include AWS Lambda, Amazon ECS, AWS Fargate, AWS Batch, Amazon DynamoDB, Amazon SNS, Amazon SQS, Amazon SageMaker, Amazon EventBridge, and Amazon EMR.
+    Because AWS Step Functions can integrate with many other AWS services, you don't have to write as much code. Therefore, you can compose AWS resources from over 200 services into resilient business workflows, data pipelines, or applications. For example, these services can include AWS Lambda, Amazon ECS, AWS Fargate, AWS Batch, Amazon DynamoDB, Amazon SNS, Amazon SQS, Amazon SageMaker, Amazon EventBridge, and Amazon EMR.
 
 3.      Build fault-tolerant and stateful workflows
     It helps you build workflows that are fault tolerant and stateful. It manages state, checkpoints, and restarts for you to make sure that your workflows run in order and as expected. Built-in try or catch, retry, and rollback capabilities deal with errors and expectations automatically based on your defines business logic.
 
 4.      Designed for reliability and scale
-    It can help you build workflows that are fault tolerant and stateful. IT manages state, checkpoints, and restarts for you to make sure that your workflows run in order and as expected. Built-in try or catch, retry, and rollback capabilities deal wih errors and expectations automatically based your defined business logic.
+    It can help you build workflows that are fault tolerant and stateful. IT manages state, checkpoints, and restarts for you to make sure that your workflows run in order and as expected. Built-in try or catch, retry, and rollback capabilities deal with errors and expectations automatically based your defined business logic.
 
 ### Steps Functions features and functionality
-1.      AWS service intergration
+1.      AWS service integration
 <img src="assets/service integration.PNG" alt="steps" style="height:100%; width:100%">
 
 2.      Coordination of components
-    Step Function can coordinate any application that can make an HTTPS connection, regardless of where it's hosted. For example, it can be hosted on Amazon EC2 instances, mobile devices, or on-premies servers. By using step functions, you can quickly create distributed applications that use AWS services along with your own mircroservices.
+    Step Function can coordinate any application that can make an HTTPS connection, regardless of where it's hosted. For example, it can be hosted on Amazon EC2 instances, mobile devices, or on-premises servers. By using step functions, you can quickly create distributed applications that use AWS services along with your own microservices.
 
 3.      Workflow abstraction
-    Step Functions keeps the logic of your application strictly separated from the implementation of your application. You can add, move, swap, and reorder steps without having to make changes to your business logic. Through this separation of concerns, you workflows gain madularity, simplified maintenance, scalability, and code reuse.
+    Step Functions keeps the logic of your application strictly separated from the implementation of your application. You can add, move, swap, and reorder steps without having to make changes to your business logic. Through this separation of concerns, you workflows gain modularity, simplified maintenance, scalability, and code reuse.
 
 4.      Built-in error handling
     It can handle errors and exceptions with built-in try or catch and retry whether the task seconds or months to complete You can automatically retry failed or time-out tasks and respond differently to different types or errors. You can also recover gracefully by reverting to designated cleanup and recovery code. Learn more about Step Functions error handling and how you can handle error conditions by using a state machine.
 
 5.      History of each job
     Step functions delivers real time diagnostics and dashboards. It integrates with Amazon CloudWatch and AWS CloudTrail and can log every job run including overall state, failes steps, input, and outputs. If things go wrong, you can quickly identify not only where there's an error, but also why, and you can quickly troubleshoot and resolve failures. 
-Lambda also has its own logs, which can be set up to have more debugging details.
+    Lambda also has its own logs, which can be set up to have more debugging details.
 
 6.      Visual monitoring
     Launching an application can be as easy as pressing a button and then watching the steps run visually. In this way, you can quickly verify that everything is operating in order and as expected. The console clearly highlights errors so that you can quickly pinpoint their root cause and troubleshoot issues.
 
 7.      Compliance
-    Step Functions is a Health Insurance Portability and Accountability ACT(HIPAA) eligible service. You can use it with applications that contain healthcare-related information, such as personal health information (PHI). Step Fucntions is also compliant with System and Organization Cintrol (SOC) measures. The results of these third-party audits are available on the AWS SOC Compliance site. Step Functions can also help you conform to other common compliance standards.
+    Step Functions is a Health Insurance Portability and Accountability ACT(HIPAA) eligible service. You can use it with applications that contain healthcare-related information, such as personal health information (PHI). Step Fucntions is also compliant with System and Organization Control (SOC) measures. The results of these third-party audits are available on the AWS SOC Compliance site. Step Functions can also help you conform to other common compliance standards.
 
 ### State machine
 <img src="assets/state machine.PNG" alt="state machine" style="height:100%; width:100%">
@@ -472,7 +472,7 @@ Lambda also has its own logs, which can be set up to have more debugging details
     Provide a delay for a certain amount of time or until a specified time or date.
 
 6.      Parallel state
-    Begine parallel branches of execution.
+    Begin parallel branches of execution.
 
 7.      Map state
     Dynamically iterate steps.
