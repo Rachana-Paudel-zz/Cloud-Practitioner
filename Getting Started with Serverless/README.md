@@ -448,3 +448,6 @@ Launching an application can be as easy as pressing a button and then watching t
 
 7.  Compliance
 Step Functions is a Health Insurance Portability and Accountability ACT(HIPAA) eligible service. You can use it with applications that contain healthcare-related information, such as personal health information (PHI). Step Fucntions is also compliant with System and Organization Cintrol (SOC) measures. The results of these third-party audits are available on the AWS SOC Compliance site. Step Functions can also help you conform to other common compliance standards.
+
+### State machine
+<img src="assets/state machine.PNG" alt="state machine" style="height:100%; width:100%">
