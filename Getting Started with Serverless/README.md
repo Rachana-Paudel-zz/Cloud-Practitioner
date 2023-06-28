@@ -247,11 +247,11 @@ Follow same principles you would apply to developing microservies.
 #####   Configuring concurrency and scaling
 <img src="assets/configure concurrency.PNG" alt="lambda" style="height:100%; width:100%">
 
-1.  Reserved concurrency
-It guarantees the maximum number of concurrent instances for the function. When a function has reserved concurrency, no other function can use that concurrency. There is no charge for configuring reserved concurrency for a function.
+1.      Reserved concurrency
+    It guarantees the maximum number of concurrent instances for the function. When a function has reserved concurrency, no other function can use that concurrency. There is no charge for configuring reserved concurrency for a function.
 
-2.  Provisioned
-It initializes a requested number of execution environments so that they are prepared to respond immediately to your function's invocations. Note that configuring provisioned concurrency incurs charges to your AWS account.
+2.      Provisioned
+    It initializes a requested number of execution environments so that they are prepared to respond immediately to your function's invocations. Note that configuring provisioned concurrency incurs charges to your AWS account.
 
 #####   Destination and types
 +   A destination can send records of asynchronous invocations to other services.
@@ -268,25 +268,25 @@ It initializes a requested number of execution environments so that they are pre
 <img src="assets/failure.PNG" alt="lambda" style="height:100%; width:100%">
 
 ### Types of monitoring graphs
-1.  Invocations
-This graph includes the number of times that your function code is run, including successful runs and runs that result in a function error. If the invocation request is throttled or otherwise resulted in an invocation error, invocations aren't recorded.
+1.      Invocations
+    This graph includes the number of times that your function code is run, including successful runs and runs that result in a function error. If the invocation request is throttled or otherwise resulted in an invocation error, invocations aren't recorded.
 
-2.  Duration
-This shows the amount of time that your function code spends processing an event. The billed duration for an invocation is the value of duration rounded up to the nearest millisecond.
+2.      Duration
+    This shows the amount of time that your function code spends processing an event. The billed duration for an invocation is the value of duration rounded up to the nearest millisecond.
 
-3.  Errors
-This includes number of invocations that result in a function error. Function errors include exceptions thrown by your code and exceptions thrown by the Lambda runtime. The runtime returns errors for issues such as timeouts and configuration errors.
+3.      Errors
+    This includes number of invocations that result in a function error. Function errors include exceptions thrown by your code and exceptions thrown by the Lambda runtime. The runtime returns errors for issues such as timeouts and configuration errors.
 
-4.  Throttles
-This shows number of times that a process failed because of concurrency limits. When all function instances are processing requests and no concurrency is available to scale up, Lambda rejects additional requests.
+4.      Throttles
+    This shows number of times that a process failed because of concurrency limits. When all function instances are processing requests and no concurrency is available to scale up, Lambda rejects additional requests.
 
-5.  IteratorAge
-This pertains to event source mappings that read from streams. This shows the age of the last record in the event. The age is the amount of time between when the stream receives the record and when the event source mapping sends the events to the function.
+5.      IteratorAge
+    This pertains to event source mappings that read from streams. This shows the age of the last record in the event. The age is the amount of time between when the stream receives the record and when the event source mapping sends the events to the function.
 
-6.  DeadLetterErrors
-For asynchronous invocation, this is the number of times Lambda attempts to send an event to a dead-letter queue but fails.
+6.      DeadLetterErrors
+    For asynchronous invocation, this is the number of times Lambda attempts to send an event to a dead-letter queue but fails.
 
-7.  Concurrent Executions
+7.      Concurrent Executions
 <img src="assets/concurrent execution.PNG" alt="lambda" style="height:100%; width:100%">
 
 ### Amazon CloudWatch Lambda Insights
@@ -326,22 +326,22 @@ For asynchronous invocation, this is the number of times Lambda attempts to send
 <img src="assets/sns.PNG" alt="lambda" style="height:100%; width:100%">
 
 #####   Amazon SNS subscription types
-1.  Email
-Messages are sent to registered addresses as email.
+1.      Email
+    Messages are sent to registered addresses as email.
 Email-JSON sends notifications as a JSON objects, while email sends text-based email.
 
-2.  Mobile text messaging(SMS)
-Messages are sent to registered phone number as SMS text messages.
+2.      Mobile text messaging(SMS)
+    Messages are sent to registered phone number as SMS text messages.
 
-3.  HTTP/HTTPS
-Subscribers specify a URL as part of the subscription registration. Notifications will be delivered through an HTTPS POST to the specified URL.
+3.      HTTP/HTTPS
+    Subscribers specify a URL as part of the subscription registration. Notifications will be delivered through an HTTPS POST to the specified URL.
 
-4.  Amazon SQS
-Users can specify an SQS standard queue as the endpoint. Amazon SNS will enqueue a notification message to the specified queue.
+4.      Amazon SQS
+    Users can specify an SQS standard queue as the endpoint. Amazon SNS will enqueue a notification message to the specified queue.
 Note that FIFO queues are not currently supported.
 
-5.  AWS Lambda
-Messages can also be delivered to AWS Lambda functions for handling message customizations, enabling message persistence or communicating with other AWS service.
+5.      AWS Lambda
+    Messages can also be delivered to AWS Lambda functions for handling message customizations, enabling message persistence or communicating with other AWS service.
 
 ### Amazon SNS characteristics
 <img src="assets/sns character.PNG" alt="lambda" style="height:100%; width:100%">
@@ -365,19 +365,19 @@ When a message is delivered successfully, there is no way to recall it.
 <img src="assets/sns and sqs.PNG" alt="lambda" style="height:100%; width:100%">
 
 ### Serverless characteristics of S3
-1.  Pay for value
+1.      Pay for value
 <img src="assets/pay for value.PNG" alt="lambda" style="height:100%; width:100%">
 
-2.  Elastic storage
+2.      Elastic storage
 <img src="assets/elastic storage.PNG" alt="lambda" style="height:100%; width:100%">
 
-3.  Continuous scaling
+3.      Continuous scaling
 <img src="assets/continous scaling.PNG" alt="lambda" style="height:100%; width:100%">
 
-4.  Fault tolerance
+4.      Fault tolerance
 <img src="assets/fault tolerance.PNG" alt="lambda" style="height:100%; width:100%">
 
-5.  No server management
+5.      No server management
 <img src="assets/never management.PNG" alt="lambda" style="height:100%; width:100%">
 
 ### Lambda@Edge
@@ -396,17 +396,17 @@ When a message is delivered successfully, there is no way to recall it.
 <img src="assets/container.PNG" alt="lambda" style="height:100%; width:100%">
 
 ### AWS Fargate use cases
-1.  Web apps, APIs, and microservices
-Build and deploy your applications, APIs, and microservices architectures with the speed and immutability of containers. With Fargate, you don't need to own, run, and manage the lifecycle of a compute infrastructure so that you can focus on what matters most, your applications.
+1.      Web apps, APIs, and microservices
+    Build and deploy your applications, APIs, and microservices architectures with the speed and immutability of containers. With Fargate, you don't need to own, run, and manage the lifecycle of a compute infrastructure so that you can focus on what matters most, your applications.
 
-2.  Run and scale container workloads
-Use AWS Fargate with Amazon ECS or Amazon EKS to easily run and scale your containerized data processing workloads. Fargate also enables you to migrate and run your Amazon ECS Windows containers without re-factoring or re-archtiecting your legacy applications.
+2.      Run and scale container workloads
+    Use AWS Fargate with Amazon ECS or Amazon EKS to easily run and scale your containerized data processing workloads. Fargate also enables you to migrate and run your Amazon ECS Windows containers without re-factoring or re-archtiecting your legacy applications.
 
-3.  Support AI and ML training applications
-Create an artificial intelligence and machine learning development environment that's flexible and portable. With Fargate, achieve the scalability that you need to boost server capacity without over-provisioning to train, test, and deploy your ML models.
+3.      Support AI and ML training applications
+    Create an artificial intelligence and machine learning development environment that's flexible and portable. With Fargate, achieve the scalability that you need to boost server capacity without over-provisioning to train, test, and deploy your ML models.
 
-4.  Optimization Costs
-With AWS Fargate, there are no expenses, you pay for only the resources that you used. Further optimize costs with Compute Savings Plans and Fargate Spot, then use Graviton2 powered Fargate for up to 40 percent price performance improvements.
+4.      Optimization Costs
+    With AWS Fargate, there are no expenses, you pay for only the resources that you used. Further optimize costs with Compute Savings Plans and Fargate Spot, then use Graviton2 powered Fargate for up to 40 percent price performance improvements.
 
 ### AWS Step Functions
 <img src="assets/step function.PNG" alt="lambda" style="height:100%; width:100%">
@@ -414,40 +414,40 @@ With AWS Fargate, there are no expenses, you pay for only the resources that you
 ### AWS Steps Functions benefits
 <img src="assets/step function benefits.PNG" alt="lambda" style="height:100%; width:100%">
 
-1.  Build and deploy rapidly
-AWS Step Functions helps you to quickly build and deploy your workflows. You can get started quickly with Workflow Studio, a drag-and-drop interface. With Step Functions, you can express complex bussiness logic as low-code, event-driven workflows that connect services, systems, or people within minutes.
+1.      Build and deploy rapidly
+    AWS Step Functions helps you to quickly build and deploy your workflows. You can get started quickly with Workflow Studio, a drag-and-drop interface. With Step Functions, you can express complex bussiness logic as low-code, event-driven workflows that connect services, systems, or people within minutes.
 
-2.  Write less integration code
-Because AWS Step Functions can integrate with many other AWS services, you don't have to write as much code. Therefore, you can compose AWS resoirces from over 200 services into resilient business workflows, data pipelines, or applications. For example, these services can include AWS Lambda, Amazon ECS, AWS Fargate, AWS Batch, Amazon DynamoDB, Amazon SNS, Amazon SQS, Amazon SageMaker, Amazon EventBridge, and Amazon EMR.
+2.      Write less integration code
+    Because AWS Step Functions can integrate with many other AWS services, you don't have to write as much code. Therefore, you can compose AWS resoirces from over 200 services into resilient business workflows, data pipelines, or applications. For example, these services can include AWS Lambda, Amazon ECS, AWS Fargate, AWS Batch, Amazon DynamoDB, Amazon SNS, Amazon SQS, Amazon SageMaker, Amazon EventBridge, and Amazon EMR.
 
-3.  Build fault-tolerant and stateful workflows
-It helps you build workflows that are fault tolerant and stateful. It manages state, checkpoints, and restarts for you to make sure that your workflows run in order and as expected. Built-in try or catch, retry, and rollback capabilities deal with errors and expectations automatically based on your defines business logic.
+3.      Build fault-tolerant and stateful workflows
+    It helps you build workflows that are fault tolerant and stateful. It manages state, checkpoints, and restarts for you to make sure that your workflows run in order and as expected. Built-in try or catch, retry, and rollback capabilities deal with errors and expectations automatically based on your defines business logic.
 
-4.  Designed for reliability and scale
-It can help you build workflows that are fault tolerant and stateful. IT manages state, checkpoints, and restarts for you to make sure that your workflows run in order and as expected. Built-in try or catch, retry, and rollback capabilities deal wih errors and expectations automatically based your defined business logic.
+4.      Designed for reliability and scale
+    It can help you build workflows that are fault tolerant and stateful. IT manages state, checkpoints, and restarts for you to make sure that your workflows run in order and as expected. Built-in try or catch, retry, and rollback capabilities deal wih errors and expectations automatically based your defined business logic.
 
 ### Steps Functions features and functionality
-1.  AWS service intergration
+1.      AWS service intergration
 <img src="assets/service integration.PNG" alt="steps" style="height:100%; width:100%">
 
-2.  Coordination of components
-Step Function can coordinate any application that can make an HTTPS connection, regardless of where it's hosted. For example, it can be hosted on Amazon EC2 instances, mobile devices, or on-premies servers. By using step functions, you can quickly create distributed applications that use AWS services along with your own mircroservices.
+2.      Coordination of components
+    Step Function can coordinate any application that can make an HTTPS connection, regardless of where it's hosted. For example, it can be hosted on Amazon EC2 instances, mobile devices, or on-premies servers. By using step functions, you can quickly create distributed applications that use AWS services along with your own mircroservices.
 
-3.  Workflow abstraction
-Step Functions keeps the logic of your application strictly separated from the implementation of your application. You can add, move, swap, and reorder steps without having to make changes to your business logic. Through this separation of concerns, you workflows gain madularity, simplified maintenance, scalability, and code reuse.
+3.      Workflow abstraction
+    Step Functions keeps the logic of your application strictly separated from the implementation of your application. You can add, move, swap, and reorder steps without having to make changes to your business logic. Through this separation of concerns, you workflows gain madularity, simplified maintenance, scalability, and code reuse.
 
-4.  Built-in error handling
-It can handle errors and exceptions with built-in try or catch and retry whether the task seconds or months to complete You can automatically retry failed or time-out tasks and respond differently to different types or errors. You can also recover gracefully by reverting to designated cleanup and recovery code. Learn more about Step Functions error handling and how you can handle error conditions by using a state machine.
+4.      Built-in error handling
+    It can handle errors and exceptions with built-in try or catch and retry whether the task seconds or months to complete You can automatically retry failed or time-out tasks and respond differently to different types or errors. You can also recover gracefully by reverting to designated cleanup and recovery code. Learn more about Step Functions error handling and how you can handle error conditions by using a state machine.
 
-5.  History of each job
-Step functions delivers real time diagnostics and dashboards. It integrates with Amazon CloudWatch and AWS CloudTrail and can log every job run including overall state, failes steps, input, and outputs. If things go wrong, you can quickly identify not only where there's an error, but also why, and you can quickly troubleshoot and resolve failures. 
+5.      History of each job
+    Step functions delivers real time diagnostics and dashboards. It integrates with Amazon CloudWatch and AWS CloudTrail and can log every job run including overall state, failes steps, input, and outputs. If things go wrong, you can quickly identify not only where there's an error, but also why, and you can quickly troubleshoot and resolve failures. 
 Lambda also has its own logs, which can be set up to have more debugging details.
 
-6.  Visual monitoring
-Launching an application can be as easy as pressing a button and then watching the steps run visually. In this way, you can quickly verify that everything is operating in order and as expected. The console clearly highlights errors so that you can quickly pinpoint their root cause and troubleshoot issues.
+6.      Visual monitoring
+    Launching an application can be as easy as pressing a button and then watching the steps run visually. In this way, you can quickly verify that everything is operating in order and as expected. The console clearly highlights errors so that you can quickly pinpoint their root cause and troubleshoot issues.
 
-7.  Compliance
-Step Functions is a Health Insurance Portability and Accountability ACT(HIPAA) eligible service. You can use it with applications that contain healthcare-related information, such as personal health information (PHI). Step Fucntions is also compliant with System and Organization Cintrol (SOC) measures. The results of these third-party audits are available on the AWS SOC Compliance site. Step Functions can also help you conform to other common compliance standards.
+7.      Compliance
+    Step Functions is a Health Insurance Portability and Accountability ACT(HIPAA) eligible service. You can use it with applications that contain healthcare-related information, such as personal health information (PHI). Step Fucntions is also compliant with System and Organization Cintrol (SOC) measures. The results of these third-party audits are available on the AWS SOC Compliance site. Step Functions can also help you conform to other common compliance standards.
 
 ### State machine
 <img src="assets/state machine.PNG" alt="state machine" style="height:100%; width:100%">
@@ -456,26 +456,26 @@ Step Functions is a Health Insurance Portability and Accountability ACT(HIPAA) e
 <img src="assets/state machine example.PNG" alt="state machine" style="height:100%; width:100%">
 
 ### Step Functions States
-1.  Task state
-Do some work in machine state.
+1.      Task state
+    Do some work in machine state.
 
-2.  Choice state
-Make a choice between branches to run.
+2.      Choice state
+    Make a choice between branches to run.
 
-3.  Fail or succeed state
-Stop execution with a failure or success.
+3.      Fail or succeed state
+    Stop execution with a failure or success.
 
-4.  Pass state
-Pass its unput to its output or inject some fixed data.
+4.      Pass state
+    Pass its unput to its output or inject some fixed data.
 
-5.  Wait state
-Provide a delay for a certain amount of time or until a specified time or date.
+5.      Wait state
+    Provide a delay for a certain amount of time or until a specified time or date.
 
-6.  Parallel state
-Begine parallel branches of execution.
+6.      Parallel state
+    Begine parallel branches of execution.
 
-7.  Map state
-Dynamically iterate steps.
+7.      Map state
+    Dynamically iterate steps.
 
 ### Keyboard shortcuts
 <img src="assets/Keyboard shortcuts.PNG" alt="state machine" style="height:100%; width:100%">
