@@ -429,7 +429,10 @@ It can help you build workflows that are fault tolerant and stateful. IT manages
 ### Steps Functions features and functionality
 1.  AWS service intergration
 <img src="assets/service integration.PNG" alt="steps" style="height:100%; width:100%">
+
 2.  Coordination of components
+Step Function can coordinate any application that can make an HTTPS connection, regardless of where it's hosted. For example, it can be hosted on Amazon EC2 instances, mobile devices, or on-premies servers. By using step functions, you can quickly create distributed applications that use AWS services along with your own mircroservices.
+
 3.  Workflow abstraction
 4.  Built-in error handling
 5.  History of each job
