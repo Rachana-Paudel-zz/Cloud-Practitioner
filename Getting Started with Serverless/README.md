@@ -580,3 +580,39 @@ In this task, you configure an S3 trigger on an existing S3 bucket and your Lamb
 +   Choose Add.
 
 You have configured your Lambda function to be initiated when a new object is uploaded to the S3 bucket.
+
+#####   Task 3: Uploading an image to the Amazon S3 bucket
+In this task, you upload an image file to your bucket.
+
++   Open the context (right-click) menu for the following link, and download the file to your computer:
+
+    +   large-image.jpg
+
+
++   In the AWS Management Console, on the Services menu, enter S3.  From the search results, choose S3.
+
++   Choose the link for the bucket that has original in the name.
+
++   Choose Upload.
+
++   Choose Add files.
+
++   Choose the file that you downloaded.
+
++   Choose Upload.
+  Your file is uploaded to the bucket.
+
++   Choose Close.
+
++   If you are working on Task 4, you can now return to step 55.
+
++   When your Lambda function runs correctly, the image file that you uploaded is reduced in size and placed in the S3 bucket that you specified when you set the environment variable for RESIZED_BUCKET.
+
++   Return to the Buckets section in the S3 Console.
+
++   Choose the link for the bucket that has resized in the name.
+
+   Notice the file size. It's significantly reduced from the original size of 4.9 MB.
+
+ 
+
