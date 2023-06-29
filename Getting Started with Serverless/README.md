@@ -563,4 +563,20 @@ def lambda_handler(event, context):
 
 +   Choose Save.
 
- 
+#####   Task 2: Configuring an Amazon S3 trigger to invoke a Lambda function 
+
+In this task, you configure an S3 trigger on an existing S3 bucket and your Lambda function. The Lambda function resizes images and places them in another bucket.
+
++   In the Function overview section of the Lambda console near the top of the page, choose Add trigger.
+
++   In the Trigger configuration section, choose S3 from the dropdown list.
+
++   For Bucket, choose the bucket with original in the name.
+
++   For Event Type, choose All object create events.
+
++   Acknowledge the notification for Recursive invocation by selecting the check box.
+
++   Choose Add.
+
+You have configured your Lambda function to be initiated when a new object is uploaded to the S3 bucket.
