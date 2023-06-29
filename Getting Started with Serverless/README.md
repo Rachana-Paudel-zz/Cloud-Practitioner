@@ -479,3 +479,21 @@ When a message is delivered successfully, there is no way to recall it.
 
 ### Keyboard shortcuts
 <img src="assets/Keyboard shortcuts.PNG" alt="state machine" style="height:100%; width:100%">
+
+###  LAB
+
+#####   Task 1: Creating a Lambda function
++   In the AWS Management Console, on the Services menu, enter Lambda. From the search results, choose Lambda.
+
++   Choose Create Function.
+
++   Edit the following:
+Function name: resize_image
+Runtime: Python3.9
+
++   Expand the Change default execution role section. Choose Use an existing role. In the dropdown list for Existing Role, choose ResizeImageLambdaRole.
+
++   Choose Create function.
+
++   Scroll to the Layers section.
+
