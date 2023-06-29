@@ -616,25 +616,43 @@ In this task, you upload an image file to your bucket.
 
  
 
-When you uploaded the image file, S3 initiated the resize_image Lambda function. Review the logs to see how your function performed.
++   When you uploaded the image file, S3 initiated the resize_image Lambda function. Review the logs to see how your function performed.
 
-Navigate back to the Lambda console.
++   Navigate back to the Lambda console.
 
-Choose the link for the resize_image function.
++   Choose the link for the resize_image function.
 
-Choose the Monitor tab.
++   Choose the Monitor tab.
 
-Choose Logs.
++   Choose Logs.
 
-In the Recent Invocations table, choose a row to expand the details.
++   In the Recent Invocations table, choose a row to expand the details.
 Notice the metrics that are recorded for each function invocation. You might have to wait for up to one minute for the data to be updated.
 
-The DurationInMS column tells you how long your function ran for this invocation.  
++   The DurationInMS column tells you how long your function ran for this invocation.  
 
-The first time that your Lambda function is invoked, the Lambda execution environment has to download your code and start a new execution environment. This process is called a cold start. The @initDuration metric in the Recent invocation details signifies the cold start time.
++   The first time that your Lambda function is invoked, the Lambda execution environment has to download your code and start a new execution environment. This process is called a cold start. The @initDuration metric in the Recent invocation details signifies the cold start time.
 
 Note the MemorySetInMB column. The amount of memory that's available to your Lambda function can be adjusted to affect the performance of your Lambda function.
 
-The amount of memory also determines the amount of virtual CPU available to a function. Adding more memory proportionally increases the amount of CPU, which increases the overall computational power available. If a function is CPU-, network- or memory-bound, then changing the memory setting can dramatically improve its performance.
++   The amount of memory also determines the amount of virtual CPU available to a function. Adding more memory proportionally increases the amount of CPU, which increases the overall computational power available. If a function is CPU-, network- or memory-bound, then changing the memory setting can dramatically improve its performance.
 
 Notice how long it took your function to run. It could be faster. Adjust your Lambda function so that it runs faster.
+
+#####   Task 4: Optimizing Lambda function memory for performance
++   Choose the Configuration tab.
+
++   Choose General Configuration.
+
++   Choose Edit.
+
++   Adjust Memory to 1024 MB.
+
++   Choose Save.
+
++   Upload your image to the original S3 bucket again. If you need help, review steps 35-41.
+
+
++   Repeat steps 49-54 using 2048 MB and 3008 MB as the value for Memory.
+
+Your function now runs in approximately 500 milliseconds with 3008 MB of memory and an image that is 5 MB.
