@@ -497,3 +497,17 @@ Runtime: Python3.9
 
 +   Scroll to the Layers section.
 
++   Choose Add a layer.
+
++   Choose Custom layers.
+
++   From the Custom layers dropdown list, choose PillowPythonLambdaLayer.
+
++   From the Version dropdown list, choose 1 or the option with the highest version number.
+
++   Choose Add.
+
++   Scroll to the Code source section of the page.
+
++   Copy the code below, and replace the default source code in the lambda_function.py file with it.
+
