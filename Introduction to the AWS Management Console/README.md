@@ -17,7 +17,10 @@
 <img src="assets/setting account3.PNG" alt="launch" style="height:100%; width:100%" >
 
 ### Widgets
-<img src="assets/widget1.PNG" alt="launch" style="height:100%; width:100%" >
+<img src="assets/widget1.PNG" alt="widgets" style="height:100%; width:100%" >
 
 ### Finding Services
-<img src="assets/finding services.PNG" alt="launch" style="height:100%; width:100%" >
+<img src="assets/finding services.PNG" alt="services" style="height:100%; width:100%" >
+
+### How to Add Favourites Widgets
+<img src="assets/add to favourite.PNG" alt="add" style="height:100%; width:100%" >
