@@ -15,3 +15,6 @@
 <img src="assets/setting account2.PNG" alt="launch" style="height:100%; width:100%" >
 
 <img src="assets/setting account3.PNG" alt="launch" style="height:100%; width:100%" >
+
+### Widgets
+<img src="assets/widget1.PNG" alt="launch" style="height:100%; width:100%" >
