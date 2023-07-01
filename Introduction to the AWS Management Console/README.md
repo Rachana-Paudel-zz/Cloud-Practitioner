@@ -22,7 +22,7 @@
 ### Finding Services
 <img src="assets/finding services.PNG" alt="services" style="height:100%; width:100%" >
 
-### How to Add Favourites Widgets
+### How to Add Favorites Widgets
 <img src="assets/add to favourite.PNG" alt="add" style="height:100%; width:100%" >
 
 ### Navigation the AWS Management Console
