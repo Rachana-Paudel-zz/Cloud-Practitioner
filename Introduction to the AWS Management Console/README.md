@@ -18,3 +18,6 @@
 
 ### Widgets
 <img src="assets/widget1.PNG" alt="launch" style="height:100%; width:100%" >
+
+### Finding Services
+<img src="assets/finding services.PNG" alt="launch" style="height:100%; width:100%" >
