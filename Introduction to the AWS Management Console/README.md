@@ -24,3 +24,6 @@
 
 ### How to Add Favourites Widgets
 <img src="assets/add to favourite.PNG" alt="add" style="height:100%; width:100%" >
+
+### Navigation the AWS Management Console
+<img src="assets/console.PNG" alt="add" style="height:100%; width:100%" >
