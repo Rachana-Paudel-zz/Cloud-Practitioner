@@ -38,5 +38,5 @@ In this section:
 ### Map of AWS Regions
 <img src="assets/map of aws region.PNG" alt="global" style="height:100%; width:100%" >
 
-### Availability Zones
-<img src="assets/map of aws region.PNG" alt="global" style="height:100%; width:100%" >
+### Regions
+<img src="assets/regions.PNG" alt="global" style="height:100%; width:100%" >
