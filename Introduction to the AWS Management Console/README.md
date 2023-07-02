@@ -40,3 +40,6 @@ In this section:
 
 ### Regions
 <img src="assets/regions.PNG" alt="global" style="height:100%; width:100%" >
+
+### Availability Zones
+<img src="assets/availability zones.PNG" alt="global" style="height:100%; width:100%" >
