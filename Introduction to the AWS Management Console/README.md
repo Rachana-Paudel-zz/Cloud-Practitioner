@@ -27,3 +27,7 @@
 
 ### Navigation the AWS Management Console
 <img src="assets/console.PNG" alt="add" style="height:100%; width:100%" >
+
+### Billing consideration
+In this section:
+<img src="assets/billing consideration.PNG" alt="add" style="height:100%; width:100%" >
