@@ -30,4 +30,10 @@
 
 ### Billing consideration
 In this section:
-<img src="assets/billing consideration.PNG" alt="add" style="height:100%; width:100%" >
+<img src="assets/billing consideration.PNG" alt="billing" style="height:100%; width:100%" >
+
+### AWS global infrastructure
+<img src="assets/global infrastructure.PNG" alt="global" style="height:100%; width:100%" >
+
+### Map of AWS Regions
+<img src="assets/map of aws region.PNG" alt="global" style="height:100%; width:100%" >
