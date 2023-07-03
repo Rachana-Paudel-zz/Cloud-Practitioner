@@ -55,3 +55,6 @@ In this section:
 
 +   pay less by using more
 <img src="assets/pay less.PNG" alt="save when commit" style="height:100%; width:100%" >
+
+### AWS Free Tier
+<img src="assets/aws free tier.PNG" alt="save when commit" style="height:100%; width:100%" >
