@@ -43,3 +43,6 @@ In this section:
 
 ### Availability Zones
 <img src="assets/availability zones.PNG" alt="global" style="height:100%; width:100%" >
+
+### AWS payment models
+<img src="assets/payment models.PNG" alt="global" style="height:100%; width:100%" >
