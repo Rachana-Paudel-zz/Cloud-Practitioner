@@ -46,3 +46,8 @@ In this section:
 
 ### AWS payment models
 <img src="assets/payment models.PNG" alt="global" style="height:100%; width:100%" >
+
++   Pay-as-you-go
+<img src="assets/pay as you go.PNG" alt="global" style="height:100%; width:100%" >
+
++   
