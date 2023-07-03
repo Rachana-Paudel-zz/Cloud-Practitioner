@@ -64,3 +64,6 @@ In this section:
 
 ### AWS pricing varies by Region and Service
 <img src="assets/aws pricing.PNG" alt="save when commit" style="height:100%; width:100%" >
+
+### Billing considerations summary
+<img src="assets/billing considerations.PNG" alt="save when commit" style="height:100%; width:100%" >
