@@ -58,3 +58,6 @@ In this section:
 
 ### AWS Free Tier
 <img src="assets/aws free tier.PNG" alt="save when commit" style="height:100%; width:100%" >
+
+### Service cost factors
+<img src="assets/service cost factor.PNG" alt="save when commit" style="height:100%; width:100%" >
