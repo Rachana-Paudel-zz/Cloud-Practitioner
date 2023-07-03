@@ -52,3 +52,6 @@ In this section:
 
 +   save when you commit
 <img src="assets/save when you commit.PNG" alt="save when commit" style="height:100%; width:100%" >
+
++   pay less by using more
+<img src="assets/pay less.PNG" alt="save when commit" style="height:100%; width:100%" >
