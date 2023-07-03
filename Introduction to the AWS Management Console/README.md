@@ -61,3 +61,6 @@ In this section:
 
 ### Service cost factors
 <img src="assets/service cost factor.PNG" alt="save when commit" style="height:100%; width:100%" >
+
+### AWS pricing varies by Region and Service
+<img src="assets/aws pricing.PNG" alt="save when commit" style="height:100%; width:100%" >
