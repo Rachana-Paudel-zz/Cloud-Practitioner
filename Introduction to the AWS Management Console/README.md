@@ -48,6 +48,7 @@ In this section:
 <img src="assets/payment models.PNG" alt="global" style="height:100%; width:100%" >
 
 +   Pay-as-you-go
-<img src="assets/pay as you go.PNG" alt="global" style="height:100%; width:100%" >
+<img src="assets/pay as you go.PNG" alt="pay" style="height:100%; width:100%" >
 
-+   
++   save when you commit
+<img src="assets/save when you commit.PNG" alt="save when commit" style="height:100%; width:100%" >
