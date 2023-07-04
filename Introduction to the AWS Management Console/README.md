@@ -74,3 +74,6 @@ In this section:
 
 #### Service links
 <img src="assets/service link.PNG" alt="save when commit" style="height:100%; width:100%" >
+
+### Services categories
+<img src="assets/service categories.PNG" alt="save when commit" style="height:100%; width:100%" >
