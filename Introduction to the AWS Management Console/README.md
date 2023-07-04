@@ -66,4 +66,8 @@ In this section:
 <img src="assets/aws pricing.PNG" alt="save when commit" style="height:100%; width:100%" >
 
 ### Billing considerations summary
-<img src="assets/billing considerations.PNG" alt="save when commit" style="height:100%; width:100%" >
+<img src="assets/billing consideration.PNG" alt="save when commit" style="height:100%; width:100%" >
+
+### Hands on Practice Introduction
+### Accessing AWS Services
+<img src="assets/aws services.PNG" alt="save when commit" style="height:100%; width:100%" >
