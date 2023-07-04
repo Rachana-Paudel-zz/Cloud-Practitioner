@@ -69,5 +69,8 @@ In this section:
 <img src="assets/billing consideration.PNG" alt="save when commit" style="height:100%; width:100%" >
 
 ### Hands on Practice Introduction
-### Accessing AWS Services
+#### Accessing AWS Services
 <img src="assets/aws services.PNG" alt="save when commit" style="height:100%; width:100%" >
+
+#### Service links
+<img src="assets/service link.PNG" alt="save when commit" style="height:100%; width:100%" >
