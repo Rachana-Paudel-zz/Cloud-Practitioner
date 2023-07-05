@@ -86,3 +86,6 @@ In this section:
 
 ### Select Favourites
 <img src="assets/select favourite.PNG" alt="select" style="height:100%; width:100%" >
+
+### GLobal link
+<img src="assets/global link.PNG" alt="select" style="height:100%; width:100%" >
