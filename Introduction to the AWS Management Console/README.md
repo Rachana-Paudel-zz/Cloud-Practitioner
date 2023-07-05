@@ -83,3 +83,6 @@ In this section:
 
 ### Select S3
 <img src="assets/select s3.PNG" alt="select" style="height:100%; width:100%" >
+
+### Select Favourites
+<img src="assets/select favourite.PNG" alt="select" style="height:100%; width:100%" >
