@@ -70,7 +70,7 @@ In this section:
 
 ### Hands on Practice Introduction
 #### Accessing AWS Services
-<img src="assets/aws services.PNG" alt="service" style="height:100%; width:100%" >
+<img src="assets/aws service.PNG" alt="service" style="height:100%; width:100%" >
 
 #### Service links
 <img src="assets/service link.PNG" alt="service" style="height:100%; width:100%" >
