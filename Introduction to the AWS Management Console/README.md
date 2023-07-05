@@ -80,3 +80,6 @@ In this section:
 
 ### Favourites designation
 <img src="assets/designation.PNG" alt="designation" style="height:100%; width:100%" >
+
+### Select S3
+<img src="assets/select s3.PNG" alt="select" style="height:100%; width:100%" >
