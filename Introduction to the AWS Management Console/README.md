@@ -66,14 +66,17 @@ In this section:
 <img src="assets/aws pricing.PNG" alt="save when commit" style="height:100%; width:100%" >
 
 ### Billing considerations summary
-<img src="assets/billing consideration.PNG" alt="save when commit" style="height:100%; width:100%" >
+<img src="assets/billing consideration.PNG" alt="billing" style="height:100%; width:100%" >
 
 ### Hands on Practice Introduction
 #### Accessing AWS Services
-<img src="assets/aws services.PNG" alt="save when commit" style="height:100%; width:100%" >
+<img src="assets/aws services.PNG" alt="service" style="height:100%; width:100%" >
 
 #### Service links
-<img src="assets/service link.PNG" alt="save when commit" style="height:100%; width:100%" >
+<img src="assets/service link.PNG" alt="service" style="height:100%; width:100%" >
 
 ### Services categories
-<img src="assets/service categories.PNG" alt="save when commit" style="height:100%; width:100%" >
+<img src="assets/service categories.PNG" alt="service" style="height:100%; width:100%" >
+
+### Favourites designation
+<img src="assets/designation.PNG" alt="designation" style="height:100%; width:100%" >
