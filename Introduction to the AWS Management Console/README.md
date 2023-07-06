@@ -99,5 +99,5 @@ In this section:
 ### Search bar
 <img src="assets/search bar.PNG" alt="select" style="height:100%; width:100%" >
 
-### EC2 marked as facourite
+### EC2 marked as favorite
 <img src="assets/EC2.PNG" alt="select" style="height:100%; width:100%" >
