@@ -92,3 +92,6 @@ In this section:
 
 ### Global service
 <img src="assets/global service.PNG" alt="select" style="height:100%; width:100%" >
+
+### Searching service
+<img src="assets/seaching service.PNG" alt="select" style="height:100%; width:100%" >
