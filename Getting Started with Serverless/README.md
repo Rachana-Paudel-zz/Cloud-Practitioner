@@ -512,6 +512,7 @@ Runtime: Python3.9
 +   Copy the code below, and replace the default source code in the lambda_function.py file with it.
 
 <b>
+
 import boto3
 import os
 import sys

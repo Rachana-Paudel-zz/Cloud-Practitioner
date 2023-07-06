@@ -68,10 +68,14 @@ We begin our journey from AWS educate course. Click [Website in the cloud](https
 We begin our journey from AWS educate course. Click [Cloud Building](https://awseducate.instructure.com/courses/232) to start learning.
 
 ## <a href="./Hardware and Software/README.md">Hardware and Software</a>
-We begin our journey from AWS educate course. Click [Getting Started with Serverless](https://awseducate.instructure.com/courses/219) to start learning.
+We begin our journey from AWS educate course. Click [Hardware and Software](https://awseducate.instructure.com/courses/219) to start learning.
 
 
 ## <a href="./Getting Started with Serverless/README.md">Getting Started with Serverless</a>
 We begin our journey from AWS educate course. Click [Getting Started with Serverless](https://awseducate.instructure.com/courses/905) to start learning.
+
+
+## <a href="./Introduction to the AWS Management Console">Introduction to the AWS Management Console</a>
+We begin our journey from AWS educate course. Click [Introduction to the AWS Management Console](https://awseducate.instructure.com/courses/909/modules/items/15823) to start learning.
 
 

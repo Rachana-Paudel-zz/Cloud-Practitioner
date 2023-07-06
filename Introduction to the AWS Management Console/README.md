@@ -78,14 +78,17 @@ In this section:
 ### Services categories
 <img src="assets/service categories.PNG" alt="service" style="height:100%; width:100%" >
 
-### Favourites designation
+### Favorites designation
 <img src="assets/designation.PNG" alt="designation" style="height:100%; width:100%" >
 
 ### Select S3
 <img src="assets/select s3.PNG" alt="select" style="height:100%; width:100%" >
 
-### Select Favourites
+### Select Favorites
 <img src="assets/select favourite.PNG" alt="select" style="height:100%; width:100%" >
 
-### GLobal link
+### Global link
 <img src="assets/global link.PNG" alt="select" style="height:100%; width:100%" >
+
+### Global service
+<img src="assets/global service.PNG" alt="select" style="height:100%; width:100%" >
