@@ -94,4 +94,7 @@ In this section:
 <img src="assets/global service.PNG" alt="select" style="height:100%; width:100%" >
 
 ### Searching service
-<img src="assets/seaching service.PNG" alt="select" style="height:100%; width:100%" >
+<img src="assets/searching service.PNG" alt="select" style="height:100%; width:100%" >
+
+### Search bar
+<img src="assets/search bar.PNG" alt="select" style="height:100%; width:100%" >
