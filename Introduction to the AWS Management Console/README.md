@@ -101,3 +101,8 @@ In this section:
 
 ### EC2 marked as favorite
 <img src="assets/EC2.PNG" alt="select" style="height:100%; width:100%" >
+
+### EC2
+It is a regional service  and you are currently in the higher region. All the data you are seeing here is such as running instances and load bouncer are the resources that your provision in your higher region.
+
+<img src="assets/EC2.1.PNG" alt="select" style="height:100%; width:100%" >
