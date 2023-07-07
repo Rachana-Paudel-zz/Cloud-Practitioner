@@ -106,3 +106,7 @@ In this section:
 It is a regional service  and you are currently in the higher region. All the data you are seeing here is such as running instances and load bouncer are the resources that your provision in your higher region.
 
 <img src="assets/EC2.1.PNG" alt="select" style="height:100%; width:100%" >
+
+### EC2 Global
+Instances show how many instances in region.
+<img src="assets/EC2global.PNG" alt="select" style="height:100%; width:100%" >
