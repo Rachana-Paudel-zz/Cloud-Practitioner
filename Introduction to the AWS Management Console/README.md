@@ -109,4 +109,8 @@ It is a regional service  and you are currently in the higher region. All the da
 
 ### EC2 Global
 Instances show how many instances in region.
-<img src="assets/EC2global.PNG" alt="select" style="height:100%; width:100%" >
+<img src="assets/EC2 global.PNG" alt="select" style="height:100%; width:100%" >
+
+### Use service menu to find RDS
+
+<img src="assets/use service menu to find RDS.PNG" alt="select" style="height:100%; width:100%" >
