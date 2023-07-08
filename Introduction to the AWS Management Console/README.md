@@ -127,3 +127,6 @@ You should notice there is no global service there.
 
 ### Regional charges
 <img src="assets/regional charges.PNG" alt="select" style="height:100%; width:100%" >
+
+### Select All services
+<img src="assets/select services.PNG" alt="select" style="height:100%; width:100%" >
