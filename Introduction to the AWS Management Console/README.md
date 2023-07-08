@@ -124,3 +124,6 @@ Instances show how many instances in region.
 ### RDS
 You should notice there is no global service there.
 <img src="assets/RDS.PNG" alt="select" style="height:100%; width:100%" >
+
+### Regional charges
+<img src="assets/regional charges.PNG" alt="select" style="height:100%; width:100%" >
