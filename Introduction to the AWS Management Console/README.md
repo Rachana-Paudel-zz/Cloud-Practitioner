@@ -120,3 +120,7 @@ Instances show how many instances in region.
 
 ### Select RDS
 <img src="assets/select RDS.PNG" alt="select" style="height:100%; width:100%" >
+
+### RDS
+You should notice there is no global service there.
+<img src="assets/RDS.PNG" alt="select" style="height:100%; width:100%" >
