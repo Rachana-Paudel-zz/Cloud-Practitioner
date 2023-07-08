@@ -117,3 +117,6 @@ Instances show how many instances in region.
 
 ### Scroll down
 <img src="assets/scroll down.PNG" alt="select" style="height:100%; width:100%" >
+
+### Select RDS
+<img src="assets/select RDS.PNG" alt="select" style="height:100%; width:100%" >
