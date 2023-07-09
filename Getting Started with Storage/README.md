@@ -190,10 +190,13 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
 + Object level storage
 + Active and archive storage
 <img src="active_archieve_storage.PNG" alt="Active and archive storage" style="height: 100%; width:100%; "/>
+
 + Amazon storage S3 storage class
 <img src="s3_storage classes.PNG" alt="S3 storage" style="height: 100%; width:100%; "/>
+
 + Amazon S3 storage classes use cases
 <img src="s3usecase.PNG" alt="use cases" style="height: 100%; width:100%; "/>
+
 + Amazon S3 costs
 
 <img src="S3costs.PNG" alt="S3 costs" style="height: 100%; width:100%; "/>
@@ -259,8 +262,7 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
 
 + Amazon EFS use cases
 <img src="efsusecase.PNG" alt="EFS use case" style="height: 100%; width:100%; "/>
-+ Summary
-
 ##   Continue learning journey
 <img src="gettingstartedjourney.PNG" alt="Getting started journey" style="height: 100%; width:100%; "/>
+
 ### `End of Cloud storage.`
