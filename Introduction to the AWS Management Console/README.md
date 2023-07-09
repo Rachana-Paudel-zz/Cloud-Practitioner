@@ -132,4 +132,7 @@ You should notice there is no global service there.
 <img src="assets/select services.PNG" alt="select" style="height:100%; width:100%" >
 
 ### Scroll down
-<img src="assets/select services.PNG" alt="select" style="height:100%; width:100%" >
+<img src="assets/scroll down.PNG" alt="select" style="height:100%; width:100%" >
+
+### Select VPC
+<img src="assets/select vpc.PNG" alt="select" style="height:100%; width:100%" >
