@@ -78,4 +78,4 @@ We begin our journey from AWS educate course. Click [Getting Started with Server
 ## <a href="./Introduction to the AWS Management Console">Introduction to the AWS Management Console</a>
 We begin our journey from AWS educate course. Click [Introduction to the AWS Management Console](https://awseducate.instructure.com/courses/909/modules/items/15823) to start learning.
 
-
+`End of course`
