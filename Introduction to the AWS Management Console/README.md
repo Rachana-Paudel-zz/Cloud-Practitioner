@@ -136,3 +136,6 @@ You should notice there is no global service there.
 
 ### Select VPC
 <img src="assets/select vpc.PNG" alt="select" style="height:100%; width:100%" >
+
+### View all Regions where you have resources
+<img src="assets/view region.PNG" alt="select" style="height:100%; width:100%" >
