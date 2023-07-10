@@ -157,6 +157,7 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
 
 +   Working of Simple Storage Service(S3) with users data and assesment.
 <img src="Bucket.PNG" alt="Working" style="height: 100%; width:45%; "/><img src="challenges.PNG" alt="Working" style="height: 100%; width:45%; "/>
+
 +   Assessement
 <img src="assesment.PNG" alt="Assessement" style="height: 100%; width:100%; "/>
 
@@ -216,8 +217,10 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
     + 160 GB upload limit from the console
 +  upload objects-multipart upload  
 <img src="multipartupload.PNG" alt="Multipart" style="height: 100%; width:100%; "/>
+
 + work with objects
 <img src="workwithobjects.PNG" alt="Object work" style="height: 100%; width:100%; "/>
+
 + delete objects and buckets
 <img src="deletebuckets.PNG" alt="Object delete" style="height: 100%; width:100%; "/>
 
@@ -262,6 +265,7 @@ Note: Your bucket name will be different. Be sure to use the name of the bucket 
 
 + Amazon EFS use cases
 <img src="efsusecase.PNG" alt="EFS use case" style="height: 100%; width:100%; "/>
+
 ##   Continue learning journey
 <img src="gettingstartedjourney.PNG" alt="Getting started journey" style="height: 100%; width:100%; "/>
 

@@ -439,7 +439,8 @@ You can put your energy where it belong: with your customers and your business. 
 
 #### 3. Review and download the estimate
 
-+   <b><u>Choose View summary.</u></b>  
++   <b><u>Choose View summary.</u></b> 
+ 
     a.  Review the overall costs that AWS Pricing Calculator generated for the services from the My Estimate page. enter `Review Summary` and configure it. <small><u><i>[Learn to configure](https://awseducate.instructure.com/courses/889/modules/items/15053)</i></u></small>.
 
     <img src="assets/View_Summary.PNG" alt="Summary" style="height: 100%; width:100%;"/>

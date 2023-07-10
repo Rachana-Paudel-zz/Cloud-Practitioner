@@ -202,7 +202,7 @@ When Amazon EC2 stops the instance, snapshots its root volume, and finally regis
 
 Instance type families
 
- +   T family
+ +  T family
  +  M family
  +  C family
  +  P family
